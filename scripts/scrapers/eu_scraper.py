@@ -5,9 +5,15 @@ import requests
 from bs4 import BeautifulSoup
 import re
 import time
-from .base_scraper import BaseScraper
-from ..utils import parse_date
-from ..config import SCRAPING_CONFIG
+from pathlib import Path
+import sys
+
+# Add parent directory to path for imports
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
+from scrapers.base_scraper import BaseScraper
+from utils import parse_date
+from config import SCRAPING_CONFIG
 
 
 class EUScraper(BaseScraper):

@@ -4,10 +4,16 @@ from typing import Dict, Any, List
 import requests
 from bs4 import BeautifulSoup
 import re
-from .base_scraper import BaseScraper
-from ..utils import parse_date
-from ..config import SCRAPING_CONFIG
+from pathlib import Path
+import sys
 import time
+
+# Add parent directory to path for imports
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
+from scrapers.base_scraper import BaseScraper
+from utils import parse_date
+from config import SCRAPING_CONFIG
 
 
 class ASEANScraper(BaseScraper):

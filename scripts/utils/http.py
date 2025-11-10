@@ -4,8 +4,13 @@ import time
 import requests
 from pathlib import Path
 from typing import Optional, Dict, Any
-from ..config import SCRAPING_CONFIG
-from .logger import setup_logger
+import sys
+
+# Add parent directory to path for imports
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
+from config import SCRAPING_CONFIG
+from utils.logger import setup_logger
 
 logger = setup_logger(__name__)
 

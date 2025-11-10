@@ -4,8 +4,14 @@ import re
 import unicodedata
 from datetime import datetime
 from typing import Optional, List
-from ..config import PARSING_CONFIG
-from .logger import setup_logger
+from pathlib import Path
+import sys
+
+# Add parent directory to path for imports
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
+from config import PARSING_CONFIG
+from utils.logger import setup_logger
 
 logger = setup_logger(__name__)
 
