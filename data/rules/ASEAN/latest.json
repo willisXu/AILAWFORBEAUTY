@@ -1,0 +1,104 @@
+{
+  "jurisdiction": "ASEAN",
+  "version": "20231215",
+  "published_at": "2023-12-15T00:00:00Z",
+  "effective_date": "2023-12-15T00:00:00Z",
+  "fetched_at": "2023-12-15T03:00:00Z",
+  "source": "ASEAN Cosmetic Directive",
+  "regulation": "ASEAN Cosmetic Directive (ACD)",
+  "data_hash": "demo654",
+  "statistics": {
+    "total_ingredients": 10,
+    "total_clauses": 10,
+    "banned": 3,
+    "restricted": 3,
+    "allowed": 4
+  },
+  "ingredients": [],
+  "clauses": [
+    {
+      "id": "ASEAN-AII-1",
+      "jurisdiction": "ASEAN",
+      "annex": "II",
+      "category": "banned",
+      "ingredient_ref": "Formaldehyde",
+      "inci": "Formaldehyde",
+      "cas": "50-00-0",
+      "substance_name": "Formaldehyde",
+      "conditions": {},
+      "notes": "Except as preservative within the limits specified in Annex V",
+      "source_ref": "ASEAN CD Annex II, Entry 1"
+    },
+    {
+      "id": "ASEAN-AII-15",
+      "jurisdiction": "ASEAN",
+      "annex": "II",
+      "category": "banned",
+      "ingredient_ref": "Hydroquinone",
+      "inci": "Hydroquinone",
+      "cas": "123-31-9",
+      "substance_name": "Hydroquinone",
+      "conditions": {},
+      "notes": "Except as oxidizing agent for hair colouring at ≤0.3%",
+      "source_ref": "ASEAN CD Annex II, Entry 15"
+    },
+    {
+      "id": "ASEAN-AII-89",
+      "jurisdiction": "ASEAN",
+      "annex": "II",
+      "category": "banned",
+      "ingredient_ref": "Mercury",
+      "inci": "Mercury",
+      "cas": "7439-97-6",
+      "substance_name": "Mercury and its compounds",
+      "conditions": {},
+      "notes": "Except trace amounts from unavoidable contamination (≤1ppm)",
+      "source_ref": "ASEAN CD Annex II, Entry 89"
+    },
+    {
+      "id": "ASEAN-AIII-5",
+      "jurisdiction": "ASEAN",
+      "annex": "III",
+      "category": "restricted",
+      "ingredient_ref": "Hydrogen Peroxide",
+      "inci": "Hydrogen Peroxide",
+      "cas": "7722-84-1",
+      "substance_name": "Hydrogen peroxide",
+      "conditions": {
+        "max_pct": 12,
+        "specific_conditions": {
+          "hair_products": "≤12% (40 volumes)",
+          "skin_products": "≤4%",
+          "nail_hardening": "≤2%",
+          "tooth_whitening": "≤0.1%"
+        },
+        "restrictions": "Not to be used on eyebrows or eyelashes"
+      },
+      "warnings": "Contains hydrogen peroxide. Avoid contact with eyes.",
+      "notes": "",
+      "source_ref": "ASEAN CD Annex III, Entry 5"
+    },
+    {
+      "id": "ASEAN-AIII-6",
+      "jurisdiction": "ASEAN",
+      "annex": "III",
+      "category": "restricted",
+      "ingredient_ref": "Salicylic Acid",
+      "inci": "Salicylic Acid",
+      "cas": "69-72-7",
+      "substance_name": "Salicylic acid and its salts",
+      "conditions": {
+        "max_pct": 3,
+        "specific_conditions": {
+          "rinse_off": "≤3%",
+          "leave_on": "≤2%",
+          "other_hair_care": "≤3%"
+        },
+        "restrictions": "Not in oral products"
+      },
+      "warnings": "Contains salicylic acid. Not to be used for children under 3 years except in shampoos",
+      "notes": "",
+      "source_ref": "ASEAN CD Annex III, Entry 6"
+    }
+  ]
+}

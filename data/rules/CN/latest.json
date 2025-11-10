@@ -1,0 +1,99 @@
+{
+  "jurisdiction": "CN",
+  "version": "20250201",
+  "published_at": "2025-02-01T00:00:00Z",
+  "effective_date": "2025-02-01T00:00:00Z",
+  "fetched_at": "2025-02-01T03:00:00Z",
+  "source": "NMPA - Cosmetics Database",
+  "regulation": "Cosmetics Supervision and Administration Regulation",
+  "data_hash": "demo789",
+  "statistics": {
+    "total_ingredients": 10,
+    "total_clauses": 12,
+    "banned": 3,
+    "restricted": 4,
+    "allowed": 5
+  },
+  "ingredients": [],
+  "clauses": [
+    {
+      "id": "CN-PROHIBITED-1",
+      "jurisdiction": "CN",
+      "category": "banned",
+      "ingredient_ref": "Formaldehyde",
+      "inci": "Formaldehyde",
+      "cas": "50-00-0",
+      "name_chinese": "甲醛",
+      "name_english": "Formaldehyde",
+      "conditions": {},
+      "notes": "Prohibited except as preservative within specified limits",
+      "source_ref": "NMPA - Prohibited Ingredients Catalog"
+    },
+    {
+      "id": "CN-PROHIBITED-2",
+      "jurisdiction": "CN",
+      "category": "banned",
+      "ingredient_ref": "Hydroquinone",
+      "inci": "Hydroquinone",
+      "cas": "123-31-9",
+      "name_chinese": "氢醌",
+      "name_english": "Hydroquinone",
+      "conditions": {},
+      "notes": "Prohibited in cosmetics (allowed in special use cosmetics with approval)",
+      "source_ref": "NMPA - Prohibited Ingredients Catalog"
+    },
+    {
+      "id": "CN-PROHIBITED-3",
+      "jurisdiction": "CN",
+      "category": "banned",
+      "ingredient_ref": "Mercury",
+      "inci": "Mercury",
+      "cas": "7439-97-6",
+      "name_chinese": "汞及其化合物",
+      "name_english": "Mercury and its compounds",
+      "conditions": {},
+      "notes": "Trace amounts (≤1ppm) from unavoidable contamination acceptable",
+      "source_ref": "NMPA - Prohibited Ingredients Catalog"
+    },
+    {
+      "id": "CN-RESTRICTED-1",
+      "jurisdiction": "CN",
+      "category": "restricted",
+      "ingredient_ref": "Hydrogen Peroxide",
+      "inci": "Hydrogen Peroxide",
+      "cas": "7722-84-1",
+      "name_chinese": "过氧化氢",
+      "name_english": "Hydrogen Peroxide",
+      "conditions": {
+        "max_pct": 6,
+        "product_type": ["hair dye", "hair bleach"],
+        "specific_conditions": "≤6% in hair products after mixing"
+      },
+      "warnings": "Professional use only for concentrations >3%",
+      "notes": "",
+      "source_ref": "NMPA - Restricted Ingredients Catalog"
+    },
+    {
+      "id": "CN-RESTRICTED-2",
+      "jurisdiction": "CN",
+      "category": "restricted",
+      "ingredient_ref": "Salicylic Acid",
+      "inci": "Salicylic Acid",
+      "cas": "69-72-7",
+      "name_chinese": "水杨酸",
+      "name_english": "Salicylic Acid",
+      "conditions": {
+        "max_pct": 3,
+        "product_type": ["skin care", "shampoo"],
+        "specific_conditions": {
+          "rinse_off": "≤3%",
+          "leave_on": "≤2%",
+          "shampoo": "≤3%"
+        }
+      },
+      "warnings": "Not for use on children under 3 years",
+      "notes": "",
+      "source_ref": "NMPA - Restricted Ingredients Catalog"
+    }
+  ]
+}

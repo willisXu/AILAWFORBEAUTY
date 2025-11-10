@@ -1,0 +1,100 @@
+{
+  "jurisdiction": "JP",
+  "version": "20250115",
+  "published_at": "2025-01-15T00:00:00Z",
+  "effective_date": "2025-01-15T00:00:00Z",
+  "fetched_at": "2025-01-15T03:00:00Z",
+  "source": "MHLW - Standards for Cosmetics",
+  "regulation": "Pharmaceutical and Medical Device Act",
+  "data_hash": "demo456",
+  "statistics": {
+    "total_ingredients": 8,
+    "total_clauses": 8,
+    "banned": 2,
+    "restricted": 6,
+    "allowed": 0
+  },
+  "ingredients": [],
+  "clauses": [
+    {
+      "id": "JP-PROHIBITED-1",
+      "jurisdiction": "JP",
+      "category": "banned",
+      "ingredient_ref": "Formaldehyde",
+      "inci": "Formaldehyde",
+      "cas": "50-00-0",
+      "name_japanese": "ホルムアルデヒド",
+      "name_english": "Formaldehyde",
+      "conditions": {},
+      "notes": "Prohibited except as preservative within specified limits",
+      "source_ref": "MHLW Standards for Cosmetics - Prohibited List"
+    },
+    {
+      "id": "JP-PROHIBITED-2",
+      "jurisdiction": "JP",
+      "category": "banned",
+      "ingredient_ref": "Methanol",
+      "inci": "Methanol",
+      "cas": "67-56-1",
+      "name_japanese": "メタノール",
+      "name_english": "Methanol",
+      "conditions": {},
+      "notes": "Prohibited except when denatured",
+      "source_ref": "MHLW Standards for Cosmetics - Prohibited List"
+    },
+    {
+      "id": "JP-RESTRICTED-1",
+      "jurisdiction": "JP",
+      "category": "restricted",
+      "ingredient_ref": "Hydrogen Peroxide",
+      "inci": "Hydrogen Peroxide",
+      "cas": "7722-84-1",
+      "name_japanese": "過酸化水素",
+      "name_english": "Hydrogen Peroxide",
+      "conditions": {
+        "max_pct": 6,
+        "product_type": ["hair products"],
+        "specific_conditions": "≤6% in hair dye products"
+      },
+      "warnings": "Requires specific labeling",
+      "notes": "",
+      "source_ref": "MHLW Standards for Cosmetics - Restricted List"
+    },
+    {
+      "id": "JP-RESTRICTED-2",
+      "jurisdiction": "JP",
+      "category": "restricted",
+      "ingredient_ref": "Salicylic Acid",
+      "inci": "Salicylic Acid",
+      "cas": "69-72-7",
+      "name_japanese": "サリチル酸",
+      "name_english": "Salicylic Acid",
+      "conditions": {
+        "max_pct": 2,
+        "product_type": ["skin care"],
+        "specific_conditions": "≤2% in leave-on products"
+      },
+      "warnings": "Not for use on damaged skin",
+      "notes": "",
+      "source_ref": "MHLW Standards for Cosmetics - Restricted List"
+    },
+    {
+      "id": "JP-RESTRICTED-3",
+      "jurisdiction": "JP",
+      "category": "restricted",
+      "ingredient_ref": "Resorcinol",
+      "inci": "Resorcinol",
+      "cas": "108-46-3",
+      "name_japanese": "レゾルシン",
+      "name_english": "Resorcinol",
+      "conditions": {
+        "max_pct": 0.5,
+        "product_type": ["hair products"],
+        "specific_conditions": "≤0.5% in hair lotions and shampoos"
+      },
+      "warnings": null,
+      "notes": "",
+      "source_ref": "MHLW Standards for Cosmetics - Restricted List"
+    }
+  ]
+}
