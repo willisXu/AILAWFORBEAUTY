@@ -18,6 +18,8 @@ export default function RegulationUpdates() {
   const [loading, setLoading] = useState(true)
   const [selectedJurisdiction, setSelectedJurisdiction] = useState<string | null>(null)
   const [activeView, setActiveView] = useState<'updates' | 'comparison'>('updates')
+  const [triggering, setTriggering] = useState(false)
+  const [triggerStatus, setTriggerStatus] = useState<'idle' | 'success' | 'error'>('idle')
 
   useEffect(() => {
     loadDiffs()
@@ -62,13 +64,44 @@ export default function RegulationUpdates() {
     }
   }
 
-  const triggerManualUpdate = () => {
-    // Directly open the specific workflow dispatch page
-    const repoUrl = 'https://github.com/willisXu/AILAWFORBEAUTY'
-    const workflowFile = 'fetch-regulations.yml'
+  const triggerManualUpdate = async () => {
+    setTriggering(true)
+    setTriggerStatus('idle')
 
-    // Open the workflow_dispatch page directly
-    window.open(`${repoUrl}/actions/workflows/${workflowFile}`, '_blank')
+    try {
+      // Try to use API endpoint if available
+      const basePath = process.env.NODE_ENV === 'production' ? '/AILAWFORBEAUTY' : ''
+      const apiEndpoint = `${basePath}/api/trigger-update`
+
+      const response = await fetch(apiEndpoint, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          timestamp: new Date().toISOString(),
+        }),
+      })
+
+      if (response.ok) {
+        // Successfully triggered via API
+        setTriggerStatus('success')
+        setTimeout(() => {
+          setTriggerStatus('idle')
+        }, 5000)
+      } else {
+        throw new Error('API not available')
+      }
+    } catch (error) {
+      // Fallback: Open GitHub workflow page
+      console.log('Direct trigger not available, opening GitHub page')
+      const repoUrl = 'https://github.com/willisXu/AILAWFORBEAUTY'
+      const workflowFile = 'fetch-regulations.yml'
+      window.open(`${repoUrl}/actions/workflows/${workflowFile}`, '_blank')
+      setTriggerStatus('idle')
+    } finally {
+      setTriggering(false)
+    }
   }
 
   if (loading) {
@@ -98,13 +131,39 @@ export default function RegulationUpdates() {
 
           <button
             onClick={triggerManualUpdate}
-            className="px-6 py-3 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-all font-medium shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 flex items-center space-x-2"
-            title="點擊後將跳轉到 GitHub，點擊 'Run workflow' 按鈕即可觸發更新"
+            disabled={triggering}
+            className={`px-6 py-3 rounded-lg transition-all font-medium shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 flex items-center space-x-2 ${
+              triggering
+                ? 'bg-gray-400 cursor-not-allowed'
+                : triggerStatus === 'success'
+                ? 'bg-green-600 hover:bg-green-700'
+                : 'bg-primary-600 hover:bg-primary-700 text-white'
+            }`}
+            title={triggering ? '觸發中...' : '點擊直接觸發更新（如失敗會跳轉到 GitHub）'}
           >
-            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
-            </svg>
-            <span>🚀 立即更新 Update Now</span>
+            {triggering ? (
+              <>
+                <svg className="animate-spin h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                  <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                  <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                </svg>
+                <span>觸發中... Triggering...</span>
+              </>
+            ) : triggerStatus === 'success' ? (
+              <>
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                </svg>
+                <span>✅ 已觸發 Triggered!</span>
+              </>
+            ) : (
+              <>
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+                </svg>
+                <span>🚀 立即更新 Update Now</span>
+              </>
+            )}
           </button>
         </div>
 
@@ -156,19 +215,25 @@ export default function RegulationUpdates() {
             <div className="space-y-2 text-sm text-gray-700 dark:text-gray-300">
               <div className="flex items-center space-x-2">
                 <span className="flex-shrink-0 w-6 h-6 bg-white dark:bg-gray-800 rounded-full flex items-center justify-center text-primary-600 font-bold">1</span>
-                <span>點擊上方 <strong>「🚀 立即更新」</strong> 按鈕 | Click the <strong>"🚀 Update Now"</strong> button above</span>
+                <span>點擊 <strong>「🚀 立即更新」</strong> 按鈕，系統將嘗試自動觸發 | Click <strong>"🚀 Update Now"</strong> button for automatic trigger</span>
               </div>
               <div className="flex items-center space-x-2">
                 <span className="flex-shrink-0 w-6 h-6 bg-white dark:bg-gray-800 rounded-full flex items-center justify-center text-primary-600 font-bold">2</span>
-                <span>在 GitHub 頁面點擊 <strong className="text-green-600">"Run workflow"</strong> 綠色按鈕 | Click the green <strong className="text-green-600">"Run workflow"</strong> button on GitHub</span>
+                <span>看到 <strong className="text-green-600">「✅ 已觸發」</strong> 表示成功！| <strong className="text-green-600">"✅ Triggered!"</strong> means success!</span>
               </div>
               <div className="flex items-center space-x-2">
                 <span className="flex-shrink-0 w-6 h-6 bg-white dark:bg-gray-800 rounded-full flex items-center justify-center text-primary-600 font-bold">3</span>
-                <span>等待 2-3 分鐘，數據自動更新完成！| Wait 2-3 minutes for automatic data update!</span>
+                <span>等待 2-3 分鐘後刷新頁面查看新數據 | Refresh page after 2-3 minutes for new data</span>
               </div>
             </div>
-            <div className="mt-3 text-xs text-gray-600 dark:text-gray-400">
-              💡 提示：首次更新可能需要登入 GitHub 帳號 | Tip: First-time update may require GitHub login
+            <div className="mt-3 p-3 bg-white dark:bg-gray-800 rounded-lg border border-blue-200 dark:border-blue-800">
+              <div className="text-xs text-gray-600 dark:text-gray-400 space-y-1">
+                <p>💡 <strong>智能模式</strong> Smart Mode:</p>
+                <p className="ml-4">• 首先嘗試直接觸發（無需跳轉）</p>
+                <p className="ml-4">• 如果直接觸發不可用，會自動跳轉到 GitHub</p>
+                <p className="ml-4">• First try direct trigger (no redirect)</p>
+                <p className="ml-4">• Auto fallback to GitHub if needed</p>
+              </div>
             </div>
           </div>
         </div>
