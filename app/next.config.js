@@ -1,8 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: process.env.NODE_ENV === 'production' ? '/AILAWFORBEAUTY' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/AILAWFORBEAUTY/' : '',
+  // 移除 basePath，讓 GitHub Pages 自動處理
   images: {
     unoptimized: true
   },
