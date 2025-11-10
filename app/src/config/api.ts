@@ -5,7 +5,7 @@ export const API_CONFIG = {
   // 方案 1: Cloudflare Worker (推薦，完全免費)
   // 部署後將 Worker URL 填入這裡
   // 例如: https://trigger-regulation-update.your-name.workers.dev
-  TRIGGER_ENDPOINT: process.env.NEXT_PUBLIC_TRIGGER_ENDPOINT || '',
+  TRIGGER_ENDPOINT: 'https://trigger-regulation-update.zhixuan-willis.workers.dev',
 
   // 方案 2: Vercel Serverless Function
   // 部署到 Vercel 後會自動使用 /api/trigger-update
