@@ -1,0 +1,133 @@
+name: Generate Diff
+
+on:
+  push:
+    paths:
+      - 'data/rules/**/*.json'
+  workflow_dispatch:
+    inputs:
+      jurisdiction:
+        description: 'Jurisdiction code (EU, JP, CN, CA, ASEAN)'
+        required: true
+        type: choice
+        options:
+          - EU
+          - JP
+          - CN
+          - CA
+          - ASEAN
+
+jobs:
+  diff:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          cd scripts
+          pip install -r requirements.txt
+
+      - name: Generate diffs
+        id: diff
+        run: |
+          cd scripts
+
+          # Find changed jurisdictions
+          CHANGED_FILES=$(git diff --name-only HEAD~1 HEAD | grep 'data/rules/.*/.*\.json' || true)
+
+          if [ -z "$CHANGED_FILES" ]; then
+            echo "No rule changes detected"
+            exit 0
+          fi
+
+          # Extract jurisdictions from changed files
+          JURISDICTIONS=$(echo "$CHANGED_FILES" | sed -n 's|data/rules/\([^/]*\)/.*|\1|p' | sort -u)
+
+          echo "Changed jurisdictions: $JURISDICTIONS"
+
+          for JURIS in $JURISDICTIONS; do
+            echo "Generating diff for $JURIS"
+
+            # Find previous and current versions
+            CURRENT=$(ls -t data/rules/$JURIS/*.json | grep -v latest.json | head -1)
+            PREVIOUS=$(ls -t data/rules/$JURIS/*.json | grep -v latest.json | head -2 | tail -1)
+
+            if [ -n "$PREVIOUS" ] && [ "$PREVIOUS" != "$CURRENT" ]; then
+              python diff_generator.py --jurisdiction $JURIS --old $PREVIOUS --new $CURRENT
+            else
+              echo "No previous version found for $JURIS"
+            fi
+          done
+
+      - name: Commit diffs
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+          git add data/diff/
+
+          if git diff --staged --quiet; then
+            echo "No diff changes to commit"
+          else
+            git commit -m "$(cat <<'EOF'
+          chore: Generate regulation diffs
+
+          Automated diff generation for regulation changes
+          - Generated at: $(date -u +"%Y-%m-%d %H:%M:%S UTC")
+          EOF
+          )"
+
+            git push
+          fi
+
+      - name: Create change notification
+        if: success()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const path = require('path');
+
+            // Find newly created diff files
+            const diffDir = path.join(process.cwd(), 'data', 'diff');
+
+            if (!fs.existsSync(diffDir)) {
+              console.log('No diff directory found');
+              return;
+            }
+
+            const jurisdictions = fs.readdirSync(diffDir);
+
+            for (const juris of jurisdictions) {
+              const jurisDir = path.join(diffDir, juris);
+              const files = fs.readdirSync(jurisDir);
+
+              // Find latest markdown changelog
+              const mdFiles = files.filter(f => f.endsWith('.md')).sort().reverse();
+
+              if (mdFiles.length > 0) {
+                const changelogPath = path.join(jurisDir, mdFiles[0]);
+                const changelog = fs.readFileSync(changelogPath, 'utf8');
+
+                // Create discussion or issue
+                await github.rest.issues.create({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  title: `📋 Regulation Changes Detected: ${juris}`,
+                  body: `${changelog}\n\n---\n*This notification was automatically generated.*`,
+                  labels: ['regulation-update', juris.toLowerCase()]
+                });
+              }
+            }

@@ -1,0 +1,83 @@
+name: Fetch Regulations
+
+on:
+  schedule:
+    # Run every Monday at 03:00 Asia/Taipei (Sunday 19:00 UTC)
+    - cron: '0 19 * * 0'
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Full history for versioning
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          cd scripts
+          pip install -r requirements.txt
+
+      - name: Fetch regulation data
+        id: fetch
+        run: |
+          cd scripts
+          python -m scrapers.fetch_all
+        continue-on-error: true
+
+      - name: Check fetch status
+        if: steps.fetch.outcome == 'failure'
+        run: |
+          echo "::error::Regulation fetch failed"
+          exit 1
+
+      - name: Commit changes
+        if: steps.fetch.outcome == 'success'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+          git add data/raw/
+
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "$(cat <<'EOF'
+          chore: Update regulation data
+
+          Automated fetch of cosmetics regulations
+          - EU, JP, CN, CA, ASEAN markets
+          - Fetched at: $(date -u +"%Y-%m-%d %H:%M:%S UTC")
+          EOF
+          )"
+
+            git push
+          fi
+
+      - name: Create issue on failure
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: '❌ Regulation Fetch Failed',
+              body: `The regulation fetch workflow failed.
+
+              **Run:** ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}
+              **Date:** ${new Date().toISOString()}
+
+              Please check the logs and retry manually if needed.`,
+              labels: ['automation', 'error']
+            })
