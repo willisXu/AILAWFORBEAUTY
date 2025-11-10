@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import CrossMarketComparison from './CrossMarketComparison'
 
 interface DiffSummary {
   jurisdiction: string
@@ -16,6 +17,7 @@ export default function RegulationUpdates() {
   const [diffs, setDiffs] = useState<DiffSummary[]>([])
   const [loading, setLoading] = useState(true)
   const [selectedJurisdiction, setSelectedJurisdiction] = useState<string | null>(null)
+  const [activeView, setActiveView] = useState<'updates' | 'comparison'>('updates')
 
   useEffect(() => {
     loadDiffs()
@@ -86,9 +88,9 @@ export default function RegulationUpdates() {
 
   return (
     <div className="space-y-6">
-      {/* Manual Update Button */}
+      {/* Header with Tabs */}
       <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6">
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between mb-4">
           <div>
             <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">
               法規更新中心 Regulation Update Center
@@ -105,7 +107,37 @@ export default function RegulationUpdates() {
             🔄 手動更新 Manual Update
           </button>
         </div>
+
+        {/* Tab Navigation */}
+        <div className="flex space-x-4 border-b border-gray-200 dark:border-gray-700">
+          <button
+            onClick={() => setActiveView('updates')}
+            className={`px-4 py-2 font-medium transition-colors ${
+              activeView === 'updates'
+                ? 'border-b-2 border-primary-600 text-primary-600'
+                : 'text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100'
+            }`}
+          >
+            法規變更 Updates
+          </button>
+          <button
+            onClick={() => setActiveView('comparison')}
+            className={`px-4 py-2 font-medium transition-colors ${
+              activeView === 'comparison'
+                ? 'border-b-2 border-primary-600 text-primary-600'
+                : 'text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100'
+            }`}
+          >
+            跨市場比較 Cross-Market Comparison
+          </button>
+        </div>
       </div>
+
+      {/* Content based on active view */}
+      {activeView === 'comparison' ? (
+        <CrossMarketComparison />
+      ) : (
+        <>
 
       {/* Update Schedule */}
       <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6">
@@ -247,6 +279,8 @@ export default function RegulationUpdates() {
           </div>
         </div>
       </div>
+      </>
+      )}
     </div>
   )
 }
