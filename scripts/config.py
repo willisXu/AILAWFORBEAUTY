@@ -24,13 +24,17 @@ JURISDICTIONS = {
         "code": "EU",
         "name": "European Union",
         "timezone": "Europe/Brussels",
+        "published_date": "2024-04-04",
+        "effective_date": "2024-04-24",
+        "regulation": "Regulation (EC) No 1223/2009",
         "sources": [
             {
-                "name": "EC Cosmetics Regulation",
-                "url": "https://ec.europa.eu/growth/sectors/cosmetics/products_en",
-                "annexes_url": "https://ec.europa.eu/growth/tools-databases/cosing/",
+                "name": "EC Cosmetics Regulation 2024/996",
+                "url": "https://eur-lex.europa.eu/eli/reg/2024/996/oj",
+                "annexes_url": "https://ec.europa.eu/growth/tools-databases/cosing/reference/annexes",
                 "type": "html",
-                "update_freq": "weekly"
+                "update_freq": "weekly",
+                "description": "Annexes II-VI: Prohibited, Restricted, Colorants, Preservatives, UV filters"
             }
         ]
     },
@@ -38,12 +42,16 @@ JURISDICTIONS = {
         "code": "JP",
         "name": "Japan",
         "timezone": "Asia/Tokyo",
+        "published_date": "2000-09-29",
+        "effective_date": "2001-04-01",
+        "regulation": "Standards for Cosmetics (化粧品基準)",
         "sources": [
             {
                 "name": "MHLW Cosmetics Standards",
                 "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iyakuhin/keshouhin/index.html",
                 "type": "html",
-                "update_freq": "weekly"
+                "update_freq": "weekly",
+                "description": "Standards for Cosmetics and Active Ingredients List"
             }
         ]
     },
@@ -51,12 +59,16 @@ JURISDICTIONS = {
         "code": "CN",
         "name": "China",
         "timezone": "Asia/Shanghai",
+        "published_date": "2021-04-30",
+        "effective_date": "2021-05-01",
+        "regulation": "已使用化妝品原料目錄（2021年版）",
         "sources": [
             {
                 "name": "NMPA Cosmetics Database",
-                "url": "https://www.nmpa.gov.cn/directory/web/nmpa/xxgk/fgwj/gzwj/gzwjyhzp/index.html",
+                "url": "https://www.nmpa.gov.cn/datasearch/search-result.html?searchCtg=cosmetics",
                 "type": "html",
-                "update_freq": "weekly"
+                "update_freq": "weekly",
+                "description": "Catalog of Used Cosmetic Ingredients (2021 Edition)"
             }
         ]
     },
@@ -64,13 +76,16 @@ JURISDICTIONS = {
         "code": "CA",
         "name": "Canada",
         "timezone": "America/Toronto",
+        "published_date": "2025-02",
+        "effective_date": "2025-02-28",
+        "regulation": "Cosmetic Ingredient Hotlist",
         "sources": [
             {
-                "name": "Health Canada Cosmetics",
-                "url": "https://www.canada.ca/en/health-canada/services/consumer-product-safety/cosmetics.html",
-                "hotlist_url": "https://www.canada.ca/en/health-canada/services/consumer-product-safety/cosmetics/cosmetic-ingredient-hotlist-prohibited-restricted-ingredients.html",
+                "name": "Health Canada Cosmetic Ingredient Hotlist",
+                "url": "https://www.canada.ca/en/health-canada/services/consumer-product-safety/cosmetics/cosmetic-ingredient-hotlist-prohibited-restricted-ingredients.html",
                 "type": "html",
-                "update_freq": "weekly"
+                "update_freq": "weekly",
+                "description": "Prohibited and Restricted Ingredients List"
             }
         ]
     },
@@ -78,12 +93,16 @@ JURISDICTIONS = {
         "code": "ASEAN",
         "name": "ASEAN",
         "timezone": "Asia/Singapore",
+        "published_date": "2024-12-06",
+        "effective_date": "2024-12-06",
+        "regulation": "ASEAN Cosmetic Directive (Version 2024-2)",
         "sources": [
             {
-                "name": "ASEAN Cosmetic Directive",
-                "url": "https://asean.org/our-communities/economic-community/resilient-and-inclusive-asean/cosmetics/",
+                "name": "ASEAN Cosmetic Directive Annexes",
+                "url": "https://www.hsa.gov.sg/cosmetic-products/asean-cosmetic-directive",
                 "type": "html",
-                "update_freq": "weekly"
+                "update_freq": "weekly",
+                "description": "Annexes II-VI following EU model"
             }
         ]
     }
