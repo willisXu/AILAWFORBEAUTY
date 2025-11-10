@@ -1,7 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  // 移除 basePath，讓 GitHub Pages 自動處理
+  // GitHub Pages 項目頁面需要 basePath
+  basePath: '/AILAWFORBEAUTY',
+  // assetPrefix 確保所有資源正確載入
+  assetPrefix: '/AILAWFORBEAUTY/',
   images: {
     unoptimized: true
   },

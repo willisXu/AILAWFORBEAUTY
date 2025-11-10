@@ -31,8 +31,9 @@ async function loadRules(jurisdiction: string): Promise<any> {
 
   try {
     // Load from GitHub Pages data directory
-    // 使用相對路徑，讓 GitHub Pages 自動處理
-    const response = await fetch(`/data/rules/${jurisdiction}/latest.json`)
+    // 使用完整路徑以支持項目頁面部署
+    const basePath = '/AILAWFORBEAUTY'
+    const response = await fetch(`${basePath}/data/rules/${jurisdiction}/latest.json`)
 
     if (!response.ok) {
       console.warn(`No rules found for ${jurisdiction}`)

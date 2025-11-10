@@ -46,6 +46,11 @@ jobs:
         env:
           NODE_ENV: production
 
+      - name: Copy data directory to build output
+        run: |
+          mkdir -p app/out/data
+          cp -r data/* app/out/data/
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
