@@ -5,6 +5,10 @@ on:
     branches: [main]
   workflow_dispatch:
 
+# 設置 GITHUB_TOKEN 權限以允許推送到 gh-pages 分支
+permissions:
+  contents: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
