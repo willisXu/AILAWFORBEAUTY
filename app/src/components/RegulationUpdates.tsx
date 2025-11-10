@@ -63,16 +63,12 @@ export default function RegulationUpdates() {
   }
 
   const triggerManualUpdate = () => {
-    alert(
-      '手動更新功能:\n\n' +
-      '請前往 GitHub Actions 頁面手動觸發 "Fetch Regulations" 工作流程\n\n' +
-      'Manual Update:\n' +
-      'Please go to GitHub Actions page and manually trigger the "Fetch Regulations" workflow'
-    )
-
-    // Open GitHub Actions page
+    // Directly open the specific workflow dispatch page
     const repoUrl = 'https://github.com/willisXu/AILAWFORBEAUTY'
-    window.open(`${repoUrl}/actions`, '_blank')
+    const workflowFile = 'fetch-regulations.yml'
+
+    // Open the workflow_dispatch page directly
+    window.open(`${repoUrl}/actions/workflows/${workflowFile}`, '_blank')
   }
 
   if (loading) {
@@ -102,9 +98,13 @@ export default function RegulationUpdates() {
 
           <button
             onClick={triggerManualUpdate}
-            className="px-6 py-3 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors font-medium"
+            className="px-6 py-3 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-all font-medium shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 flex items-center space-x-2"
+            title="點擊後將跳轉到 GitHub，點擊 'Run workflow' 按鈕即可觸發更新"
           >
-            🔄 手動更新 Manual Update
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+            </svg>
+            <span>🚀 立即更新 Update Now</span>
           </button>
         </div>
 
@@ -138,6 +138,41 @@ export default function RegulationUpdates() {
         <CrossMarketComparison />
       ) : (
         <>
+
+      {/* Quick Action Guide */}
+      <div className="bg-gradient-to-r from-primary-50 to-blue-50 dark:from-primary-900/20 dark:to-blue-900/20 rounded-lg p-6 border-2 border-primary-200 dark:border-primary-800">
+        <div className="flex items-start space-x-4">
+          <div className="flex-shrink-0">
+            <div className="w-12 h-12 bg-primary-600 rounded-full flex items-center justify-center">
+              <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+              </svg>
+            </div>
+          </div>
+          <div className="flex-1">
+            <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-2">
+              ⚡ 快速更新指南 Quick Update Guide
+            </h3>
+            <div className="space-y-2 text-sm text-gray-700 dark:text-gray-300">
+              <div className="flex items-center space-x-2">
+                <span className="flex-shrink-0 w-6 h-6 bg-white dark:bg-gray-800 rounded-full flex items-center justify-center text-primary-600 font-bold">1</span>
+                <span>點擊上方 <strong>「🚀 立即更新」</strong> 按鈕 | Click the <strong>"🚀 Update Now"</strong> button above</span>
+              </div>
+              <div className="flex items-center space-x-2">
+                <span className="flex-shrink-0 w-6 h-6 bg-white dark:bg-gray-800 rounded-full flex items-center justify-center text-primary-600 font-bold">2</span>
+                <span>在 GitHub 頁面點擊 <strong className="text-green-600">"Run workflow"</strong> 綠色按鈕 | Click the green <strong className="text-green-600">"Run workflow"</strong> button on GitHub</span>
+              </div>
+              <div className="flex items-center space-x-2">
+                <span className="flex-shrink-0 w-6 h-6 bg-white dark:bg-gray-800 rounded-full flex items-center justify-center text-primary-600 font-bold">3</span>
+                <span>等待 2-3 分鐘，數據自動更新完成！| Wait 2-3 minutes for automatic data update!</span>
+              </div>
+            </div>
+            <div className="mt-3 text-xs text-gray-600 dark:text-gray-400">
+              💡 提示：首次更新可能需要登入 GitHub 帳號 | Tip: First-time update may require GitHub login
+            </div>
+          </div>
+        </div>
+      </div>
 
       {/* Update Schedule */}
       <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6">
