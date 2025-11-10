@@ -59,8 +59,7 @@ class EUScraper(BaseScraper):
 
         except Exception as e:
             self.logger.error(f"Failed to fetch EU data: {e}", exc_info=True)
-            self.logger.info("Falling back to sample data")
-            return self._get_sample_data()
+            raise Exception(f"EU scraper failed: Unable to fetch or parse data from CosIng database") from e
 
     def _fetch_cosing_annexes(self, url: str) -> Dict[str, Any]:
         """

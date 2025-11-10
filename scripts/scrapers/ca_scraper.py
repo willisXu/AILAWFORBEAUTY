@@ -83,12 +83,10 @@ class CAScraper(BaseScraper):
 
         except requests.RequestException as e:
             self.logger.error(f"Failed to fetch Health Canada Hotlist: {e}")
-            self.logger.info("Falling back to sample data")
-            return self._get_sample_data()
+            raise Exception(f"Canada scraper failed: Unable to fetch data from Health Canada website") from e
         except Exception as e:
             self.logger.error(f"Error parsing Health Canada data: {e}", exc_info=True)
-            self.logger.info("Falling back to sample data")
-            return self._get_sample_data()
+            raise Exception(f"Canada scraper failed: Error parsing data from Health Canada Hotlist") from e
 
     def _parse_hotlist_page(self, soup: BeautifulSoup) -> List[Dict[str, Any]]:
         """

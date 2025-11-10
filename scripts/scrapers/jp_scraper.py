@@ -94,12 +94,10 @@ class JPScraper(BaseScraper):
 
         except requests.RequestException as e:
             self.logger.error(f"Failed to fetch MHLW data: {e}")
-            self.logger.info("Falling back to sample data")
-            return self._get_sample_data()
+            raise Exception(f"Japan scraper failed: Unable to fetch data from MHLW website") from e
         except Exception as e:
             self.logger.error(f"Error parsing MHLW data: {e}", exc_info=True)
-            self.logger.info("Falling back to sample data")
-            return self._get_sample_data()
+            raise Exception(f"Japan scraper failed: Error parsing data from MHLW Standards") from e
 
     def _fetch_mhlw_categories(self, soup: BeautifulSoup) -> Dict[str, Any]:
         """

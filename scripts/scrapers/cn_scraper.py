@@ -91,12 +91,10 @@ class CNScraper(BaseScraper):
 
         except requests.RequestException as e:
             self.logger.error(f"Failed to fetch NMPA data: {e}")
-            self.logger.info("Falling back to sample data")
-            return self._get_sample_data()
+            raise Exception(f"China scraper failed: Unable to fetch data from NMPA website") from e
         except Exception as e:
             self.logger.error(f"Error parsing NMPA data: {e}", exc_info=True)
-            self.logger.info("Falling back to sample data")
-            return self._get_sample_data()
+            raise Exception(f"China scraper failed: Error parsing data from NMPA database") from e
 
     def _fetch_nmpa_catalogs(self, soup: BeautifulSoup) -> Dict[str, List[Dict[str, Any]]]:
         """

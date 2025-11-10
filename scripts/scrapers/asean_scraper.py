@@ -101,12 +101,10 @@ class ASEANScraper(BaseScraper):
 
         except requests.RequestException as e:
             self.logger.error(f"Failed to fetch ASEAN ACD: {e}")
-            self.logger.info("Falling back to sample data")
-            return self._get_sample_data()
+            raise Exception(f"ASEAN scraper failed: Unable to fetch data from HSA website") from e
         except Exception as e:
             self.logger.error(f"Error parsing ASEAN data: {e}", exc_info=True)
-            self.logger.info("Falling back to sample data")
-            return self._get_sample_data()
+            raise Exception(f"ASEAN scraper failed: Error parsing data from ASEAN Cosmetic Directive") from e
 
     def _fetch_hsa_annexes(self, soup: BeautifulSoup) -> Dict[str, Any]:
         """
