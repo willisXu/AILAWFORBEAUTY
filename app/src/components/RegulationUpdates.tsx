@@ -21,6 +21,8 @@ export default function RegulationUpdates() {
   const [activeView, setActiveView] = useState<'updates' | 'comparison'>('updates')
   const [triggering, setTriggering] = useState(false)
   const [triggerStatus, setTriggerStatus] = useState<'idle' | 'success' | 'error'>('idle')
+  const [lastUpdate, setLastUpdate] = useState<string | null>(null)
+  const [waitingForUpdate, setWaitingForUpdate] = useState(false)
 
   useEffect(() => {
     loadDiffs()
@@ -31,9 +33,25 @@ export default function RegulationUpdates() {
       const basePath = process.env.NODE_ENV === 'production' ? '/AILAWFORBEAUTY' : ''
       const jurisdictions = ['EU', 'JP', 'CN', 'CA', 'ASEAN']
       const allDiffs: DiffSummary[] = []
+      let latestFetchTime: Date | null = null
 
       for (const jurisdiction of jurisdictions) {
         try {
+          // Load latest.json to get fetch timestamp
+          const rawResponse = await fetch(`${basePath}/data/raw/${jurisdiction}/latest.json`, {
+            cache: 'no-cache',
+          })
+
+          if (rawResponse.ok) {
+            const rawData = await rawResponse.json()
+            if (rawData.fetched_at) {
+              const fetchTime = new Date(rawData.fetched_at)
+              if (!latestFetchTime || fetchTime > latestFetchTime) {
+                latestFetchTime = fetchTime
+              }
+            }
+          }
+
           // Try to load latest diff
           const response = await fetch(`${basePath}/data/diff/${jurisdiction}/`, {
             method: 'GET',
@@ -58,10 +76,16 @@ export default function RegulationUpdates() {
       }
 
       setDiffs(allDiffs)
+
+      // Update last fetch time
+      if (latestFetchTime) {
+        setLastUpdate(latestFetchTime.toISOString())
+      }
     } catch (error) {
       console.error('Error loading diffs:', error)
     } finally {
       setLoading(false)
+      setWaitingForUpdate(false)
     }
   }
 
@@ -97,9 +121,29 @@ export default function RegulationUpdates() {
       if (response.ok && data.success) {
         // 成功觸發！
         setTriggerStatus('success')
+        setWaitingForUpdate(true)
         console.log('✅ Workflow triggered successfully!')
 
-        // 5秒後重置狀態
+        // 提示用户等待
+        alert(
+          '✅ 更新已觸發！\n' +
+          'Update triggered successfully!\n\n' +
+          '爬蟲正在抓取最新法規數據...\n' +
+          'Scraper is fetching latest regulation data...\n\n' +
+          '預計需要 2-3 分鐘\n' +
+          'Estimated time: 2-3 minutes\n\n' +
+          '完成後頁面將自動刷新\n' +
+          'Page will auto-refresh when complete'
+        )
+
+        // 2.5 分钟后自动刷新数据
+        setTimeout(() => {
+          console.log('🔄 Auto-refreshing data...')
+          loadDiffs()
+          setTriggerStatus('idle')
+        }, 150000) // 150秒 = 2.5分钟
+
+        // 5秒後重置按鈕狀態（但保持 waitingForUpdate）
         setTimeout(() => {
           setTriggerStatus('idle')
         }, 5000)
@@ -162,6 +206,30 @@ export default function RegulationUpdates() {
             <p className="text-sm text-gray-600 dark:text-gray-400">
               自動每週更新 | 也可手動觸發 Automatic weekly updates | Manual trigger available
             </p>
+            {lastUpdate && (
+              <div className="mt-2 flex items-center space-x-2 text-xs text-gray-600 dark:text-gray-400">
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <span>最後更新 Last updated: {new Date(lastUpdate).toLocaleString('zh-TW', {
+                  year: 'numeric',
+                  month: '2-digit',
+                  day: '2-digit',
+                  hour: '2-digit',
+                  minute: '2-digit',
+                  hour12: false
+                })}</span>
+              </div>
+            )}
+            {waitingForUpdate && (
+              <div className="mt-2 flex items-center space-x-2 text-xs text-blue-600 dark:text-blue-400 animate-pulse">
+                <svg className="animate-spin w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                  <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                </svg>
+                <span>正在抓取最新數據，預計 2-3 分鐘... Fetching latest data, ~2-3 minutes...</span>
+              </div>
+            )}
             {!hasDirectTrigger() && (
               <div className="mt-2 flex items-center space-x-2 text-xs text-amber-600 dark:text-amber-400">
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
