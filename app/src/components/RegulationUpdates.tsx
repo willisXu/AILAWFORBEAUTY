@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import CrossMarketComparison from './CrossMarketComparison'
+import { API_CONFIG, hasDirectTrigger } from '../config/api'
 
 interface DiffSummary {
   jurisdiction: string
@@ -69,9 +70,16 @@ export default function RegulationUpdates() {
     setTriggerStatus('idle')
 
     try {
-      // Try to use API endpoint if available
-      const basePath = process.env.NODE_ENV === 'production' ? '/AILAWFORBEAUTY' : ''
-      const apiEndpoint = `${basePath}/api/trigger-update`
+      // 優先使用配置的直接觸發端點
+      let apiEndpoint = API_CONFIG.TRIGGER_ENDPOINT
+
+      // 如果沒有配置，嘗試使用本地 serverless function
+      if (!apiEndpoint) {
+        const basePath = process.env.NODE_ENV === 'production' ? '/AILAWFORBEAUTY' : ''
+        apiEndpoint = `${basePath}/api/trigger-update`
+      }
+
+      console.log('Attempting to trigger via:', apiEndpoint)
 
       const response = await fetch(apiEndpoint, {
         method: 'POST',
@@ -80,25 +88,52 @@ export default function RegulationUpdates() {
         },
         body: JSON.stringify({
           timestamp: new Date().toISOString(),
+          source: 'web_ui',
         }),
       })
 
-      if (response.ok) {
-        // Successfully triggered via API
+      const data = await response.json()
+
+      if (response.ok && data.success) {
+        // 成功觸發！
         setTriggerStatus('success')
+        console.log('✅ Workflow triggered successfully!')
+
+        // 5秒後重置狀態
         setTimeout(() => {
           setTriggerStatus('idle')
         }, 5000)
       } else {
-        throw new Error('API not available')
+        throw new Error(data.error || 'Trigger failed')
       }
     } catch (error) {
-      // Fallback: Open GitHub workflow page
-      console.log('Direct trigger not available, opening GitHub page')
-      const repoUrl = 'https://github.com/willisXu/AILAWFORBEAUTY'
-      const workflowFile = 'fetch-regulations.yml'
-      window.open(`${repoUrl}/actions/workflows/${workflowFile}`, '_blank')
-      setTriggerStatus('idle')
+      // 如果沒有配置直接觸發端點，顯示設置提示
+      if (!hasDirectTrigger()) {
+        console.log('⚠️ Direct trigger not configured')
+        setTriggerStatus('error')
+
+        // 顯示配置提示
+        alert(
+          '⚠️ 直接觸發功能尚未配置\n' +
+          'Direct trigger not configured yet\n\n' +
+          '請按照 QUICK_SETUP.md 的說明配置 Cloudflare Worker\n' +
+          'Please follow QUICK_SETUP.md to configure Cloudflare Worker\n\n' +
+          '配置後即可實現一鍵觸發，無需跳轉！\n' +
+          'After setup, you can trigger with one click, no redirect!'
+        )
+      } else {
+        console.error('Trigger failed:', error)
+        setTriggerStatus('error')
+
+        // 仍然提供 GitHub 跳轉作為備選
+        if (confirm('直接觸發失敗。是否跳轉到 GitHub 手動觸發？\nDirect trigger failed. Open GitHub for manual trigger?')) {
+          window.open(API_CONFIG.GITHUB_WORKFLOW_URL, '_blank')
+        }
+      }
+
+      setTimeout(() => {
+        setTriggerStatus('idle')
+      }, 3000)
     } finally {
       setTriggering(false)
     }
@@ -127,6 +162,15 @@ export default function RegulationUpdates() {
             <p className="text-sm text-gray-600 dark:text-gray-400">
               自動每週更新 | 也可手動觸發 Automatic weekly updates | Manual trigger available
             </p>
+            {!hasDirectTrigger() && (
+              <div className="mt-2 flex items-center space-x-2 text-xs text-amber-600 dark:text-amber-400">
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+                </svg>
+                <span>需配置才能直接觸發 | Needs setup for direct trigger</span>
+                <a href="/AILAWFORBEAUTY/QUICK_SETUP.md" target="_blank" className="underline hover:text-amber-700">查看設置</a>
+              </div>
+            )}
           </div>
 
           <button
