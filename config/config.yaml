@@ -1,0 +1,107 @@
+# Global Cosmetic Regulation Compliance System Configuration
+
+system:
+  name: "Global Cosmetic Regulation Compliance System"
+  version: "1.0.0"
+  encoding: "utf-8"
+
+# Data source paths
+data_sources:
+  eu:
+    annex_ii: "COSING_Annex_II_v2.txt"
+    annex_iii: "COSING_Annex_III_v2.txt"
+    annex_iv: "COSING_Annex_IV_v2.txt"
+    annex_vi: "COSING_Annex_VI_v2.txt"
+    format: "txt"
+
+  asean:
+    main: "annexes-of-the-asean-cosmetic-directive-(updated-dec24).pdf"
+    format: "pdf"
+
+  japan:
+    main: "001257665.pdf"
+    format: "pdf"
+
+  canada:
+    main: "加拿大法規.xlsx"
+    format: "xlsx"
+
+  china:
+    stsc: "1686130272110055533.xlsx"
+    format: "xlsx"
+
+# Database configuration
+database:
+  type: "sqlite"
+  path: "data/cosmetic_regulations.db"
+
+# Output configuration
+output:
+  excel:
+    path: "output/excel"
+    filename: "global_compliance_report_{date}.xlsx"
+  csv:
+    path: "output/csv"
+    filename: "global_compliance_data_{date}.csv"
+  json:
+    path: "output/json"
+    filename: "global_compliance_data_{date}.json"
+  pdf:
+    path: "output/pdf"
+    filename: "compliance_summary_{date}.pdf"
+
+# Parsing configuration
+parsing:
+  fuzzy_match_threshold: 85  # for name matching
+  cas_match_priority: true   # CAS number takes priority
+  confidence_threshold: 0.8
+
+# Status mapping
+status_types:
+  - "Prohibited"    # 禁止
+  - "Restricted"    # 限用
+  - "Allowed"       # 允用
+  - "Not_Listed"    # 未列入
+
+# Column mappings for different regions
+column_mapping:
+  eu:
+    name: "Chemical name"
+    cas: "CAS Number"
+    status_annex_map:
+      "II": "Prohibited"
+      "III": "Restricted"
+      "IV": "Allowed"
+      "VI": "Allowed"
+
+  asean:
+    name: "Substance"
+    cas: "CAS Number"
+    limit: "Restriction"
+
+  japan:
+    name: "Ingredient name"
+    cas: "CAS No"
+
+  canada:
+    name: "INCI"
+    cas: "CAS Number"
+    category: "Category"
+
+  china:
+    name_cn: "中文名称"
+    name_en: "INCI名称"
+    cas: "CAS号"
+    limit: "限量条件"
+
+# Update sources
+update_sources:
+  eu_cosing: "https://ec.europa.eu/growth/tools-databases/cosing/"
+  nmpa_china: "https://www.nmpa.gov.cn/"
+  asean: "https://hpfb-dgpsa.github.io/ASEAN-Cosmetics/"
+
+# Performance settings
+performance:
+  batch_size: 1000
+  max_processing_time: 120  # seconds
+  parallel_processing: true

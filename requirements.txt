@@ -1,0 +1,33 @@
+# Core Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+openpyxl>=3.1.0
+
+# PDF Processing
+PyMuPDF>=1.23.0
+pdfplumber>=0.10.0
+
+# Text Processing & Matching
+fuzzywuzzy>=0.18.0
+python-Levenshtein>=0.21.0
+regex>=2023.10.0
+
+# Database
+sqlalchemy>=2.0.0
+
+# Web Scraping (for updates)
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+
+# Reporting & Visualization
+plotly>=5.17.0
+matplotlib>=3.7.0
+
+# Utility
+python-dateutil>=2.8.0
+chardet>=5.2.0
+tqdm>=4.66.0
+
+# Optional: Web Interface
+streamlit>=1.28.0
+flask>=3.0.0
