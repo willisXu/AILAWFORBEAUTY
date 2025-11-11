@@ -61,11 +61,11 @@ export default function CrossMarketComparison() {
 
             categories.forEach(category => {
               const ingredients = data[category] || data.clauses?.filter((c: any) =>
-                c.restriction_type === category || c.type === category
+                c.restriction_type === category || c.type === category || c.category === category
               ) || []
 
               ingredients.forEach((ingredient: any) => {
-                const name = ingredient.ingredient_name || ingredient.name || ingredient.inci_name
+                const name = ingredient.ingredient_name || ingredient.name || ingredient.inci_name || ingredient.ingredient_ref
                 if (!name) return
 
                 if (!allIngredients[name]) {
@@ -76,7 +76,7 @@ export default function CrossMarketComparison() {
                 }
 
                 allIngredients[name].markets[market] = {
-                  status: category,
+                  status: ingredient.category || category,
                   category: ingredient.category || ingredient.product_type || 'all'
                 }
               })
