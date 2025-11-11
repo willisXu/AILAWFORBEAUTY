@@ -1,0 +1,9 @@
+{
+  "name": "regulation-api",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@octokit/rest": "^20.0.2",
+    "formidable": "^3.5.1"
+  }
+}
