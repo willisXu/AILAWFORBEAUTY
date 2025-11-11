@@ -59,12 +59,19 @@ JURISDICTIONS = {
         "code": "CN",
         "name": "China",
         "timezone": "Asia/Shanghai",
-        "published_date": "2021-04-30",
-        "effective_date": "2021-05-01",
-        "regulation": "已使用化妝品原料目錄（2021年版）",
+        "published_date": "2015-12-23",
+        "effective_date": "2016-12-01",
+        "regulation": "化妝品安全技術規範（2015年版）",
         "sources": [
             {
-                "name": "NMPA Cosmetics Database",
+                "name": "NMPA Safety Technical Standards for Cosmetics (2015)",
+                "url": "https://www.nmpa.gov.cn/directory/web/nmpa/images/MjAxNcTqtdoyNji6xbmruOa4vbz+LnBkZg==.pdf",
+                "type": "pdf",
+                "update_freq": "monthly",
+                "description": "Safety and Technical Standards for Cosmetics (2015 Edition) - Tables 1-3 for prohibited and restricted ingredients"
+            },
+            {
+                "name": "NMPA Cosmetics Database (Backup)",
                 "url": "https://www.nmpa.gov.cn/datasearch/search-result.html?searchCtg=cosmetics",
                 "type": "html",
                 "update_freq": "weekly",

@@ -1,8 +1,8 @@
 """Canada regulation parser"""
 
 from typing import Dict, Any, List
-from .base_parser import BaseParser
-from ..utils import extract_percentage
+from parsers.base_parser import BaseParser
+from utils import extract_percentage
 
 
 class CAParser(BaseParser):

@@ -24,77 +24,90 @@ class CNScraper(BaseScraper):
 
     def fetch(self) -> Dict[str, Any]:
         """
-        Fetch Chinese cosmetics regulation data from NMPA
+        Fetch Chinese cosmetics regulation data from NMPA PDF
 
         Source: NMPA (National Medical Products Administration)
-        URL: https://www.nmpa.gov.cn/datasearch/search-result.html?searchCtg=cosmetics
+        URL: https://www.nmpa.gov.cn/directory/web/nmpa/images/MjAxNcTqtdoyNji6xbmruOa4vbz+LnBkZg==.pdf
 
-        Main regulations:
-        - Cosmetics Supervision and Administration Regulation (CSAR)
-        - Catalog of Used Cosmetic Ingredients (2021 Edition)
-        - Technical Specifications for Cosmetic Safety
+        Main regulation:
+        - 化妆品安全技术规范（2015年版）
+        - Safety and Technical Standards for Cosmetics (2015 Edition)
 
         Returns:
-            Raw regulation data
+            Raw regulation data with PDF file path
         """
-        self.logger.info("Fetching Chinese cosmetics regulation data from NMPA")
+        self.logger.info("Fetching Chinese cosmetics regulation PDF from NMPA")
 
         try:
-            url = self.jurisdiction_config['sources'][0]['url']
+            pdf_url = self.jurisdiction_config['sources'][0]['url']
 
             # Add delay to be respectful to the server
             time.sleep(1)
 
-            # Fetch the webpage
+            # Fetch the PDF
             headers = {
                 'User-Agent': SCRAPING_CONFIG['user_agent'],
-                'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+                'Accept': 'application/pdf,*/*',
                 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8',
-                'Accept-Encoding': 'gzip, deflate, br',
                 'Connection': 'keep-alive',
             }
 
+            self.logger.info(f"Downloading PDF from: {pdf_url}")
             response = requests.get(
-                url,
+                pdf_url,
                 headers=headers,
-                timeout=SCRAPING_CONFIG['timeout'],
-                allow_redirects=True
+                timeout=120,  # Longer timeout for PDF download
+                allow_redirects=True,
+                stream=True
             )
             response.raise_for_status()
-            response.encoding = 'utf-8'
 
-            # Parse HTML
-            soup = BeautifulSoup(response.content, 'html.parser')
+            # Save PDF to raw data directory
+            from config import RAW_DATA_DIR
+            pdf_dir = RAW_DATA_DIR / self.jurisdiction_code
+            pdf_dir.mkdir(parents=True, exist_ok=True)
 
-            # Try to fetch ingredient catalogs from NMPA website
-            catalogs = self._fetch_nmpa_catalogs(soup)
+            pdf_path = pdf_dir / "cosmetics_safety_technical_standards_2015.pdf"
 
-            # Count total ingredients
-            total_ingredients = sum(len(catalog) for catalog in catalogs.values())
+            # Download with progress
+            total_size = int(response.headers.get('content-length', 0))
+            self.logger.info(f"Downloading {total_size / 1024 / 1024:.2f} MB...")
+
+            with open(pdf_path, 'wb') as f:
+                for chunk in response.iter_content(chunk_size=8192):
+                    if chunk:
+                        f.write(chunk)
+
+            self.logger.info(f"PDF saved to: {pdf_path}")
 
             data = {
-                "source": "NMPA - National Medical Products Administration",
-                "regulation": "已使用化妆品原料目录（2021年版）/ Catalog of Used Cosmetic Ingredients (2021 Edition)",
-                "url": url,
-                "published_date": self.jurisdiction_config.get('published_date', '2021-04-30'),
-                "effective_date": self.jurisdiction_config.get('effective_date', '2021-05-01'),
-                "last_update": self.jurisdiction_config.get('effective_date', '2021-05-01'),
+                "source": "NMPA - 化妆品安全技术规范（2015年版）",
+                "regulation": "Safety and Technical Standards for Cosmetics (2015 Edition)",
+                "url": pdf_url,
+                "published_date": self.jurisdiction_config.get('published_date', '2015-12-23'),
+                "effective_date": self.jurisdiction_config.get('effective_date', '2016-12-01'),
+                "last_update": self.jurisdiction_config.get('effective_date', '2016-12-01'),
                 "fetch_timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
-                "raw_html_length": len(response.content),
-                "total_ingredients": total_ingredients,
-                "catalogs": catalogs
+                "pdf_path": str(pdf_path),
+                "pdf_size_mb": pdf_path.stat().st_size / 1024 / 1024,
+                "type": "pdf",
+                "tables": {
+                    "table_1": "禁用原料目录 (Prohibited Ingredients)",
+                    "table_2": "禁用植（动）物原料目录 (Prohibited Plant/Animal Ingredients)",
+                    "table_3": "限用组分 (Restricted Ingredients)"
+                }
             }
 
-            self.logger.info(f"Successfully fetched {total_ingredients} ingredients from NMPA")
+            self.logger.info(f"Successfully downloaded PDF ({data['pdf_size_mb']:.2f} MB)")
 
             return data
 
         except requests.RequestException as e:
-            self.logger.error(f"Failed to fetch NMPA data: {e}")
-            raise Exception(f"China scraper failed: Unable to fetch data from NMPA website") from e
+            self.logger.error(f"Failed to download NMPA PDF: {e}")
+            raise Exception(f"China scraper failed: Unable to download PDF from NMPA website") from e
         except Exception as e:
-            self.logger.error(f"Error parsing NMPA data: {e}", exc_info=True)
-            raise Exception(f"China scraper failed: Error parsing data from NMPA database") from e
+            self.logger.error(f"Error processing NMPA PDF: {e}", exc_info=True)
+            raise Exception(f"China scraper failed: Error processing PDF from NMPA") from e
 
     def _fetch_nmpa_catalogs(self, soup: BeautifulSoup) -> Dict[str, List[Dict[str, Any]]]:
         """
