@@ -29,39 +29,12 @@ JURISDICTIONS = {
         "regulation": "Regulation (EC) No 1223/2009",
         "sources": [
             {
-                "name": "CosIng Annex II - Prohibited Substances",
-                "url": "https://ec.europa.eu/growth/tools-databases/cosing/pdf/COSING_Annex%20II_v2.pdf",
-                "annex": "II",
-                "type": "pdf",
-                "description": "List of substances prohibited in cosmetic products"
-            },
-            {
-                "name": "CosIng Annex III - Restricted Substances",
-                "url": "https://ec.europa.eu/growth/tools-databases/cosing/pdf/COSING_Annex%20III_v2.pdf",
-                "annex": "III",
-                "type": "pdf",
-                "description": "List of substances subject to restrictions"
-            },
-            {
-                "name": "CosIng Annex IV - Colorants",
-                "url": "https://ec.europa.eu/growth/tools-databases/cosing/pdf/COSING_Annex%20IV_v2.pdf",
-                "annex": "IV",
-                "type": "pdf",
-                "description": "List of colorants allowed in cosmetic products"
-            },
-            {
-                "name": "CosIng Annex V - Preservatives",
-                "url": "https://ec.europa.eu/growth/tools-databases/cosing/pdf/COSING_Annex%20V_v2.pdf",
-                "annex": "V",
-                "type": "pdf",
-                "description": "List of preservatives allowed in cosmetic products"
-            },
-            {
-                "name": "CosIng Annex VI - UV Filters",
-                "url": "https://ec.europa.eu/growth/tools-databases/cosing/pdf/COSING_Annex%20VI_v2.pdf",
-                "annex": "VI",
-                "type": "pdf",
-                "description": "List of UV filters allowed in cosmetic products"
+                "name": "EC Cosmetics Regulation 2024/996",
+                "url": "https://eur-lex.europa.eu/eli/reg/2024/996/oj",
+                "annexes_url": "https://ec.europa.eu/growth/tools-databases/cosing/reference/annexes",
+                "type": "html",
+                "update_freq": "weekly",
+                "description": "Annexes II-VI: Prohibited, Restricted, Colorants, Preservatives, UV filters. Note: Currently uses sample data due to PDF/CSV access restrictions."
             }
         ]
     },

@@ -112,6 +112,9 @@ class ASEANScraper(BaseScraper):
             headers = {
                 'User-Agent': SCRAPING_CONFIG['user_agent'],
                 'Accept': 'application/pdf,*/*',
+                'Accept-Language': 'en-US,en;q=0.9',
+                'Referer': 'https://asean.org/',  # Required for ASEAN PDF download
+                'Connection': 'keep-alive',
             }
 
             response = requests.get(

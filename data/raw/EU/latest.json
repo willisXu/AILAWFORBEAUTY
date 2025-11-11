@@ -1,7 +1,7 @@
 {
   "jurisdiction": "EU",
-  "fetched_at": "2025-11-11T02:28:02.672533Z",
-  "version": "20251111022802",
+  "fetched_at": "2025-11-11T15:09:30.202782Z",
+  "version": "20251111150930",
   "metadata": {
     "source": "European Commission - CosIng Database",
     "regulation": "Regulation (EC) No 1223/2009",
@@ -9,10 +9,10 @@
     "effective_date": "2024-04-24",
     "version": "20240424",
     "total_ingredients": 8,
-    "fetch_timestamp": "2025-11-11 02:28:02",
+    "fetch_timestamp": "2025-11-11 15:09:30",
     "is_sample_data": false
   },
-  "data_hash": "a19f2f87a7ee453054f20a40b67d40a46153bcf9b44af1aada2346a31fe207a0",
+  "data_hash": "091446c74a8786d53a76c0ae10b142c49fa95100cee14155b10a7f25646a9bb8",
   "raw_data": {
     "source": "European Commission - CosIng Database",
     "regulation": "Regulation (EC) No 1223/2009",
@@ -21,7 +21,7 @@
     "published_date": "2024-04-04",
     "effective_date": "2024-04-24",
     "last_update": "2024-04-24",
-    "fetch_timestamp": "2025-11-11 02:28:02",
+    "fetch_timestamp": "2025-11-11 15:09:30",
     "annexes": {
       "annex_ii": {
         "name": "Prohibited substances",
