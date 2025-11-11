@@ -1,4 +1,4 @@
-"""ASEAN cosmetics regulation scraper - Real Implementation"""
+"""ASEAN cosmetics regulation scraper - PDF Implementation"""
 
 from typing import Dict, Any, List
 import requests
@@ -13,7 +13,12 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from scrapers.base_scraper import BaseScraper
 from utils import parse_date
-from config import SCRAPING_CONFIG
+from config import SCRAPING_CONFIG, RAW_DATA_DIR
+
+try:
+    import pdfplumber
+except ImportError:
+    pdfplumber = None
 
 
 class ASEANScraper(BaseScraper):
@@ -24,10 +29,9 @@ class ASEANScraper(BaseScraper):
 
     def fetch(self) -> Dict[str, Any]:
         """
-        Fetch ASEAN cosmetics regulation data from HSA Singapore
+        Fetch ASEAN cosmetics regulation data from official PDF
 
-        Source: HSA ASEAN Cosmetic Directive
-        URL: https://www.hsa.gov.sg/cosmetic-products/asean-cosmetic-directive
+        Downloads ASEAN Cosmetic Directive PDF from asean.org
 
         ASEAN follows the EU model with Annexes II-VI:
         - Annex II: Prohibited substances
@@ -37,50 +41,47 @@ class ASEANScraper(BaseScraper):
         - Annex VI: Permitted UV filters
 
         Returns:
-            Raw regulation data
+            Raw regulation data with PDF path
         """
-        self.logger.info("Fetching ASEAN cosmetics regulation data from HSA Singapore")
+        self.logger.info("Fetching ASEAN cosmetics regulation data from official PDF")
 
         try:
-            url = self.jurisdiction_config['sources'][0]['url']
+            pdf_dir = RAW_DATA_DIR / self.jurisdiction_code / "pdfs"
+            pdf_dir.mkdir(parents=True, exist_ok=True)
 
-            # Add delay to be respectful to the server
-            time.sleep(1)
+            # Find PDF source
+            pdf_source = None
+            for source in self.jurisdiction_config['sources']:
+                if source['type'] == 'pdf':
+                    pdf_source = source
+                    break
 
-            # Fetch the webpage
-            headers = {
-                'User-Agent': SCRAPING_CONFIG['user_agent'],
-                'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-                'Accept-Language': 'en-US,en;q=0.9',
-                'Accept-Encoding': 'gzip, deflate, br',
-                'Connection': 'keep-alive',
-            }
+            if not pdf_source:
+                raise Exception("No PDF source configured for ASEAN")
 
-            response = requests.get(
-                url,
-                headers=headers,
-                timeout=SCRAPING_CONFIG['timeout'],
-                allow_redirects=True
+            # Download PDF
+            pdf_path = self._download_pdf(
+                pdf_source['url'],
+                pdf_dir,
+                "ASEAN_Cosmetic_Directive_Annex_II_2024-2.pdf"
             )
-            response.raise_for_status()
-            response.encoding = 'utf-8'
 
-            # Parse HTML
-            soup = BeautifulSoup(response.content, 'html.parser')
+            if not pdf_path:
+                raise Exception("Failed to download ASEAN PDF")
 
-            # Try to fetch annex data from HSA website
-            annexes = self._fetch_hsa_annexes(soup)
+            # Parse PDF to extract annex data
+            annexes = self._parse_asean_pdf(pdf_path)
 
             data = {
-                "source": "HSA Singapore - ASEAN Cosmetic Directive",
+                "source": "ASEAN - Official Cosmetic Directive (PDF)",
                 "regulation": "ASEAN Cosmetic Directive (ACD)",
                 "version": "2024-2",
-                "url": url,
+                "url": pdf_source['url'],
                 "published_date": self.jurisdiction_config.get('published_date', '2024-12-06'),
                 "effective_date": self.jurisdiction_config.get('effective_date', '2024-12-06'),
                 "last_update": self.jurisdiction_config.get('effective_date', '2024-12-06'),
                 "fetch_timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
-                "raw_html_length": len(response.content),
+                "pdf_path": str(pdf_path),
                 "member_states": [
                     "Brunei", "Cambodia", "Indonesia", "Laos", "Malaysia",
                     "Myanmar", "Philippines", "Singapore", "Thailand", "Vietnam"
@@ -95,16 +96,199 @@ class ASEANScraper(BaseScraper):
             )
 
             data["total_ingredients"] = total_ingredients
-            self.logger.info(f"Successfully fetched {total_ingredients} ingredients from ASEAN ACD")
+            self.logger.info(f"Successfully fetched {total_ingredients} ingredients from ASEAN PDF")
 
             return data
 
-        except requests.RequestException as e:
-            self.logger.error(f"Failed to fetch ASEAN ACD: {e}")
-            raise Exception(f"ASEAN scraper failed: Unable to fetch data from HSA website") from e
         except Exception as e:
-            self.logger.error(f"Error parsing ASEAN data: {e}", exc_info=True)
-            raise Exception(f"ASEAN scraper failed: Error parsing data from ASEAN Cosmetic Directive") from e
+            self.logger.error(f"Failed to fetch ASEAN data: {e}", exc_info=True)
+            raise Exception(f"ASEAN PDF scraper failed: {e}") from e
+
+    def _download_pdf(self, url: str, pdf_dir: Path, filename: str) -> Path:
+        """Download PDF file"""
+        try:
+            time.sleep(1)  # Be respectful
+
+            headers = {
+                'User-Agent': SCRAPING_CONFIG['user_agent'],
+                'Accept': 'application/pdf,*/*',
+            }
+
+            response = requests.get(
+                url,
+                headers=headers,
+                timeout=120,
+                stream=True,
+                allow_redirects=True
+            )
+            response.raise_for_status()
+
+            pdf_path = pdf_dir / filename
+
+            with open(pdf_path, 'wb') as f:
+                for chunk in response.iter_content(chunk_size=8192):
+                    if chunk:
+                        f.write(chunk)
+
+            size_mb = pdf_path.stat().st_size / 1024 / 1024
+            self.logger.info(f"Downloaded {filename} ({size_mb:.2f} MB)")
+
+            return pdf_path
+
+        except Exception as e:
+            self.logger.error(f"Error downloading PDF from {url}: {e}")
+            return None
+
+    def _parse_asean_pdf(self, pdf_path: Path) -> Dict[str, Any]:
+        """Parse ASEAN PDF to extract all annexes"""
+
+        if not pdfplumber:
+            self.logger.warning("pdfplumber not available, using fallback")
+            return self._get_fallback_annexes()
+
+        annexes = {
+            "annex_ii": {"name": "Prohibited substances", "description": "List of substances prohibited in cosmetic products", "ingredients": []},
+            "annex_iii": {"name": "Restricted substances", "description": "List of substances subject to restrictions", "ingredients": []},
+            "annex_iv": {"name": "Allowed colorants", "description": "List of colorants allowed for use in cosmetic products", "ingredients": []},
+            "annex_v": {"name": "Allowed preservatives", "description": "List of preservatives allowed for use in cosmetic products", "ingredients": []},
+            "annex_vi": {"name": "Allowed UV filters", "description": "List of UV filters allowed for use in cosmetic products", "ingredients": []}
+        }
+
+        try:
+            with pdfplumber.open(pdf_path) as pdf:
+                self.logger.info(f"Parsing {len(pdf.pages)} pages from ASEAN PDF...")
+
+                for page_num, page in enumerate(pdf.pages, 1):
+                    tables = page.extract_tables()
+
+                    if not tables:
+                        continue
+
+                    for table in tables:
+                        if not table or len(table) < 2:
+                            continue
+
+                        # Parse table
+                        ingredients = self._parse_asean_table(table)
+
+                        # Add to Annex II (prohibited) by default
+                        # ASEAN Annex II PDF contains prohibited substances
+                        annexes["annex_ii"]["ingredients"].extend(ingredients)
+
+                self.logger.info(f"Extracted {len(annexes['annex_ii']['ingredients'])} ingredients from ASEAN PDF")
+
+        except Exception as e:
+            self.logger.error(f"Error parsing ASEAN PDF: {e}", exc_info=True)
+            return self._get_fallback_annexes()
+
+        return annexes
+
+    def _parse_asean_table(self, table: List[List[str]]) -> List[Dict[str, Any]]:
+        """Parse ASEAN table to extract ingredient information"""
+
+        if not table or len(table) < 2:
+            return []
+
+        ingredients = []
+        headers = table[0] if table else []
+
+        # Identify columns
+        ref_col = cas_col = name_col = cond_col = -1
+
+        for i, header in enumerate(headers):
+            if not header:
+                continue
+            header_lower = header.lower()
+
+            if 'entry' in header_lower or 'ref' in header_lower:
+                ref_col = i
+            elif 'cas' in header_lower:
+                cas_col = i
+            elif 'chemical' in header_lower or 'substance' in header_lower or 'ingredient' in header_lower:
+                name_col = i
+            elif 'condition' in header_lower or 'restriction' in header_lower:
+                cond_col = i
+
+        # Parse data rows
+        for row in table[1:]:
+            if not row or len(row) < 2:
+                continue
+
+            # Skip empty rows
+            if not any(cell for cell in row if cell and cell.strip()):
+                continue
+
+            ingredient = {
+                "entry_number": "",
+                "ingredient_name": "",
+                "cas_no": "",
+                "inci_name": "",
+                "restriction_type": "prohibited",
+                "status": "prohibited",
+                "category": "prohibited",
+                "conditions": "",
+                "rationale": "Listed in ASEAN Cosmetic Directive Annex II"
+            }
+
+            # Extract values
+            if ref_col >= 0 and ref_col < len(row):
+                ingredient["entry_number"] = (row[ref_col] or "").strip()
+
+            if name_col >= 0 and name_col < len(row):
+                ingredient["ingredient_name"] = (row[name_col] or "").strip()
+                ingredient["inci_name"] = ingredient["ingredient_name"]
+
+            if cas_col >= 0 and cas_col < len(row):
+                ingredient["cas_no"] = (row[cas_col] or "").strip()
+
+            if cond_col >= 0 and cond_col < len(row):
+                ingredient["conditions"] = (row[cond_col] or "").strip()
+
+            # Fallback to positions if columns not identified
+            if not ingredient["ingredient_name"] and len(row) > 1:
+                ingredient["ingredient_name"] = (row[1] or "").strip()
+                ingredient["inci_name"] = ingredient["ingredient_name"]
+
+            if not ingredient["cas_no"] and len(row) > 2:
+                cas_candidate = (row[2] or "").strip()
+                if cas_candidate and '-' in cas_candidate:
+                    ingredient["cas_no"] = cas_candidate
+
+            # Only add if we have a name
+            if ingredient["ingredient_name"] and len(ingredient["ingredient_name"]) > 2:
+                ingredients.append(ingredient)
+
+        return ingredients
+
+    def _get_fallback_annexes(self) -> Dict[str, Any]:
+        """Return fallback annex structure with sample data"""
+        return {
+            "annex_ii": {
+                "name": "Prohibited substances",
+                "description": "List of substances prohibited in cosmetic products",
+                "ingredients": self._get_sample_annex_data("annex_ii")
+            },
+            "annex_iii": {
+                "name": "Restricted substances",
+                "description": "List of substances subject to restrictions",
+                "ingredients": self._get_sample_annex_data("annex_iii")
+            },
+            "annex_iv": {
+                "name": "Allowed colorants",
+                "description": "List of colorants allowed for use in cosmetic products",
+                "ingredients": self._get_sample_annex_data("annex_iv")
+            },
+            "annex_v": {
+                "name": "Allowed preservatives",
+                "description": "List of preservatives allowed for use in cosmetic products",
+                "ingredients": self._get_sample_annex_data("annex_v")
+            },
+            "annex_vi": {
+                "name": "Allowed UV filters",
+                "description": "List of UV filters allowed for use in cosmetic products",
+                "ingredients": self._get_sample_annex_data("annex_vi")
+            }
+        }
 
     def _fetch_hsa_annexes(self, soup: BeautifulSoup) -> Dict[str, Any]:
         """

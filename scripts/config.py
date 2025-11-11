@@ -29,12 +29,39 @@ JURISDICTIONS = {
         "regulation": "Regulation (EC) No 1223/2009",
         "sources": [
             {
-                "name": "EC Cosmetics Regulation 2024/996",
-                "url": "https://eur-lex.europa.eu/eli/reg/2024/996/oj",
-                "annexes_url": "https://ec.europa.eu/growth/tools-databases/cosing/reference/annexes",
-                "type": "html",
-                "update_freq": "weekly",
-                "description": "Annexes II-VI: Prohibited, Restricted, Colorants, Preservatives, UV filters"
+                "name": "CosIng Annex II - Prohibited Substances",
+                "url": "https://ec.europa.eu/growth/tools-databases/cosing/pdf/COSING_Annex%20II_v2.pdf",
+                "annex": "II",
+                "type": "pdf",
+                "description": "List of substances prohibited in cosmetic products"
+            },
+            {
+                "name": "CosIng Annex III - Restricted Substances",
+                "url": "https://ec.europa.eu/growth/tools-databases/cosing/pdf/COSING_Annex%20III_v2.pdf",
+                "annex": "III",
+                "type": "pdf",
+                "description": "List of substances subject to restrictions"
+            },
+            {
+                "name": "CosIng Annex IV - Colorants",
+                "url": "https://ec.europa.eu/growth/tools-databases/cosing/pdf/COSING_Annex%20IV_v2.pdf",
+                "annex": "IV",
+                "type": "pdf",
+                "description": "List of colorants allowed in cosmetic products"
+            },
+            {
+                "name": "CosIng Annex V - Preservatives",
+                "url": "https://ec.europa.eu/growth/tools-databases/cosing/pdf/COSING_Annex%20V_v2.pdf",
+                "annex": "V",
+                "type": "pdf",
+                "description": "List of preservatives allowed in cosmetic products"
+            },
+            {
+                "name": "CosIng Annex VI - UV Filters",
+                "url": "https://ec.europa.eu/growth/tools-databases/cosing/pdf/COSING_Annex%20VI_v2.pdf",
+                "annex": "VI",
+                "type": "pdf",
+                "description": "List of UV filters allowed in cosmetic products"
             }
         ]
     },
@@ -105,11 +132,17 @@ JURISDICTIONS = {
         "regulation": "ASEAN Cosmetic Directive (Version 2024-2)",
         "sources": [
             {
-                "name": "ASEAN Cosmetic Directive Annexes",
+                "name": "ASEAN Cosmetic Directive - Annex II (December 2024)",
+                "url": "https://asean.org/wp-content/uploads/2024/12/Annex-II-Release_6_Dec_2024.pdf",
+                "annex": "II",
+                "type": "pdf",
+                "description": "Prohibited substances - December 2024 release"
+            },
+            {
+                "name": "HSA ASEAN Cosmetic Directive (Backup)",
                 "url": "https://www.hsa.gov.sg/cosmetic-products/asean-cosmetic-directive",
                 "type": "html",
-                "update_freq": "weekly",
-                "description": "Annexes II-VI following EU model"
+                "description": "ASEAN Cosmetic Directive overview and additional annexes"
             }
         ]
     }
