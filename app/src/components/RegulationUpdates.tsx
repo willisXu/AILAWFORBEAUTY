@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import CrossMarketComparison from './CrossMarketComparison'
+import RegulationFileUpload from './RegulationFileUpload'
 import { API_CONFIG, hasDirectTrigger } from '../config/api'
 
 interface DiffSummary {
@@ -18,7 +19,7 @@ export default function RegulationUpdates() {
   const [diffs, setDiffs] = useState<DiffSummary[]>([])
   const [loading, setLoading] = useState(true)
   const [selectedJurisdiction, setSelectedJurisdiction] = useState<string | null>(null)
-  const [activeView, setActiveView] = useState<'updates' | 'comparison'>('updates')
+  const [activeView, setActiveView] = useState<'updates' | 'comparison' | 'upload'>('updates')
   const [triggering, setTriggering] = useState(false)
   const [triggerStatus, setTriggerStatus] = useState<'idle' | 'success' | 'error'>('idle')
   const [lastUpdate, setLastUpdate] = useState<string | null>(null)
@@ -292,6 +293,16 @@ export default function RegulationUpdates() {
             法規變更 Updates
           </button>
           <button
+            onClick={() => setActiveView('upload')}
+            className={`px-4 py-2 font-medium transition-colors ${
+              activeView === 'upload'
+                ? 'border-b-2 border-primary-600 text-primary-600'
+                : 'text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100'
+            }`}
+          >
+            上傳文件 Upload File
+          </button>
+          <button
             onClick={() => setActiveView('comparison')}
             className={`px-4 py-2 font-medium transition-colors ${
               activeView === 'comparison'
@@ -307,6 +318,14 @@ export default function RegulationUpdates() {
       {/* Content based on active view */}
       {activeView === 'comparison' ? (
         <CrossMarketComparison />
+      ) : activeView === 'upload' ? (
+        <RegulationFileUpload
+          onUploadComplete={(result) => {
+            console.log('Upload complete:', result)
+            // Optionally reload diffs after upload
+            setTimeout(() => loadDiffs(), 3000)
+          }}
+        />
       ) : (
         <>
 
