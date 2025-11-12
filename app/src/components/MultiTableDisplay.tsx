@@ -16,9 +16,6 @@ interface TableData {
   }
 }
 
-  tables: Record<string, TableData>
-}
-
 interface MultiTableDisplayProps {
   jurisdiction: string
   version?: string
