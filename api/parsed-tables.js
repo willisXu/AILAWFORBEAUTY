@@ -6,8 +6,13 @@
  * 返回特定辖区的所有解析表格数据（基于V2多表架构）
  */
 
-const fs = require('fs').promises;
-const path = require('path');
+import fs from 'fs/promises';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+// Get __dirname equivalent in ES modules
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // 数据文件路径
 const DATA_DIR = path.join(__dirname, '..', 'data', 'parsed');
@@ -121,7 +126,7 @@ async function getAvailableVersions(jurisdiction) {
 /**
  * 主处理函数
  */
-module.exports = async (req, res) => {
+export default async function handler(req, res) {
   // 只允许 GET 请求
   if (req.method !== 'GET') {
     return res.status(405).json({
@@ -221,4 +226,4 @@ module.exports = async (req, res) => {
       message: error.message
     });
   }
-};
+}
