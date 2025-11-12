@@ -6,9 +6,10 @@ import UploadSection from '@/components/UploadSection'
 import ComplianceMatrix from '@/components/ComplianceMatrix'
 import RegulationFileUpload from '@/components/RegulationFileUpload'
 import CrossMarketComparison from '@/components/CrossMarketComparison'
+import RegulationsBrowser from '@/components/RegulationsBrowser'
 
 export default function Home() {
-  const [activeTab, setActiveTab] = useState<'ingredient' | 'regulation' | 'comparison'>('ingredient')
+  const [activeTab, setActiveTab] = useState<'ingredient' | 'regulation' | 'browser' | 'comparison'>('ingredient')
   const [complianceResults, setComplianceResults] = useState<any>(null)
 
   return (
@@ -17,10 +18,10 @@ export default function Home() {
 
       <div className="container mx-auto px-4 py-8">
         {/* Tab Navigation */}
-        <div className="flex space-x-4 mb-8 border-b border-gray-200 dark:border-gray-700">
+        <div className="flex flex-wrap space-x-2 md:space-x-4 mb-8 border-b border-gray-200 dark:border-gray-700">
           <button
             onClick={() => setActiveTab('ingredient')}
-            className={`px-6 py-3 font-medium transition-colors ${
+            className={`px-4 md:px-6 py-3 font-medium transition-colors ${
               activeTab === 'ingredient'
                 ? 'border-b-2 border-primary-600 text-primary-600'
                 : 'text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100'
@@ -30,7 +31,7 @@ export default function Home() {
           </button>
           <button
             onClick={() => setActiveTab('regulation')}
-            className={`px-6 py-3 font-medium transition-colors ${
+            className={`px-4 md:px-6 py-3 font-medium transition-colors ${
               activeTab === 'regulation'
                 ? 'border-b-2 border-primary-600 text-primary-600'
                 : 'text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100'
@@ -39,8 +40,18 @@ export default function Home() {
             上傳法規 Upload Regulation
           </button>
           <button
+            onClick={() => setActiveTab('browser')}
+            className={`px-4 md:px-6 py-3 font-medium transition-colors ${
+              activeTab === 'browser'
+                ? 'border-b-2 border-primary-600 text-primary-600'
+                : 'text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100'
+            }`}
+          >
+            法規瀏覽 Regulations Browser
+          </button>
+          <button
             onClick={() => setActiveTab('comparison')}
-            className={`px-6 py-3 font-medium transition-colors ${
+            className={`px-4 md:px-6 py-3 font-medium transition-colors ${
               activeTab === 'comparison'
                 ? 'border-b-2 border-primary-600 text-primary-600'
                 : 'text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100'
@@ -58,6 +69,8 @@ export default function Home() {
           </div>
         ) : activeTab === 'regulation' ? (
           <RegulationFileUpload />
+        ) : activeTab === 'browser' ? (
+          <RegulationsBrowser />
         ) : (
           <CrossMarketComparison />
         )}
