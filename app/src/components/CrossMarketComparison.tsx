@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import { fetchAllJurisdictions } from '@/lib/dataFetcher'
 
 interface MarketRegulation {
   Status: string
@@ -72,22 +73,16 @@ export default function CrossMarketComparison() {
 
   const loadAllJurisdictionsData = async () => {
     setLoading(true)
-    const loadedData: Record<string, any> = {}
 
     try {
-      for (const jurisdiction of JURISDICTIONS) {
-        try {
-          const response = await fetch(`/api/parsed-tables?jurisdiction=${jurisdiction.code}&version=latest`)
-          if (response.ok) {
-            const data = await response.json()
-            if (data.success) {
-              loadedData[jurisdiction.code] = data.tables
-            }
-          }
-        } catch (error) {
-          console.error(`Failed to load ${jurisdiction.code} data:`, error)
-        }
-      }
+      const jurisdictionCodes = JURISDICTIONS.map(j => j.code)
+      const loadedData = await fetchAllJurisdictions(jurisdictionCodes)
+
+      const successCount = Object.keys(loadedData).length
+      const failCount = JURISDICTIONS.length - successCount
+
+      console.log(`Data loading complete: ${successCount} success, ${failCount} failed`)
+      console.log('Loaded jurisdictions:', Object.keys(loadedData).join(', '))
 
       setAllData(loadedData)
     } catch (error) {
