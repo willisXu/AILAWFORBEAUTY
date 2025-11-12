@@ -2,7 +2,47 @@
   "jurisdiction": "CA",
   "table_type": "prohibited",
   "version": "20250228",
-  "generated_at": "2025-11-12T10:20:26.719956",
-  "total_records": 0,
-  "records": []
+  "generated_at": "2025-11-12T11:01:11.352008",
+  "total_records": 3,
+  "records": [
+    {
+      "INCI_Name": "Formaldehyde",
+      "Jurisdiction": "CA",
+      "Status": "Prohibited",
+      "CAS_No": "50-00-0",
+      "Product_Type": "未规定",
+      "Max_Conc_Percent": null,
+      "Conditions": "Prohibited except as a preservative at concentrations ≤0.2%",
+      "Legal_Basis": "Hotlist - Prohibited",
+      "Update_Date": null,
+      "Notes": "Prohibited in cosmetics except as preservative within limits",
+      "Synonyms": []
+    },
+    {
+      "INCI_Name": "Mercury and its compounds",
+      "Jurisdiction": "CA",
+      "Status": "Prohibited",
+      "CAS_No": "7439-97-6",
+      "Product_Type": "未规定",
+      "Max_Conc_Percent": null,
+      "Conditions": "Prohibited in all cosmetic products",
+      "Legal_Basis": "Hotlist - Prohibited",
+      "Update_Date": null,
+      "Notes": "Highly toxic heavy metal, prohibited in all uses",
+      "Synonyms": []
+    },
+    {
+      "INCI_Name": "Lead and its compounds",
+      "Jurisdiction": "CA",
+      "Status": "Prohibited",
+      "CAS_No": "7439-92-1",
+      "Product_Type": "未规定",
+      "Max_Conc_Percent": null,
+      "Conditions": "Prohibited as ingredients; trace amounts from impurities acceptable",
+      "Legal_Basis": "Hotlist - Prohibited",
+      "Update_Date": null,
+      "Notes": "Toxic heavy metal, prohibited as ingredient",
+      "Synonyms": []
+    }
+  ]
 }

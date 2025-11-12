@@ -199,6 +199,19 @@ JP:
       "": "prohibited"
       "-": "not_applicable"
 
+  # 色料 - Tar Colors (タール色素)
+  # 日本的着色剂数据来自tar_colors类别
+  colorants:
+    source: "Tar Colors List"
+    field_mapping:
+      INCI_Name: ["inci", "name_english", "name_japanese", "成分名称", "Name"]
+      CAS_No: ["cas_no", "CAS番号", "CAS No"]
+      CN_Name: ["name_japanese"]
+      Colour_Index: ["colour_index", "CI"]
+      Conditions: ["conditions", "restrictions", "備考"]
+      Notes: ["rationale", "restrictions"]
+    default_status: "Allowed"
+
 # ============================================================================
 # China - NMPA (National Medical Products Administration)
 # ============================================================================
@@ -283,21 +296,21 @@ CA:
   prohibited:
     source: "Hotlist - Prohibited"
     field_mapping:
-      INCI_Name: ["Ingredient Name", "Chemical Name"]
-      CAS_No: ["CAS Registry Number", "CAS RN"]
-      Conditions: ["Restrictions"]
-      Notes: ["Comments"]
+      INCI_Name: ["ingredient_name", "Ingredient Name", "Chemical Name"]
+      CAS_No: ["cas_no", "CAS Registry Number", "CAS RN"]
+      Conditions: ["conditions", "Restrictions"]
+      Notes: ["rationale", "Comments"]
     default_status: "Prohibited"
 
   # 限用物质
   restricted:
     source: "Hotlist - Restricted"
     field_mapping:
-      INCI_Name: ["Ingredient Name", "Chemical Name"]
-      CAS_No: ["CAS Registry Number", "CAS RN"]
+      INCI_Name: ["ingredient_name", "Ingredient Name", "Chemical Name"]
+      CAS_No: ["cas_no", "CAS Registry Number", "CAS RN"]
       Max_Conc_Percent: ["Maximum Concentration"]
-      Conditions: ["Restrictions", "Conditions"]
-      Notes: ["Comments"]
+      Conditions: ["conditions", "Restrictions", "Conditions"]
+      Notes: ["rationale", "Comments"]
     default_status: "Restricted"
     concentration_unit: "%"
 

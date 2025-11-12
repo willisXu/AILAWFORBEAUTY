@@ -45,6 +45,17 @@ class JPParserV2(BaseParserV2):
             "4": "uv_filters",
         }
 
+        # Category 映射到表类型（用于实际数据中的 categories 字段）
+        self.category_to_table = {
+            "prohibited": "prohibited",
+            "restricted": "restricted",
+            "preservatives": "preservatives",
+            "preservative": "preservatives",  # 兼容两种写法
+            "uv_filters": "uv_filters",
+            "tar_colors": "colorants",  # 日本的tar_colors对应到colorants表
+            "colorants": "colorants",
+        }
+
     def parse_table(
         self,
         table_type: str,
@@ -60,45 +71,67 @@ class JPParserV2(BaseParserV2):
         Returns:
             解析后的记录列表
         """
-        # 获取对应的 Appendix
-        appendix = None
-        for app_num, ttype in self.appendix_to_table.items():
-            if ttype == table_type:
-                appendix = app_num
-                break
-
-        if not appendix:
-            # 日本没有色料和白名单，返回空列表
-            return []
-
-        # 从原始数据中获取对应 Appendix 的数据
+        # 从原始数据中获取对应的数据
         # 实际数据结构：
         # {
         #   "raw_data": {
         #     "categories": {
         #       "prohibited": [...],
         #       "preservative": [...],
+        #       "tar_colors": [...],  # 对应到 colorants
         #       ...
         #     }
         #   }
         # }
+        appendix_data = []
+
         # 支持两种结构
         if 'raw_data' in raw_data:
             categories = raw_data.get('raw_data', {}).get('categories', {})
-            # 直接使用table_type从categories获取数据
-            appendix_data = categories.get(table_type, [])
+
+            # 尝试直接匹配table_type
+            if table_type in categories:
+                appendix_data = categories.get(table_type, [])
+            else:
+                # 尝试通过category_to_table反向查找
+                # 例如：table_type='colorants' -> 查找 'tar_colors'
+                for cat_key, mapped_table in self.category_to_table.items():
+                    if mapped_table == table_type and cat_key in categories:
+                        appendix_data = categories.get(cat_key, [])
+                        break
         else:
-            appendices = raw_data.get('appendices', {})
-            appendix_data = appendices.get(appendix, [])
+            # 旧格式：使用appendices结构
+            appendix = None
+            for app_num, ttype in self.appendix_to_table.items():
+                if ttype == table_type:
+                    appendix = app_num
+                    break
+
+            if appendix:
+                appendices = raw_data.get('appendices', {})
+                appendix_data = appendices.get(appendix, [])
 
         # 解析每个条目
         records = []
 
-        # 防腐剂和 UV 过滤剂使用特殊的三栏矩阵格式
-        if table_type in ['preservatives', 'uv_filters']:
+        # 检测是否为三栏矩阵格式
+        # 三栏矩阵格式的标志：包含特定的日文字段名
+        is_matrix_format = False
+        if appendix_data and isinstance(appendix_data[0], dict):
+            # 检查第一条记录是否包含三栏矩阵的字段
+            matrix_fields = [
+                "粘膜に使用されることがない化粧品のうち洗い流すもの",
+                "粘膜に使用されることがない化粧品のうち洗い流さないもの",
+                "粘膜に使用されることがある化粧品"
+            ]
+            is_matrix_format = any(field in appendix_data[0] for field in matrix_fields)
+
+        # 根据数据格式选择解析方式
+        if is_matrix_format and table_type in ['preservatives', 'uv_filters']:
+            # 三栏矩阵格式
             records = self._parse_three_column_matrix(table_type, appendix_data)
         else:
-            # 禁用和限用物质使用标准格式
+            # 标准格式
             for item in appendix_data:
                 if not isinstance(item, dict):
                     continue

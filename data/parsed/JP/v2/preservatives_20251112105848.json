@@ -1,0 +1,51 @@
+{
+  "jurisdiction": "JP",
+  "table_type": "preservatives",
+  "version": "20251112105848",
+  "generated_at": "2025-11-12T10:58:48.294848",
+  "total_records": 3,
+  "records": [
+    {
+      "INCI_Name": "Benzoic Acid",
+      "Jurisdiction": "JP",
+      "Status": "Allowed",
+      "CAS_No": "65-85-0",
+      "Product_Type": "未规定",
+      "Max_Conc_Percent": null,
+      "Conditions": null,
+      "Legal_Basis": "Appendix 3",
+      "Update_Date": null,
+      "Notes": null,
+      "Synonyms": [],
+      "Label_Warnings": null
+    },
+    {
+      "INCI_Name": "Salicylic Acid",
+      "Jurisdiction": "JP",
+      "Status": "Allowed",
+      "CAS_No": "69-72-7",
+      "Product_Type": "未规定",
+      "Max_Conc_Percent": null,
+      "Conditions": null,
+      "Legal_Basis": "Appendix 3",
+      "Update_Date": null,
+      "Notes": null,
+      "Synonyms": [],
+      "Label_Warnings": null
+    },
+    {
+      "INCI_Name": "Phenoxyethanol",
+      "Jurisdiction": "JP",
+      "Status": "Allowed",
+      "CAS_No": "122-99-6",
+      "Product_Type": "未规定",
+      "Max_Conc_Percent": null,
+      "Conditions": null,
+      "Legal_Basis": "Appendix 3",
+      "Update_Date": null,
+      "Notes": null,
+      "Synonyms": [],
+      "Label_Warnings": null
+    }
+  ]
+}

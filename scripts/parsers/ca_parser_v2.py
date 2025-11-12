@@ -55,24 +55,51 @@ class CAParserV2(BaseParserV2):
         if table_type not in ["prohibited", "restricted"]:
             return []
 
-        # 从原始数据中获取对应的 Hotlist 数据
-        # 假设数据结构为：
+        # 从原始数据中获取 ingredients 数据
+        # 实际数据结构：
         # {
         #   "metadata": {...},
-        #   "hotlist": {
-        #     "prohibited": [...],
-        #     "restricted": [...]
+        #   "raw_data": {
+        #     "ingredients": [
+        #       {"ingredient_name": "...", "status": "prohibited", ...},
+        #       {"ingredient_name": "...", "status": "restricted", ...},
+        #       ...
+        #     ]
         #   }
         # }
-        hotlist_data = raw_data.get('hotlist', {})
-        category_data = hotlist_data.get(table_type, [])
+        # 或者旧结构（hotlist格式）
+        ingredients = []
+
+        # 尝试新结构
+        if 'raw_data' in raw_data and isinstance(raw_data.get('raw_data'), dict):
+            raw_data_content = raw_data.get('raw_data', {})
+            ingredients = raw_data_content.get('ingredients', [])
+
+        # 如果新结构没有数据，尝试旧结构（hotlist）
+        if not ingredients:
+            hotlist_data = raw_data.get('hotlist', {})
+            ingredients = hotlist_data.get(table_type, [])
+
+        # 从 ingredients 数组中筛选符合当前 table_type 的记录
+        category_data = []
+        for item in ingredients:
+            if not isinstance(item, dict):
+                continue
+
+            # 检查 status 或 restriction_type 字段
+            item_status = item.get('status', '').lower()
+            item_restriction = item.get('restriction_type', '').lower()
+
+            # 如果数据已经按table_type组织（旧格式），直接添加
+            if not item_status and not item_restriction:
+                category_data.append(item)
+            # 如果数据有status字段，根据status筛选
+            elif item_status == table_type or item_restriction == table_type:
+                category_data.append(item)
 
         # 解析每个条目
         records = []
         for item in category_data:
-            if not isinstance(item, dict):
-                continue
-
             record = self.create_record(
                 table_type=table_type,
                 source_data=item,

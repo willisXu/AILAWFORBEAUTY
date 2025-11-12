@@ -2,7 +2,60 @@
   "jurisdiction": "CA",
   "table_type": "restricted",
   "version": "20250228",
-  "generated_at": "2025-11-12T10:20:26.719956",
-  "total_records": 0,
-  "records": []
+  "generated_at": "2025-11-12T11:01:11.352008",
+  "total_records": 4,
+  "records": [
+    {
+      "INCI_Name": "Hydroquinone",
+      "Jurisdiction": "CA",
+      "Status": "Restricted",
+      "CAS_No": "123-31-9",
+      "Product_Type": "未规定",
+      "Max_Conc_Percent": null,
+      "Conditions": "Restricted to ≤2% in hair dyes, nail products",
+      "Legal_Basis": "Hotlist - Restricted",
+      "Update_Date": null,
+      "Notes": "Allowed only in specific products with concentration limits",
+      "Synonyms": []
+    },
+    {
+      "INCI_Name": "Triclosan",
+      "Jurisdiction": "CA",
+      "Status": "Restricted",
+      "CAS_No": "3380-34-5",
+      "Product_Type": "未规定",
+      "Max_Conc_Percent": null,
+      "Conditions": "Restricted to ≤0.3% in mouthwash, toothpaste, deodorant",
+      "Legal_Basis": "Hotlist - Restricted",
+      "Update_Date": null,
+      "Notes": "Antimicrobial agent with usage restrictions",
+      "Synonyms": []
+    },
+    {
+      "INCI_Name": "Hydrogen Peroxide",
+      "Jurisdiction": "CA",
+      "Status": "Restricted",
+      "CAS_No": "7722-84-1",
+      "Product_Type": "未规定",
+      "Max_Conc_Percent": null,
+      "Conditions": "Maximum 12% in hair products, 3% in tooth whitening, 2% in nail products",
+      "Legal_Basis": "Hotlist - Restricted",
+      "Update_Date": null,
+      "Notes": "Oxidizing agent with concentration limits",
+      "Synonyms": []
+    },
+    {
+      "INCI_Name": "Salicylic Acid",
+      "Jurisdiction": "CA",
+      "Status": "Restricted",
+      "CAS_No": "69-72-7",
+      "Product_Type": "未规定",
+      "Max_Conc_Percent": null,
+      "Conditions": "Maximum 2% in leave-on products, 3% in rinse-off products. Not for children under 3 years",
+      "Legal_Basis": "Hotlist - Restricted",
+      "Update_Date": null,
+      "Notes": "Keratolytic agent with age and concentration restrictions",
+      "Synonyms": []
+    }
+  ]
 }
