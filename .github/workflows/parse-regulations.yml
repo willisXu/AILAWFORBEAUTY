@@ -32,7 +32,7 @@ jobs:
         id: parse
         run: |
           cd scripts
-          python -m parsers.parse_all
+          python parsers/parse_all_v2.py --integrate
         continue-on-error: true
 
       - name: Check parse status

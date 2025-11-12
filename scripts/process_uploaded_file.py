@@ -15,21 +15,21 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 from config import RAW_DATA_DIR, RULES_DATA_DIR, JURISDICTIONS
 from utils import setup_logger, save_json, load_json, compute_data_hash
-from parsers.eu_parser import EUParser
-from parsers.asean_parser import ASEANParser
-from parsers.cn_parser import CNParser
-from parsers.jp_parser import JPParser
-from parsers.ca_parser import CAParser
+from parsers.eu_parser_v2 import EUParserV2
+from parsers.asean_parser_v2 import ASEANParserV2
+from parsers.cn_parser_v2 import CNParserV2
+from parsers.jp_parser_v2 import JPParserV2
+from parsers.ca_parser_v2 import CAParserV2
 
 logger = setup_logger(__name__)
 
 # Parser mapping
 PARSERS = {
-    "EU": EUParser,
-    "ASEAN": ASEANParser,
-    "CN": CNParser,
-    "JP": JPParser,
-    "CA": CAParser,
+    "EU": EUParserV2,
+    "ASEAN": ASEANParserV2,
+    "CN": CNParserV2,
+    "JP": JPParserV2,
+    "CA": CAParserV2,
 }
 
 
@@ -122,30 +122,48 @@ def process_uploaded_file(
     if parser_class is None:
         raise ValueError(f"No parser available for jurisdiction: {jurisdiction}")
 
+    # Initialize V2 parser
     parser = parser_class()
+    logger.info(f"Initialized {jurisdiction} parser (V2)")
 
-    # Parse the data
+    # For V2 parsers, we need to save raw_data to a JSON file first
+    # if it's not already a file path
+    if file_type == "json":
+        raw_data_path = file_path
+    else:
+        # Save the raw_data metadata
+        raw_json_path = upload_dir / f"{version}_{annex if annex else 'regulation'}.json"
+        save_json(raw_data, raw_json_path)
+        raw_data_path = raw_json_path
+        logger.info(f"Saved raw data to {raw_data_path}")
+
+    # Parse the data using V2 interface
     try:
-        parsed_data = parser.parse(raw_data)
-        logger.info(f"Successfully parsed data")
+        # V2 parsers use the run() method which handles everything
+        result_data = parser.run(raw_data_path)
+        logger.info(f"Successfully parsed data with V2 parser")
     except Exception as e:
         logger.error(f"Failed to parse data: {e}", exc_info=True)
         raise
 
-    # Create rule structure
-    rules = parser.create_rule_structure(raw_data, parsed_data)
+    # Save tables with version
+    try:
+        saved_paths = parser.save_tables(version)
+        logger.info(f"Saved tables: {list(saved_paths.keys())}")
+    except Exception as e:
+        logger.error(f"Failed to save tables: {e}", exc_info=True)
+        raise
 
-    # Save rules
-    rules_path = parser.save_rules(rules, version)
-    logger.info(f"Saved rules to {rules_path}")
+    # Get statistics
+    statistics = parser.get_statistics()
 
     # Return result
     result = {
         "success": True,
         "jurisdiction": jurisdiction,
         "version": version,
-        "statistics": rules["statistics"],
-        "rules_path": str(rules_path),
+        "statistics": statistics,
+        "tables_saved": {k: str(v) for k, v in saved_paths.items()},
         "processed_at": datetime.utcnow().isoformat(),
     }
 

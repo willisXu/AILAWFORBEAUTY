@@ -187,15 +187,15 @@ data/
 
 ## 解析器 Parsers
 
-系統使用以下解析器處理不同辖區的法規：
+系統使用以下 V2 解析器處理不同辖區的法規（基於多表架構）：
 
-- **EU**: `EUParser` - 處理 EU Regulation (EC) No 1223/2009
-- **ASEAN**: `ASEANParser` - 處理 ASEAN Cosmetic Directive
-- **CN**: `CNParser` - 處理中國化妝品安全技術規範
-- **JP**: `JPParser` - 處理日本化妝品基準
-- **CA**: `CAParser` - 處理加拿大 Cosmetic Ingredient Hotlist
+- **EU**: `EUParserV2` - 處理 EU Regulation (EC) No 1223/2009
+- **ASEAN**: `ASEANParserV2` - 處理 ASEAN Cosmetic Directive
+- **CN**: `CNParserV2` - 處理中國化妝品安全技術規範
+- **JP**: `JPParserV2` - 處理日本化妝品基準
+- **CA**: `CAParserV2` - 處理加拿大 Cosmetic Ingredient Hotlist
 
-每個解析器都繼承自 `BaseParser`，並實現特定於辖區的解析邏輯。
+每個解析器都繼承自 `BaseParserV2`，並實現特定於辖區的解析邏輯。V2 解析器支持多表架構（Prohibited, Restricted, Preservatives, UV_Filters, Colorants, Whitelist）。
 
 ## 錯誤處理 Error Handling
 
