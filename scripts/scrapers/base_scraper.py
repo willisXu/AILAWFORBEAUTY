@@ -4,8 +4,13 @@ from abc import ABC, abstractmethod
 from datetime import datetime
 from pathlib import Path
 from typing import Dict, Any, Optional
-from ..config import RAW_DATA_DIR, JURISDICTIONS, get_version_info
-from ..utils import setup_logger, save_json, compute_hash
+import sys
+
+# Add parent directory to path for imports
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
+from config import RAW_DATA_DIR, JURISDICTIONS, get_version_info
+from utils import setup_logger, save_json, compute_hash
 
 logger = setup_logger(__name__)
 

@@ -2,8 +2,14 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
+      - 'claude/**'  # Allow deployment from feature branches
   workflow_dispatch:
+
+# 設置 GITHUB_TOKEN 權限以允許推送到 gh-pages 分支
+permissions:
+  contents: write
 
 jobs:
   deploy:
@@ -26,8 +32,24 @@ jobs:
         working-directory: ./app
         run: npm run build
 
+      - name: Verify build output
+        run: |
+          if [ ! -d "app/out" ]; then
+            echo "Error: Build output directory (app/out) not found"
+            exit 1
+          fi
+          echo "Build output directory exists"
+          ls -la app/out/
+
       - name: Copy data directory
-        run: cp -r data app/out/data
+        run: |
+          if [ -d "data" ]; then
+            mkdir -p app/out/data
+            cp -r data/* app/out/data/
+            echo "Data directory copied successfully"
+          else
+            echo "Warning: data directory not found, skipping copy"
+          fi
 
       - name: Add .nojekyll
         run: touch app/out/.nojekyll

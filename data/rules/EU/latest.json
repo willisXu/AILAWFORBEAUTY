@@ -1,20 +1,77 @@
 {
   "jurisdiction": "EU",
-  "version": "20250210",
-  "published_at": "2025-02-10T00:00:00Z",
-  "effective_date": "2025-02-10T00:00:00Z",
-  "fetched_at": "2025-02-10T03:00:00Z",
+  "version": "20240424",
+  "published_at": "2024-04-04",
+  "effective_date": "2024-04-24",
+  "fetched_at": "2025-11-12T01:26:21.089618Z",
   "source": "European Commission - CosIng Database",
   "regulation": "Regulation (EC) No 1223/2009",
-  "data_hash": "demo123",
+  "data_hash": "0bd9ba9363d8347d22d913da52f06fe01120c907069d3423de88148f22b4cbd0",
   "statistics": {
-    "total_ingredients": 14,
-    "total_clauses": 18,
+    "total_ingredients": 8,
+    "total_clauses": 8,
     "banned": 3,
-    "restricted": 4,
-    "allowed": 11
+    "restricted": 2,
+    "allowed": 3
   },
-  "ingredients": [],
+  "ingredients": [
+    {
+      "id": "Formaldehyde",
+      "inci": null,
+      "cas": "50-00-0",
+      "synonyms": [],
+      "family": {}
+    },
+    {
+      "id": "Hydroquinone",
+      "inci": null,
+      "cas": "123-31-9",
+      "synonyms": [],
+      "family": {}
+    },
+    {
+      "id": "Mercury and its compounds",
+      "inci": null,
+      "cas": "7439-97-6",
+      "synonyms": [],
+      "family": {}
+    },
+    {
+      "id": "Hydrogen Peroxide",
+      "inci": null,
+      "cas": "7722-84-1",
+      "synonyms": [],
+      "family": {}
+    },
+    {
+      "id": "Salicylic Acid",
+      "inci": null,
+      "cas": "69-72-7",
+      "synonyms": [],
+      "family": {}
+    },
+    {
+      "id": "CI 77491 (Iron Oxides)",
+      "inci": null,
+      "cas": "1309-37-1",
+      "synonyms": [],
+      "family": {}
+    },
+    {
+      "id": "Benzoic Acid",
+      "inci": null,
+      "cas": "65-85-0",
+      "synonyms": [],
+      "family": {}
+    },
+    {
+      "id": "Homosalate",
+      "inci": null,
+      "cas": "118-56-9",
+      "synonyms": [],
+      "family": {}
+    }
+  ],
   "clauses": [
     {
       "id": "EU-AII-1",
@@ -22,203 +79,116 @@
       "annex": "II",
       "category": "banned",
       "ingredient_ref": "Formaldehyde",
-      "inci": "Formaldehyde",
+      "inci": null,
       "cas": "50-00-0",
       "chemical_name": "Formaldehyde",
-      "conditions": {},
-      "notes": "Except as preservative under specific conditions in Annex V",
-      "source_ref": "Annex II, Entry 1"
+      "conditions": "Prohibited except as preservative in Annex V",
+      "notes": "",
+      "source_ref": "Annex II"
     },
     {
-      "id": "EU-AII-98",
+      "id": "EU-AII-2",
       "jurisdiction": "EU",
       "annex": "II",
       "category": "banned",
       "ingredient_ref": "Hydroquinone",
-      "inci": "Hydroquinone",
+      "inci": null,
       "cas": "123-31-9",
       "chemical_name": "Hydroquinone",
-      "conditions": {},
-      "notes": "Except as oxidizing agent in hair dye preparations (≤0.3%)",
-      "source_ref": "Annex II, Entry 98"
+      "conditions": "Prohibited except as oxidizing agent in hair dye (≤0.3%)",
+      "notes": "",
+      "source_ref": "Annex II"
     },
     {
-      "id": "EU-AII-254",
+      "id": "EU-AII-3",
       "jurisdiction": "EU",
       "annex": "II",
       "category": "banned",
-      "ingredient_ref": "Methanol",
-      "inci": "Methanol",
-      "cas": "67-56-1",
-      "chemical_name": "Methyl alcohol",
-      "conditions": {},
-      "notes": "Except when denatured",
-      "source_ref": "Annex II, Entry 254"
+      "ingredient_ref": "Mercury and its compounds",
+      "inci": null,
+      "cas": "7439-97-6",
+      "chemical_name": "Mercury and its compounds",
+      "conditions": "Prohibited (trace amounts from impurities ≤1ppm acceptable)",
+      "notes": "",
+      "source_ref": "Annex II"
     },
     {
-      "id": "EU-AIII-12",
+      "id": "EU-AIII-1",
       "jurisdiction": "EU",
       "annex": "III",
       "category": "restricted",
       "ingredient_ref": "Hydrogen Peroxide",
-      "inci": "Hydrogen Peroxide",
+      "inci": null,
       "cas": "7722-84-1",
-      "chemical_name": "Hydrogen peroxide",
+      "chemical_name": "Hydrogen Peroxide",
       "conditions": {
-        "max_pct": 12,
-        "product_type": ["hair products", "nail hardening products", "tooth whitening products"],
-        "specific_conditions": {
-          "hair_products": "≤12% as released (40 volumes)",
-          "nail_products": "≤2%",
-          "tooth_whitening": "≤6%"
-        }
+        "max_pct": 12.0,
+        "specific_conditions": "Hair products ≤12%, tooth whitening ≤6%, nail products ≤2%"
       },
-      "warnings": "Contains hydrogen peroxide. Avoid contact with eyes.",
       "notes": "",
-      "source_ref": "Annex III, Entry 12"
+      "source_ref": "Annex III"
     },
     {
-      "id": "EU-AIII-13",
+      "id": "EU-AIII-2",
       "jurisdiction": "EU",
       "annex": "III",
       "category": "restricted",
       "ingredient_ref": "Salicylic Acid",
-      "inci": "Salicylic Acid",
+      "inci": null,
       "cas": "69-72-7",
-      "chemical_name": "Salicylic acid and its salts",
+      "chemical_name": "Salicylic Acid",
       "conditions": {
-        "max_pct": 3,
-        "product_type": ["rinse-off", "leave-on"],
-        "specific_conditions": {
-          "rinse_off": "≤3%",
-          "leave_on": "≤2%",
-          "exceptions": "Not to be used in preparations for children under 3 years"
-        }
+        "max_pct": 3.0,
+        "specific_conditions": "Rinse-off ≤3%, leave-on ≤2%. Not for children <3 years"
       },
-      "warnings": "Contains salicylic acid. Not to be used for children under 3 years.",
       "notes": "",
-      "source_ref": "Annex III, Entry 13"
-    },
-    {
-      "id": "EU-AIII-15",
-      "jurisdiction": "EU",
-      "annex": "III",
-      "category": "restricted",
-      "ingredient_ref": "Benzoic Acid",
-      "inci": "Benzoic Acid",
-      "cas": "65-85-0",
-      "chemical_name": "Benzoic acid, its salts and esters",
-      "conditions": {
-        "max_pct": 2.5,
-        "product_type": ["all"],
-        "specific_conditions": {
-          "as_preservative": "See Annex V",
-          "as_uv_filter": "See Annex VI"
-        }
-      },
-      "warnings": null,
-      "notes": "",
-      "source_ref": "Annex III, Entry 15"
+      "source_ref": "Annex III"
     },
     {
       "id": "EU-AIV-1",
       "jurisdiction": "EU",
       "annex": "IV",
       "category": "colorant",
-      "ingredient_ref": "CI 10006",
-      "inci": "CI 10006",
-      "colour_index": "CI 10006",
-      "chemical_name": "Naphthol Yellow S",
-      "conditions": {
-        "restrictions": "Not for use in products applied near the eyes",
-        "purity_criteria": "E102"
-      },
+      "ingredient_ref": "CI 77491 (Iron Oxides)",
+      "inci": null,
+      "cas": "1309-37-1",
+      "colour_index": null,
+      "chemical_name": "CI 77491 (Iron Oxides)",
+      "conditions": "Allowed for all cosmetic uses",
       "notes": "",
-      "source_ref": "Annex IV, Entry 1"
+      "source_ref": "Annex IV"
     },
     {
-      "id": "EU-AIV-15",
-      "jurisdiction": "EU",
-      "annex": "IV",
-      "category": "colorant",
-      "ingredient_ref": "CI 77491",
-      "inci": "CI 77491",
-      "colour_index": "CI 77491",
-      "chemical_name": "Iron Oxides",
-      "conditions": {
-        "restrictions": "None",
-        "purity_criteria": "E172"
-      },
-      "notes": "",
-      "source_ref": "Annex IV, Entry 15"
-    },
-    {
-      "id": "EU-AV-3",
+      "id": "EU-AV-1",
       "jurisdiction": "EU",
       "annex": "V",
       "category": "preservative",
       "ingredient_ref": "Benzoic Acid",
-      "inci": "Benzoic Acid",
+      "inci": null,
       "cas": "65-85-0",
-      "chemical_name": "Benzoic acid, its salts and esters",
+      "chemical_name": "Benzoic Acid",
       "conditions": {
         "max_pct": 0.5,
-        "specific_conditions": "As acid"
+        "specific_conditions": "Maximum 0.5% (as acid)"
       },
-      "warnings": null,
       "notes": "",
-      "source_ref": "Annex V, Entry 3"
+      "source_ref": "Annex V"
     },
     {
-      "id": "EU-AV-5",
-      "jurisdiction": "EU",
-      "annex": "V",
-      "category": "preservative",
-      "ingredient_ref": "Salicylic Acid",
-      "inci": "Salicylic Acid",
-      "cas": "69-72-7",
-      "chemical_name": "Salicylic acid and its salts",
-      "conditions": {
-        "max_pct": 0.5,
-        "specific_conditions": "As acid. Not to be used in preparations for children under 3 years except in shampoos"
-      },
-      "warnings": "Contains salicylic acid",
-      "notes": "",
-      "source_ref": "Annex V, Entry 5"
-    },
-    {
-      "id": "EU-AVI-2",
+      "id": "EU-AVI-1",
       "jurisdiction": "EU",
       "annex": "VI",
       "category": "uv_filter",
       "ingredient_ref": "Homosalate",
-      "inci": "Homosalate",
+      "inci": null,
       "cas": "118-56-9",
       "chemical_name": "Homosalate",
       "conditions": {
-        "max_pct": 10,
-        "specific_conditions": null
+        "max_pct": 10.0,
+        "specific_conditions": "Maximum 10%"
       },
-      "warnings": null,
       "notes": "",
-      "source_ref": "Annex VI, Entry 2"
-    },
-    {
-      "id": "EU-AVI-5",
-      "jurisdiction": "EU",
-      "annex": "VI",
-      "category": "uv_filter",
-      "ingredient_ref": "Ethylhexyl Methoxycinnamate",
-      "inci": "Ethylhexyl Methoxycinnamate",
-      "cas": "5466-77-3",
-      "chemical_name": "Octyl methoxycinnamate / Ethylhexyl methoxycinnamate",
-      "conditions": {
-        "max_pct": 10,
-        "specific_conditions": null
-      },
-      "warnings": null,
-      "notes": "",
-      "source_ref": "Annex VI, Entry 5"
+      "source_ref": "Annex VI"
     }
   ]
 }

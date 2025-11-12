@@ -44,16 +44,39 @@ export default function UploadSection({ onResultsChange }: UploadSectionProps) {
       return new Promise((resolve, reject) => {
         Papa.parse(file, {
           header: true,
+          skipEmptyLines: true,
           complete: (results) => {
-            const ingredients = results.data.map((row: any) => ({
-              name: row.ingredient_name || row.name || row.INCI,
-              concentration: parseFloat(row.concentration || row.percentage || 0),
-              role: row.role || row.function || ''
-            })).filter(ing => ing.name)
+            const ingredients = results.data.map((row: any) => {
+              // 支持多種欄位名稱格式
+              const name = row['INCI NAME'] || row['INCI name'] || row['INCI'] ||
+                          row.ingredient_name || row.name || row.Ingredient
 
-            resolve(ingredients)
+              // 支持 % 符號的欄位名稱
+              const concentration = parseFloat(
+                row['%'] || row.percentage || row.concentration || row.Concentration || 0
+              )
+
+              // 支持 Function 欄位
+              const role = row['Function'] || row.function || row.role || row.Role || ''
+
+              // CAS No. 欄位（可選，用於更精確的成分識別）
+              const casNo = row['CAS.No.'] || row['CAS No'] || row['CAS'] || row.cas_no || ''
+
+              return {
+                name: name?.trim(),
+                concentration,
+                role: role?.trim(),
+                cas_no: casNo?.trim()
+              }
+            }).filter(ing => ing.name && ing.name.length > 0)
+
+            if (ingredients.length === 0) {
+              reject(new Error('未找到有效成分資料。請確保檔案包含 INCI NAME 欄位。\nNo valid ingredients found. Please ensure file contains INCI NAME column.'))
+            } else {
+              resolve(ingredients)
+            }
           },
-          error: reject
+          error: (error) => reject(new Error('CSV 解析錯誤: ' + error.message))
         })
       })
     } else if (extension === 'xlsx' || extension === 'xls') {
@@ -63,15 +86,33 @@ export default function UploadSection({ onResultsChange }: UploadSectionProps) {
       const sheet = workbook.Sheets[sheetName]
       const data = XLSX.utils.sheet_to_json(sheet)
 
-      const ingredients = data.map((row: any) => ({
-        name: row.ingredient_name || row.name || row.INCI,
-        concentration: parseFloat(row.concentration || row.percentage || 0),
-        role: row.role || row.function || ''
-      })).filter(ing => ing.name)
+      const ingredients = data.map((row: any) => {
+        // 支持多種欄位名稱格式
+        const name = row['INCI NAME'] || row['INCI name'] || row['INCI'] ||
+                    row.ingredient_name || row.name || row.Ingredient
+
+        const concentration = parseFloat(
+          row['%'] || row.percentage || row.concentration || row.Concentration || 0
+        )
+
+        const role = row['Function'] || row.function || row.role || row.Role || ''
+        const casNo = row['CAS.No.'] || row['CAS No'] || row['CAS'] || row.cas_no || ''
+
+        return {
+          name: name?.toString().trim(),
+          concentration,
+          role: role?.toString().trim(),
+          cas_no: casNo?.toString().trim()
+        }
+      }).filter(ing => ing.name && ing.name.length > 0)
+
+      if (ingredients.length === 0) {
+        throw new Error('未找到有效成分資料。請確保檔案包含 INCI NAME 欄位。\nNo valid ingredients found. Please ensure file contains INCI NAME column.')
+      }
 
       return ingredients
     } else {
-      throw new Error('Unsupported file format. Please upload CSV or Excel file.')
+      throw new Error('不支援的檔案格式。請上傳 CSV 或 Excel 文件。\nUnsupported file format. Please upload CSV or Excel file.')
     }
   }
 
@@ -183,10 +224,17 @@ export default function UploadSection({ onResultsChange }: UploadSectionProps) {
           檔案格式要求 File Format Requirements:
         </p>
         <ul className="text-sm text-gray-600 dark:text-gray-400 space-y-1 list-disc list-inside">
-          <li>必要欄位 Required columns: <code>ingredient_name</code> or <code>name</code> or <code>INCI</code></li>
-          <li>選用欄位 Optional columns: <code>concentration</code> (%), <code>role</code></li>
-          <li>範例 Example: ingredient_name, concentration, role</li>
+          <li>必要欄位 Required: <code className="bg-white dark:bg-gray-800 px-1 rounded">INCI NAME</code></li>
+          <li>選用欄位 Optional: <code className="bg-white dark:bg-gray-800 px-1 rounded">CAS.No.</code>, <code className="bg-white dark:bg-gray-800 px-1 rounded">%</code>, <code className="bg-white dark:bg-gray-800 px-1 rounded">Function</code></li>
         </ul>
+        <div className="mt-3 p-3 bg-white dark:bg-gray-800 rounded border border-gray-300 dark:border-gray-600">
+          <p className="text-xs font-semibold text-gray-700 dark:text-gray-300 mb-2">範例格式 Example Format:</p>
+          <pre className="text-xs text-gray-600 dark:text-gray-400 overflow-x-auto">
+排序,INCI NAME,CAS.No.,%,Function
+1,AQUA,7732-18-5,,SOLVENT
+2,NIACINAMIDE,98-92-0,,SMOOTHING
+3,GLYCERIN,56-81-5,,HUMECTANT</pre>
+        </div>
       </div>
     </div>
   )

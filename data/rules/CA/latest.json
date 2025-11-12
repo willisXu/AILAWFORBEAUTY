@@ -1,23 +1,73 @@
 {
   "jurisdiction": "CA",
-  "version": "20250120",
-  "published_at": "2025-01-20T00:00:00Z",
-  "effective_date": "2025-01-20T00:00:00Z",
-  "fetched_at": "2025-01-20T03:00:00Z",
-  "source": "Health Canada - Cosmetics Program",
-  "regulation": "Cosmetic Regulations C.R.C., c. 869",
-  "data_hash": "demo321",
+  "version": "20250228",
+  "published_at": "2025-02",
+  "effective_date": "2025-02-28",
+  "fetched_at": "2025-11-12T01:26:37.750346Z",
+  "source": "Health Canada - Cosmetic Ingredient Hotlist",
+  "regulation": "Cosmetic Ingredient Hotlist",
+  "data_hash": "ab83cbf2e46440a79854daa03efe572ff611a57111655873745d9f856fde9fe2",
   "statistics": {
-    "total_ingredients": 8,
-    "total_clauses": 8,
-    "banned": 4,
+    "total_ingredients": 7,
+    "total_clauses": 7,
+    "banned": 3,
     "restricted": 4,
     "allowed": 0
   },
-  "ingredients": [],
+  "ingredients": [
+    {
+      "id": "Formaldehyde",
+      "inci": "Formaldehyde",
+      "cas": "50-00-0",
+      "synonyms": [],
+      "family": {}
+    },
+    {
+      "id": "Mercury and its compounds",
+      "inci": "Mercury and its compounds",
+      "cas": "7439-97-6",
+      "synonyms": [],
+      "family": {}
+    },
+    {
+      "id": "Lead and its compounds",
+      "inci": "Lead and its compounds",
+      "cas": "7439-92-1",
+      "synonyms": [],
+      "family": {}
+    },
+    {
+      "id": "Hydroquinone",
+      "inci": "Hydroquinone",
+      "cas": "123-31-9",
+      "synonyms": [],
+      "family": {}
+    },
+    {
+      "id": "Triclosan",
+      "inci": "Triclosan",
+      "cas": "3380-34-5",
+      "synonyms": [],
+      "family": {}
+    },
+    {
+      "id": "Hydrogen Peroxide",
+      "inci": "Hydrogen Peroxide",
+      "cas": "7722-84-1",
+      "synonyms": [],
+      "family": {}
+    },
+    {
+      "id": "Salicylic Acid",
+      "inci": "Salicylic Acid",
+      "cas": "69-72-7",
+      "synonyms": [],
+      "family": {}
+    }
+  ],
   "clauses": [
     {
-      "id": "CA-H001",
+      "id": "CA-PROHIBITED-1",
       "jurisdiction": "CA",
       "category": "banned",
       "ingredient_ref": "Formaldehyde",
@@ -25,47 +75,71 @@
       "cas": "50-00-0",
       "ingredient_name": "Formaldehyde",
       "conditions": {},
-      "notes": "Prohibited except as a preservative at ≤0.2%",
-      "source_ref": "Health Canada Hotlist - H001"
+      "notes": "Prohibited except as a preservative at concentrations ≤0.2%",
+      "source_ref": "Health Canada Hotlist - Prohibited"
     },
     {
-      "id": "CA-H045",
+      "id": "CA-PROHIBITED-2",
       "jurisdiction": "CA",
       "category": "banned",
+      "ingredient_ref": "Mercury and its compounds",
+      "inci": "Mercury and its compounds",
+      "cas": "7439-97-6",
+      "ingredient_name": "Mercury and its compounds",
+      "conditions": {},
+      "notes": "Prohibited in all cosmetic products",
+      "source_ref": "Health Canada Hotlist - Prohibited"
+    },
+    {
+      "id": "CA-PROHIBITED-3",
+      "jurisdiction": "CA",
+      "category": "banned",
+      "ingredient_ref": "Lead and its compounds",
+      "inci": "Lead and its compounds",
+      "cas": "7439-92-1",
+      "ingredient_name": "Lead and its compounds",
+      "conditions": {},
+      "notes": "Prohibited as ingredients; trace amounts from impurities acceptable",
+      "source_ref": "Health Canada Hotlist - Prohibited"
+    },
+    {
+      "id": "CA-RESTRICTED-1",
+      "jurisdiction": "CA",
+      "category": "restricted",
       "ingredient_ref": "Hydroquinone",
       "inci": "Hydroquinone",
       "cas": "123-31-9",
       "ingredient_name": "Hydroquinone",
-      "conditions": {},
-      "notes": "Prohibited except in nail adhesives at ≤0.02%",
-      "source_ref": "Health Canada Hotlist - H045"
+      "conditions": {
+        "max_pct": null,
+        "specific_conditions": {
+          "description": "Restricted to ≤2% in hair dyes, nail products"
+        }
+      },
+      "warnings": null,
+      "notes": "Allowed only in specific products with concentration limits",
+      "source_ref": "Health Canada Hotlist - Restricted"
     },
     {
-      "id": "CA-H055",
+      "id": "CA-RESTRICTED-2",
       "jurisdiction": "CA",
-      "category": "banned",
-      "ingredient_ref": "Mercury",
-      "inci": "Mercury",
-      "cas": "7439-97-6",
-      "ingredient_name": "Mercury and its compounds",
-      "conditions": {},
-      "notes": "Prohibited except trace amounts from unavoidable contamination",
-      "source_ref": "Health Canada Hotlist - H055"
+      "category": "restricted",
+      "ingredient_ref": "Triclosan",
+      "inci": "Triclosan",
+      "cas": "3380-34-5",
+      "ingredient_name": "Triclosan",
+      "conditions": {
+        "max_pct": null,
+        "specific_conditions": {
+          "description": "Restricted to ≤0.3% in mouthwash, toothpaste, deodorant"
+        }
+      },
+      "warnings": null,
+      "notes": "Antimicrobial agent with usage restrictions",
+      "source_ref": "Health Canada Hotlist - Restricted"
     },
     {
-      "id": "CA-H058",
-      "jurisdiction": "CA",
-      "category": "banned",
-      "ingredient_ref": "Methanol",
-      "inci": "Methanol",
-      "cas": "67-56-1",
-      "ingredient_name": "Methanol",
-      "conditions": {},
-      "notes": "Prohibited except as denaturant at specific concentrations",
-      "source_ref": "Health Canada Hotlist - H058"
-    },
-    {
-      "id": "CA-R015",
+      "id": "CA-RESTRICTED-3",
       "jurisdiction": "CA",
       "category": "restricted",
       "ingredient_ref": "Hydrogen Peroxide",
@@ -73,19 +147,17 @@
       "cas": "7722-84-1",
       "ingredient_name": "Hydrogen Peroxide",
       "conditions": {
-        "max_pct": 12,
+        "max_pct": null,
         "specific_conditions": {
-          "hair_products": "≤12%",
-          "tooth_whitening": "≤3%",
-          "nail_products": "≤2%"
+          "description": "Maximum 12% in hair products, 3% in tooth whitening, 2% in nail products"
         }
       },
       "warnings": null,
-      "notes": "",
-      "source_ref": "Health Canada Hotlist - R015"
+      "notes": "Oxidizing agent with concentration limits",
+      "source_ref": "Health Canada Hotlist - Restricted"
     },
     {
-      "id": "CA-R028",
+      "id": "CA-RESTRICTED-4",
       "jurisdiction": "CA",
       "category": "restricted",
       "ingredient_ref": "Salicylic Acid",
@@ -93,16 +165,14 @@
       "cas": "69-72-7",
       "ingredient_name": "Salicylic Acid",
       "conditions": {
-        "max_pct": 2,
+        "max_pct": null,
         "specific_conditions": {
-          "leave_on": "≤2%",
-          "rinse_off": "≤3%",
-          "warnings": "Not for use on children under 3 years"
+          "description": "Maximum 2% in leave-on products, 3% in rinse-off products. Not for children under 3 years"
         }
       },
-      "warnings": "Not for use on children under 3 years",
-      "notes": "",
-      "source_ref": "Health Canada Hotlist - R028"
+      "warnings": null,
+      "notes": "Keratolytic agent with age and concentration restrictions",
+      "source_ref": "Health Canada Hotlist - Restricted"
     }
   ]
 }

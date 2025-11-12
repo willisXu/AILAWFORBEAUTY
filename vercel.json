@@ -1,0 +1,16 @@
+{
+  "buildCommand": "cd app && npm install && npm run build",
+  "outputDirectory": "app/out",
+  "devCommand": "cd app && npm run dev",
+  "installCommand": "cd app && npm install",
+  "framework": "nextjs",
+  "functions": {
+    "api/trigger-update.js": {
+      "memory": 1024,
+      "maxDuration": 10
+    }
+  },
+  "env": {
+    "GITHUB_TOKEN": "@github_token"
+  }
+}

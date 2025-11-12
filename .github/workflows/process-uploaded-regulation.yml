@@ -1,0 +1,192 @@
+name: Process Uploaded Regulation
+
+on:
+  workflow_dispatch:
+    inputs:
+      jurisdiction:
+        description: 'Jurisdiction code (EU, JP, CN, CA, ASEAN)'
+        required: true
+        type: string
+      file_type:
+        description: 'File type (pdf, html, json)'
+        required: false
+        type: string
+        default: 'pdf'
+      annex:
+        description: 'Annex identifier (for EU/ASEAN)'
+        required: false
+        type: string
+      version:
+        description: 'Version identifier'
+        required: false
+        type: string
+      file_path:
+        description: 'Path to uploaded file in repository'
+        required: true
+        type: string
+
+jobs:
+  process:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          cd scripts
+          pip install -r requirements.txt
+
+      - name: Process uploaded file
+        id: process
+        run: |
+          cd scripts
+
+          # Build command
+          CMD="python process_uploaded_file.py '${{ github.workspace }}/${{ inputs.file_path }}' ${{ inputs.jurisdiction }}"
+
+          if [ -n "${{ inputs.file_type }}" ]; then
+            CMD="$CMD --type ${{ inputs.file_type }}"
+          fi
+
+          if [ -n "${{ inputs.annex }}" ]; then
+            CMD="$CMD --annex ${{ inputs.annex }}"
+          fi
+
+          if [ -n "${{ inputs.version }}" ]; then
+            CMD="$CMD --version ${{ inputs.version }}"
+          fi
+
+          CMD="$CMD --output ../processing_result.json"
+
+          echo "Running: $CMD"
+          eval $CMD
+        continue-on-error: true
+
+      - name: Read processing result
+        id: result
+        if: always()
+        run: |
+          if [ -f processing_result.json ]; then
+            cat processing_result.json
+            SUCCESS=$(jq -r '.success' processing_result.json)
+            echo "success=$SUCCESS" >> $GITHUB_OUTPUT
+
+            if [ "$SUCCESS" = "true" ]; then
+              STATS=$(jq -c '.statistics' processing_result.json)
+              echo "statistics=$STATS" >> $GITHUB_OUTPUT
+            fi
+          else
+            echo "success=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit processed data
+        if: steps.result.outputs.success == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+          # Add both raw data and rules
+          git add data/raw/${{ inputs.jurisdiction }}/uploads/
+          git add data/rules/${{ inputs.jurisdiction }}/
+
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            COMMIT_MSG="feat: Process uploaded regulation file for ${{ inputs.jurisdiction }}"
+
+            if [ -n "${{ inputs.annex }}" ]; then
+              COMMIT_MSG="$COMMIT_MSG (Annex ${{ inputs.annex }})"
+            fi
+
+            COMMIT_MSG="$COMMIT_MSG
+
+Uploaded file: ${{ inputs.file_path }}
+Processed at: $(date -u +'%Y-%m-%d %H:%M:%S UTC')
+Statistics: ${{ steps.result.outputs.statistics }}"
+
+            git commit -m "$COMMIT_MSG"
+            git push
+          fi
+
+      - name: Create summary
+        if: always()
+        run: |
+          echo "## Processing Result" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          if [ "${{ steps.result.outputs.success }}" = "true" ]; then
+            echo "✅ **Status:** Success" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "**Jurisdiction:** ${{ inputs.jurisdiction }}" >> $GITHUB_STEP_SUMMARY
+            echo "**File:** ${{ inputs.file_path }}" >> $GITHUB_STEP_SUMMARY
+
+            if [ -n "${{ inputs.annex }}" ]; then
+              echo "**Annex:** ${{ inputs.annex }}" >> $GITHUB_STEP_SUMMARY
+            fi
+
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "**Statistics:**" >> $GITHUB_STEP_SUMMARY
+            echo '```json' >> $GITHUB_STEP_SUMMARY
+            echo '${{ steps.result.outputs.statistics }}' | jq '.' >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+          else
+            echo "❌ **Status:** Failed" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "**Jurisdiction:** ${{ inputs.jurisdiction }}" >> $GITHUB_STEP_SUMMARY
+            echo "**File:** ${{ inputs.file_path }}" >> $GITHUB_STEP_SUMMARY
+
+            if [ -f processing_result.json ]; then
+              echo "" >> $GITHUB_STEP_SUMMARY
+              echo "**Error:**" >> $GITHUB_STEP_SUMMARY
+              echo '```' >> $GITHUB_STEP_SUMMARY
+              jq -r '.error // "Unknown error"' processing_result.json >> $GITHUB_STEP_SUMMARY
+              echo '```' >> $GITHUB_STEP_SUMMARY
+            fi
+          fi
+
+      - name: Create issue on failure
+        if: steps.result.outputs.success != 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            let errorMsg = 'Unknown error';
+
+            try {
+              const result = JSON.parse(fs.readFileSync('processing_result.json', 'utf8'));
+              errorMsg = result.error || 'Unknown error';
+            } catch (e) {
+              errorMsg = 'Failed to read processing result';
+            }
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `❌ Regulation File Processing Failed: ${{ inputs.jurisdiction }}`,
+              body: `The uploaded regulation file processing failed.
+
+              **Jurisdiction:** ${{ inputs.jurisdiction }}
+              **File:** ${{ inputs.file_path }}
+              **Annex:** ${{ inputs.annex }}
+              **Run:** ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}
+              **Date:** ${new Date().toISOString()}
+
+              **Error:**
+              \`\`\`
+              ${errorMsg}
+              \`\`\`
+
+              Please check the logs and verify the file format.`,
+              labels: ['automation', 'error', 'regulation-upload']
+            });
