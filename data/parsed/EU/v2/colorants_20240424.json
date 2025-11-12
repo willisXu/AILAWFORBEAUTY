@@ -1,0 +1,24 @@
+{
+  "jurisdiction": "EU",
+  "table_type": "colorants",
+  "version": "20240424",
+  "generated_at": "2025-11-12T10:01:19.798705",
+  "total_records": 1,
+  "records": [
+    {
+      "INCI_Name": "CI 77491 (Iron Oxides)",
+      "Jurisdiction": "EU",
+      "Status": "Allowed",
+      "CAS_No": "1309-37-1",
+      "Product_Type": "未规定",
+      "Max_Conc_Percent": null,
+      "Conditions": "Allowed for all cosmetic uses",
+      "Legal_Basis": "Annex IV",
+      "Update_Date": null,
+      "Notes": null,
+      "Synonyms": [],
+      "Colour_Index": null,
+      "Body_Area": null
+    }
+  ]
+}

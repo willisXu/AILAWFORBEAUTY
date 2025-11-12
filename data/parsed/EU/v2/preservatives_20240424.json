@@ -1,0 +1,23 @@
+{
+  "jurisdiction": "EU",
+  "table_type": "preservatives",
+  "version": "20240424",
+  "generated_at": "2025-11-12T10:01:19.798705",
+  "total_records": 1,
+  "records": [
+    {
+      "INCI_Name": "Benzoic Acid",
+      "Jurisdiction": "EU",
+      "Status": "Allowed",
+      "CAS_No": "65-85-0",
+      "Product_Type": "未规定",
+      "Max_Conc_Percent": 0.5,
+      "Conditions": "Maximum 0.5% (as acid)",
+      "Legal_Basis": "Annex V",
+      "Update_Date": null,
+      "Notes": null,
+      "Synonyms": [],
+      "Label_Warnings": null
+    }
+  ]
+}
