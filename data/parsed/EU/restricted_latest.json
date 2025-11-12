@@ -1,0 +1,33 @@
+{
+  "jurisdiction": "EU",
+  "table_type": "restricted",
+  "version": "20240424",
+  "generated_at": "2024-11-12T00:00:00.000Z",
+  "total_records": 2,
+  "records": [
+    {
+      "INCI_Name": "Benzoyl Peroxide",
+      "CAS_No": "94-36-0",
+      "CN_Name": "过氧化苯甲酰",
+      "EU_Name": "Benzoyl Peroxide",
+      "Jurisdiction": "EU",
+      "Status": "RESTRICTED",
+      "Max_Conc_Percent": 5.0,
+      "Product_Type": "RINSE_OFF",
+      "Conditions": "Not for use in products for children under 3 years",
+      "Warnings": "Avoid contact with eyes"
+    },
+    {
+      "INCI_Name": "Resorcinol",
+      "CAS_No": "108-46-3",
+      "CN_Name": "间苯二酚",
+      "EU_Name": "Resorcinol",
+      "Jurisdiction": "EU",
+      "Status": "RESTRICTED",
+      "Max_Conc_Percent": 0.5,
+      "Product_Type": "ALL",
+      "Conditions": "For hair products only",
+      "Warnings": "Contains resorcinol. May produce an allergic reaction"
+    }
+  ]
+}

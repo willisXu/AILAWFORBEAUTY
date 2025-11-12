@@ -1,0 +1,39 @@
+{
+  "jurisdiction": "EU",
+  "table_type": "prohibited",
+  "version": "20240424",
+  "generated_at": "2024-11-12T00:00:00.000Z",
+  "total_records": 3,
+  "records": [
+    {
+      "INCI_Name": "Triclosan",
+      "CAS_No": "3380-34-5",
+      "CN_Name": "三氯生",
+      "EU_Name": "Triclosan",
+      "Jurisdiction": "EU",
+      "Status": "PROHIBITED",
+      "Rationale": "Endocrine disrupting properties",
+      "Legal_Basis": "Regulation (EC) No 1223/2009 Annex II"
+    },
+    {
+      "INCI_Name": "Formaldehyde",
+      "CAS_No": "50-00-0",
+      "CN_Name": "甲醛",
+      "EU_Name": "Formaldehyde",
+      "Jurisdiction": "EU",
+      "Status": "PROHIBITED",
+      "Rationale": "Carcinogenic, mutagenic, toxic to reproduction",
+      "Legal_Basis": "Regulation (EC) No 1223/2009 Annex II"
+    },
+    {
+      "INCI_Name": "Lead acetate",
+      "CAS_No": "301-04-2",
+      "CN_Name": "醋酸铅",
+      "EU_Name": "Lead acetate",
+      "Jurisdiction": "EU",
+      "Status": "PROHIBITED",
+      "Rationale": "Toxic to reproduction",
+      "Legal_Basis": "Regulation (EC) No 1223/2009 Annex II"
+    }
+  ]
+}

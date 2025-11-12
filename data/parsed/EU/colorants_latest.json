@@ -1,0 +1,31 @@
+{
+  "jurisdiction": "EU",
+  "table_type": "colorants",
+  "version": "20240424",
+  "generated_at": "2024-11-12T00:00:00.000Z",
+  "total_records": 2,
+  "records": [
+    {
+      "INCI_Name": "CI 77491",
+      "CAS_No": "1309-37-1",
+      "CN_Name": "CI 77491",
+      "EU_Name": "Iron Oxides",
+      "Jurisdiction": "EU",
+      "Status": "ALLOWED",
+      "Product_Type": "ALL",
+      "Function": "Colorant",
+      "Colour_Index_Number": "77491"
+    },
+    {
+      "INCI_Name": "CI 77007",
+      "CAS_No": "1344-37-2",
+      "CN_Name": "CI 77007",
+      "EU_Name": "Ultramarine",
+      "Jurisdiction": "EU",
+      "Status": "ALLOWED",
+      "Product_Type": "ALL",
+      "Function": "Colorant",
+      "Colour_Index_Number": "77007"
+    }
+  ]
+}

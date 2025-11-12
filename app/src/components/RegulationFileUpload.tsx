@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useCallback } from 'react'
+import MultiTableDisplay from './MultiTableDisplay'
 
 interface RegulationFileUploadProps {
   onUploadComplete?: (result: any) => void
@@ -29,6 +30,8 @@ export default function RegulationFileUpload({ onUploadComplete }: RegulationFil
   const [loading, setLoading] = useState(false)
   const [uploadResult, setUploadResult] = useState<any>(null)
   const [error, setError] = useState<string>('')
+  const [showParsedResults, setShowParsedResults] = useState(false)
+  const [viewJurisdiction, setViewJurisdiction] = useState<string>('EU')
 
   const selectedJurisdiction = JURISDICTIONS.find(j => j.code === jurisdiction)
 
@@ -272,6 +275,43 @@ export default function RegulationFileUpload({ onUploadComplete }: RegulationFil
           <li>處理完成後，結果將自動提交到 GitHub</li>
         </ul>
       </div>
+
+      {/* View Parsed Results Toggle */}
+      <div className="mt-6">
+        <button
+          onClick={() => setShowParsedResults(!showParsedResults)}
+          className="w-full px-6 py-3 bg-gray-600 hover:bg-gray-700 text-white font-medium rounded-lg transition-colors flex items-center justify-center space-x-2"
+        >
+          <span>{showParsedResults ? '隱藏' : '查看'} 已解析法規數據</span>
+          <span>{showParsedResults ? '▲' : '▼'}</span>
+        </button>
+      </div>
+
+      {/* Parsed Results Viewer */}
+      {showParsedResults && (
+        <div className="mt-6 space-y-4">
+          {/* Jurisdiction Selector */}
+          <div>
+            <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+              選擇辖區 Select Jurisdiction
+            </label>
+            <select
+              value={viewJurisdiction}
+              onChange={(e) => setViewJurisdiction(e.target.value)}
+              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:text-white"
+            >
+              {JURISDICTIONS.map(j => (
+                <option key={j.code} value={j.code}>
+                  {j.code} - {j.name}
+                </option>
+              ))}
+            </select>
+          </div>
+
+          {/* Multi-Table Display */}
+          <MultiTableDisplay jurisdiction={viewJurisdiction} />
+        </div>
+      )}
     </div>
   )
 }
