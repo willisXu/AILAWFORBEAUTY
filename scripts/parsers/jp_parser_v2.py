@@ -72,8 +72,24 @@ class JPParserV2(BaseParserV2):
             return []
 
         # 从原始数据中获取对应 Appendix 的数据
-        appendices = raw_data.get('appendices', {})
-        appendix_data = appendices.get(appendix, [])
+        # 实际数据结构：
+        # {
+        #   "raw_data": {
+        #     "categories": {
+        #       "prohibited": [...],
+        #       "preservative": [...],
+        #       ...
+        #     }
+        #   }
+        # }
+        # 支持两种结构
+        if 'raw_data' in raw_data:
+            categories = raw_data.get('raw_data', {}).get('categories', {})
+            # 直接使用table_type从categories获取数据
+            appendix_data = categories.get(table_type, [])
+        else:
+            appendices = raw_data.get('appendices', {})
+            appendix_data = appendices.get(appendix, [])
 
         # 解析每个条目
         records = []

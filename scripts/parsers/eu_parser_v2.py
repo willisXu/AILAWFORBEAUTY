@@ -65,17 +65,37 @@ class EUParserV2(BaseParserV2):
             return []
 
         # 从原始数据中获取对应 Annex 的数据
-        # 假设原始数据结构为：
+        # 实际数据结构：
         # {
-        #   "metadata": {...},
-        #   "annexes": {
-        #     "II": [...],
-        #     "III": [...],
-        #     ...
+        #   "raw_data": {
+        #     "annexes": {
+        #       "annex_ii": { "ingredients": [...] },
+        #       ...
+        #     }
         #   }
         # }
-        annexes = raw_data.get('annexes', {})
-        annex_data = annexes.get(annex, [])
+        # 支持两种结构：新的（raw_data包装）和旧的（直接annexes）
+        if 'raw_data' in raw_data:
+            annexes = raw_data.get('raw_data', {}).get('annexes', {})
+        else:
+            annexes = raw_data.get('annexes', {})
+
+        # 转换Annex编号为键名：II -> annex_ii
+        annex_key_map = {
+            "II": "annex_ii",
+            "III": "annex_iii",
+            "IV": "annex_iv",
+            "V": "annex_v",
+            "VI": "annex_vi"
+        }
+        annex_key = annex_key_map.get(annex, annex)
+
+        # 获取annex数据，可能是对象或数组
+        annex_data = annexes.get(annex_key, annexes.get(annex, []))
+
+        # 如果是对象且包含ingredients字段，提取ingredients数组
+        if isinstance(annex_data, dict) and 'ingredients' in annex_data:
+            annex_data = annex_data['ingredients']
 
         if isinstance(annex_data, dict):
             # 如果是字典，可能有多个子部分

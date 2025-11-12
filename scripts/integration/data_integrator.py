@@ -15,7 +15,7 @@ from typing import Dict, List, Optional, Set, Tuple
 from collections import defaultdict
 from datetime import datetime
 
-from scripts.schema.database_schema import (
+from schema.database_schema import (
     Jurisdiction,
     Status,
     BaseRegulationRecord,

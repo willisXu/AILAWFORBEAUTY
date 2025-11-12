@@ -9,9 +9,9 @@ EU:
   prohibited:
     source: "Annex II"
     field_mapping:
-      INCI_Name: ["Reference number", "Ingredient Name", "Chemical name"]
-      CAS_No: ["CAS No", "CAS Number", "EC No"]
-      Conditions: ["Scope", "Field of application and/or use"]
+      INCI_Name: ["ingredient_name", "Reference number", "Ingredient Name", "Chemical name", "inci"]
+      CAS_No: ["cas_no", "CAS No", "CAS Number", "EC No", "ec_no"]
+      Conditions: ["conditions", "Scope", "Field of application and/or use"]
       Notes: ["Reference to entry"]
     default_status: "Prohibited"
     product_type: "未规定"
@@ -20,11 +20,11 @@ EU:
   restricted:
     source: "Annex III"
     field_mapping:
-      INCI_Name: ["Ingredient Name", "Chemical name", "INCI name"]
-      CAS_No: ["CAS No", "CAS Number", "EC No"]
+      INCI_Name: ["ingredient_name", "Ingredient Name", "Chemical name", "INCI name", "inci"]
+      CAS_No: ["cas_no", "CAS No", "CAS Number", "EC No", "ec_no"]
       Product_Type: ["Product type, Body parts"]
-      Max_Conc_Percent: ["Maximum concentration in ready for use preparation"]
-      Conditions: ["Other limitations and requirements", "Conditions of use", "Wording of conditions"]
+      Max_Conc_Percent: ["maximum_concentration", "Maximum concentration in ready for use preparation"]
+      Conditions: ["conditions", "Other limitations and requirements", "Conditions of use", "Wording of conditions"]
       Notes: ["Reference to entry"]
     default_status: "Restricted"
     concentration_unit: "%"  # EU 使用百分比
@@ -33,22 +33,22 @@ EU:
   colorants:
     source: "Annex IV"
     field_mapping:
-      INCI_Name: ["Ingredient Name", "Chemical name", "INCI name"]
-      CAS_No: ["CAS No", "CAS Number"]
+      INCI_Name: ["ingredient_name", "Ingredient Name", "Chemical name", "INCI name", "inci"]
+      CAS_No: ["cas_no", "CAS No", "CAS Number", "ec_no"]
       Colour_Index: ["Colour Index Number", "CI"]
       Body_Area: ["Field of application and/or use", "Restrictions and requirements"]
-      Conditions: ["Other", "Wording of conditions"]
+      Conditions: ["conditions", "Other", "Wording of conditions"]
     default_status: "Allowed"
 
   # 防腐剂 - Annex V
   preservatives:
     source: "Annex V"
     field_mapping:
-      INCI_Name: ["Ingredient Name", "Chemical name", "INCI name"]
-      CAS_No: ["CAS No", "CAS Number", "EC No"]
-      Max_Conc_Percent: ["Maximum concentration in ready for use preparation"]
+      INCI_Name: ["ingredient_name", "Ingredient Name", "Chemical name", "INCI name", "inci"]
+      CAS_No: ["cas_no", "CAS No", "CAS Number", "EC No", "ec_no"]
+      Max_Conc_Percent: ["maximum_concentration", "Maximum concentration in ready for use preparation"]
       Product_Type: ["Product type, Body parts"]
-      Conditions: ["Other limitations and requirements"]
+      Conditions: ["conditions", "Other limitations and requirements"]
       Label_Warnings: ["Wording of conditions of use and warnings"]
     default_status: "Allowed"
     concentration_unit: "%"
@@ -57,10 +57,10 @@ EU:
   uv_filters:
     source: "Annex VI"
     field_mapping:
-      INCI_Name: ["Ingredient Name", "Chemical name", "INCI name"]
-      CAS_No: ["CAS No", "CAS Number", "EC No"]
-      Max_Conc_Percent: ["Maximum concentration in ready for use preparation"]
-      Conditions: ["Other"]
+      INCI_Name: ["ingredient_name", "Ingredient Name", "Chemical name", "INCI name", "inci"]
+      CAS_No: ["cas_no", "CAS No", "CAS Number", "EC No", "ec_no"]
+      Max_Conc_Percent: ["maximum_concentration", "Maximum concentration in ready for use preparation"]
+      Conditions: ["conditions", "Other"]
       Label_Warnings: ["Wording of conditions of use and warnings"]
     default_status: "Allowed"
     concentration_unit: "%"
@@ -135,9 +135,11 @@ JP:
   prohibited:
     source: "Appendix 1"
     field_mapping:
-      INCI_Name: ["成分名称", "Name", "Ingredient Name"]
-      CAS_No: ["CAS番号", "CAS No"]
-      Notes: ["備考", "Remarks"]
+      INCI_Name: ["inci", "name_english", "name_japanese", "成分名称", "Name", "Ingredient Name"]
+      CAS_No: ["cas_no", "CAS番号", "CAS No"]
+      CN_Name: ["name_japanese"]
+      Conditions: ["conditions", "備考", "Remarks"]
+      Notes: ["rationale", "備考", "Remarks"]
     default_status: "Prohibited"
 
   # 限用物质 - Appendix 2
@@ -145,11 +147,12 @@ JP:
   restricted:
     source: "Appendix 2"
     field_mapping:
-      INCI_Name: ["成分名称", "Name"]
-      CAS_No: ["CAS番号", "CAS No"]
-      Max_Conc_Percent: ["配合限度", "配合制限", "Maximum Amount"]
+      INCI_Name: ["inci", "name_english", "name_japanese", "成分名称", "Name"]
+      CAS_No: ["cas_no", "CAS番号", "CAS No"]
+      CN_Name: ["name_japanese"]
+      Max_Conc_Percent: ["maximum_concentration", "配合限度", "配合制限", "Maximum Amount"]
       Product_Type: ["適用範囲", "使用範囲", "Scope"]
-      Conditions: ["使用条件", "Conditions"]
+      Conditions: ["conditions", "使用条件", "Conditions"]
     default_status: "Restricted"
     concentration_unit: "g/100g"  # 日本使用 g/100g（需转换为 %）
 
@@ -158,8 +161,9 @@ JP:
   preservatives:
     source: "Appendix 3"
     field_mapping:
-      INCI_Name: ["成分名称", "Name"]
-      CAS_No: ["CAS番号", "CAS No"]
+      INCI_Name: ["inci", "name_english", "name_japanese", "成分名称", "Name"]
+      CAS_No: ["cas_no", "CAS番号", "CAS No"]
+      CN_Name: ["name_japanese"]
       # 日本特殊格式：三栏矩阵
       # Column 1: 非粘膜·冲洗类
       # Column 2: 非粘膜·驻留类

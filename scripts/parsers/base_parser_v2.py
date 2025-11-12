@@ -237,11 +237,26 @@ class BaseParserV2(ABC):
             # 获取法规依据
             legal_basis = get_legal_basis(self.jurisdiction, table_type)
 
+            # 确定Status（根据表类型）
+            table_config = self.field_mappings.get(table_type, {})
+            default_status_str = table_config.get('default_status', 'NOT_SPECIFIED')
+
+            # 映射状态字符串到Status枚举
+            status_mapping = {
+                'Prohibited': Status.PROHIBITED,
+                'Restricted': Status.RESTRICTED,
+                'Allowed': Status.ALLOWED,
+                'Listed': Status.LISTED,
+                'NOT_SPECIFIED': Status.NOT_SPECIFIED,
+            }
+            status = status_mapping.get(default_status_str, Status.NOT_SPECIFIED)
+
             # 创建基础参数
             base_params = {
                 'INCI_Name': inci_name.strip(),
                 'CAS_No': cas_no,
                 'Jurisdiction': self.jurisdiction,
+                'Status': status,
                 'Product_Type': product_type,
                 'Max_Conc_Percent': max_conc,
                 'Conditions': conditions.strip() if conditions else None,
@@ -284,8 +299,19 @@ class BaseParserV2(ABC):
         Args:
             raw_data: 原始数据
         """
+        # 提取实际的raw_data（如果数据被包装在raw_data字段中）
+        # 实际数据结构：{"jurisdiction": "XX", "raw_data": {...actual data...}}
+        actual_data = raw_data
+        if 'raw_data' in raw_data and isinstance(raw_data['raw_data'], dict):
+            # 保留metadata在顶层，但合并raw_data的内容
+            actual_data = dict(raw_data)  # 浅拷贝
+            actual_data.update(raw_data['raw_data'])  # 合并raw_data内容到顶层
+
         # 获取更新日期
-        metadata = raw_data.get('metadata', {})
+        metadata = actual_data.get('metadata', {})
+        if not metadata:
+            metadata = raw_data.get('metadata', {})
+
         update_date_str = metadata.get('published_at') or metadata.get('effective_date')
         update_date = None
 
@@ -300,7 +326,7 @@ class BaseParserV2(ABC):
             self.logger.info(f"Parsing {table_type} table...")
 
             try:
-                records = self.parse_table(table_type, raw_data)
+                records = self.parse_table(table_type, actual_data)
 
                 if records:
                     self.tables[table_type].extend(records)

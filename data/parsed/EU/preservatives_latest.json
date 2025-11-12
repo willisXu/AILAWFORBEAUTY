@@ -2,42 +2,22 @@
   "jurisdiction": "EU",
   "table_type": "preservatives",
   "version": "20240424",
-  "generated_at": "2024-11-12T00:00:00.000Z",
-  "total_records": 3,
+  "generated_at": "2025-11-12T10:01:19.798705",
+  "total_records": 1,
   "records": [
     {
-      "INCI_Name": "Methylparaben",
-      "CAS_No": "99-76-3",
-      "CN_Name": "对羟基苯甲酸甲酯",
-      "EU_Name": "Methylparaben",
+      "INCI_Name": "Benzoic Acid",
       "Jurisdiction": "EU",
-      "Status": "ALLOWED",
-      "Max_Conc_Percent": 0.4,
-      "Product_Type": "ALL",
-      "Function": "Preservative",
-      "Conditions": "Maximum 0.8% as sum of all parabens"
-    },
-    {
-      "INCI_Name": "Phenoxyethanol",
-      "CAS_No": "122-99-6",
-      "CN_Name": "苯氧乙醇",
-      "EU_Name": "Phenoxyethanol",
-      "Jurisdiction": "EU",
-      "Status": "ALLOWED",
-      "Max_Conc_Percent": 1.0,
-      "Product_Type": "ALL",
-      "Function": "Preservative"
-    },
-    {
-      "INCI_Name": "Sodium Benzoate",
-      "CAS_No": "532-32-1",
-      "CN_Name": "苯甲酸钠",
-      "EU_Name": "Sodium Benzoate",
-      "Jurisdiction": "EU",
-      "Status": "ALLOWED",
+      "Status": "Allowed",
+      "CAS_No": "65-85-0",
+      "Product_Type": "未规定",
       "Max_Conc_Percent": 0.5,
-      "Product_Type": "ALL",
-      "Function": "Preservative"
+      "Conditions": "Maximum 0.5% (as acid)",
+      "Legal_Basis": "Annex V",
+      "Update_Date": null,
+      "Notes": null,
+      "Synonyms": [],
+      "Label_Warnings": null
     }
   ]
 }

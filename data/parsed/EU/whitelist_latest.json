@@ -2,58 +2,7 @@
   "jurisdiction": "EU",
   "table_type": "whitelist",
   "version": "20240424",
-  "generated_at": "2024-11-12T00:00:00.000Z",
-  "total_records": 5,
-  "records": [
-    {
-      "INCI_Name": "Water",
-      "CAS_No": "7732-18-5",
-      "CN_Name": "水",
-      "EU_Name": "Aqua",
-      "Jurisdiction": "EU",
-      "Status": "LISTED",
-      "Function": "Solvent",
-      "Category": "Basic ingredient"
-    },
-    {
-      "INCI_Name": "Glycerin",
-      "CAS_No": "56-81-5",
-      "CN_Name": "甘油",
-      "EU_Name": "Glycerin",
-      "Jurisdiction": "EU",
-      "Status": "LISTED",
-      "Function": "Humectant",
-      "Category": "Moisturizer"
-    },
-    {
-      "INCI_Name": "Tocopherol",
-      "CAS_No": "10191-41-0",
-      "CN_Name": "生育酚",
-      "EU_Name": "Tocopherol",
-      "Jurisdiction": "EU",
-      "Status": "LISTED",
-      "Function": "Antioxidant",
-      "Category": "Vitamin"
-    },
-    {
-      "INCI_Name": "Cetyl Alcohol",
-      "CAS_No": "36653-82-4",
-      "CN_Name": "十六醇",
-      "EU_Name": "Cetyl Alcohol",
-      "Jurisdiction": "EU",
-      "Status": "LISTED",
-      "Function": "Emollient",
-      "Category": "Fatty alcohol"
-    },
-    {
-      "INCI_Name": "Panthenol",
-      "CAS_No": "16485-10-2",
-      "CN_Name": "泛醇",
-      "EU_Name": "Panthenol",
-      "Jurisdiction": "EU",
-      "Status": "LISTED",
-      "Function": "Moisturizer",
-      "Category": "Vitamin"
-    }
-  ]
+  "generated_at": "2025-11-12T10:01:19.798705",
+  "total_records": 0,
+  "records": []
 }

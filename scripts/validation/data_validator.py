@@ -13,7 +13,7 @@ import logging
 from typing import Dict, List, Optional, Tuple, Any
 from datetime import date
 
-from scripts.schema.database_schema import (
+from schema.database_schema import (
     Jurisdiction,
     Status,
     ProductType,

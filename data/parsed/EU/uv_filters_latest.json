@@ -2,30 +2,22 @@
   "jurisdiction": "EU",
   "table_type": "uv_filters",
   "version": "20240424",
-  "generated_at": "2024-11-12T00:00:00.000Z",
-  "total_records": 2,
+  "generated_at": "2025-11-12T10:01:19.798705",
+  "total_records": 1,
   "records": [
     {
-      "INCI_Name": "Ethylhexyl Methoxycinnamate",
-      "CAS_No": "5466-77-3",
-      "CN_Name": "甲氧基肉桂酸乙基己酯",
-      "EU_Name": "Ethylhexyl Methoxycinnamate",
+      "INCI_Name": "Homosalate",
       "Jurisdiction": "EU",
-      "Status": "ALLOWED",
+      "Status": "Allowed",
+      "CAS_No": "118-56-9",
+      "Product_Type": "未规定",
       "Max_Conc_Percent": 10.0,
-      "Product_Type": "ALL",
-      "Function": "UV Filter"
-    },
-    {
-      "INCI_Name": "Titanium Dioxide",
-      "CAS_No": "13463-67-7",
-      "CN_Name": "二氧化钛",
-      "EU_Name": "Titanium Dioxide",
-      "Jurisdiction": "EU",
-      "Status": "ALLOWED",
-      "Max_Conc_Percent": 25.0,
-      "Product_Type": "ALL",
-      "Function": "UV Filter / Colorant"
+      "Conditions": "Maximum 10%",
+      "Legal_Basis": "Annex VI",
+      "Update_Date": null,
+      "Notes": null,
+      "Synonyms": [],
+      "Label_Warnings": null
     }
   ]
 }
