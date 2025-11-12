@@ -1,0 +1,366 @@
+# 各国法规字段映射配置
+# 用于定义原始数据字段到统一数据库字段的映射关系
+
+# ============================================================================
+# EU (European Union) - Regulation (EC) No 1223/2009
+# ============================================================================
+EU:
+  # 禁用物质 - Annex II
+  prohibited:
+    source: "Annex II"
+    field_mapping:
+      INCI_Name: ["Reference number", "Ingredient Name", "Chemical name"]
+      CAS_No: ["CAS No", "CAS Number", "EC No"]
+      Conditions: ["Scope", "Field of application and/or use"]
+      Notes: ["Reference to entry"]
+    default_status: "Prohibited"
+    product_type: "未规定"
+
+  # 限用物质 - Annex III
+  restricted:
+    source: "Annex III"
+    field_mapping:
+      INCI_Name: ["Ingredient Name", "Chemical name", "INCI name"]
+      CAS_No: ["CAS No", "CAS Number", "EC No"]
+      Product_Type: ["Product type, Body parts"]
+      Max_Conc_Percent: ["Maximum concentration in ready for use preparation"]
+      Conditions: ["Other limitations and requirements", "Conditions of use", "Wording of conditions"]
+      Notes: ["Reference to entry"]
+    default_status: "Restricted"
+    concentration_unit: "%"  # EU 使用百分比
+
+  # 色料 - Annex IV
+  colorants:
+    source: "Annex IV"
+    field_mapping:
+      INCI_Name: ["Ingredient Name", "Chemical name", "INCI name"]
+      CAS_No: ["CAS No", "CAS Number"]
+      Colour_Index: ["Colour Index Number", "CI"]
+      Body_Area: ["Field of application and/or use", "Restrictions and requirements"]
+      Conditions: ["Other", "Wording of conditions"]
+    default_status: "Allowed"
+
+  # 防腐剂 - Annex V
+  preservatives:
+    source: "Annex V"
+    field_mapping:
+      INCI_Name: ["Ingredient Name", "Chemical name", "INCI name"]
+      CAS_No: ["CAS No", "CAS Number", "EC No"]
+      Max_Conc_Percent: ["Maximum concentration in ready for use preparation"]
+      Product_Type: ["Product type, Body parts"]
+      Conditions: ["Other limitations and requirements"]
+      Label_Warnings: ["Wording of conditions of use and warnings"]
+    default_status: "Allowed"
+    concentration_unit: "%"
+
+  # UV 过滤剂 - Annex VI
+  uv_filters:
+    source: "Annex VI"
+    field_mapping:
+      INCI_Name: ["Ingredient Name", "Chemical name", "INCI name"]
+      CAS_No: ["CAS No", "CAS Number", "EC No"]
+      Max_Conc_Percent: ["Maximum concentration in ready for use preparation"]
+      Conditions: ["Other"]
+      Label_Warnings: ["Wording of conditions of use and warnings"]
+    default_status: "Allowed"
+    concentration_unit: "%"
+
+# ============================================================================
+# ASEAN - ASEAN Cosmetic Directive
+# ============================================================================
+ASEAN:
+  # 禁用物质 - Annex II
+  prohibited:
+    source: "Annex II"
+    field_mapping:
+      INCI_Name: ["Ingredient name", "Chemical name"]
+      CAS_No: ["CAS No", "EC No"]
+      Conditions: ["Scope"]
+      Notes: ["Reference"]
+    default_status: "Prohibited"
+
+  # 限用物质 - Annex III
+  restricted:
+    source: "Annex III"
+    field_mapping:
+      INCI_Name: ["Ingredient name", "Chemical name"]
+      CAS_No: ["CAS No", "EC No"]
+      Product_Type: ["Product type, Body parts"]
+      Max_Conc_Percent: ["Maximum concentration"]
+      Conditions: ["Other limitations and requirements"]
+    default_status: "Restricted"
+    concentration_unit: "%"
+
+  # 色料 - Annex IV
+  colorants:
+    source: "Annex IV"
+    field_mapping:
+      INCI_Name: ["Ingredient name", "Chemical name"]
+      CAS_No: ["CAS No"]
+      Colour_Index: ["Colour Index Number"]
+      Body_Area: ["Field of application"]
+      Conditions: ["Other"]
+    default_status: "Allowed"
+
+  # 防腐剂 - Annex VI
+  preservatives:
+    source: "Annex VI"
+    field_mapping:
+      INCI_Name: ["Ingredient name", "Chemical name"]
+      CAS_No: ["CAS No", "EC No"]
+      Max_Conc_Percent: ["Maximum concentration"]
+      Product_Type: ["Product type"]
+      Conditions: ["Other limitations"]
+      Label_Warnings: ["Wording of conditions"]
+    default_status: "Allowed"
+    concentration_unit: "%"
+
+  # UV 过滤剂 - Annex VII
+  uv_filters:
+    source: "Annex VII"
+    field_mapping:
+      INCI_Name: ["Ingredient name", "Chemical name"]
+      CAS_No: ["CAS No", "EC No"]
+      Max_Conc_Percent: ["Maximum concentration"]
+      Conditions: ["Other"]
+      Label_Warnings: ["Wording of conditions"]
+    default_status: "Allowed"
+    concentration_unit: "%"
+
+# ============================================================================
+# Japan - MHLW Notification No.331
+# ============================================================================
+JP:
+  # 禁用物质 - Appendix 1
+  prohibited:
+    source: "Appendix 1"
+    field_mapping:
+      INCI_Name: ["成分名称", "Name", "Ingredient Name"]
+      CAS_No: ["CAS番号", "CAS No"]
+      Notes: ["備考", "Remarks"]
+    default_status: "Prohibited"
+
+  # 限用物质 - Appendix 2
+  # 日本有三层限用结构：全类别、依用途、依产品型态
+  restricted:
+    source: "Appendix 2"
+    field_mapping:
+      INCI_Name: ["成分名称", "Name"]
+      CAS_No: ["CAS番号", "CAS No"]
+      Max_Conc_Percent: ["配合限度", "配合制限", "Maximum Amount"]
+      Product_Type: ["適用範囲", "使用範囲", "Scope"]
+      Conditions: ["使用条件", "Conditions"]
+    default_status: "Restricted"
+    concentration_unit: "g/100g"  # 日本使用 g/100g（需转换为 %）
+
+  # 防腐剂 - Appendix 3
+  # 三栏矩阵式：非黏膜沖洗、非黏膜免洗、可用於黏膜
+  preservatives:
+    source: "Appendix 3"
+    field_mapping:
+      INCI_Name: ["成分名称", "Name"]
+      CAS_No: ["CAS番号", "CAS No"]
+      # 日本特殊格式：三栏矩阵
+      # Column 1: 非粘膜·冲洗类
+      # Column 2: 非粘膜·驻留类
+      # Column 3: 可用于粘膜
+      Max_Conc_Percent_Rinse: ["粘膜に使用されることがない化粧品のうち洗い流すもの"]
+      Max_Conc_Percent_Leave: ["粘膜に使用されることがない化粧品のうち洗い流さないもの"]
+      Max_Conc_Percent_Mucosa: ["粘膜に使用されることがある化粧品"]
+      Conditions: ["使用条件"]
+    default_status: "Allowed"
+    concentration_unit: "g/100g"
+    special_format: "three_column_matrix"
+    # 特殊符号处理
+    symbols:
+      "○": "no_limit"      # 无上限
+      "": "prohibited"     # 空白 = 禁止
+      "-": "not_applicable"
+
+  # UV 过滤剂 - Appendix 4
+  # 同样是三栏矩阵式
+  uv_filters:
+    source: "Appendix 4"
+    field_mapping:
+      INCI_Name: ["成分名称", "Name"]
+      CAS_No: ["CAS番号", "CAS No"]
+      Max_Conc_Percent_Rinse: ["粘膜に使用されることがない化粧品のうち洗い流すもの"]
+      Max_Conc_Percent_Leave: ["粘膜に使用されることがない化粧品のうち洗い流さないもの"]
+      Max_Conc_Percent_Mucosa: ["粘膜に使用されることがある化粧品"]
+    default_status: "Allowed"
+    concentration_unit: "g/100g"
+    special_format: "three_column_matrix"
+    symbols:
+      "○": "no_limit"
+      "": "prohibited"
+      "-": "not_applicable"
+
+# ============================================================================
+# China - NMPA (National Medical Products Administration)
+# ============================================================================
+CN:
+  # 禁用物质 - STSC Annex 2
+  prohibited:
+    source: "STSC Annex 2"
+    field_mapping:
+      INCI_Name: ["化妆品原料名称", "中文名称", "成分名称"]
+      CAS_No: ["CAS号", "CAS编号"]
+      Conditions: ["使用范围", "限制条件"]
+      Notes: ["备注"]
+    default_status: "Prohibited"
+
+  # 限用物质 - STSC Annex 3
+  restricted:
+    source: "STSC Annex 3"
+    field_mapping:
+      INCI_Name: ["化妆品原料名称", "中文名称"]
+      CAS_No: ["CAS号"]
+      Product_Type: ["使用范围", "产品类型"]
+      Max_Conc_Percent: ["最大允许使用浓度", "限量"]
+      Conditions: ["使用条件", "其他限制和要求"]
+      Notes: ["备注"]
+    default_status: "Restricted"
+    concentration_unit: "%"
+
+  # 防腐剂 - STSC Annex 4
+  preservatives:
+    source: "STSC Annex 4"
+    field_mapping:
+      INCI_Name: ["化妆品原料名称", "中文名称"]
+      CAS_No: ["CAS号"]
+      Max_Conc_Percent: ["最大允许使用浓度"]
+      Conditions: ["使用条件"]
+      Label_Warnings: ["标签要求"]
+      Notes: ["备注"]
+    default_status: "Allowed"
+    concentration_unit: "%"
+
+  # UV 过滤剂 - STSC Annex 5
+  uv_filters:
+    source: "STSC Annex 5"
+    field_mapping:
+      INCI_Name: ["化妆品原料名称", "中文名称"]
+      CAS_No: ["CAS号"]
+      Max_Conc_Percent: ["最大允许使用浓度"]
+      Conditions: ["使用条件"]
+      Label_Warnings: ["标签要求"]
+    default_status: "Allowed"
+    concentration_unit: "%"
+
+  # 色料 - STSC Annex 6
+  colorants:
+    source: "STSC Annex 6"
+    field_mapping:
+      INCI_Name: ["化妆品原料名称", "中文名称", "着色剂名称"]
+      CAS_No: ["CAS号"]
+      Colour_Index: ["色素索引号", "CI编号"]
+      Body_Area: ["使用范围"]
+      Conditions: ["使用条件"]
+      Notes: ["备注"]
+    default_status: "Allowed"
+
+  # 白名单 - IECIC（已使用化妆品原料目录）
+  whitelist:
+    source: "IECIC 2021"
+    field_mapping:
+      INCI_Name: ["INCI名称", "化妆品原料名称", "中文名称"]
+      CAS_No: ["CAS号"]
+      List_Name: ["目录名称"]
+      IECIC_Status: ["使用状态", "备注"]
+      Conditions: ["使用要求"]
+    default_status: "Listed"
+    # 未列入IECIC的标记为 Not_Listed
+
+# ============================================================================
+# Canada - Health Canada Cosmetic Ingredient Hotlist
+# ============================================================================
+CA:
+  # 禁用物质
+  prohibited:
+    source: "Hotlist - Prohibited"
+    field_mapping:
+      INCI_Name: ["Ingredient Name", "Chemical Name"]
+      CAS_No: ["CAS Registry Number", "CAS RN"]
+      Conditions: ["Restrictions"]
+      Notes: ["Comments"]
+    default_status: "Prohibited"
+
+  # 限用物质
+  restricted:
+    source: "Hotlist - Restricted"
+    field_mapping:
+      INCI_Name: ["Ingredient Name", "Chemical Name"]
+      CAS_No: ["CAS Registry Number", "CAS RN"]
+      Max_Conc_Percent: ["Maximum Concentration"]
+      Conditions: ["Restrictions", "Conditions"]
+      Notes: ["Comments"]
+    default_status: "Restricted"
+    concentration_unit: "%"
+
+# ============================================================================
+# 通用配置
+# ============================================================================
+common:
+  # 单位转换规则
+  unit_conversion:
+    "g/100g": 1.0          # g/100g 等于 % (数值相同)
+    "ppm": 0.0001          # ppm 转 % = 值 × 0.0001
+    "%": 1.0               # % 保持不变
+    "w/w%": 1.0            # w/w% = %
+
+  # 产品类型映射
+  product_type_mapping:
+    # 英文 -> 标准枚举
+    "hair": "Hair"
+    "skin": "Skin"
+    "eye": "Eye"
+    "lip": "Lip"
+    "nail": "Nail"
+    "oral": "Oral"
+    "mucous membrane": "Mucosa"
+    "mucosa": "Mucosa"
+    "non-mucosa": "Non_Mucosa"
+    "rinse-off": "Rinse_Off"
+    "leave-on": "Leave_On"
+    "wash-off": "Rinse_Off"
+
+    # 日文映射
+    "洗い流す": "Rinse_Off"
+    "洗い流さない": "Leave_On"
+    "粘膜": "Mucosa"
+    "粘膜に使用されることがない": "Non_Mucosa"
+    "粘膜に使用されることがある": "Mucosa"
+
+    # 中文映射
+    "冲洗类": "Rinse_Off"
+    "驻留类": "Leave_On"
+    "头发": "Hair"
+    "皮肤": "Skin"
+    "眼部": "Eye"
+    "唇部": "Lip"
+    "指甲": "Nail"
+    "口腔": "Oral"
+    "粘膜": "Mucosa"
+
+  # 状态优先级（用于冲突解决）
+  status_priority:
+    - "Prohibited"      # 最高优先级
+    - "Restricted"
+    - "Allowed"
+    - "Listed"
+    - "Not_Listed"
+    - "未规定"          # 最低优先级
+
+  # CAS 号码验证正则
+  cas_regex: '^\d{1,7}-\d{2}-\d$'
+
+  # 浓度值范围（%）
+  concentration_range:
+    min: 0.0
+    max: 100.0
+
+  # 必填字段
+  required_fields:
+    - "INCI_Name"
+    - "Jurisdiction"
+    - "Status"
