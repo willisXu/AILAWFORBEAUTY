@@ -33,7 +33,7 @@ class EUExtractor(BasePDFExtractor):
             },
             "restricted": {
                 "name": "Annex III - Restricted Substances",
-                "filename_pattern": "*附件1-2*RESTRICTED*.pdf",
+                "filename_pattern": "*附件1-2*.pdf",
                 "keywords": ["Annex III", "RESTRICTED", "Reference number"],
             },
             "colorants": {

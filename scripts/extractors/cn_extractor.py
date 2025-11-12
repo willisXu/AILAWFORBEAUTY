@@ -166,16 +166,93 @@ class CNExtractor(BasePDFExtractor):
 
         print(f"   表格開始於第 {start_page + 1} 頁")
 
-        # 由於環境限制，返回佔位符
-        return {
-            "table_name": config["name"],
-            "table_number": config["table_number"],
-            "expected_count": config["expected_count"],
-            "ingredients_count": 0,
-            "ingredients": [],
-            "extraction_status": "pending",
-            "note": "需要在本地環境或CI中使用pdfplumber提取完整表格數據"
-        }
+        # 使用pdfplumber提取表格
+        try:
+            import pdfplumber
+
+            pdf_files = self.find_pdf_files()
+            pdf_path = pdf_files[0]
+
+            ingredients = []
+
+            with pdfplumber.open(str(pdf_path)) as pdf:
+                # 從第12頁開始到第250頁（估計表格範圍）
+                for page_num in range(11, min(250, len(pdf.pages))):
+                    page = pdf.pages[page_num]
+                    tables = page.extract_tables()
+
+                    for table in tables:
+                        if not table or len(table) < 2:
+                            continue
+
+                        # 檢查是否是目標表格（有序號、中文名稱、英文名稱列）
+                        header = table[0]
+                        if not (len(header) >= 3 and ('序号' in str(header[0]) or '序號' in str(header[0]))):
+                            continue
+
+                        # 提取數據行
+                        for row in table[1:]:
+                            if len(row) < 3:
+                                continue
+
+                            serial_number = self.clean_text(str(row[0])) if row[0] else ""
+                            cn_name = self.clean_text(str(row[1])) if row[1] else ""
+                            en_name = self.clean_text(str(row[2])) if row[2] else ""
+
+                            # 跳過空行或表頭重複
+                            if not cn_name or cn_name in ['中文名称', '中文名稱']:
+                                continue
+
+                            # 提取CAS號
+                            cas_no = self.extract_cas_number(en_name)
+
+                            ingredient = {
+                                "serial_number": serial_number,
+                                "ingredient_name_cn": cn_name,
+                                "ingredient_name_en": en_name,
+                                "cas_no": cas_no,
+                                "table": "prohibited"
+                            }
+
+                            ingredients.append(ingredient)
+
+                    # 進度顯示
+                    if page_num % 20 == 0:
+                        print(f"   已掃描到第 {page_num + 1} 頁，找到 {len(ingredients)} 條記錄...")
+
+            print(f"   ✓ 提取完成：{len(ingredients)} 條記錄")
+
+            return {
+                "table_name": config["name"],
+                "table_number": config["table_number"],
+                "expected_count": config["expected_count"],
+                "ingredients_count": len(ingredients),
+                "ingredients": ingredients,
+                "extraction_status": "completed"
+            }
+
+        except ImportError:
+            print("   ⚠️  pdfplumber未安裝，僅返回結構信息")
+            return {
+                "table_name": config["name"],
+                "table_number": config["table_number"],
+                "expected_count": config["expected_count"],
+                "ingredients_count": 0,
+                "ingredients": [],
+                "extraction_status": "pending",
+                "note": "需要安裝pdfplumber: pip install pdfplumber"
+            }
+        except Exception as e:
+            print(f"   ❌ 提取失敗: {str(e)}")
+            return {
+                "table_name": config["name"],
+                "table_number": config["table_number"],
+                "expected_count": config["expected_count"],
+                "ingredients_count": 0,
+                "ingredients": [],
+                "extraction_status": "error",
+                "error": str(e)
+            }
 
     def extract_restricted_table(self, texts: List[str]) -> Dict[str, Any]:
         """提取限用組分表"""

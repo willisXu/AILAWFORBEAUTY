@@ -1,0 +1,65 @@
+{
+  "jurisdiction": "EU",
+  "source": "European Commission - CosIng Database",
+  "source_url": "https://ec.europa.eu/growth/tools-databases/cosing/",
+  "regulation": "Regulation (EC) No 1223/2009",
+  "metadata": {
+    "jurisdiction": "EU",
+    "extracted_at": "2025-11-12T15:57:11.043403Z",
+    "total_ingredients": 0,
+    "extractor": "pdf_table_extractor",
+    "extractor_version": "1.0.0",
+    "source": "European Commission - CosIng Database",
+    "regulation": "Regulation (EC) No 1223/2009",
+    "published_at": "2024-04-04",
+    "effective_date": "2024-04-24"
+  },
+  "annexes": {
+    "prohibited": {
+      "name": "Annex II - Prohibited Substances",
+      "pdf_file": "附件1-1_歐盟LIST OF SUBSTANCES PROHIBITED IN COSMETIC PRODUCTS 240424.pdf",
+      "pdf_path": "data/raw/EU/附件1-1_歐盟LIST OF SUBSTANCES PROHIBITED IN COSMETIC PRODUCTS 240424.pdf",
+      "table_start_page": 1,
+      "ingredients_count": 0,
+      "ingredients": [],
+      "extraction_status": "pending",
+      "note": "需要在本地環境或CI中使用pdfplumber提取完整表格數據"
+    },
+    "restricted": {
+      "name": "Annex III - Restricted Substances",
+      "status": "file_not_found",
+      "ingredients_count": 0,
+      "ingredients": []
+    },
+    "colorants": {
+      "name": "Annex IV - Colorants",
+      "pdf_file": "附件1-3_歐盟LIST OF COLORANTS ALLOWED IN COSMETIC PRODUCTS 240424.pdf",
+      "pdf_path": "data/raw/EU/附件1-3_歐盟LIST OF COLORANTS ALLOWED IN COSMETIC PRODUCTS 240424.pdf",
+      "table_start_page": 1,
+      "ingredients_count": 0,
+      "ingredients": [],
+      "extraction_status": "pending",
+      "note": "需要在本地環境或CI中使用pdfplumber提取完整表格數據"
+    },
+    "preservatives": {
+      "name": "Annex V - Preservatives",
+      "pdf_file": "附件1-4_歐盟LIST OF PRESERVATIVES ALLOWED IN COSMETIC PRODUCTS 240424.pdf",
+      "pdf_path": "data/raw/EU/附件1-4_歐盟LIST OF PRESERVATIVES ALLOWED IN COSMETIC PRODUCTS 240424.pdf",
+      "table_start_page": 1,
+      "ingredients_count": 0,
+      "ingredients": [],
+      "extraction_status": "pending",
+      "note": "需要在本地環境或CI中使用pdfplumber提取完整表格數據"
+    },
+    "uv_filters": {
+      "name": "Annex VI - UV Filters",
+      "pdf_file": "附件1-5_歐盟LIST OF UV FILTERS ALLOWED IN COSMETIC PRODUCTS 240424.pdf",
+      "pdf_path": "data/raw/EU/附件1-5_歐盟LIST OF UV FILTERS ALLOWED IN COSMETIC PRODUCTS 240424.pdf",
+      "table_start_page": 1,
+      "ingredients_count": 0,
+      "ingredients": [],
+      "extraction_status": "pending",
+      "note": "需要在本地環境或CI中使用pdfplumber提取完整表格數據"
+    }
+  }
+}

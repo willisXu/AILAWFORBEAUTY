@@ -1,0 +1,50 @@
+{
+  "jurisdiction": "JP",
+  "source": "MHLW - Ministry of Health, Labour and Welfare",
+  "source_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iyakuhin/keshouhin/",
+  "regulation": "化粧品基準 / Standards for Cosmetics",
+  "pdf_path": "data/raw/JP/附件2-1_日本Standards for Cosmetic Products 010401.pdf",
+  "metadata": {
+    "jurisdiction": "JP",
+    "extracted_at": "2025-11-12T15:57:31.747186Z",
+    "total_ingredients": 0,
+    "extractor": "pdf_table_extractor",
+    "extractor_version": "1.0.0",
+    "source": "MHLW - Ministry of Health, Labour and Welfare",
+    "regulation": "化粧品基準 / Standards for Cosmetics",
+    "published_at": "2000-09-29",
+    "effective_date": "2001-04-01"
+  },
+  "categories": {
+    "prohibited": {
+      "name": "ネガティブリスト (Negative List)",
+      "description": "配合してはならない成分",
+      "start_page": null,
+      "ingredients_count": 0,
+      "ingredients": [],
+      "extraction_status": "pending",
+      "note": "需要在本地環境或CI中使用pdfplumber提取完整表格數據"
+    },
+    "restricted": {
+      "name": "配合制限のある成分 (Restricted Ingredients)",
+      "ingredients_count": 0,
+      "ingredients": [],
+      "extraction_status": "pending",
+      "note": "需要在本地環境或CI中使用pdfplumber提取完整表格數據"
+    },
+    "positive_list": {
+      "name": "ポジティブリスト (Positive List)",
+      "description": "配合できる成分",
+      "start_page": null,
+      "includes": [
+        "防腐劑",
+        "UV過濾劑",
+        "著色劑"
+      ],
+      "ingredients_count": 0,
+      "ingredients": [],
+      "extraction_status": "pending",
+      "note": "需要在本地環境或CI中使用pdfplumber提取完整表格數據"
+    }
+  }
+}

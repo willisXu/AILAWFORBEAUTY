@@ -1,0 +1,36 @@
+{
+  "jurisdiction": "CA",
+  "source": "Health Canada - Cosmetic Ingredient Hotlist",
+  "source_url": "https://www.canada.ca/en/health-canada/services/consumer-product-safety/cosmetics/cosmetic-ingredient-hotlist-prohibited-restricted-ingredients.html",
+  "regulation": "Cosmetic Ingredient Hotlist",
+  "pdf_path": "data/raw/CA/附件4_加拿大Cosmetic Ingredient Hotlist 250228.pdf",
+  "metadata": {
+    "jurisdiction": "CA",
+    "extracted_at": "2025-11-12T15:57:32.349330Z",
+    "total_ingredients": 0,
+    "extractor": "pdf_table_extractor",
+    "extractor_version": "1.0.0",
+    "source": "Health Canada - Cosmetic Ingredient Hotlist",
+    "regulation": "Cosmetic Ingredient Hotlist",
+    "published_at": "2025-02",
+    "effective_date": "2025-02-28"
+  },
+  "categories": {
+    "prohibited": {
+      "name": "Prohibited Ingredients",
+      "start_page": null,
+      "ingredients_count": 0,
+      "ingredients": [],
+      "extraction_status": "pending",
+      "note": "需要在本地環境或CI中使用pdfplumber提取完整表格數據"
+    },
+    "restricted": {
+      "name": "Restricted Ingredients",
+      "start_page": null,
+      "ingredients_count": 0,
+      "ingredients": [],
+      "extraction_status": "pending",
+      "note": "需要在本地環境或CI中使用pdfplumber提取完整表格數據"
+    }
+  }
+}
