@@ -79,21 +79,35 @@ export default function MultiTableDisplay({
       )
 
       if (!response.ok) {
-        const errorData = await response.json()
-        throw new Error(errorData.message || 'Failed to load data')
+        let errorMessage = 'Failed to load data'
+        try {
+          const errorData = await response.json()
+          errorMessage = errorData.message || errorData.error || errorMessage
+        } catch (e) {
+          errorMessage = `HTTP ${response.status}: ${response.statusText}`
+        }
+        throw new Error(errorMessage)
       }
 
       const result = await response.json()
+
+      if (!result.success) {
+        throw new Error(result.message || 'Invalid response from server')
+      }
+
       setData(result)
 
       // Set active table to first available table
-      const availableTables = Object.keys(result.tables)
-      if (availableTables.length > 0 && !availableTables.includes(activeTable)) {
-        setActiveTable(availableTables[0])
+      if (result.tables && Object.keys(result.tables).length > 0) {
+        const availableTables = Object.keys(result.tables)
+        if (!availableTables.includes(activeTable)) {
+          setActiveTable(availableTables[0])
+        }
       }
     } catch (err) {
       console.error('Error loading parsed tables:', err)
-      setError(err instanceof Error ? err.message : 'Failed to load data')
+      const errorMsg = err instanceof Error ? err.message : 'Failed to load data'
+      setError(`${jurisdiction} - ${errorMsg}`)
     } finally {
       setLoading(false)
     }
@@ -170,16 +184,35 @@ export default function MultiTableDisplay({
   if (error) {
     return (
       <div className="p-6 bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-lg">
-        <p className="text-red-600 dark:text-red-400">❌ {error}</p>
+        <div className="flex items-start space-x-3">
+          <span className="text-2xl">❌</span>
+          <div className="flex-1">
+            <p className="text-red-800 dark:text-red-300 font-medium mb-2">載入失敗 Failed to Load Data</p>
+            <p className="text-sm text-red-600 dark:text-red-400">{error}</p>
+            <button
+              onClick={loadData}
+              className="mt-4 px-4 py-2 bg-red-600 hover:bg-red-700 text-white text-sm rounded-lg transition-colors"
+            >
+              🔄 重試 Retry
+            </button>
+          </div>
+        </div>
       </div>
     )
   }
 
   if (!data || !data.tables || Object.keys(data.tables).length === 0) {
     return (
-      <div className="p-6 bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg">
-        <p className="text-gray-600 dark:text-gray-400">
-          暫無解析數據 No parsed data available for {jurisdiction}
+      <div className="p-8 bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg text-center">
+        <div className="text-6xl mb-4">📭</div>
+        <p className="text-lg font-medium text-gray-700 dark:text-gray-300 mb-2">
+          暫無解析數據
+        </p>
+        <p className="text-sm text-gray-600 dark:text-gray-400">
+          No parsed data available for {jurisdiction} (version: {selectedVersion})
+        </p>
+        <p className="text-sm text-gray-500 dark:text-gray-500 mt-4">
+          請先上傳並解析 {jurisdiction} 辖区的法規文件
         </p>
       </div>
     )

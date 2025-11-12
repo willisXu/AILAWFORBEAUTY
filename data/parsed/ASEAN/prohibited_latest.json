@@ -1,0 +1,27 @@
+{
+  "jurisdiction": "ASEAN",
+  "table_type": "prohibited",
+  "version": "latest",
+  "generated_at": "2024-11-12T00:00:00.000Z",
+  "total_records": 2,
+  "records": [
+    {
+      "INCI_Name": "Triclosan",
+      "CAS_No": "3380-34-5",
+      "CN_Name": "三氯生",
+      "Jurisdiction": "ASEAN",
+      "Status": "PROHIBITED",
+      "Rationale": "Prohibited substance",
+      "Legal_Basis": "ASEAN Cosmetic Directive Annex II"
+    },
+    {
+      "INCI_Name": "Formaldehyde",
+      "CAS_No": "50-00-0",
+      "CN_Name": "甲醛",
+      "Jurisdiction": "ASEAN",
+      "Status": "PROHIBITED",
+      "Rationale": "Carcinogenic",
+      "Legal_Basis": "ASEAN Cosmetic Directive Annex II"
+    }
+  ]
+}

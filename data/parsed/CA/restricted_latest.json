@@ -1,0 +1,19 @@
+{
+  "jurisdiction": "CA",
+  "table_type": "restricted",
+  "version": "latest",
+  "generated_at": "2024-11-12T00:00:00.000Z",
+  "total_records": 1,
+  "records": [
+    {
+      "INCI_Name": "Methylparaben",
+      "CAS_No": "99-76-3",
+      "CN_Name": "对羟基苯甲酸甲酯",
+      "Jurisdiction": "CA",
+      "Status": "RESTRICTED",
+      "Max_Conc_Percent": 0.8,
+      "Product_Type": "ALL",
+      "Conditions": "Total parabens concentration"
+    }
+  ]
+}

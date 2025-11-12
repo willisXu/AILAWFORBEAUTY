@@ -1,0 +1,27 @@
+{
+  "jurisdiction": "JP",
+  "table_type": "prohibited",
+  "version": "latest",
+  "generated_at": "2024-11-12T00:00:00.000Z",
+  "total_records": 2,
+  "records": [
+    {
+      "INCI_Name": "Triclosan",
+      "CAS_No": "3380-34-5",
+      "CN_Name": "三氯生",
+      "Jurisdiction": "JP",
+      "Status": "PROHIBITED",
+      "Rationale": "Prohibited by Japanese standards",
+      "Legal_Basis": "Standards for Cosmetics Appendix 1"
+    },
+    {
+      "INCI_Name": "Methanol",
+      "CAS_No": "67-56-1",
+      "CN_Name": "甲醇",
+      "Jurisdiction": "JP",
+      "Status": "PROHIBITED",
+      "Rationale": "Toxic substance",
+      "Legal_Basis": "Standards for Cosmetics Appendix 1"
+    }
+  ]
+}

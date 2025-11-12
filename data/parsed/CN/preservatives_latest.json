@@ -1,0 +1,19 @@
+{
+  "jurisdiction": "CN",
+  "table_type": "preservatives",
+  "version": "latest",
+  "generated_at": "2024-11-12T00:00:00.000Z",
+  "total_records": 1,
+  "records": [
+    {
+      "INCI_Name": "Methylparaben",
+      "CAS_No": "99-76-3",
+      "CN_Name": "对羟基苯甲酸甲酯",
+      "Jurisdiction": "CN",
+      "Status": "ALLOWED",
+      "Max_Conc_Percent": 0.4,
+      "Product_Type": "ALL",
+      "Function": "Preservative"
+    }
+  ]
+}

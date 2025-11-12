@@ -1,0 +1,27 @@
+{
+  "jurisdiction": "CN",
+  "table_type": "prohibited",
+  "version": "latest",
+  "generated_at": "2024-11-12T00:00:00.000Z",
+  "total_records": 2,
+  "records": [
+    {
+      "INCI_Name": "Formaldehyde",
+      "CAS_No": "50-00-0",
+      "CN_Name": "甲醛",
+      "Jurisdiction": "CN",
+      "Status": "PROHIBITED",
+      "Rationale": "致癌物质",
+      "Legal_Basis": "化妆品安全技术规范 表1"
+    },
+    {
+      "INCI_Name": "Lead acetate",
+      "CAS_No": "301-04-2",
+      "CN_Name": "醋酸铅",
+      "Jurisdiction": "CN",
+      "Status": "PROHIBITED",
+      "Rationale": "重金属毒性",
+      "Legal_Basis": "化妆品安全技术规范 表1"
+    }
+  ]
+}

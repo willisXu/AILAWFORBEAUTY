@@ -1,0 +1,18 @@
+{
+  "jurisdiction": "CA",
+  "table_type": "prohibited",
+  "version": "latest",
+  "generated_at": "2024-11-12T00:00:00.000Z",
+  "total_records": 1,
+  "records": [
+    {
+      "INCI_Name": "Triclosan",
+      "CAS_No": "3380-34-5",
+      "CN_Name": "三氯生",
+      "Jurisdiction": "CA",
+      "Status": "PROHIBITED",
+      "Rationale": "Prohibited in Canada",
+      "Legal_Basis": "Cosmetic Ingredient Hotlist"
+    }
+  ]
+}
