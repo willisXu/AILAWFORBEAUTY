@@ -4,10 +4,11 @@ import { useState } from 'react'
 import Header from '@/components/Header'
 import UploadSection from '@/components/UploadSection'
 import ComplianceMatrix from '@/components/ComplianceMatrix'
-import RegulationUpdates from '@/components/RegulationUpdates'
+import RegulationFileUpload from '@/components/RegulationFileUpload'
+import CrossMarketComparison from '@/components/CrossMarketComparison'
 
 export default function Home() {
-  const [activeTab, setActiveTab] = useState<'upload' | 'updates'>('upload')
+  const [activeTab, setActiveTab] = useState<'ingredient' | 'regulation' | 'comparison'>('ingredient')
   const [complianceResults, setComplianceResults] = useState<any>(null)
 
   return (
@@ -18,9 +19,9 @@ export default function Home() {
         {/* Tab Navigation */}
         <div className="flex space-x-4 mb-8 border-b border-gray-200 dark:border-gray-700">
           <button
-            onClick={() => setActiveTab('upload')}
+            onClick={() => setActiveTab('ingredient')}
             className={`px-6 py-3 font-medium transition-colors ${
-              activeTab === 'upload'
+              activeTab === 'ingredient'
                 ? 'border-b-2 border-primary-600 text-primary-600'
                 : 'text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100'
             }`}
@@ -28,32 +29,44 @@ export default function Home() {
             成分比對 Ingredient Check
           </button>
           <button
-            onClick={() => setActiveTab('updates')}
+            onClick={() => setActiveTab('regulation')}
             className={`px-6 py-3 font-medium transition-colors ${
-              activeTab === 'updates'
+              activeTab === 'regulation'
                 ? 'border-b-2 border-primary-600 text-primary-600'
                 : 'text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100'
             }`}
           >
-            法規更新 Regulation Updates
+            上傳法規 Upload Regulation
+          </button>
+          <button
+            onClick={() => setActiveTab('comparison')}
+            className={`px-6 py-3 font-medium transition-colors ${
+              activeTab === 'comparison'
+                ? 'border-b-2 border-primary-600 text-primary-600'
+                : 'text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100'
+            }`}
+          >
+            跨市場比較 Cross-Market
           </button>
         </div>
 
         {/* Content */}
-        {activeTab === 'upload' ? (
+        {activeTab === 'ingredient' ? (
           <div className="space-y-8">
             <UploadSection onResultsChange={setComplianceResults} />
             {complianceResults && <ComplianceMatrix results={complianceResults} />}
           </div>
+        ) : activeTab === 'regulation' ? (
+          <RegulationFileUpload />
         ) : (
-          <RegulationUpdates />
+          <CrossMarketComparison />
         )}
       </div>
 
       {/* Footer */}
       <footer className="mt-16 py-8 border-t border-gray-200 dark:border-gray-700">
         <div className="container mx-auto px-4 text-center text-sm text-gray-600 dark:text-gray-400">
-          <p>跨國化妝品法規自動稽核系統 v1.0</p>
+          <p>跨國化妝品法規自動稽核系統 v2.0</p>
           <p className="mt-2">
             所有比對在瀏覽器端完成，不上傳使用者檔案 | All processing is done in-browser, no data uploaded
           </p>
