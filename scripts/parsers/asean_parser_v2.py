@@ -67,16 +67,36 @@ class ASEANParserV2(BaseParserV2):
             return []
 
         # 从原始数据中获取对应 Annex 的数据
-        annexes = raw_data.get('annexes', {})
-        annex_data = annexes.get(annex, [])
+        # 实际数据结构：raw_data -> annexes -> annex_ii (not "II")
+        # 支持两种结构：新的（raw_data包装）和旧的（直接annexes）
+        if 'raw_data' in raw_data:
+            annexes = raw_data.get('raw_data', {}).get('annexes', {})
+        else:
+            annexes = raw_data.get('annexes', {})
 
-        if isinstance(annex_data, dict):
-            # 如果是字典，可能有多个子部分
+        # 转换Annex编号为键名：II -> annex_ii
+        annex_key_map = {
+            "II": "annex_ii",
+            "III": "annex_iii",
+            "IV": "annex_iv",
+            "VI": "annex_vi",
+            "VII": "annex_vii"
+        }
+        annex_key = annex_key_map.get(annex, annex)
+
+        # 获取annex数据，可能是对象或数组
+        annex_data = annexes.get(annex_key, annexes.get(annex, []))
+
+        # 如果是对象且包含ingredients字段，提取ingredients数组
+        if isinstance(annex_data, dict) and 'ingredients' in annex_data:
+            annex_data = annex_data['ingredients']
+        elif isinstance(annex_data, dict):
+            # 如果是字典但没有ingredients，尝试提取所有列表值
             items = []
             for key, value in annex_data.items():
                 if isinstance(value, list):
                     items.extend(value)
-                else:
+                elif isinstance(value, dict) and key != 'name' and key != 'description':
                     items.append(value)
             annex_data = items
 

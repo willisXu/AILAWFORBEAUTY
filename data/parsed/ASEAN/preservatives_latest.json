@@ -1,29 +1,8 @@
 {
   "jurisdiction": "ASEAN",
   "table_type": "preservatives",
-  "version": "latest",
-  "generated_at": "2024-11-12T00:00:00.000Z",
-  "total_records": 2,
-  "records": [
-    {
-      "INCI_Name": "Methylparaben",
-      "CAS_No": "99-76-3",
-      "CN_Name": "对羟基苯甲酸甲酯",
-      "Jurisdiction": "ASEAN",
-      "Status": "ALLOWED",
-      "Max_Conc_Percent": 0.4,
-      "Product_Type": "ALL",
-      "Function": "Preservative"
-    },
-    {
-      "INCI_Name": "Phenoxyethanol",
-      "CAS_No": "122-99-6",
-      "CN_Name": "苯氧乙醇",
-      "Jurisdiction": "ASEAN",
-      "Status": "ALLOWED",
-      "Max_Conc_Percent": 1.0,
-      "Product_Type": "ALL",
-      "Function": "Preservative"
-    }
-  ]
+  "version": "2024-2",
+  "generated_at": "2025-11-12T10:20:26.523228",
+  "total_records": 0,
+  "records": []
 }

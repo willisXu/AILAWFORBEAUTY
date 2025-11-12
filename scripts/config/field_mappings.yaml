@@ -73,21 +73,21 @@ ASEAN:
   prohibited:
     source: "Annex II"
     field_mapping:
-      INCI_Name: ["Ingredient name", "Chemical name"]
-      CAS_No: ["CAS No", "EC No"]
-      Conditions: ["Scope"]
-      Notes: ["Reference"]
+      INCI_Name: ["inci_name", "ingredient_name", "Ingredient name", "Chemical name"]
+      CAS_No: ["cas_no", "CAS No", "EC No"]
+      Conditions: ["conditions", "Scope"]
+      Notes: ["rationale", "Reference"]
     default_status: "Prohibited"
 
   # 限用物质 - Annex III
   restricted:
     source: "Annex III"
     field_mapping:
-      INCI_Name: ["Ingredient name", "Chemical name"]
-      CAS_No: ["CAS No", "EC No"]
+      INCI_Name: ["inci_name", "ingredient_name", "Ingredient name", "Chemical name"]
+      CAS_No: ["cas_no", "CAS No", "EC No"]
       Product_Type: ["Product type, Body parts"]
-      Max_Conc_Percent: ["Maximum concentration"]
-      Conditions: ["Other limitations and requirements"]
+      Max_Conc_Percent: ["maximum_concentration", "Maximum concentration"]
+      Conditions: ["conditions", "Other limitations and requirements"]
     default_status: "Restricted"
     concentration_unit: "%"
 
@@ -95,9 +95,9 @@ ASEAN:
   colorants:
     source: "Annex IV"
     field_mapping:
-      INCI_Name: ["Ingredient name", "Chemical name"]
-      CAS_No: ["CAS No"]
-      Colour_Index: ["Colour Index Number"]
+      INCI_Name: ["inci_name", "ingredient_name", "Ingredient name", "Chemical name"]
+      CAS_No: ["cas_no", "CAS No"]
+      Colour_Index: ["colour_index", "Colour Index Number"]
       Body_Area: ["Field of application"]
       Conditions: ["Other"]
     default_status: "Allowed"
@@ -106,11 +106,11 @@ ASEAN:
   preservatives:
     source: "Annex VI"
     field_mapping:
-      INCI_Name: ["Ingredient name", "Chemical name"]
-      CAS_No: ["CAS No", "EC No"]
-      Max_Conc_Percent: ["Maximum concentration"]
+      INCI_Name: ["inci_name", "ingredient_name", "Ingredient name", "Chemical name"]
+      CAS_No: ["cas_no", "CAS No", "EC No"]
+      Max_Conc_Percent: ["maximum_concentration", "Maximum concentration"]
       Product_Type: ["Product type"]
-      Conditions: ["Other limitations"]
+      Conditions: ["conditions", "Other limitations"]
       Label_Warnings: ["Wording of conditions"]
     default_status: "Allowed"
     concentration_unit: "%"
@@ -119,10 +119,10 @@ ASEAN:
   uv_filters:
     source: "Annex VII"
     field_mapping:
-      INCI_Name: ["Ingredient name", "Chemical name"]
-      CAS_No: ["CAS No", "EC No"]
-      Max_Conc_Percent: ["Maximum concentration"]
-      Conditions: ["Other"]
+      INCI_Name: ["inci_name", "ingredient_name", "Ingredient name", "Chemical name"]
+      CAS_No: ["cas_no", "CAS No", "EC No"]
+      Max_Conc_Percent: ["maximum_concentration", "Maximum concentration"]
+      Conditions: ["conditions", "Other"]
       Label_Warnings: ["Wording of conditions"]
     default_status: "Allowed"
     concentration_unit: "%"
