@@ -1,14 +1,108 @@
 """
-将extracted PDF数据转换成parsed格式
+将extracted PDF数据转换成parsed格式（前端兼容版本）
 
 这个脚本将data/extracted/目录下的PDF提取数据转换成
-data/parsed/目录下的parsed格式，以便前端API可以使用。
+data/parsed/目录下的前端兼容格式。
+
+前端期望的字段格式：
+- INCI_Name: 成分的国际通用名（必须）
+- CAS_No: CAS编号
+- CN_Name: 中文名
+- Status: 状态（PROHIBITED/RESTRICTED/ALLOWED/LISTED）（必须）
+- Table_Type: 表格类型
+- Max_Conc_Percent: 最大浓度百分比（可选）
+- Product_Type: 产品类型（可选）
+- Conditions: 条件/限制（可选）
 """
 
 import json
 from pathlib import Path
 from datetime import datetime
 from typing import Dict, List, Any
+
+
+def map_to_frontend_format(ingredient: Dict[str, Any], table_type: str, jurisdiction: str) -> Dict[str, Any]:
+    """
+    将extracted数据格式映射到前端期望的格式
+
+    Args:
+        ingredient: 原始成分数据
+        table_type: 表格类型 (prohibited, restricted, etc.)
+        jurisdiction: 管辖区代码
+
+    Returns:
+        前端兼容格式的记录
+    """
+    # 状态映射
+    status_mapping = {
+        'prohibited': 'PROHIBITED',
+        'restricted': 'RESTRICTED',
+        'preservatives': 'ALLOWED',
+        'uv_filters': 'ALLOWED',
+        'colorants': 'ALLOWED',
+        'whitelist': 'LISTED'
+    }
+
+    # 提取INCI名称（英文名称）
+    inci_name = (
+        ingredient.get('ingredient_name_en') or  # CN格式
+        ingredient.get('chemical_name') or  # EU格式
+        ingredient.get('ingredient_name') or  # JP/CA格式
+        ingredient.get('INCI_Name') or
+        ''
+    )
+
+    # 提取CAS号
+    cas_no = ingredient.get('cas_no') or ingredient.get('CAS_No') or ingredient.get('CAS_NO') or ''
+
+    # 提取中文名称
+    cn_name = (
+        ingredient.get('ingredient_name_cn') or  # CN格式
+        ingredient.get('CN_Name') or
+        ''
+    )
+
+    # 提取限制条件/最大浓度
+    restrictions = ingredient.get('restrictions') or ingredient.get('restriction') or ''
+    max_amount = ingredient.get('max_amount') or ingredient.get('Max_Conc_Percent') or ''
+    conditions = ingredient.get('conditions') or ingredient.get('Conditions') or restrictions or ''
+
+    # 尝试提取浓度百分比
+    max_conc_percent = None
+    if max_amount:
+        # 尝试从字符串中提取数字（例如 "0.5 g" -> 0.5）
+        import re
+        match = re.search(r'([\d.]+)', str(max_amount))
+        if match:
+            try:
+                max_conc_percent = float(match.group(1))
+            except:
+                pass
+
+    # 构建前端兼容格式
+    mapped_record = {
+        'INCI_Name': inci_name,
+        'CAS_No': cas_no,
+        'CN_Name': cn_name,
+        'Status': status_mapping.get(table_type, 'NOT_SPECIFIED'),
+        'Table_Type': table_type,
+    }
+
+    # 添加可选字段
+    if max_conc_percent is not None:
+        mapped_record['Max_Conc_Percent'] = max_conc_percent
+
+    if conditions:
+        mapped_record['Conditions'] = conditions
+
+    # 添加原始数据作为参考（调试用）
+    mapped_record['_original'] = {
+        'reference_number': ingredient.get('reference_number') or ingredient.get('serial_number'),
+        'jurisdiction': jurisdiction
+    }
+
+    return mapped_record
+
 
 def convert_jurisdiction(jurisdiction: str, extracted_file: Path) -> Dict[str, int]:
     """
@@ -74,14 +168,20 @@ def convert_jurisdiction(jurisdiction: str, extracted_file: Path) -> Dict[str, i
 
             table_type = table_mapping.get(table_name, table_name)
 
+            # 映射到前端兼容格式
+            mapped_ingredients = [
+                map_to_frontend_format(ing, table_type, jurisdiction)
+                for ing in ingredients
+            ]
+
             # 转换成parsed格式
             parsed_data = {
                 "jurisdiction": jurisdiction,
                 "table_type": table_type,
                 "version": version,
                 "generated_at": generated_at,
-                "total_records": len(ingredients),
-                "records": ingredients
+                "total_records": len(mapped_ingredients),
+                "records": mapped_ingredients
             }
 
             # 保存
@@ -89,8 +189,8 @@ def convert_jurisdiction(jurisdiction: str, extracted_file: Path) -> Dict[str, i
             with open(output_file, 'w', encoding='utf-8') as f:
                 json.dump(parsed_data, f, ensure_ascii=False, indent=2)
 
-            stats[table_type] = len(ingredients)
-            print(f"✓ {table_type}: {len(ingredients)} 条记录 -> {output_file}")
+            stats[table_type] = len(mapped_ingredients)
+            print(f"✓ {table_type}: {len(mapped_ingredients)} 条记录 -> {output_file}")
 
     elif 'categories' in extracted_data or 'annexes' in extracted_data:
         # EU/JP/CA格式
@@ -112,14 +212,20 @@ def convert_jurisdiction(jurisdiction: str, extracted_file: Path) -> Dict[str, i
                 # 可以根据usage字段进一步分类，但暂时统一归类
                 table_type = 'preservatives'
 
+            # 映射到前端兼容格式
+            mapped_ingredients = [
+                map_to_frontend_format(ing, table_type, jurisdiction)
+                for ing in ingredients
+            ]
+
             # 转换成parsed格式
             parsed_data = {
                 "jurisdiction": jurisdiction,
                 "table_type": table_type,
                 "version": version,
                 "generated_at": generated_at,
-                "total_records": len(ingredients),
-                "records": ingredients
+                "total_records": len(mapped_ingredients),
+                "records": mapped_ingredients
             }
 
             # 保存
@@ -130,15 +236,15 @@ def convert_jurisdiction(jurisdiction: str, extracted_file: Path) -> Dict[str, i
                 with open(output_file, 'r', encoding='utf-8') as f:
                     existing_data = json.load(f)
                     existing_records = existing_data.get('records', [])
-                    parsed_data['records'] = existing_records + ingredients
+                    parsed_data['records'] = existing_records + mapped_ingredients
                     parsed_data['total_records'] = len(parsed_data['records'])
 
             with open(output_file, 'w', encoding='utf-8') as f:
                 json.dump(parsed_data, f, ensure_ascii=False, indent=2)
 
             current_count = stats.get(table_type, 0)
-            stats[table_type] = current_count + len(ingredients)
-            print(f"✓ {cat_name} -> {table_type}: {len(ingredients)} 条记录 -> {output_file}")
+            stats[table_type] = current_count + len(mapped_ingredients)
+            print(f"✓ {cat_name} -> {table_type}: {len(mapped_ingredients)} 条记录 -> {output_file}")
 
     return stats
 

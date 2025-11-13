@@ -2,644 +2,1174 @@
   "jurisdiction": "JP",
   "table_type": "preservatives",
   "version": "20251113",
-  "generated_at": "2025-11-13T09:41:17.756778Z",
+  "generated_at": "2025-11-13T10:07:58.146487Z",
   "total_records": 106,
   "records": [
     {
-      "ingredient_name": "Ingredient name",
-      "usage": "Maximum amount of ingredient per 100 g",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Aluminum chlorhydroxy allantoinate Cantharides tincture, ginger tincture or capsicum tincture Phenyl salicylate Polyoxyethylene laurylether (8-10E.O.)",
-      "usage": "1.0 g 1.0 g as total 1.0 g 2.0 g",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Ingredient name",
-      "usage": "Maximum amount of ingredient per 100 g",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Aerosol agents Zirconium",
-      "usage": "Prohibited",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Cosmetics to be washed away immediately after use such as soap or shampoo Thiram",
-      "usage": "0.50 g",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Cosmetics other than those washed away immediately after use such as soap or shampoo Undecylenic acid monoethanolamide Thiram Zinc p-phenolsulfonate 2-(2-Hydroxy-5-methylphenyl) benzotriazole Sodium lauroyl sarcosinate",
-      "usage": "Prohibited 0.30g 2.0 g 7.0 g Prohibited",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Hair setting agent to be washed away used in only hair. Cysteamine Hydrochloride",
-      "usage": "8.63ｇ",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Cosmetics other than hair setting agent to be washed away used in only hair. Cysteamine Hydrochloride",
-      "usage": "Prohibited",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Cosmetics used in cephalic, mucosa part or the oral cavity, and cosmetics used in other parts, containing lower aliphatic monoalcohols (exclude those containing the said alcohols added to dissolve ingredients in the said cosmetics) Estradiol, estrone and ethinylestradiol",
-      "usage": "20000 IU as total",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Cosmetics other than those used in cephalic, mucosa part or the oral cavity, containing no lower aliphatic monoalcohols (include those containing the said alcohols added to dissolve ingredients in the said cosmetics ) Estradiol, estrone and ethinylestradiol",
-      "usage": "50000 IU as total",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Cosmetics used in only cephalic part Aminoether type antihistamines",
-      "usage": "0.010 g",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Cosmetics other than those used only in cephalic part Aminoether type antihistamines",
-      "usage": "Prohibited",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Toothpaste Diethylene glycol",
-      "usage": "Prohibited 0.50 g",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Sodium lauroyl sarcosinate",
-      "usage": "",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Compounds to be used with the purpose of emulsifying beewax or white beewax Sodium pyroborate",
-      "usage": "0.76 g ( limited not to greater than 1/2 amount of beewax and white beewax)",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Compounds to be used for purposes other than emulsifying beewax or white beewax Sodium pyroborate",
-      "usage": "Prohibited",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Ingredient name",
-      "usage": "Maximum amount (g) of ingredient per 100 g",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Jujube Extract (*2)",
-      "usage": "○",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Thioctic acid",
-      "usage": "0.01",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Ubidecarenone",
-      "usage": "0.03",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Ingredient name",
-      "usage": "Maximum amount (g) of ingredient per 100 g",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Benzoic acid",
-      "usage": "0.2",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Benzoate",
-      "usage": "1.0 as total",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Alkyldiaminoethylglycine hydrochloride",
-      "usage": "0.20",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Photosensitizing dyes",
-      "usage": "0.0020 as total",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Chlorcresol",
-      "usage": "0.50",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Chlorobutanol",
-      "usage": "0.10",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Salicylic acid",
-      "usage": "0.20",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Salicylate",
-      "usage": "1.0 as total",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Sorbic acid and sorbate",
-      "usage": "0.50 as total",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Dehydroacetic acid and dehydroacetate",
-      "usage": "0.50 as total",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Trichlorohydroxydiphenylether (Triclosan)",
-      "usage": "0.10",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "p-Oxybenzoic acid esters and their sodium salts",
-      "usage": "1.0 as total",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Phenoxyethanol",
-      "usage": "1.0",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Phenol",
-      "usage": "0.10",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Sodium lauryldiaminoethylglycine",
-      "usage": "0.030",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Resorcin",
-      "usage": "0.10",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Ingredient name",
-      "usage": "Maximum amount (g) of ingredient per 100g",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Zinc, ammonia and silver substituted zeolite(*4)",
-      "usage": "1.0",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Pantothenyl ethylether benzoate",
-      "usage": "○",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Isopropylmethylphenol",
-      "usage": "○",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Cetylpyridinium chloride",
-      "usage": "5.0",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Benzalkonium chloride",
-      "usage": "○",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Benzethonium chloride",
-      "usage": "0.50",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Chlorhexidine hydrochloride",
-      "usage": "0.10",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "o-Phenyl phenol",
-      "usage": "○",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Sodium o-phenylphenate",
-      "usage": "0.15",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Silver-Copper Zeolite(*5)",
-      "usage": "0.5",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Chlorhexidine gluconate",
-      "usage": "○",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Cresol",
-      "usage": "0.010",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Chloramine T",
-      "usage": "0.30",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Chlorxylenol",
-      "usage": "0.30",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Chlorphenesin",
-      "usage": "0.30",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Chlorhexidine",
-      "usage": "0.10",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "1,3-Dimethylol-5, 5-dimethylhydantoin",
-      "usage": "0.30",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Alkylisoquinolinium bromide",
-      "usage": "○",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Thianthol",
-      "usage": "0.80",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Thymol",
-      "usage": "0.050",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Trichlorocarbanilide",
-      "usage": "○",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "p-Chlorphenol",
-      "usage": "0.25",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Halocarban",
-      "usage": "○",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Hinokitiol",
-      "usage": "○",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Zinc pyrithione",
-      "usage": "0.10",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Piroctone olamine",
-      "usage": "0.05",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Iodopropynyl butylcarbamate(*6)",
-      "usage": "0.02",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Polyaminopropyl biguanide",
-      "usage": "0.1",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Methyl isothiazolinone",
-      "usage": "0.01",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Methylchloro isothiazolinone and methyl isothiazolinone solution(*3)",
-      "usage": "0.10",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "N,N”-Methylenebis[N’-(3-hydroxymethyl-2,5-dioxo-4-imidazolidinyl)urea]",
-      "usage": "0.30",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "p-Dimethylaminostyryl heptyl methyl thiazolium iodide",
-      "usage": "0.0015",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Ingredient name",
-      "usage": "Maximum amount (g) of ingredient per 100g",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Homomenthyl salicylate",
-      "usage": "10",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "2-Cyano-3,3-diphenyl prop-2-enoic acid 2-ethylhexyl ester (octocrylene)",
-      "usage": "10",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Glyceryl mono-2-ethylhexanoate di-p-methoxycinnamate",
-      "usage": "10",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Tris-Biphenyl Triazine",
-      "usage": "10.0",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "p-Aminobenzoic acid and its esters",
-      "usage": "4.0 as total",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "4-tert-Butyl-4’-methoxy dibenzoylmethane",
-      "usage": "10",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Ingredient name",
-      "usage": "Maximum amount (g) of ingredient per 100g",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "4- (2--glucopyranosiloxy) propoxy-2-hydroxybenzophenone",
-      "usage": "5.0",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Octyl salicylate",
-      "usage": "10",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Methyl-2, 5-diisopropylcinnamate",
-      "usage": "10",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "2-[4-(diethylamino)-2-hydroxybenzyl] benzoic acid hexylester",
-      "usage": "10.0",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Cinoxate",
-      "usage": "○",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Dihydroxydimethoxybenzophenone",
-      "usage": "10",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Sodium dihydroxydimethoxybenzophenone disulfonate",
-      "usage": "10",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Dihydroxybenzophenone",
-      "usage": "10",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Dimethicodiethyl-benzal malonate",
-      "usage": "10.0",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "1- (3, 4-dimethoxyphenyl)-4, 4-dimethyl-1, 3-pentanedione",
-      "usage": "7.0",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Dimethoxybenzylidenedioxo-imidazolidine 2-ethylhexyl propionate",
-      "usage": "3.0",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Tetrahydroxybenzophenone",
-      "usage": "10",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Terephthalylidene dicamphor sulfonic acid",
-      "usage": "10",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "2,4,6-Tris [4-(2-ethylhexyloxycarbonyl) anilino] -1,3,5-triazine",
-      "usage": "5.0",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Methylbis(trimethylsiloxy)silyl isopentyl trimethoxycinnamonate",
-      "usage": "7.5",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Drometrizole trisiloxane",
-      "usage": "15.0",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Amyl p-dimethylaminobenzoate",
-      "usage": "10",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "2-Ethylhexyl p-dimethylaminobenzoate",
-      "usage": "10",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Isopropyl p-methoxycinnamate and diisopropyl cinnamate ester mixture(*2)",
-      "usage": "10",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "2-Ethylhexyl p-methoxycinnamate",
-      "usage": "20",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "2,4-Bis-[{4-(2-ethylhexyloxy)-2-hydroxy}-phenyl]-6-(4-methoxyphenyl)- 1,3,5-triazine",
-      "usage": "3.0",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "2-Hydroxy-4-methoxybenzophenone",
-      "usage": "○",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Hydroxymethoxybenzophenone sulfonate and its trihydrate",
-      "usage": "10(*3)",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Sodium hydroxymethoxybenzophenone sulfonate",
-      "usage": "10",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Phenylbenzimidazole sulfonic acid",
-      "usage": "3.0",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "Ferulic acid",
-      "usage": "10",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "2,2’-methylenebis(6-(2H-benzotriazole-2-yl)-4-(1,1,3,3-tetramethylbutyl)phenol",
-      "usage": "10.0",
-      "cas_no": null,
-      "list_type": "positive"
-    },
-    {
-      "ingredient_name": "2-Methylphenyl 4-methoxycinnamate",
-      "usage": "10.0",
-      "cas_no": null,
-      "list_type": "positive"
+      "INCI_Name": "Ingredient name",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Aluminum chlorhydroxy allantoinate Cantharides tincture, ginger tincture or capsicum tincture Phenyl salicylate Polyoxyethylene laurylether (8-10E.O.)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Ingredient name",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Aerosol agents Zirconium",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Cosmetics to be washed away immediately after use such as soap or shampoo Thiram",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Cosmetics other than those washed away immediately after use such as soap or shampoo Undecylenic acid monoethanolamide Thiram Zinc p-phenolsulfonate 2-(2-Hydroxy-5-methylphenyl) benzotriazole Sodium lauroyl sarcosinate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Hair setting agent to be washed away used in only hair. Cysteamine Hydrochloride",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Cosmetics other than hair setting agent to be washed away used in only hair. Cysteamine Hydrochloride",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Cosmetics used in cephalic, mucosa part or the oral cavity, and cosmetics used in other parts, containing lower aliphatic monoalcohols (exclude those containing the said alcohols added to dissolve ingredients in the said cosmetics) Estradiol, estrone and ethinylestradiol",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Cosmetics other than those used in cephalic, mucosa part or the oral cavity, containing no lower aliphatic monoalcohols (include those containing the said alcohols added to dissolve ingredients in the said cosmetics ) Estradiol, estrone and ethinylestradiol",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Cosmetics used in only cephalic part Aminoether type antihistamines",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Cosmetics other than those used only in cephalic part Aminoether type antihistamines",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Toothpaste Diethylene glycol",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Sodium lauroyl sarcosinate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Compounds to be used with the purpose of emulsifying beewax or white beewax Sodium pyroborate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Compounds to be used for purposes other than emulsifying beewax or white beewax Sodium pyroborate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Ingredient name",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Jujube Extract (*2)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Thioctic acid",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Ubidecarenone",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Ingredient name",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Benzoic acid",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Benzoate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Alkyldiaminoethylglycine hydrochloride",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Photosensitizing dyes",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Chlorcresol",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Chlorobutanol",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Salicylic acid",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Salicylate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Sorbic acid and sorbate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Dehydroacetic acid and dehydroacetate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Trichlorohydroxydiphenylether (Triclosan)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "p-Oxybenzoic acid esters and their sodium salts",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Phenoxyethanol",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Phenol",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Sodium lauryldiaminoethylglycine",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Resorcin",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Ingredient name",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Zinc, ammonia and silver substituted zeolite(*4)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Pantothenyl ethylether benzoate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Isopropylmethylphenol",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Cetylpyridinium chloride",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Benzalkonium chloride",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Benzethonium chloride",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Chlorhexidine hydrochloride",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "o-Phenyl phenol",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Sodium o-phenylphenate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Silver-Copper Zeolite(*5)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Chlorhexidine gluconate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Cresol",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Chloramine T",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Chlorxylenol",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Chlorphenesin",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Chlorhexidine",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "1,3-Dimethylol-5, 5-dimethylhydantoin",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Alkylisoquinolinium bromide",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Thianthol",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Thymol",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Trichlorocarbanilide",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "p-Chlorphenol",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Halocarban",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Hinokitiol",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Zinc pyrithione",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Piroctone olamine",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Iodopropynyl butylcarbamate(*6)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Polyaminopropyl biguanide",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Methyl isothiazolinone",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Methylchloro isothiazolinone and methyl isothiazolinone solution(*3)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "N,N”-Methylenebis[N’-(3-hydroxymethyl-2,5-dioxo-4-imidazolidinyl)urea]",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "p-Dimethylaminostyryl heptyl methyl thiazolium iodide",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Ingredient name",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Homomenthyl salicylate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "2-Cyano-3,3-diphenyl prop-2-enoic acid 2-ethylhexyl ester (octocrylene)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Glyceryl mono-2-ethylhexanoate di-p-methoxycinnamate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Tris-Biphenyl Triazine",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "p-Aminobenzoic acid and its esters",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "4-tert-Butyl-4’-methoxy dibenzoylmethane",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Ingredient name",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "4- (2--glucopyranosiloxy) propoxy-2-hydroxybenzophenone",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Octyl salicylate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Methyl-2, 5-diisopropylcinnamate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "2-[4-(diethylamino)-2-hydroxybenzyl] benzoic acid hexylester",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Cinoxate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Dihydroxydimethoxybenzophenone",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Sodium dihydroxydimethoxybenzophenone disulfonate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Dihydroxybenzophenone",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Dimethicodiethyl-benzal malonate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "1- (3, 4-dimethoxyphenyl)-4, 4-dimethyl-1, 3-pentanedione",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Dimethoxybenzylidenedioxo-imidazolidine 2-ethylhexyl propionate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Tetrahydroxybenzophenone",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Terephthalylidene dicamphor sulfonic acid",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "2,4,6-Tris [4-(2-ethylhexyloxycarbonyl) anilino] -1,3,5-triazine",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Methylbis(trimethylsiloxy)silyl isopentyl trimethoxycinnamonate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Drometrizole trisiloxane",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Amyl p-dimethylaminobenzoate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "2-Ethylhexyl p-dimethylaminobenzoate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Isopropyl p-methoxycinnamate and diisopropyl cinnamate ester mixture(*2)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "2-Ethylhexyl p-methoxycinnamate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "2,4-Bis-[{4-(2-ethylhexyloxy)-2-hydroxy}-phenyl]-6-(4-methoxyphenyl)- 1,3,5-triazine",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "2-Hydroxy-4-methoxybenzophenone",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Hydroxymethoxybenzophenone sulfonate and its trihydrate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Sodium hydroxymethoxybenzophenone sulfonate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Phenylbenzimidazole sulfonic acid",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Ferulic acid",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "2,2’-methylenebis(6-(2H-benzotriazole-2-yl)-4-(1,1,3,3-tetramethylbutyl)phenol",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "2-Methylphenyl 4-methoxycinnamate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
     }
   ]
 }
