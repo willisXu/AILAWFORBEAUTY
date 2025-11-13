@@ -6,8 +6,8 @@
   "pdf_path": "data/raw/JP/附件2-1_日本Standards for Cosmetic Products 010401.pdf",
   "metadata": {
     "jurisdiction": "JP",
-    "extracted_at": "2025-11-12T15:57:31.747186Z",
-    "total_ingredients": 0,
+    "extracted_at": "2025-11-13T00:27:55.851740Z",
+    "total_ingredients": 237,
     "extractor": "pdf_table_extractor",
     "extractor_version": "1.0.0",
     "source": "MHLW - Ministry of Health, Labour and Welfare",
@@ -19,32 +19,1456 @@
     "prohibited": {
       "name": "ネガティブリスト (Negative List)",
       "description": "配合してはならない成分",
-      "start_page": null,
-      "ingredients_count": 0,
-      "ingredients": [],
-      "extraction_status": "pending",
-      "note": "需要在本地環境或CI中使用pdfplumber提取完整表格數據"
+      "start_page": 1,
+      "ingredients_count": 105,
+      "ingredients": [
+        {
+          "reference_number": "Ingredient name",
+          "ingredient_name": "Maximum amount of ingredient per 100 g",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Aluminum chlorhydroxy allantoinate Cantharides tincture, ginger tincture or capsicum tincture Phenyl salicylate Polyoxyethylene laurylether (8-10E.O.)",
+          "ingredient_name": "1.0 g 1.0 g as total 1.0 g 2.0 g",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Ingredient name",
+          "ingredient_name": "Maximum amount of ingredient per 100 g",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Aerosol agents Zirconium",
+          "ingredient_name": "Prohibited",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Cosmetics to be washed away immediately after use such as soap or shampoo Thiram",
+          "ingredient_name": "0.50 g",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Cosmetics other than those washed away immediately after use such as soap or shampoo Undecylenic acid monoethanolamide Thiram Zinc p-phenolsulfonate 2-(2-Hydroxy-5-methylphenyl) benzotriazole Sodium lauroyl sarcosinate",
+          "ingredient_name": "Prohibited 0.30g 2.0 g 7.0 g Prohibited",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Hair setting agent to be washed away used in only hair. Cysteamine Hydrochloride",
+          "ingredient_name": "8.63ｇ",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Cosmetics other than hair setting agent to be washed away used in only hair. Cysteamine Hydrochloride",
+          "ingredient_name": "Prohibited",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Cosmetics used in cephalic, mucosa part or the oral cavity, and cosmetics used in other parts, containing lower aliphatic monoalcohols (exclude those containing the said alcohols added to dissolve ingredients in the said cosmetics) Estradiol, estrone and ethinylestradiol",
+          "ingredient_name": "20000 IU as total",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Cosmetics other than those used in cephalic, mucosa part or the oral cavity, containing no lower aliphatic monoalcohols (include those containing the said alcohols added to dissolve ingredients in the said cosmetics ) Estradiol, estrone and ethinylestradiol",
+          "ingredient_name": "50000 IU as total",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Cosmetics used in only cephalic part Aminoether type antihistamines",
+          "ingredient_name": "0.010 g",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Cosmetics other than those used only in cephalic part Aminoether type antihistamines",
+          "ingredient_name": "Prohibited",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Toothpaste Diethylene glycol",
+          "ingredient_name": "Prohibited 0.50 g",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Compounds to be used with the purpose of emulsifying beewax or white beewax Sodium pyroborate",
+          "ingredient_name": "0.76 g ( limited not to greater than 1/2 amount of beewax and white beewax)",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Compounds to be used for purposes other than emulsifying beewax or white beewax Sodium pyroborate",
+          "ingredient_name": "Prohibited",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Ingredient name",
+          "ingredient_name": "Maximum amount (g) of ingredient per 100 g",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Jujube Extract (*2)",
+          "ingredient_name": "○",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Thioctic acid",
+          "ingredient_name": "0.01",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Ubidecarenone",
+          "ingredient_name": "0.03",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Ingredient name",
+          "ingredient_name": "Maximum amount (g) of ingredient per 100 g",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Benzoic acid",
+          "ingredient_name": "0.2",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Benzoate",
+          "ingredient_name": "1.0 as total",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Alkyldiaminoethylglycine hydrochloride",
+          "ingredient_name": "0.20",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Photosensitizing dyes",
+          "ingredient_name": "0.0020 as total",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Chlorcresol",
+          "ingredient_name": "0.50",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Chlorobutanol",
+          "ingredient_name": "0.10",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Salicylic acid",
+          "ingredient_name": "0.20",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Salicylate",
+          "ingredient_name": "1.0 as total",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Sorbic acid and sorbate",
+          "ingredient_name": "0.50 as total",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Dehydroacetic acid and dehydroacetate",
+          "ingredient_name": "0.50 as total",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Trichlorohydroxydiphenylether (Triclosan)",
+          "ingredient_name": "0.10",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "p-Oxybenzoic acid esters and their sodium salts",
+          "ingredient_name": "1.0 as total",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Phenoxyethanol",
+          "ingredient_name": "1.0",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Phenol",
+          "ingredient_name": "0.10",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Sodium lauryldiaminoethylglycine",
+          "ingredient_name": "0.030",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Resorcin",
+          "ingredient_name": "0.10",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Ingredient name",
+          "ingredient_name": "Maximum amount (g) of ingredient per 100g",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Zinc, ammonia and silver substituted zeolite(*4)",
+          "ingredient_name": "1.0",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Pantothenyl ethylether benzoate",
+          "ingredient_name": "○",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Isopropylmethylphenol",
+          "ingredient_name": "○",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Cetylpyridinium chloride",
+          "ingredient_name": "5.0",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Benzalkonium chloride",
+          "ingredient_name": "○",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Benzethonium chloride",
+          "ingredient_name": "0.50",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Chlorhexidine hydrochloride",
+          "ingredient_name": "0.10",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "o-Phenyl phenol",
+          "ingredient_name": "○",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Sodium o-phenylphenate",
+          "ingredient_name": "0.15",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Silver-Copper Zeolite(*5)",
+          "ingredient_name": "0.5",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Chlorhexidine gluconate",
+          "ingredient_name": "○",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Cresol",
+          "ingredient_name": "0.010",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Chloramine T",
+          "ingredient_name": "0.30",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Chlorxylenol",
+          "ingredient_name": "0.30",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Chlorphenesin",
+          "ingredient_name": "0.30",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Chlorhexidine",
+          "ingredient_name": "0.10",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "1,3-Dimethylol-5, 5-dimethylhydantoin",
+          "ingredient_name": "0.30",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Alkylisoquinolinium bromide",
+          "ingredient_name": "○",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Thianthol",
+          "ingredient_name": "0.80",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Thymol",
+          "ingredient_name": "0.050",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Trichlorocarbanilide",
+          "ingredient_name": "○",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "p-Chlorphenol",
+          "ingredient_name": "0.25",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Halocarban",
+          "ingredient_name": "○",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Hinokitiol",
+          "ingredient_name": "○",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Zinc pyrithione",
+          "ingredient_name": "0.10",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Piroctone olamine",
+          "ingredient_name": "0.05",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Iodopropynyl butylcarbamate(*6)",
+          "ingredient_name": "0.02",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Polyaminopropyl biguanide",
+          "ingredient_name": "0.1",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Methyl isothiazolinone",
+          "ingredient_name": "0.01",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Methylchloro isothiazolinone and methyl isothiazolinone solution(*3)",
+          "ingredient_name": "0.10",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "N,N”-Methylenebis[N’-(3-hydroxymethyl-2,5-dioxo-4-imidazolidinyl)urea]",
+          "ingredient_name": "0.30",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "p-Dimethylaminostyryl heptyl methyl thiazolium iodide",
+          "ingredient_name": "0.0015",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Ingredient name",
+          "ingredient_name": "Maximum amount (g) of ingredient per 100g",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Homomenthyl salicylate",
+          "ingredient_name": "10",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "2-Cyano-3,3-diphenyl prop-2-enoic acid 2-ethylhexyl ester (octocrylene)",
+          "ingredient_name": "10",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Glyceryl mono-2-ethylhexanoate di-p-methoxycinnamate",
+          "ingredient_name": "10",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Tris-Biphenyl Triazine",
+          "ingredient_name": "10.0",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "p-Aminobenzoic acid and its esters",
+          "ingredient_name": "4.0 as total",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "4-tert-Butyl-4’-methoxy dibenzoylmethane",
+          "ingredient_name": "10",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Ingredient name",
+          "ingredient_name": "Maximum amount (g) of ingredient per 100g",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "4- (2--glucopyranosiloxy) propoxy-2-hydroxybenzophenone",
+          "ingredient_name": "5.0",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Octyl salicylate",
+          "ingredient_name": "10",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Methyl-2, 5-diisopropylcinnamate",
+          "ingredient_name": "10",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "2-[4-(diethylamino)-2-hydroxybenzyl] benzoic acid hexylester",
+          "ingredient_name": "10.0",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Cinoxate",
+          "ingredient_name": "○",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Dihydroxydimethoxybenzophenone",
+          "ingredient_name": "10",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Sodium dihydroxydimethoxybenzophenone disulfonate",
+          "ingredient_name": "10",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Dihydroxybenzophenone",
+          "ingredient_name": "10",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Dimethicodiethyl-benzal malonate",
+          "ingredient_name": "10.0",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "1- (3, 4-dimethoxyphenyl)-4, 4-dimethyl-1, 3-pentanedione",
+          "ingredient_name": "7.0",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Dimethoxybenzylidenedioxo-imidazolidine 2-ethylhexyl propionate",
+          "ingredient_name": "3.0",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Tetrahydroxybenzophenone",
+          "ingredient_name": "10",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Terephthalylidene dicamphor sulfonic acid",
+          "ingredient_name": "10",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "2,4,6-Tris [4-(2-ethylhexyloxycarbonyl) anilino] -1,3,5-triazine",
+          "ingredient_name": "5.0",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Methylbis(trimethylsiloxy)silyl isopentyl trimethoxycinnamonate",
+          "ingredient_name": "7.5",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Drometrizole trisiloxane",
+          "ingredient_name": "15.0",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Amyl p-dimethylaminobenzoate",
+          "ingredient_name": "10",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "2-Ethylhexyl p-dimethylaminobenzoate",
+          "ingredient_name": "10",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Isopropyl p-methoxycinnamate and diisopropyl cinnamate ester mixture(*2)",
+          "ingredient_name": "10",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "2-Ethylhexyl p-methoxycinnamate",
+          "ingredient_name": "20",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "2,4-Bis-[{4-(2-ethylhexyloxy)-2-hydroxy}-phenyl]-6-(4-methoxyphenyl)- 1,3,5-triazine",
+          "ingredient_name": "3.0",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "2-Hydroxy-4-methoxybenzophenone",
+          "ingredient_name": "○",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Hydroxymethoxybenzophenone sulfonate and its trihydrate",
+          "ingredient_name": "10(*3)",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Sodium hydroxymethoxybenzophenone sulfonate",
+          "ingredient_name": "10",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Phenylbenzimidazole sulfonic acid",
+          "ingredient_name": "3.0",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "Ferulic acid",
+          "ingredient_name": "10",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "2,2’-methylenebis(6-(2H-benzotriazole-2-yl)-4-(1,1,3,3-tetramethylbutyl)phenol",
+          "ingredient_name": "10.0",
+          "cas_no": null,
+          "list_type": "negative"
+        },
+        {
+          "reference_number": "2-Methylphenyl 4-methoxycinnamate",
+          "ingredient_name": "10.0",
+          "cas_no": null,
+          "list_type": "negative"
+        }
+      ],
+      "extraction_status": "completed"
     },
     "restricted": {
-      "name": "配合制限のある成分 (Restricted Ingredients)",
-      "ingredients_count": 0,
-      "ingredients": [],
-      "extraction_status": "pending",
-      "note": "需要在本地環境或CI中使用pdfplumber提取完整表格數據"
+      "name": "Appendix 2 - Restricted Ingredients",
+      "description": "Ingredients with usage restrictions",
+      "start_page": 1,
+      "ingredients_count": 26,
+      "ingredients": [
+        {
+          "ingredient_name": "Aluminum chlorhydroxy allantoinate Cantharides tincture, ginger tincture or capsicum tincture Phenyl salicylate Polyoxyethylene laurylether (8-10E.O.)",
+          "max_amount": "1.0 g 1.0 g as total 1.0 g 2.0 g",
+          "cas_no": null,
+          "list_type": "restricted"
+        },
+        {
+          "ingredient_name": "Aerosol agents Zirconium",
+          "max_amount": "Prohibited",
+          "cas_no": null,
+          "list_type": "restricted"
+        },
+        {
+          "ingredient_name": "Hair setting agent to be washed away used in only hair. Cysteamine Hydrochloride",
+          "max_amount": "8.63ｇ",
+          "cas_no": null,
+          "list_type": "restricted"
+        },
+        {
+          "ingredient_name": "Toothpaste Diethylene glycol",
+          "max_amount": "Prohibited 0.50 g",
+          "cas_no": null,
+          "list_type": "restricted"
+        },
+        {
+          "ingredient_name": "Sodium lauroyl sarcosinate",
+          "max_amount": "",
+          "cas_no": null,
+          "list_type": "restricted"
+        },
+        {
+          "ingredient_name": "Compounds to be used with the purpose of emulsifying beewax or white beewax Sodium pyroborate",
+          "max_amount": "0.76 g ( limited not to greater than 1/2 amount of beewax and white beewax)",
+          "cas_no": null,
+          "list_type": "restricted"
+        },
+        {
+          "ingredient_name": "Compounds to be used for purposes other than emulsifying beewax or white beewax Sodium pyroborate",
+          "max_amount": "Prohibited",
+          "cas_no": null,
+          "list_type": "restricted"
+        },
+        {
+          "ingredient_name": "Jujube Extract (*2)",
+          "max_amount": "○",
+          "cas_no": null,
+          "list_type": "restricted"
+        },
+        {
+          "ingredient_name": "Thioctic acid",
+          "max_amount": "0.01",
+          "cas_no": null,
+          "list_type": "restricted"
+        },
+        {
+          "ingredient_name": "Ubidecarenone",
+          "max_amount": "0.03",
+          "cas_no": null,
+          "list_type": "restricted"
+        },
+        {
+          "ingredient_name": "Benzoic acid",
+          "max_amount": "0.2",
+          "cas_no": null,
+          "list_type": "restricted"
+        },
+        {
+          "ingredient_name": "Benzoate",
+          "max_amount": "1.0 as total",
+          "cas_no": null,
+          "list_type": "restricted"
+        },
+        {
+          "ingredient_name": "Alkyldiaminoethylglycine hydrochloride",
+          "max_amount": "0.20",
+          "cas_no": null,
+          "list_type": "restricted"
+        },
+        {
+          "ingredient_name": "Photosensitizing dyes",
+          "max_amount": "0.0020 as total",
+          "cas_no": null,
+          "list_type": "restricted"
+        },
+        {
+          "ingredient_name": "Chlorcresol",
+          "max_amount": "0.50",
+          "cas_no": null,
+          "list_type": "restricted"
+        },
+        {
+          "ingredient_name": "Chlorobutanol",
+          "max_amount": "0.10",
+          "cas_no": null,
+          "list_type": "restricted"
+        },
+        {
+          "ingredient_name": "Salicylic acid",
+          "max_amount": "0.20",
+          "cas_no": null,
+          "list_type": "restricted"
+        },
+        {
+          "ingredient_name": "Salicylate",
+          "max_amount": "1.0 as total",
+          "cas_no": null,
+          "list_type": "restricted"
+        },
+        {
+          "ingredient_name": "Sorbic acid and sorbate",
+          "max_amount": "0.50 as total",
+          "cas_no": null,
+          "list_type": "restricted"
+        },
+        {
+          "ingredient_name": "Dehydroacetic acid and dehydroacetate",
+          "max_amount": "0.50 as total",
+          "cas_no": null,
+          "list_type": "restricted"
+        },
+        {
+          "ingredient_name": "Trichlorohydroxydiphenylether (Triclosan)",
+          "max_amount": "0.10",
+          "cas_no": null,
+          "list_type": "restricted"
+        },
+        {
+          "ingredient_name": "p-Oxybenzoic acid esters and their sodium salts",
+          "max_amount": "1.0 as total",
+          "cas_no": null,
+          "list_type": "restricted"
+        },
+        {
+          "ingredient_name": "Phenoxyethanol",
+          "max_amount": "1.0",
+          "cas_no": null,
+          "list_type": "restricted"
+        },
+        {
+          "ingredient_name": "Phenol",
+          "max_amount": "0.10",
+          "cas_no": null,
+          "list_type": "restricted"
+        },
+        {
+          "ingredient_name": "Sodium lauryldiaminoethylglycine",
+          "max_amount": "0.030",
+          "cas_no": null,
+          "list_type": "restricted"
+        },
+        {
+          "ingredient_name": "Resorcin",
+          "max_amount": "0.10",
+          "cas_no": null,
+          "list_type": "restricted"
+        }
+      ],
+      "extraction_status": "completed"
     },
     "positive_list": {
       "name": "ポジティブリスト (Positive List)",
       "description": "配合できる成分",
-      "start_page": null,
+      "start_page": 2,
       "includes": [
         "防腐劑",
         "UV過濾劑",
         "著色劑"
       ],
-      "ingredients_count": 0,
-      "ingredients": [],
-      "extraction_status": "pending",
-      "note": "需要在本地環境或CI中使用pdfplumber提取完整表格數據"
+      "ingredients_count": 106,
+      "ingredients": [
+        {
+          "ingredient_name": "Ingredient name",
+          "usage": "Maximum amount of ingredient per 100 g",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Aluminum chlorhydroxy allantoinate Cantharides tincture, ginger tincture or capsicum tincture Phenyl salicylate Polyoxyethylene laurylether (8-10E.O.)",
+          "usage": "1.0 g 1.0 g as total 1.0 g 2.0 g",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Ingredient name",
+          "usage": "Maximum amount of ingredient per 100 g",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Aerosol agents Zirconium",
+          "usage": "Prohibited",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Cosmetics to be washed away immediately after use such as soap or shampoo Thiram",
+          "usage": "0.50 g",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Cosmetics other than those washed away immediately after use such as soap or shampoo Undecylenic acid monoethanolamide Thiram Zinc p-phenolsulfonate 2-(2-Hydroxy-5-methylphenyl) benzotriazole Sodium lauroyl sarcosinate",
+          "usage": "Prohibited 0.30g 2.0 g 7.0 g Prohibited",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Hair setting agent to be washed away used in only hair. Cysteamine Hydrochloride",
+          "usage": "8.63ｇ",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Cosmetics other than hair setting agent to be washed away used in only hair. Cysteamine Hydrochloride",
+          "usage": "Prohibited",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Cosmetics used in cephalic, mucosa part or the oral cavity, and cosmetics used in other parts, containing lower aliphatic monoalcohols (exclude those containing the said alcohols added to dissolve ingredients in the said cosmetics) Estradiol, estrone and ethinylestradiol",
+          "usage": "20000 IU as total",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Cosmetics other than those used in cephalic, mucosa part or the oral cavity, containing no lower aliphatic monoalcohols (include those containing the said alcohols added to dissolve ingredients in the said cosmetics ) Estradiol, estrone and ethinylestradiol",
+          "usage": "50000 IU as total",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Cosmetics used in only cephalic part Aminoether type antihistamines",
+          "usage": "0.010 g",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Cosmetics other than those used only in cephalic part Aminoether type antihistamines",
+          "usage": "Prohibited",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Toothpaste Diethylene glycol",
+          "usage": "Prohibited 0.50 g",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Sodium lauroyl sarcosinate",
+          "usage": "",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Compounds to be used with the purpose of emulsifying beewax or white beewax Sodium pyroborate",
+          "usage": "0.76 g ( limited not to greater than 1/2 amount of beewax and white beewax)",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Compounds to be used for purposes other than emulsifying beewax or white beewax Sodium pyroborate",
+          "usage": "Prohibited",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Ingredient name",
+          "usage": "Maximum amount (g) of ingredient per 100 g",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Jujube Extract (*2)",
+          "usage": "○",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Thioctic acid",
+          "usage": "0.01",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Ubidecarenone",
+          "usage": "0.03",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Ingredient name",
+          "usage": "Maximum amount (g) of ingredient per 100 g",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Benzoic acid",
+          "usage": "0.2",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Benzoate",
+          "usage": "1.0 as total",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Alkyldiaminoethylglycine hydrochloride",
+          "usage": "0.20",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Photosensitizing dyes",
+          "usage": "0.0020 as total",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Chlorcresol",
+          "usage": "0.50",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Chlorobutanol",
+          "usage": "0.10",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Salicylic acid",
+          "usage": "0.20",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Salicylate",
+          "usage": "1.0 as total",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Sorbic acid and sorbate",
+          "usage": "0.50 as total",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Dehydroacetic acid and dehydroacetate",
+          "usage": "0.50 as total",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Trichlorohydroxydiphenylether (Triclosan)",
+          "usage": "0.10",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "p-Oxybenzoic acid esters and their sodium salts",
+          "usage": "1.0 as total",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Phenoxyethanol",
+          "usage": "1.0",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Phenol",
+          "usage": "0.10",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Sodium lauryldiaminoethylglycine",
+          "usage": "0.030",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Resorcin",
+          "usage": "0.10",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Ingredient name",
+          "usage": "Maximum amount (g) of ingredient per 100g",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Zinc, ammonia and silver substituted zeolite(*4)",
+          "usage": "1.0",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Pantothenyl ethylether benzoate",
+          "usage": "○",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Isopropylmethylphenol",
+          "usage": "○",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Cetylpyridinium chloride",
+          "usage": "5.0",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Benzalkonium chloride",
+          "usage": "○",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Benzethonium chloride",
+          "usage": "0.50",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Chlorhexidine hydrochloride",
+          "usage": "0.10",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "o-Phenyl phenol",
+          "usage": "○",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Sodium o-phenylphenate",
+          "usage": "0.15",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Silver-Copper Zeolite(*5)",
+          "usage": "0.5",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Chlorhexidine gluconate",
+          "usage": "○",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Cresol",
+          "usage": "0.010",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Chloramine T",
+          "usage": "0.30",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Chlorxylenol",
+          "usage": "0.30",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Chlorphenesin",
+          "usage": "0.30",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Chlorhexidine",
+          "usage": "0.10",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "1,3-Dimethylol-5, 5-dimethylhydantoin",
+          "usage": "0.30",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Alkylisoquinolinium bromide",
+          "usage": "○",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Thianthol",
+          "usage": "0.80",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Thymol",
+          "usage": "0.050",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Trichlorocarbanilide",
+          "usage": "○",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "p-Chlorphenol",
+          "usage": "0.25",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Halocarban",
+          "usage": "○",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Hinokitiol",
+          "usage": "○",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Zinc pyrithione",
+          "usage": "0.10",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Piroctone olamine",
+          "usage": "0.05",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Iodopropynyl butylcarbamate(*6)",
+          "usage": "0.02",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Polyaminopropyl biguanide",
+          "usage": "0.1",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Methyl isothiazolinone",
+          "usage": "0.01",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Methylchloro isothiazolinone and methyl isothiazolinone solution(*3)",
+          "usage": "0.10",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "N,N”-Methylenebis[N’-(3-hydroxymethyl-2,5-dioxo-4-imidazolidinyl)urea]",
+          "usage": "0.30",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "p-Dimethylaminostyryl heptyl methyl thiazolium iodide",
+          "usage": "0.0015",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Ingredient name",
+          "usage": "Maximum amount (g) of ingredient per 100g",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Homomenthyl salicylate",
+          "usage": "10",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "2-Cyano-3,3-diphenyl prop-2-enoic acid 2-ethylhexyl ester (octocrylene)",
+          "usage": "10",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Glyceryl mono-2-ethylhexanoate di-p-methoxycinnamate",
+          "usage": "10",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Tris-Biphenyl Triazine",
+          "usage": "10.0",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "p-Aminobenzoic acid and its esters",
+          "usage": "4.0 as total",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "4-tert-Butyl-4’-methoxy dibenzoylmethane",
+          "usage": "10",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Ingredient name",
+          "usage": "Maximum amount (g) of ingredient per 100g",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "4- (2--glucopyranosiloxy) propoxy-2-hydroxybenzophenone",
+          "usage": "5.0",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Octyl salicylate",
+          "usage": "10",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Methyl-2, 5-diisopropylcinnamate",
+          "usage": "10",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "2-[4-(diethylamino)-2-hydroxybenzyl] benzoic acid hexylester",
+          "usage": "10.0",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Cinoxate",
+          "usage": "○",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Dihydroxydimethoxybenzophenone",
+          "usage": "10",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Sodium dihydroxydimethoxybenzophenone disulfonate",
+          "usage": "10",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Dihydroxybenzophenone",
+          "usage": "10",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Dimethicodiethyl-benzal malonate",
+          "usage": "10.0",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "1- (3, 4-dimethoxyphenyl)-4, 4-dimethyl-1, 3-pentanedione",
+          "usage": "7.0",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Dimethoxybenzylidenedioxo-imidazolidine 2-ethylhexyl propionate",
+          "usage": "3.0",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Tetrahydroxybenzophenone",
+          "usage": "10",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Terephthalylidene dicamphor sulfonic acid",
+          "usage": "10",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "2,4,6-Tris [4-(2-ethylhexyloxycarbonyl) anilino] -1,3,5-triazine",
+          "usage": "5.0",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Methylbis(trimethylsiloxy)silyl isopentyl trimethoxycinnamonate",
+          "usage": "7.5",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Drometrizole trisiloxane",
+          "usage": "15.0",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Amyl p-dimethylaminobenzoate",
+          "usage": "10",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "2-Ethylhexyl p-dimethylaminobenzoate",
+          "usage": "10",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Isopropyl p-methoxycinnamate and diisopropyl cinnamate ester mixture(*2)",
+          "usage": "10",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "2-Ethylhexyl p-methoxycinnamate",
+          "usage": "20",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "2,4-Bis-[{4-(2-ethylhexyloxy)-2-hydroxy}-phenyl]-6-(4-methoxyphenyl)- 1,3,5-triazine",
+          "usage": "3.0",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "2-Hydroxy-4-methoxybenzophenone",
+          "usage": "○",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Hydroxymethoxybenzophenone sulfonate and its trihydrate",
+          "usage": "10(*3)",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Sodium hydroxymethoxybenzophenone sulfonate",
+          "usage": "10",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Phenylbenzimidazole sulfonic acid",
+          "usage": "3.0",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "Ferulic acid",
+          "usage": "10",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "2,2’-methylenebis(6-(2H-benzotriazole-2-yl)-4-(1,1,3,3-tetramethylbutyl)phenol",
+          "usage": "10.0",
+          "cas_no": null,
+          "list_type": "positive"
+        },
+        {
+          "ingredient_name": "2-Methylphenyl 4-methoxycinnamate",
+          "usage": "10.0",
+          "cas_no": null,
+          "list_type": "positive"
+        }
+      ],
+      "extraction_status": "completed"
     }
   }
 }

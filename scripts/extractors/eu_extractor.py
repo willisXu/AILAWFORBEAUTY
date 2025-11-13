@@ -141,19 +141,103 @@ class EUExtractor(BasePDFExtractor):
 
             print(f"   ✓ 表格開始於第 {start_page + 1} 頁")
 
-            return {
-                "name": config["name"],
-                "pdf_file": pdf_path.name,
-                "pdf_path": str(pdf_path),
-                "table_start_page": start_page + 1,
-                "ingredients_count": 0,
-                "ingredients": [],
-                "extraction_status": "pending",
-                "note": "需要在本地環境或CI中使用pdfplumber提取完整表格數據"
-            }
+            # 使用pdfplumber提取表格數據
+            try:
+                import pdfplumber
+
+                ingredients = []
+
+                with pdfplumber.open(str(pdf_path)) as pdf:
+                    # 從找到的起始頁開始掃描
+                    for page_num in range(start_page, len(pdf.pages)):
+                        page = pdf.pages[page_num]
+                        tables = page.extract_tables()
+
+                        for table in tables:
+                            if not table or len(table) < 2:
+                                continue
+
+                            # EU表格通常有5列：Reference Number, Chemical name/INN, CAS Number, 等
+                            for row in table:
+                                if len(row) < 3:
+                                    continue
+
+                                # 跳過表頭行
+                                first_col = str(row[0] or "").strip().lower()
+                                if any(keyword in first_col for keyword in ["reference", "number", "substance"]):
+                                    continue
+
+                                # 提取數據
+                                ref_number = self.clean_text(str(row[0])) if row[0] else ""
+
+                                # 第二列通常是化學名稱或INN名稱
+                                chemical_name = self.clean_text(str(row[1])) if row[1] else ""
+
+                                # 第三列通常是CAS號或其他識別信息
+                                cas_text = self.clean_text(str(row[2])) if len(row) > 2 and row[2] else ""
+
+                                # 跳過空行
+                                if not chemical_name or not ref_number:
+                                    continue
+
+                                # 提取CAS號
+                                cas_no = self.extract_cas_number(cas_text)
+                                if not cas_no and chemical_name:
+                                    # 嘗試從化學名稱中提取CAS號
+                                    cas_no = self.extract_cas_number(chemical_name)
+
+                                # 提取其他限制信息（第4、5列）
+                                restrictions = ""
+                                conditions = ""
+                                if len(row) > 3 and row[3]:
+                                    restrictions = self.clean_text(str(row[3]))
+                                if len(row) > 4 and row[4]:
+                                    conditions = self.clean_text(str(row[4]))
+
+                                ingredient = {
+                                    "reference_number": ref_number,
+                                    "chemical_name": chemical_name,
+                                    "cas_no": cas_no,
+                                    "restrictions": restrictions,
+                                    "conditions": conditions,
+                                    "annex": config["name"]
+                                }
+
+                                ingredients.append(ingredient)
+
+                        # 進度顯示
+                        if (page_num - start_page) % 10 == 0:
+                            print(f"   已掃描到第 {page_num + 1} 頁，找到 {len(ingredients)} 條記錄...")
+
+                print(f"   ✓ 提取完成：{len(ingredients)} 條記錄")
+
+                return {
+                    "name": config["name"],
+                    "pdf_file": pdf_path.name,
+                    "pdf_path": str(pdf_path),
+                    "table_start_page": start_page + 1,
+                    "ingredients_count": len(ingredients),
+                    "ingredients": ingredients,
+                    "extraction_status": "completed"
+                }
+
+            except ImportError:
+                print("   ⚠️  pdfplumber未安裝，僅返回結構信息")
+                return {
+                    "name": config["name"],
+                    "pdf_file": pdf_path.name,
+                    "pdf_path": str(pdf_path),
+                    "table_start_page": start_page + 1,
+                    "ingredients_count": 0,
+                    "ingredients": [],
+                    "extraction_status": "pending",
+                    "note": "需要安裝pdfplumber: pip install pdfplumber"
+                }
 
         except Exception as e:
             print(f"   ❌ 提取失敗: {str(e)}")
+            import traceback
+            traceback.print_exc()
             return {
                 "name": config["name"],
                 "pdf_file": pdf_path.name,
