@@ -1,23 +1,241 @@
 {
   "jurisdiction": "EU",
   "table_type": "uv_filters",
-  "version": "20240424",
-  "generated_at": "2025-11-12T10:01:19.798705",
-  "total_records": 1,
+  "version": "20251113",
+  "generated_at": "2025-11-13T09:41:17.741463Z",
+  "total_records": 29,
   "records": [
     {
-      "INCI_Name": "Homosalate",
-      "Jurisdiction": "EU",
-      "Status": "Allowed",
-      "CAS_No": "118-56-9",
-      "Product_Type": "未规定",
-      "Max_Conc_Percent": 10.0,
-      "Conditions": "Maximum 10%",
-      "Legal_Basis": "Annex VI",
-      "Update_Date": null,
-      "Notes": null,
-      "Synonyms": [],
-      "Label_Warnings": null
+      "reference_number": "2",
+      "chemical_name": "N,N,N-Trimethyl-4-(2-oxoborn-3- ylidenemethyl) anilinium methyl sulphate",
+      "cas_no": null,
+      "restrictions": "52793-97-2",
+      "conditions": "258-190-8",
+      "annex": "Annex VI - UV Filters"
+    },
+    {
+      "reference_number": "3",
+      "chemical_name": "Benzoic acid, 2-hydroxy-, 3,3,5- trimethylcyclohexyl ester / Homosalate",
+      "cas_no": null,
+      "restrictions": "118-56-9",
+      "conditions": "204-260-8",
+      "annex": "Annex VI - UV Filters"
+    },
+    {
+      "reference_number": "4",
+      "chemical_name": "2-Hydroxy-4- methoxybenzophenone / Oxybenzone",
+      "cas_no": null,
+      "restrictions": "131-57-7",
+      "conditions": "205-031-5",
+      "annex": "Annex VI - UV Filters"
+    },
+    {
+      "reference_number": "5",
+      "chemical_name": "Moved or deleted",
+      "cas_no": null,
+      "restrictions": "",
+      "conditions": "",
+      "annex": "Annex VI - UV Filters"
+    },
+    {
+      "reference_number": "6",
+      "chemical_name": "2-Phenylbenzimidazole-5- sulphonic acid and its potassium, sodium and triethanolamine salts / Ensulizole",
+      "cas_no": null,
+      "restrictions": "27503-81-7",
+      "conditions": "248-502-0",
+      "annex": "Annex VI - UV Filters"
+    },
+    {
+      "reference_number": "7",
+      "chemical_name": "3,3'-(1,4-Phenylenedimethylene) bis (7,7-dimethyl-2-oxobicyclo- [2.2.1] hept-1-ylmethanesulfonic acid) and its salts / Ecamsule",
+      "cas_no": null,
+      "restrictions": "92761-26-7 / 90457-82-2",
+      "conditions": "410-960-6 / -",
+      "annex": "Annex VI - UV Filters"
+    },
+    {
+      "reference_number": "8",
+      "chemical_name": "1-(4-tert-Butylphenyl)-3-(4- methoxyphenyl) propane-1,3- dione / Avobenzone",
+      "cas_no": null,
+      "restrictions": "70356-09-1",
+      "conditions": "274-581-6",
+      "annex": "Annex VI - UV Filters"
+    },
+    {
+      "reference_number": "10",
+      "chemical_name": "2-Cyano-3,3-diphenyl acrylic acid 2-ethylhexyl ester / Octocrilene",
+      "cas_no": null,
+      "restrictions": "6197-30-4",
+      "conditions": "228-250-8",
+      "annex": "Annex VI - UV Filters"
+    },
+    {
+      "reference_number": "11",
+      "chemical_name": "Polymer of N-{(2 and 4)-[(2- oxoborn-3- ylidene)methyl]benzyl}acrylamid e",
+      "cas_no": null,
+      "restrictions": "113783-61-2",
+      "conditions": "-",
+      "annex": "Annex VI - UV Filters"
+    },
+    {
+      "reference_number": "12",
+      "chemical_name": "2-Ethylhexyl 4- methoxycinnamate / Octinoxate",
+      "cas_no": null,
+      "restrictions": "5466-77-3",
+      "conditions": "226-775-7",
+      "annex": "Annex VI - UV Filters"
+    },
+    {
+      "reference_number": "13",
+      "chemical_name": "Ethoxylated Ethyl-4- Aminobenzoate",
+      "cas_no": null,
+      "restrictions": "116242-27-4",
+      "conditions": "-",
+      "annex": "Annex VI - UV Filters"
+    },
+    {
+      "reference_number": "14",
+      "chemical_name": "Isopentyl-4-methoxycinnamate / Amiloxate",
+      "cas_no": null,
+      "restrictions": "71617-10-2",
+      "conditions": "275-702-5",
+      "annex": "Annex VI - UV Filters"
+    },
+    {
+      "reference_number": "15",
+      "chemical_name": "2,4,6-Trianilino-(p-carbo-2'- ethylhexyl-1'-oxy)-1,3,5-triazine",
+      "cas_no": null,
+      "restrictions": "88122-99-0",
+      "conditions": "402-070-1",
+      "annex": "Annex VI - UV Filters"
+    },
+    {
+      "reference_number": "16",
+      "chemical_name": "Phenol, 2-(2H-Benzotriazol-2-yl)-4- Methyl-6-(2-Methyl-3-(1,3,3,3- Tetramethyl-1- (Trimethylsilyl)Oxy)- Disiloxanyl)Propyl",
+      "cas_no": null,
+      "restrictions": "155633-54-8",
+      "conditions": "-",
+      "annex": "Annex VI - UV Filters"
+    },
+    {
+      "reference_number": "17",
+      "chemical_name": "Benzoic acid, 4,4-{[6-[[[(1,1- dimethylethyl)amino]carbonyl]ph enyl]amino]-1,3-5-triazine-2,4- diyl]diimino}bis-, bis(2- ethylhexyl)ester / Iscotrizinol",
+      "cas_no": null,
+      "restrictions": "154702-15-5",
+      "conditions": "-",
+      "annex": "Annex VI - UV Filters"
+    },
+    {
+      "reference_number": "20",
+      "chemical_name": "2-Ethylhexyl salicylate / Octisalate)",
+      "cas_no": null,
+      "restrictions": "118-60-5",
+      "conditions": "204-263-4",
+      "annex": "Annex VI - UV Filters"
+    },
+    {
+      "reference_number": "21",
+      "chemical_name": "2-Ethylhexyl 4- (dimethylamino)benzoate / Padimate O (USAN:BAN)",
+      "cas_no": null,
+      "restrictions": "21245-02-3",
+      "conditions": "244-289-3",
+      "annex": "Annex VI - UV Filters"
+    },
+    {
+      "reference_number": "23a",
+      "chemical_name": "Methylene Bis-Benzotriazolyl Tetramethylbutylphenol (nano)",
+      "cas_no": null,
+      "restrictions": "103597-45-1",
+      "conditions": "403-800-1",
+      "annex": "Annex VI - UV Filters"
+    },
+    {
+      "reference_number": "23",
+      "chemical_name": "2,2'-Methylene bis(6-(2H- benzotriazol-2-yl)-4-(1,1,3,3- tetramethylbutyl)phenol) / Bisoctrizole",
+      "cas_no": null,
+      "restrictions": "103597-45-1",
+      "conditions": "403-800-1",
+      "annex": "Annex VI - UV Filters"
+    },
+    {
+      "reference_number": "24",
+      "chemical_name": "Sodium salt of 2,2'-bis(1,4- phenylene)-1H-benzimidazole-4,6- disulfonic acid / Bisdisulizole disodium (USAN)",
+      "cas_no": null,
+      "restrictions": "180898-37-7",
+      "conditions": "429-750-0",
+      "annex": "Annex VI - UV Filters"
+    },
+    {
+      "reference_number": "25",
+      "chemical_name": "2,2'-(6-(4-Methoxyphenyl)-1,3,5- triazine-2,4-diyl)bis(5-((2- ethylhexyl)oxy)phenol) / Bemotrizinol",
+      "cas_no": null,
+      "restrictions": "187393-00-6",
+      "conditions": "",
+      "annex": "Annex VI - UV Filters"
+    },
+    {
+      "reference_number": "27a",
+      "chemical_name": "Titanium dioxide (nano)",
+      "cas_no": null,
+      "restrictions": "13463-67- 7[1]/ 1317- 70-0[2]/ 1317-80-2[3]",
+      "conditions": "236-675-5[1] /215-280- 1[2]/ 215- 282-2[3]",
+      "annex": "Annex VI - UV Filters"
+    },
+    {
+      "reference_number": "27",
+      "chemical_name": "Titanium Dioxide",
+      "cas_no": null,
+      "restrictions": "13463-67- 7[1]/ 1317- 70-0[2]/ 1317-80-2[3]",
+      "conditions": "236-675-5[1] /215-280- 1[2]/215- 282-2 [ 3]",
+      "annex": "Annex VI - UV Filters"
+    },
+    {
+      "reference_number": "28",
+      "chemical_name": "Benzoic acid, 2-[4-(diethylamino)- 2-hydroxybenzoyl]-, hexylester",
+      "cas_no": null,
+      "restrictions": "302776-68-7",
+      "conditions": "443-860-6",
+      "annex": "Annex VI - UV Filters"
+    },
+    {
+      "reference_number": "30a",
+      "chemical_name": "Zinc oxide (nano)",
+      "cas_no": null,
+      "restrictions": "1314-13-2",
+      "conditions": "215-222-5",
+      "annex": "Annex VI - UV Filters"
+    },
+    {
+      "reference_number": "30",
+      "chemical_name": "Zinc oxide",
+      "cas_no": null,
+      "restrictions": "1314-13-2",
+      "conditions": "215-222-5",
+      "annex": "Annex VI - UV Filters"
+    },
+    {
+      "reference_number": "31",
+      "chemical_name": "3,3′-(1,4-Phenylene)bis(5,6- diphenyl-1,2,4-triazine)",
+      "cas_no": null,
+      "restrictions": "55514-22-2;",
+      "conditions": "700-823-1;",
+      "annex": "Annex VI - UV Filters"
+    },
+    {
+      "reference_number": "33",
+      "chemical_name": "1,1'-(1,4-piperazinediyl)bis[1-[2- [4-(diethylamino)-2- hydroxybenzoyl]phenyl]- methanone",
+      "cas_no": null,
+      "restrictions": "919803-06-8",
+      "conditions": "485-100-6",
+      "annex": "Annex VI - UV Filters"
+    },
+    {
+      "reference_number": "34",
+      "chemical_name": "1,1'-(1,4-piperazinediyl)bis[1-[2- [4-(diethylamino)-2- hydroxybenzoyl]phenyl]- methanone",
+      "cas_no": null,
+      "restrictions": "919803-06-8",
+      "conditions": "485-100-6",
+      "annex": "Annex VI - UV Filters"
     }
   ]
 }

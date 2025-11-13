@@ -1,24 +1,1153 @@
 {
   "jurisdiction": "EU",
   "table_type": "colorants",
-  "version": "20240424",
-  "generated_at": "2025-11-12T10:01:19.798705",
-  "total_records": 1,
+  "version": "20251113",
+  "generated_at": "2025-11-13T09:41:17.741463Z",
+  "total_records": 143,
   "records": [
     {
-      "INCI_Name": "CI 77491 (Iron Oxides)",
-      "Jurisdiction": "EU",
-      "Status": "Allowed",
-      "CAS_No": "1309-37-1",
-      "Product_Type": "未规定",
-      "Max_Conc_Percent": null,
-      "Conditions": "Allowed for all cosmetic uses",
-      "Legal_Basis": "Annex IV",
-      "Update_Date": null,
-      "Notes": null,
-      "Synonyms": [],
-      "Colour_Index": null,
-      "Body_Area": null
+      "reference_number": "1",
+      "chemical_name": "Sodium tris(1,2-naphthoquinone 1-oximato-O,O')ferrate(1-)",
+      "cas_no": null,
+      "restrictions": "16143-80-9",
+      "conditions": "240-299-7",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "2",
+      "chemical_name": "Trisodium tris[5,6-dihydro-5- (hydroxyimino)-6- oxonaphthalene-2-sulphonato(2-)- N5,O6]ferrate(3-)",
+      "cas_no": null,
+      "restrictions": "19381-50-1",
+      "conditions": "243-010-2",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "3",
+      "chemical_name": "Disodium 5,7-dinitro-8- oxidonaphthalene-2-sulphonate and its insoluble barium, strontium and zirconium lakes, salts and pigments",
+      "cas_no": null,
+      "restrictions": "846-70-8",
+      "conditions": "212-690-2",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "4",
+      "chemical_name": "2-[(4-Methyl-2-nitrophenyl)azo]-3- oxo-N-phenylbutyramide",
+      "cas_no": null,
+      "restrictions": "2512-29-0",
+      "conditions": "219-730-8",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "5",
+      "chemical_name": "2-[(4-Chloro-2-nitrophenyl)azo]-N- (2-chlorophenyl)-3- oxobutyramide",
+      "cas_no": null,
+      "restrictions": "6486-23-3",
+      "conditions": "229-355-1",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "6",
+      "chemical_name": "2-[(4-Methoxy-2-nitrophenyl)azo]- 3-oxo-N-(o-tolyl)butyramide",
+      "cas_no": null,
+      "restrictions": "6371-96-6",
+      "conditions": "228-907-9",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "7",
+      "chemical_name": "4-(Phenylazo)resorcinol",
+      "cas_no": null,
+      "restrictions": "2051-85-6",
+      "conditions": "218-131-9",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "8",
+      "chemical_name": "4-[(4-Ethoxyphenyl)azo]naphthol",
+      "cas_no": null,
+      "restrictions": "6535-42-8",
+      "conditions": "229-439-8",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "9",
+      "chemical_name": "1-[(2-Chloro-4-nitrophenyl)azo]-2- naphthol and its insoluble barium, strontium and zirconium lakes, salts and pigments",
+      "cas_no": null,
+      "restrictions": "2814-77-9",
+      "conditions": "220-562-2",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "10",
+      "chemical_name": "1-[(4-Methyl-2-nitrophenyl)azo]-2- naphthol",
+      "cas_no": null,
+      "restrictions": "2425-85-6",
+      "conditions": "219-372-2",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "11",
+      "chemical_name": "3-Hydroxy-N-(o-tolyl)-4-[(2,4,5- trichlorophenyl)azo]naphthalene- 2-carboxamide",
+      "cas_no": null,
+      "restrictions": "6535-46-2",
+      "conditions": "229-440-3",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "12",
+      "chemical_name": "N-(4-Chloro-2-methylphenyl)-4- [(4-chloro-2-methylphenyl)azo]-3- hydroxynaphthalene-2- carboxamide",
+      "cas_no": null,
+      "restrictions": "6471-51-8",
+      "conditions": "229-315-3",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "14",
+      "chemical_name": "N-(5-Chloro-2,4- dimethoxyphenyl)-4-[[5- [(diethylamino)sulphonyl]-2- methoxyphenyl]azo]-3- hydroxynaphthalene-2- carboxamide",
+      "cas_no": null,
+      "restrictions": "6410-41-9",
+      "conditions": "229-107-2",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "15",
+      "chemical_name": "2,4-Dihydro-5-methyl-2-phenyl-4- (phenylazo)-3H-pyrazol-3-one",
+      "cas_no": null,
+      "restrictions": "4314-14-1",
+      "conditions": "224-330-1",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "16",
+      "chemical_name": "Disodium 2-amino-5-[(4- sulphonatophenyl)azo]benzenesu lphonate",
+      "cas_no": null,
+      "restrictions": "2706-28-7",
+      "conditions": "220-293-0",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "17",
+      "chemical_name": "Sodium 4-(2,4- dihydroxyphenylazo)benzenesulp honate",
+      "cas_no": null,
+      "restrictions": "547-57-9",
+      "conditions": "208-924-8",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "18",
+      "chemical_name": "Disodium 3-[(2,4-dimethyl-5- sulphonatophenyl)azo]-4- hydroxynaphthalene-1- sulphonate",
+      "cas_no": null,
+      "restrictions": "4548-53-2",
+      "conditions": "224-909-9",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "19",
+      "chemical_name": "Disodium 4-hydroxy-3-[(4- sulphonatonaphthyl)azo]naphtha lenesulphonate",
+      "cas_no": null,
+      "restrictions": "3567-69-9",
+      "conditions": "222-657-4",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "20",
+      "chemical_name": "Disodium 6-[(2,4-dimethyl-6- sulphonatophenyl)azo]-5- hydroxynaphthalene-1- sulphonate",
+      "cas_no": null,
+      "restrictions": "3257-28-1",
+      "conditions": "221-856-3",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "21",
+      "chemical_name": "Sodium 4-[(2-hydroxy-1- naphthyl)azo]benzenesulphonate and its unsoluble barium, strontium and zirconium lakes, salts and pigments",
+      "cas_no": null,
+      "restrictions": "633-96-5",
+      "conditions": "211-199-0",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "22",
+      "chemical_name": "Calcium disodium bis[2-chloro-5- [(2-hydroxy-1-naphthyl)azo]-4- sulphonatobenzoate]",
+      "cas_no": null,
+      "restrictions": "5850-80-6",
+      "conditions": "227-456-5",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "23",
+      "chemical_name": "Barium bis[4-[(2-hydroxy-1- naphthyl)azo]-2- methylbenzenesulphonate]",
+      "cas_no": null,
+      "restrictions": "5850-87-3",
+      "conditions": "227-459-1",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "24",
+      "chemical_name": "Sodium 4-[(2-Hydroxy-1- naphthyl)azo]naphthalenesulpho nate",
+      "cas_no": null,
+      "restrictions": "1658-56-6",
+      "conditions": "216-760-3",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "25",
+      "chemical_name": "Sodium 2-[(2- hydroxynaphthyl)azo]naphthalen esulphonate and its insoluble barium, strontium and zirconium lakes, salts and pigments",
+      "cas_no": null,
+      "restrictions": "1248-18-6",
+      "conditions": "214-998-2",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "26",
+      "chemical_name": "Calcium bis[3-hydroxy-4- (phenylazo)-2-naphthoate]",
+      "cas_no": null,
+      "restrictions": "6371-76-2",
+      "conditions": "228-899-7",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "28",
+      "chemical_name": "Disodium 4-[(5-chloro-4-methyl-2- sulphonatophenyl)azo]-3-hydroxy- 2-naphthoate and its insoluble barium, strontium and zirconium lakes, salts and pigments",
+      "cas_no": null,
+      "restrictions": "3564-21-4; 5280-66-0",
+      "conditions": "222-642-2",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "29",
+      "chemical_name": "Calcium 3-hydroxy-4-[(1- sulphonato-2-naphthyl)azo]-2- naphthoate",
+      "cas_no": null,
+      "restrictions": "6417-83-0",
+      "conditions": "229-142-3",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "30",
+      "chemical_name": "Disodium 6-hydroxy-5-[(3- sulphonatophenyl)azo]naphthale ne-2-sulphonate",
+      "cas_no": null,
+      "restrictions": "2347-72-0",
+      "conditions": "219-073-7",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "31",
+      "chemical_name": "Disodium 6-hydroxy-5-[(4- sulphonatophenyl)azo]naphthale ne-2-sulphonate and its insoluble barium, strontium and zirconium lakes, salts and pigments",
+      "cas_no": null,
+      "restrictions": "2783-94-0",
+      "conditions": "220-491-7",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "32",
+      "chemical_name": "Disodium 6-hydroxy-5-[(2- methoxy-4-sulphonato-m- tolyl)azo]naphthalene-2- sulphonate",
+      "cas_no": null,
+      "restrictions": "25956-17-6",
+      "conditions": "247-368-0",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "33",
+      "chemical_name": "Trisodium 3-hydroxy-4-(4'- sulphonatonaphthylazo)naphthal ene-2,7-disulphonate",
+      "cas_no": null,
+      "restrictions": "642-59-1; 915-67-3",
+      "conditions": "211-385-1; 213-022-2",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "34",
+      "chemical_name": "Disodium 7-hydroxy-8- (phenylazo)naphthalene-1,3- disulphonate",
+      "cas_no": null,
+      "restrictions": "1936-15-8",
+      "conditions": "217-705-6",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "35",
+      "chemical_name": "Trisodium 1-(1-naphthylazo)-2- hydroxynaphthalene-4',6,8- trisulphonate and its insoluble barium, strontium and zirconium lakes, salts and pigments",
+      "cas_no": null,
+      "restrictions": "2611-82-7",
+      "conditions": "220-036-2",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "36",
+      "chemical_name": "Tetrasodium 7-hydroxy-8-[(4- sulphonato-1- naphthyl)azo]naphthalene-1,3,6- trisulphonate",
+      "cas_no": null,
+      "restrictions": "5850-44-2",
+      "conditions": "227-454-4",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "37",
+      "chemical_name": "Disodium 5-amino-4-hydroxy-3- (phenylazo)naphthalene-2,7- disulphonate and its unsoluble barium, strontium and zirconium lakes, salts and pigments",
+      "cas_no": null,
+      "restrictions": "3567-66-6",
+      "conditions": "222-656-9",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "38",
+      "chemical_name": "Disodium 5-acetylamino-4- hydroxy-3- (phenylazo)naphthalene-2,7- disulphonate",
+      "cas_no": null,
+      "restrictions": "3734-67-6",
+      "conditions": "223-098-9",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "39",
+      "chemical_name": "2,7-Naphthalenedisulfonic acid, 3- ((4-cyclohexyl-2- methylphenyl)azo)-4-hydroxy-5- (((4- methylphenyl)sulfonyl)amino)-, disodium salt",
+      "cas_no": null,
+      "restrictions": "10236-37-0",
+      "conditions": "",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "41",
+      "chemical_name": "Disodium hydrogen bis[5-chloro- 3-[(4,5-dihydro-3-methyl-5-oxo-1- phenyl-1H-pyrazol-4-yl)azo]-2- hydroxybenzenesulphonato(3- )]chromate(3-)",
+      "cas_no": null,
+      "restrictions": "6408-26-0",
+      "conditions": "229-051-9",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "42",
+      "chemical_name": "Sodium 4-(3-hydroxy-5-methyl-4- phenylazopyrazol-2- yl)benzenesulphonate",
+      "cas_no": null,
+      "restrictions": "6359-82-6",
+      "conditions": "228-808-0",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "43",
+      "chemical_name": "Disodium 2,5-dichloro-4-(5- hydroxy-3-methyl-4- ((sulphophenyl)azo)pyrazol-1- yl)benzenesulphonate",
+      "cas_no": null,
+      "restrictions": "6359-98-4",
+      "conditions": "228-819-0",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "44",
+      "chemical_name": "Trisodium 5-hydroxy-1-(4- sulphophenyl)-4-((4- sulphophenyl)azo)pyrazole-3- carboxylate and its insoluble barium, strontium and zirconium lakes, salts and pigments",
+      "cas_no": null,
+      "restrictions": "12225-21-7; 1934-21-0",
+      "conditions": "235-428-9; 217-699-5",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "45",
+      "chemical_name": "N,N'-(3,3'-Dimethyl[1,1'-biphenyl]- 4,4'-diyl)bis[2-[(2,4- dichlorophenyl)azo]-3- oxobutyramide]",
+      "cas_no": null,
+      "restrictions": "5979-28-2",
+      "conditions": "227-783-3",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "46",
+      "chemical_name": "Sodium 4-amino-5-hydroxy-3-[(4- nitrophenyl)azo]-6- (phenylazo)naphthalene-2,7- disulphonate",
+      "cas_no": null,
+      "restrictions": "1064-48-8",
+      "conditions": "213-903-1",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "47",
+      "chemical_name": "2,2'-[(3,3'-Dichloro[1,1'-biphenyl]- 4,4'-diyl)bis(azo)]bis[N-(2,4- dimethylphenyl)-3- oxobutyramide]",
+      "cas_no": null,
+      "restrictions": "5102-83-0",
+      "conditions": "225-822-9",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "48",
+      "chemical_name": "2,2'-[(3,3'-Dichloro[1,1'-biphenyl]- 4,4'-diyl)bis(azo)]bis[N-(4-chloro- 2,5-dimethoxyphenyl)-3- oxobutyramide]",
+      "cas_no": null,
+      "restrictions": "5567-15-7",
+      "conditions": "226-939-8",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "49",
+      "chemical_name": "2,2'-[Cyclohexylidenebis[(2- methyl-4,1-phenylene)azo]]bis[4- cyclohexylphenol]",
+      "cas_no": null,
+      "restrictions": "6706-82-7",
+      "conditions": "229-754-0",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "50",
+      "chemical_name": "Disodium 4,6-dihydroxy-3-[[4-[1- [4-[[1-hydroxy-7- [(phenylsulphonyl)oxy]-3- sulphonato-2- naphthyl]azo]phenyl]cyclohexyl]p henyl]azo]naphthalene-2- sulphonate",
+      "cas_no": null,
+      "restrictions": "13421-53-9",
+      "conditions": "236-531-1",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "51",
+      "chemical_name": "1-(4-(Phenylazo)phenylazo)-2- naphthol",
+      "cas_no": null,
+      "restrictions": "85-86-9",
+      "conditions": "201-638-4",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "53",
+      "chemical_name": "Tetrasodium 1-acetamido-2- hydroxy-3-(4-((4- sulphonatophenylazo)-7- sulphonato-1- naphthylazo))naphthalene-4,6- disulphonate",
+      "cas_no": null,
+      "restrictions": "2519-30-4",
+      "conditions": "219-746-5",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "54",
+      "chemical_name": "Benzenesulfonic acid, 2,2'-(1,2- ethenediyl)bis-5-nitro-, disodium salt, reaction products with 4-[(4- aminophenyl)azo]benzenesulfoni c acid, sodium salts",
+      "cas_no": null,
+      "restrictions": "1325-54-8",
+      "conditions": "215-397-8",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "55",
+      "chemical_name": "beta Carotene",
+      "cas_no": null,
+      "restrictions": "116-32-5; 31797-85-0; 7235-40-7",
+      "conditions": "230-636-6",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "56",
+      "chemical_name": "8'-apo-.beta.-Caroten-8'-al",
+      "cas_no": null,
+      "restrictions": "1962-15-8",
+      "conditions": "214-171-6",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "57",
+      "chemical_name": "Ethyl 8'-apo-.beta.-caroten-8'- oate",
+      "cas_no": null,
+      "restrictions": "1109-11-1",
+      "conditions": "214-173-7",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "58",
+      "chemical_name": "Canthaxanthin",
+      "cas_no": null,
+      "restrictions": "514-78-3",
+      "conditions": "208-187-2",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "59",
+      "chemical_name": "Ammonium, (4-(alpha-(p- (diethylamino)phenyl)-2,4- disulfobenzylidene)-2,5- cyclohexadien-1-ylidene)diethyl-, hydroxide, monosodium salt",
+      "cas_no": null,
+      "restrictions": "129-17-9",
+      "conditions": "204-934-1",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "60",
+      "chemical_name": "Ethanaminium, N-(4-((4- (diethylamino)phenyl)(5-hydroxy- 2,4-disulfophenyl)methylene)-2,5- cyclohexadien-1-ylidene)-N- ethylhydroxide, inner salt, calcium salt (2:1) and its insoluble barium, strontium and zirconium lakes, salts and pigments",
+      "cas_no": null,
+      "restrictions": "3536-49-0",
+      "conditions": "222-573-8",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "61",
+      "chemical_name": "Benzene-methanaminium, N- ethyl-N-(4-((4-(ethyl((3- sulfophenyl)methyl)amino)pheny l)(4-hydroxy-2- sulfophenyl)methylene)-2,5- cyclohexadien-1-ylidene)-3-sulfo-, hydroxide, inner salt, disodium",
+      "cas_no": null,
+      "restrictions": "2353-45-9",
+      "conditions": "219-091-5",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "63",
+      "chemical_name": "Benzenemethanaminium, N-ethyl- N-(4-((4-(ethyl((3- sulfophenyl)methyl)amino)pheny l)(2-sulfophenyl)methylene)-2,5- cyclohexadien-1-ylidene)-3-sulfo-, hydroxide, inner salt, disodium salt",
+      "cas_no": null,
+      "restrictions": "2650-18-2; 37307-56-5; 3844-45-9",
+      "conditions": "223-339-8",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "64",
+      "chemical_name": "Hydrogen [4-[(2-chlorophenyl)[4- [ethyl(3- sulphonatobenzyl)amino]phenyl] methylene]cyclohexa-2,5-dien-1- ylidene](ethyl)(3- sulphonatobenzyl)ammonium, sodium salt",
+      "cas_no": null,
+      "restrictions": "4857-81-2",
+      "conditions": "225-458-0",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "65",
+      "chemical_name": "Hydrogen [4-[(2-chlorophenyl)[4- [ethyl(3- sulphonatobenzyl)amino]-o- tolyl]methylene]-3- methylcyclohexa-2,5-dien-1- ylidene](ethyl)(3- sulphonatobenzyl)ammonium,",
+      "cas_no": null,
+      "restrictions": "5863-51-4",
+      "conditions": "227-513-4",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "66",
+      "chemical_name": "sodium salt (4-(4-Aminophenyl)(4- iminocyclohexa-2,5- dienylidene)methyl)-2- methylaniline hydrochloride",
+      "cas_no": null,
+      "restrictions": "632-99-5",
+      "conditions": "211-189-6",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "67",
+      "chemical_name": "4-[(4-Amino-m-tolyl)(4-imino-3- methylcyclohexa-2,5-dien-1- ylidene)methyl]-o-toluidine monohydrochloride",
+      "cas_no": null,
+      "restrictions": "3248-91-7",
+      "conditions": "221-831-7",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "68",
+      "chemical_name": "Hydrogen [4-[[4- (diethylamino)phenyl][4-[ethyl[(3- sulphonatobenzyl)amino]-o- tolyl]methylene]-3- methylcyclohexa-2,5-dien-1- ylidene](ethyl)(3- sulphonatobenzyl)ammonium, sodium salt",
+      "cas_no": null,
+      "restrictions": "6505-30-2",
+      "conditions": "229-390-2",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "69",
+      "chemical_name": "[4-[[4-Anilino-1-naphthyl][4- (dimethylamino)phenyl]methylen e]cyclohexa-2,5-dien-1- ylidene]dimethylammonium chloride",
+      "cas_no": null,
+      "restrictions": "2580-56-5",
+      "conditions": "219-943-6",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "70",
+      "chemical_name": "Hydrogen [4-[4-(dimethylamino)- .alpha.-(2-hydroxy-3,6- disulphonato-1- naphthyl)benzylidene]cyclohexa- 2,5-dien-1- ylidene]dimethylammonium, monosodium salt",
+      "cas_no": null,
+      "restrictions": "3087-16-9",
+      "conditions": "221-409-2",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "72",
+      "chemical_name": "Hydrogen 9-(2- carboxylatophenyl)-3-(2- methylanilino)-6-(2-methyl-4- sulphoanilino)xanthylium, monosodium salt",
+      "cas_no": null,
+      "restrictions": "6252-76-2",
+      "conditions": "228-377-9",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "73",
+      "chemical_name": "Hydrogen 9-(2,4- disulphonatophenyl)-3,6- bis(ethylamino)-2,7- dimethylxanthylium, monosodium salt",
+      "cas_no": null,
+      "restrictions": "5873-16-5 (cid:9)",
+      "conditions": "227-528-6",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "74",
+      "chemical_name": "Disodium 2-(3-oxo-6- oxidoxanthen-9-yl)benzoate",
+      "cas_no": null,
+      "restrictions": "518-45-6; 518-47-8",
+      "conditions": "-; 208-253-0",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "75",
+      "chemical_name": "4',5'-Dibromo-3',6'- dihydroxyspiro[isobenzofuran- 1(3H),9'-[9H]xanthene]-3-one and its insoluble barium, strontium and zirconium lakes, salts and pigments",
+      "cas_no": null,
+      "restrictions": "596-03-2; 4372-02-5",
+      "conditions": "209-876-0; 224-468-2",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "76",
+      "chemical_name": "Disodium 2-(2,4,5,7-tetrabromo-6- oxido-3-oxoxanthen-9- yl)benzoate and its insoluble barium, strontium and zirconium lakes, salts and pigments",
+      "cas_no": null,
+      "restrictions": "17372-87-1 / 548-26-5 / 15876-39-8 / 15086-94-9 / 94021-89-3",
+      "conditions": "241-409-6 / - / 240-005-7 / 239-138-3 / 301-481-2",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "77",
+      "chemical_name": "3',6'-Dihydroxy-4',5'- dinitrospiro[isobenzofuran- 1(3H),9'-[9H]xanthene]-3-one",
+      "cas_no": null,
+      "restrictions": "24545-86-6 (cid:9)",
+      "conditions": "246-308-0",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "78",
+      "chemical_name": "Dipotassium 3,6-dichloro-2- (2,4,5,7-tetrabromo-6-oxido-3- oxoxanthen-9-yl)benzoate",
+      "cas_no": null,
+      "restrictions": "6441-77-6 (cid:9)",
+      "conditions": "229-225-4",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "79",
+      "chemical_name": "3,4,5,6-Tetrachloro-2-(1,4,5,8- tetrabromo-6-hydroxy-3- oxoxanthen-9-yl)benzoic acid and its insoluble barium, strontium and zirconium lakes, salts and pigments",
+      "cas_no": null,
+      "restrictions": "18472-87-2",
+      "conditions": "242-355-6",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "80",
+      "chemical_name": "Disodium 2-(2,4,5,7-tetraiodo-6- oxido-3-oxoxanthen-9- yl)benzoate and its insoluble barium, strontium and zirconium lakes, salts and pigments",
+      "cas_no": null,
+      "restrictions": "12227-78-0",
+      "conditions": "240-474-8",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "81",
+      "chemical_name": "1,3-Isobenzofurandione, reaction products with methylquinoline and quinoline",
+      "cas_no": null,
+      "restrictions": "8003-22-3",
+      "conditions": "232-318-2",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "82",
+      "chemical_name": "1H-Indene-1,3(2H)-dione, 2-(2- quinolinyl)-, sulfonated, sodium salts",
+      "cas_no": null,
+      "restrictions": "38615-46-2 ; 8004-92-0; 95193-83-2",
+      "conditions": "-; -; 305-897- 5",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "84",
+      "chemical_name": "Sulfonated nigrosine color",
+      "cas_no": null,
+      "restrictions": "8005-03-6",
+      "conditions": "-",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "85",
+      "chemical_name": "8,18-Dichloro-5,15-diethyl-5,15- dihydrodiindolo[3,2-b:3',2'- m]triphenodioxazine",
+      "cas_no": null,
+      "restrictions": "6358-30-1",
+      "conditions": "28-767-9",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "86",
+      "chemical_name": "1,2-Dihydroxyanthraquinone",
+      "cas_no": null,
+      "restrictions": "72-48-0",
+      "conditions": "200-782-5",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "87",
+      "chemical_name": "Trisodium 8-hydroxypyrene-1,3,6- trisulphonate",
+      "cas_no": null,
+      "restrictions": "6358-69-6",
+      "conditions": "228-783-6",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "88",
+      "chemical_name": "1-Anilino-4- hydroxyanthraquinone",
+      "cas_no": null,
+      "restrictions": "19286-75-0 (cid:9)",
+      "conditions": "242-939-0",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "89",
+      "chemical_name": "1-Hydroxy-4-(p- toluidino)anthraquinone",
+      "cas_no": null,
+      "restrictions": "81-48-1",
+      "conditions": "201-353-5",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "90",
+      "chemical_name": "Sodium 4-[(9,10-dihydro-4- hydroxy-9,10-dioxo-1- anthryl)amino]toluene-3- sulphonate",
+      "cas_no": null,
+      "restrictions": "4430-18-6 (cid:9)",
+      "conditions": "224-618-7",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "91",
+      "chemical_name": "1,4-bis(p- Tolylamino)anthraquinone",
+      "cas_no": null,
+      "restrictions": "128-80-3 (cid:9)",
+      "conditions": "204-909-5",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "92",
+      "chemical_name": "Disodium 2,2'-(9,10- dioxoanthracene-1,4- diyldiimino)bis(5- methylsulphonate)",
+      "cas_no": null,
+      "restrictions": "4403-90-1 (cid:9)",
+      "conditions": "224-546-6",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "93",
+      "chemical_name": "Sodium 3,3'-(9,10- dioxoanthracene-1,4- diyldiimino)bis(2,4,6- trimethylbenzenesulphonate)",
+      "cas_no": null,
+      "restrictions": "4474-24-2 (cid:9)",
+      "conditions": "224-748-4",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "94",
+      "chemical_name": "Sodium 1-amino-4- (cyclohexylamino)-9,10-dihydro- 9,10-dioxoanthracene-2- sulphonate",
+      "cas_no": null,
+      "restrictions": "4368-56-3 (cid:9)",
+      "conditions": "224-460-9",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "95",
+      "chemical_name": "6,15-Dihydroanthrazine-5,9,14,18- tetrone",
+      "cas_no": null,
+      "restrictions": "81-77-6 (cid:9)",
+      "conditions": "201-375-5",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "96",
+      "chemical_name": "7,16-Dichloro-6,15- dihydroanthrazine-5,9,14,18- tetrone",
+      "cas_no": null,
+      "restrictions": "130-20-1 (cid:9)",
+      "conditions": "240-980-2",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "97",
+      "chemical_name": "Bisbenzimidazo[2,1-b:2',1'- i]benzo[lmn][3,8]phenanthroline- 8,17-dione",
+      "cas_no": null,
+      "restrictions": "4424-06-0 (cid:9)",
+      "conditions": "224-597-4",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "98",
+      "chemical_name": "2-(1,3-Dihydro-3-oxo-2H-indazol- 2-ylidene)-1,2-dihydro-3H-indol-3- one",
+      "cas_no": null,
+      "restrictions": "482-89-3 (cid:9)",
+      "conditions": "207-586-9",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "99",
+      "chemical_name": "Disodium 5,5'-(2-(1,3-dihydro-3- oxo-2H-indazol-2-ylidene)-1,2- dihydro-3H-indol-3- one)disulphonate",
+      "cas_no": null,
+      "restrictions": "860-22-0",
+      "conditions": "212-728-8",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "101",
+      "chemical_name": "5-Chloro-2-(5-chloro-7-methyl-3- oxobenzo[b]thien-2(3H)-ylidene)- 7-methylbenzo[b]thiophene- 3(2H)-one",
+      "cas_no": null,
+      "restrictions": "5462-29-3 (cid:9)",
+      "conditions": "226-750-0",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "102",
+      "chemical_name": "5,12-Dihydroquino[2,3-b]acridine- 7,14-dione",
+      "cas_no": null,
+      "restrictions": "1047-16-1 (cid:9)",
+      "conditions": "213-879-2",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "103",
+      "chemical_name": "5,12-Dihydro-2,9- dimethylquino[2,3-b]acridine- 7,14-dione",
+      "cas_no": null,
+      "restrictions": "16043-40-6; 980-26-7",
+      "conditions": "-; 213-561-3",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "104",
+      "chemical_name": "29H,31H-Phthalocyanine",
+      "cas_no": null,
+      "restrictions": "574-93-6 (cid:9)",
+      "conditions": "209-378-3",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "105",
+      "chemical_name": "(29H,31H-Phthalocyaninato(2-)- N29,N30,N31,N32)copper",
+      "cas_no": null,
+      "restrictions": "147-14-8 (cid:9)",
+      "conditions": "205-685-1",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "106",
+      "chemical_name": "Disodium [29H,31H- phthalocyaninedisulphonato(4-)- N29,N30,N31,N32]cuprate(2-)",
+      "cas_no": null,
+      "restrictions": "1330-38-7",
+      "conditions": "215-537-8",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "107",
+      "chemical_name": "Polychloro copper phthalocyanine",
+      "cas_no": null,
+      "restrictions": "1328-53-6",
+      "conditions": "215-524-7",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "108",
+      "chemical_name": "8,8'-diapo-.psi.,.psi.- Carotenedioic acid",
+      "cas_no": null,
+      "restrictions": "27876-94-4; 89382-88-7",
+      "conditions": "248-708-0;",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "109",
+      "chemical_name": "Annatto",
+      "cas_no": null,
+      "restrictions": "1393-63-1; 542-40-5; 6983-79-5",
+      "conditions": "215-735-4; 208-810-8; 230-248-7",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "110",
+      "chemical_name": "Lycopene",
+      "cas_no": null,
+      "restrictions": "502-65-8",
+      "conditions": "-",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "111",
+      "chemical_name": "CI Food Orange 5",
+      "cas_no": null,
+      "restrictions": "116-32-5; 31797-85-0; 7235-40-7; -",
+      "conditions": "-; -; 230-636- 6; 214-171-6",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "112",
+      "chemical_name": "(3R)-beta-4-Caroten-3-ol",
+      "cas_no": null,
+      "restrictions": "3763-55-1",
+      "conditions": "-",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "113",
+      "chemical_name": "2-Amino-1,7-dihydro-6H-purin-6- one",
+      "cas_no": null,
+      "restrictions": "73-40-5 (cid:9)",
+      "conditions": "200-799-8",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "114",
+      "chemical_name": "Curcumins",
+      "cas_no": null,
+      "restrictions": "458-37-7; 94875-80-6",
+      "conditions": "207-280-5; -",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "115",
+      "chemical_name": "Carmines",
+      "cas_no": null,
+      "restrictions": "1260-17-9; 1343-78-8; -",
+      "conditions": "215-724-4; 215-680-6; 215-023-3",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "116",
+      "chemical_name": "Trisodium (2S-trans)-[18-carboxy- 20-(carboxymethyl)-13-ethyl-2,3- dihydro-3,7,12,17-tetramethyl-8- vinyl-21H,23H-porphine-2- propionato(5-)- N21,N22,N23,N24]cuprate(3-) (Chlorophylls)",
+      "cas_no": null,
+      "restrictions": "11006-34-1; 8049-84-1",
+      "conditions": "234-242-5; 232-471-5 ; 215-800-7 / 207-536-6 / 208-272-4 / 287-483-3 / 239-830-5 / 246-020-5",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "118",
+      "chemical_name": "Aluminium hydroxide sulphate",
+      "cas_no": null,
+      "restrictions": "1332-73-6; 21645-51-2; 8011-94-7",
+      "conditions": "215-573-4; 244-492-7; -",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "119",
+      "chemical_name": "Natural hydrated aluminium silicate, Al2O3.2SiO2.2H2O, containing calcium, magnesium or iron carbonates, ferric hydroxide, quartz-sand, mica, etc. as impurities",
+      "cas_no": null,
+      "restrictions": "1302-78-9",
+      "conditions": "215-108-5",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "120",
+      "chemical_name": "Lazurite",
+      "cas_no": null,
+      "restrictions": "12769-96-9; 1317-97-1; 57455-37-5",
+      "conditions": "235-811-0; -; -;",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "121",
+      "chemical_name": "Aluminum silicate coloured with ferric oxide",
+      "cas_no": null,
+      "restrictions": "1309-37- 1/1332-25-8",
+      "conditions": "- / 310-127-6",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "122",
+      "chemical_name": "Barium sulfate",
+      "cas_no": null,
+      "restrictions": "7727-43-7",
+      "conditions": "231-784-4",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "123",
+      "chemical_name": "Bismuth chloride oxide",
+      "cas_no": null,
+      "restrictions": "7787-59-9",
+      "conditions": "232-122-7",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "124",
+      "chemical_name": "Calcium carbonate",
+      "cas_no": null,
+      "restrictions": "471-34-1",
+      "conditions": "207-439-9 / 215-279-6",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "125",
+      "chemical_name": "Calcium sulfate",
+      "cas_no": null,
+      "restrictions": "",
+      "conditions": "",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "126a",
+      "chemical_name": "carbon black (nano)",
+      "cas_no": null,
+      "restrictions": "1333-86-4",
+      "conditions": "215-609-9",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "127",
+      "chemical_name": "Charcoal, bone. A fine black powder obtained by burning animal bones in a closed container. It consists primarily of calcium phosphate and carbon",
+      "cas_no": null,
+      "restrictions": "8021-99-6",
+      "conditions": "232-421-2",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "128",
+      "chemical_name": "Coke black",
+      "cas_no": null,
+      "restrictions": "7440-44-0; 1339-82-8",
+      "conditions": "231-153-3; 215-669-6",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "129",
+      "chemical_name": "Chromium (III) oxide",
+      "cas_no": null,
+      "restrictions": "1308-38-9",
+      "conditions": "215-160-9",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "130",
+      "chemical_name": "Chromium (III) hydroxide",
+      "cas_no": null,
+      "restrictions": "12001-99-9",
+      "conditions": "-",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "131",
+      "chemical_name": "Cobalt Aluminum Oxide",
+      "cas_no": null,
+      "restrictions": "1345-16-0",
+      "conditions": "-",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "132",
+      "chemical_name": "Copper",
+      "cas_no": null,
+      "restrictions": "7440-50-8",
+      "conditions": "231-159-6",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "133",
+      "chemical_name": "Gold",
+      "cas_no": null,
+      "restrictions": "7440-57-5",
+      "conditions": "231-165-9",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "134",
+      "chemical_name": "Iron oxide",
+      "cas_no": null,
+      "restrictions": "1345-25-1",
+      "conditions": "215-721-8",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "135",
+      "chemical_name": "Iron Oxide red",
+      "cas_no": null,
+      "restrictions": "1345-25-1; 1345-27-3; 1309-37-1; 1317-61-9; 52357-70-7",
+      "conditions": "-; 215-722-3; 215-168-2; -; 257-870-1",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "136",
+      "chemical_name": "Iron Oxide Yellow",
+      "cas_no": null,
+      "restrictions": "51274-00-1",
+      "conditions": "257-098-5",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "137",
+      "chemical_name": "Iron Oxide Black",
+      "cas_no": null,
+      "restrictions": "12227-89-3; 1309-37-1; 1317-61-9; 1345-25-1; 1345-27-3; 52357-70-7",
+      "conditions": "235-442-9; 215-168-2; 215-277-5; 215-721-8; 215-722-3; 257-870-1",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "138",
+      "chemical_name": "Ferric Ammonium Ferrocyanide",
+      "cas_no": null,
+      "restrictions": "25869-00-5",
+      "conditions": "237-875-5",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "139",
+      "chemical_name": "Magnesium carbonate",
+      "cas_no": null,
+      "restrictions": "546-93-0; 7757-69-9",
+      "conditions": "208-915-9; 231-817-2",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "140",
+      "chemical_name": "Ammonium manganese(3+) diphosphate",
+      "cas_no": null,
+      "restrictions": "10101-66-3",
+      "conditions": "233-257-4",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "141",
+      "chemical_name": "Trimanganese bis(orthophosphate)",
+      "cas_no": null,
+      "restrictions": "10124-54-6",
+      "conditions": "233-341-0",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "143",
+      "chemical_name": "Titanium Dioxide/CI 77891",
+      "cas_no": null,
+      "restrictions": "13463-67-7",
+      "conditions": "236-675-5",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "144",
+      "chemical_name": "Zinc oxide",
+      "cas_no": null,
+      "restrictions": "1314-13-2",
+      "conditions": "215-222-5",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "145",
+      "chemical_name": "Riboflavin",
+      "cas_no": null,
+      "restrictions": "",
+      "conditions": "201-507-1 / 204-988-6",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "146",
+      "chemical_name": "Caramel",
+      "cas_no": null,
+      "restrictions": "",
+      "conditions": "232-435-9",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "147",
+      "chemical_name": "Paprika extract, Capsanthin, capsorubin",
+      "cas_no": null,
+      "restrictions": "",
+      "conditions": "207-364-1 / 207-425-2",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "148",
+      "chemical_name": "Beetroot red",
+      "cas_no": null,
+      "restrictions": "7659-95-2; 89957-88-0; 89957-89-1",
+      "conditions": "231-628-5; 289-609-2; 289-610-8",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "149",
+      "chemical_name": "Anthocyanins (Cyanidin, Peonidin, Malvidin, Delphinidin, Petunidin, Pelargonidin)",
+      "cas_no": null,
+      "restrictions": "528-58-5 / 134-01-0 / 528-53-0 / 643-84-5 / 134-04-3",
+      "conditions": "208-438-6 / 205-125-6 / 211-403-8 / 208-437-0 / - / 205-127-7",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "150",
+      "chemical_name": "Aluminium, zinc, magnesium and calcium stearates",
+      "cas_no": null,
+      "restrictions": "7047-84-9 / 557-05-1 /557-04-0 / 1592-23-0",
+      "conditions": "230-325-5 / 209-151-9 / 209-150-3 / 216-472-8",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "151",
+      "chemical_name": "Phenol, 4,4'-(3H-2,1-benzoxathiol- 3-ylidene)bis[2-bromo-3-methyl-6 (1-methylethyl)-, S,S-dioxide",
+      "cas_no": null,
+      "restrictions": "76-59-5",
+      "conditions": "200-971-2",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "152",
+      "chemical_name": "Phenol, 4,4'-(3H-2,1-benzoxathiol- 3-ylidene)bis[2,6-dibromo-3- methyl-,S,S-dioxide",
+      "cas_no": null,
+      "restrictions": "76-60-8",
+      "conditions": "200-972-8",
+      "annex": "Annex IV - Colorants"
+    },
+    {
+      "reference_number": "153",
+      "chemical_name": "Sodium 4-[(4,5-dihydro-3-methyl- 5-oxo-1-phenyl-1H-pyrazol-4- yl)azo]-3-hydroxynaphthalene-1- sulphonate",
+      "cas_no": null,
+      "restrictions": "12220-24-5",
+      "conditions": "-",
+      "annex": "Annex IV - Colorants"
     }
   ]
 }

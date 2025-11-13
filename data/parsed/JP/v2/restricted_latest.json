@@ -1,48 +1,165 @@
 {
   "jurisdiction": "JP",
   "table_type": "restricted",
-  "version": "20251112105940",
-  "generated_at": "2025-11-12T10:59:40.387178",
-  "total_records": 3,
+  "version": "20251113",
+  "generated_at": "2025-11-13T09:41:17.756778Z",
+  "total_records": 26,
   "records": [
     {
-      "INCI_Name": "Hydrogen Peroxide",
-      "Jurisdiction": "JP",
-      "Status": "Restricted",
-      "CAS_No": "7722-84-1",
-      "Product_Type": "未规定",
-      "Max_Conc_Percent": 6.0,
-      "Conditions": "染毛剤に配合する場合、6% 以下 / ≤6% in hair dye products",
-      "Legal_Basis": "Appendix 2",
-      "Update_Date": null,
-      "Notes": null,
-      "Synonyms": []
+      "ingredient_name": "Aluminum chlorhydroxy allantoinate Cantharides tincture, ginger tincture or capsicum tincture Phenyl salicylate Polyoxyethylene laurylether (8-10E.O.)",
+      "max_amount": "1.0 g 1.0 g as total 1.0 g 2.0 g",
+      "cas_no": null,
+      "list_type": "restricted"
     },
     {
-      "INCI_Name": "Salicylic Acid",
-      "Jurisdiction": "JP",
-      "Status": "Restricted",
-      "CAS_No": "69-72-7",
-      "Product_Type": "未规定",
-      "Max_Conc_Percent": 2.0,
-      "Conditions": "洗い流さない製品では 2% 以下 / ≤2% in leave-on products",
-      "Legal_Basis": "Appendix 2",
-      "Update_Date": null,
-      "Notes": null,
-      "Synonyms": []
+      "ingredient_name": "Aerosol agents Zirconium",
+      "max_amount": "Prohibited",
+      "cas_no": null,
+      "list_type": "restricted"
     },
     {
-      "INCI_Name": "Resorcinol",
-      "Jurisdiction": "JP",
-      "Status": "Restricted",
-      "CAS_No": "108-46-3",
-      "Product_Type": "未规定",
-      "Max_Conc_Percent": 0.5,
-      "Conditions": "ヘアローションおよびシャンプーでは 0.5% 以下 / ≤0.5% in hair lotions and shampoos",
-      "Legal_Basis": "Appendix 2",
-      "Update_Date": null,
-      "Notes": null,
-      "Synonyms": []
+      "ingredient_name": "Hair setting agent to be washed away used in only hair. Cysteamine Hydrochloride",
+      "max_amount": "8.63ｇ",
+      "cas_no": null,
+      "list_type": "restricted"
+    },
+    {
+      "ingredient_name": "Toothpaste Diethylene glycol",
+      "max_amount": "Prohibited 0.50 g",
+      "cas_no": null,
+      "list_type": "restricted"
+    },
+    {
+      "ingredient_name": "Sodium lauroyl sarcosinate",
+      "max_amount": "",
+      "cas_no": null,
+      "list_type": "restricted"
+    },
+    {
+      "ingredient_name": "Compounds to be used with the purpose of emulsifying beewax or white beewax Sodium pyroborate",
+      "max_amount": "0.76 g ( limited not to greater than 1/2 amount of beewax and white beewax)",
+      "cas_no": null,
+      "list_type": "restricted"
+    },
+    {
+      "ingredient_name": "Compounds to be used for purposes other than emulsifying beewax or white beewax Sodium pyroborate",
+      "max_amount": "Prohibited",
+      "cas_no": null,
+      "list_type": "restricted"
+    },
+    {
+      "ingredient_name": "Jujube Extract (*2)",
+      "max_amount": "○",
+      "cas_no": null,
+      "list_type": "restricted"
+    },
+    {
+      "ingredient_name": "Thioctic acid",
+      "max_amount": "0.01",
+      "cas_no": null,
+      "list_type": "restricted"
+    },
+    {
+      "ingredient_name": "Ubidecarenone",
+      "max_amount": "0.03",
+      "cas_no": null,
+      "list_type": "restricted"
+    },
+    {
+      "ingredient_name": "Benzoic acid",
+      "max_amount": "0.2",
+      "cas_no": null,
+      "list_type": "restricted"
+    },
+    {
+      "ingredient_name": "Benzoate",
+      "max_amount": "1.0 as total",
+      "cas_no": null,
+      "list_type": "restricted"
+    },
+    {
+      "ingredient_name": "Alkyldiaminoethylglycine hydrochloride",
+      "max_amount": "0.20",
+      "cas_no": null,
+      "list_type": "restricted"
+    },
+    {
+      "ingredient_name": "Photosensitizing dyes",
+      "max_amount": "0.0020 as total",
+      "cas_no": null,
+      "list_type": "restricted"
+    },
+    {
+      "ingredient_name": "Chlorcresol",
+      "max_amount": "0.50",
+      "cas_no": null,
+      "list_type": "restricted"
+    },
+    {
+      "ingredient_name": "Chlorobutanol",
+      "max_amount": "0.10",
+      "cas_no": null,
+      "list_type": "restricted"
+    },
+    {
+      "ingredient_name": "Salicylic acid",
+      "max_amount": "0.20",
+      "cas_no": null,
+      "list_type": "restricted"
+    },
+    {
+      "ingredient_name": "Salicylate",
+      "max_amount": "1.0 as total",
+      "cas_no": null,
+      "list_type": "restricted"
+    },
+    {
+      "ingredient_name": "Sorbic acid and sorbate",
+      "max_amount": "0.50 as total",
+      "cas_no": null,
+      "list_type": "restricted"
+    },
+    {
+      "ingredient_name": "Dehydroacetic acid and dehydroacetate",
+      "max_amount": "0.50 as total",
+      "cas_no": null,
+      "list_type": "restricted"
+    },
+    {
+      "ingredient_name": "Trichlorohydroxydiphenylether (Triclosan)",
+      "max_amount": "0.10",
+      "cas_no": null,
+      "list_type": "restricted"
+    },
+    {
+      "ingredient_name": "p-Oxybenzoic acid esters and their sodium salts",
+      "max_amount": "1.0 as total",
+      "cas_no": null,
+      "list_type": "restricted"
+    },
+    {
+      "ingredient_name": "Phenoxyethanol",
+      "max_amount": "1.0",
+      "cas_no": null,
+      "list_type": "restricted"
+    },
+    {
+      "ingredient_name": "Phenol",
+      "max_amount": "0.10",
+      "cas_no": null,
+      "list_type": "restricted"
+    },
+    {
+      "ingredient_name": "Sodium lauryldiaminoethylglycine",
+      "max_amount": "0.030",
+      "cas_no": null,
+      "list_type": "restricted"
+    },
+    {
+      "ingredient_name": "Resorcin",
+      "max_amount": "0.10",
+      "cas_no": null,
+      "list_type": "restricted"
     }
   ]
 }

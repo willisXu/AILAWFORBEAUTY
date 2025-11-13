@@ -1,19 +1,4179 @@
 {
   "jurisdiction": "CA",
   "table_type": "restricted",
-  "version": "latest",
-  "generated_at": "2024-11-12T00:00:00.000Z",
-  "total_records": 1,
+  "version": "20251113",
+  "generated_at": "2025-11-13T09:41:17.760572Z",
+  "total_records": 695,
   "records": [
     {
-      "INCI_Name": "Methylparaben",
-      "CAS_No": "99-76-3",
-      "CN_Name": "对羟基苯甲酸甲酯",
-      "Jurisdiction": "CA",
-      "Status": "RESTRICTED",
-      "Max_Conc_Percent": 0.8,
-      "Product_Type": "ALL",
-      "Conditions": "Total parabens concentration"
+      "ingredient_name": "Ingredient",
+      "cas_no": "CAS (including but 1 not limited to)",
+      "restriction": "Synonyms and Related Compounds 2 (including but not limited to)",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "1,2-Epoxybutane",
+      "cas_no": "106-88-7",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "1,3-Butadiene",
+      "cas_no": "106-99-0",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "1,3-Dimethylpentylamine and its salts",
+      "cas_no": "105-41-9",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "11-α-Hydroxypregn-4-ene-3,20-dione and its esters",
+      "cas_no": "80-75-1",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "1- and 2-Naphthylamines and their salts",
+      "cas_no": "134-32-7; 91-59-8",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient",
+      "cas_no": "CAS (including but 1 not limited to)",
+      "restriction": "Synonyms and Related Compounds 2 (including but not limited to)",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "1-Butyl-3-(N-crotonoylsulfanilyl) urea",
+      "cas_no": "52964-42-8",
+      "restriction": "2-Butenamide, N-[4- [[[(butylamino)carbonyl]amino]sulfonyl]phenyl]-; Crotonoylcarbutamide; Crotulin",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "1-Methoxy-2,4-diaminobenzene and its salts",
+      "cas_no": "615-05-4",
+      "restriction": "2,4-diaminoanisole; Cl 76050",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "1-Methoxy-2,5-diaminobenzene and their salts",
+      "cas_no": "5307-02-8",
+      "restriction": "2,5-diaminoanisole",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "2-(4-Allyl-2-methoxyphenoxy)-N,N-diethylacetamide and its salts",
+      "cas_no": "305-13-5",
+      "restriction": "Estil",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "2-(4-Methoxybenzyl-N-(2-pyridyl)amino) ethyldimethylamine maleate",
+      "cas_no": "59-33-6",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "2,3,7,8-Tetrachlorodibenzo-p-dioxin",
+      "cas_no": "1746-01-6",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "2,3-Dichloro-2-methylbutane",
+      "cas_no": "507-45-9",
+      "restriction": "Amylene dichloride",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "2,4-Diaminophenylethanol and its salts",
+      "cas_no": "14572-93-1",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "2,4-Dihydroxy-3-methylbenzaldehyde",
+      "cas_no": "6248-20-0",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "2-Amino-1,2-bis(4-methoxyphenol) ethanol and its salts",
+      "cas_no": "5934-19-0",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "2-Amino-4-nitrophenol",
+      "cas_no": "99-57-0",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "2-Amino-5-nitrophenol",
+      "cas_no": "121-88-0",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "2-Methoxypropanol",
+      "cas_no": "1589-47-5",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "2-Methoxypropyl-1-acetate",
+      "cas_no": "70657-70-4",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient",
+      "cas_no": "CAS (including but 1 not limited to)",
+      "restriction": "Synonyms and Related Compounds 2 (including but not limited to)",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "2-Methylheptylamine and its salts",
+      "cas_no": "540-43-2",
+      "restriction": "2-Heptanamine, N-methyl-; Methylaminoheptane; Neosupranol; Oenethyl; Pacamine",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "2-Methyl-m-phenylenediamine",
+      "cas_no": "823-40-5",
+      "restriction": "Toluene-2,6-diamine",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "2-Naphthol",
+      "cas_no": "135-19-3",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "2-Pentylidenecyclohexanone",
+      "cas_no": "25677-40-1",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "3-(α-Naphthyl)-4-hydroxycoumarin",
+      "cas_no": "39923-41-6",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "3,6,10-Trimethyl-3,5,9-undecatrien-2-one",
+      "cas_no": "1117-41-5",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "3-Diethylaminopropyl cinnamate",
+      "cas_no": "538-66-9",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "3-Imidazol-4-ylacrylic acid and its ethyl ester",
+      "cas_no": "104-98-3; 27538-35-8",
+      "restriction": "Urocanic acid; ethyl urocanate",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "4-(4-Methoxyphenyl)-3-butene-2-one",
+      "cas_no": "943-88-4",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "4,4'-Dihydroxy-3,3'-(3-methylthiopropylidene) dicoumarin",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "4,4'-Bis(dimethylamino)benzophenone",
+      "cas_no": "90-94-8",
+      "restriction": "Michler's ketone",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "4,4'-Isopropylidenediphenol",
+      "cas_no": "80-05-7",
+      "restriction": "Bisphenol A",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "4,6-Dimethyl-8-tert-butylcoumarin",
+      "cas_no": "17874-34-9",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "4-Amino-2-nitrophenol",
+      "cas_no": "119-34-6",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "4-Aminosalicylic acid and its salts",
+      "cas_no": "65-49-6",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient",
+      "cas_no": "CAS (including but 1 not limited to)",
+      "restriction": "Synonyms and Related Compounds 2 (including but not limited to)",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "4-Benzyloxyphenol",
+      "cas_no": "103-16-2",
+      "restriction": "Monobenzone",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "4-Ethoxy-m-phenylenediamine and its salts",
+      "cas_no": "5862-77-1; 6219-69-8; 68015-98-5; 67801-06-3",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "4-Ethoxyphenol",
+      "cas_no": "622-62-8",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "4-Methoxy-m-phenylenediamine and its sulfate salts",
+      "cas_no": "615-05-4; 39156-41-7; 6219-67-6",
+      "restriction": "2,4-diaminoanisole; 2,4-diaminoanisole sulphate; 1,3-Benzenediamine, 4-methoxy-, sulfate",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "4-Methoxy-m-phenylenediamine-HCl",
+      "cas_no": "614-94-8",
+      "restriction": "2,4-Diaminoanisole dihydrochloride",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "4-Methyl-m-phenylenediamine and its salts",
+      "cas_no": "95-80-7",
+      "restriction": "Toluene-2,4-diamine",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "4-tert-Butylphenol",
+      "cas_no": "98-54-4",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "4-tert-Butylpyrocatechol",
+      "cas_no": "98-29-3",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "5- (α, β-Dibromophenethyl)-5-methylhydantoin",
+      "cas_no": "511-75-1",
+      "restriction": "5-(1,2-Dibromo-2-phenylethyl)-5-methylimidazolidine-2,4- dione",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "5,5'-Diisopropyl-2,2'-dimethylbiphenyl-4,4'-diyl dihypoiodite",
+      "cas_no": "552-22-7",
+      "restriction": "Thymol iodide",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "5,5-Diphenyl-4-imidazolidone",
+      "cas_no": "3254-93-1",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "5-Methyl-2,3-hexanedione",
+      "cas_no": "13706-86-0",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "6,10-Dimethyl-3,5,9-undecatrien-2-one",
+      "cas_no": "141-10-6",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "6-Isopropyl-2-decahydronaphthalenol",
+      "cas_no": "34131-99-2",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient",
+      "cas_no": "CAS (including but 1 not limited to)",
+      "restriction": "Synonyms and Related Compounds 2 (including but not limited to)",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "7-Methoxycoumarin",
+      "cas_no": "531-59-9",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Acenocoumarol",
+      "cas_no": "152-72-7",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Acetonitrile",
+      "cas_no": "75-05-8",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Acetylcholine and its salts",
+      "cas_no": "51-84-3",
+      "restriction": "β-acetoxyethyl trimethyl ammonium hydroxide",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Acetylsalicylic acid",
+      "cas_no": "50-78-2",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Aconitine and its salts",
+      "cas_no": "302-27-2",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Aconitum napellus L. leaves, roots and galenical preparations",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Acrylamide monomer",
+      "cas_no": "79-06-1",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Adonis vernalis L. and its preparations",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Alkali pentacyanonitrosylferrate (2-)",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Alkyne alcohols and their esters, ethers and salts",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Alloclamide and its salts",
+      "cas_no": "5486-77-1",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Allyl isothiocyanate",
+      "cas_no": "57-06-7",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ambenonium salts",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Aminocaproic acid and its salts",
+      "cas_no": "1319-82-0; 60-32-2",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Aminophylline",
+      "cas_no": "317-34-0",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Amitriptyline and its salts",
+      "cas_no": "50-48-6",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ammi majus and its galenical preparations",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient",
+      "cas_no": "CAS (including but 1 not limited to)",
+      "restriction": "Synonyms and Related Compounds 2 (including but not limited to)",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Amydricaine and its salts",
+      "cas_no": "963-07-5",
+      "restriction": "Alypine; 1,1-bis(dimethylaminomethyl) propyl benzoate",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Amylocaine and its salts",
+      "cas_no": "644-26-8",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Anaesthetic effects, substances with",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Analgesics",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Anamirta cocculus L. fruit",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Androgenic effects, substances with",
+      "cas_no": "58-22-0; 53-43-0",
+      "restriction": "Testosterone; Prasterone",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Aniline, its salts and, its halogenated and sulfonated derivatives",
+      "cas_no": "62-53-3",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Anthracene oil",
+      "cas_no": "120-12-7",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Antiandrogens with steroid structure",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Antibiotics",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Antihistamines",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Antimony and its compounds",
+      "cas_no": "7440-36-0",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Apocynum cannabinum L. and its preparations",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Apomorphine and its salts",
+      "cas_no": "58-00-4",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Apronalide",
+      "cas_no": "528-92-7",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Arecoline",
+      "cas_no": "63-75-2",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Aristolochic acid and its salts",
+      "cas_no": "313-67-7",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient",
+      "cas_no": "CAS (including but 1 not limited to)",
+      "restriction": "Synonyms and Related Compounds 2 (including but not limited to)",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Arsenic and its compounds",
+      "cas_no": "7440-38-2",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Atropa belladonna L. and its preparations",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Atropine, its salts and derivatives",
+      "cas_no": "51-55-8",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Azacyclonol and its salts",
+      "cas_no": "115-46-8",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Azamethonium salts",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Barbiturates",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Basic Green 4 (malachite green and its salts)",
+      "cas_no": "569-64-2; 18015-76-4",
+      "restriction": "Malachite green; CI 42000; malachite green hydrochloride; malachite green oxalate",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Basic Violet 1",
+      "cas_no": "8004-87-3",
+      "restriction": "CI 42535",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Basic Violet 10",
+      "cas_no": "81-88-9",
+      "restriction": "CI 45170; Rhodamine B",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Basic Violet 3",
+      "cas_no": "548-62-9",
+      "restriction": "CI 42555; CI 42555:1; CI 42555:2",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Bemegride",
+      "cas_no": "64-65-3",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Benactyzine",
+      "cas_no": "302-40-9",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Bendroflumethiazide and its derivatives",
+      "cas_no": "73-48-3",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Benzatropine and its salts",
+      "cas_no": "86-13-5",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Benzazepines",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient",
+      "cas_no": "CAS (including but 1 not limited to)",
+      "restriction": "Synonyms and Related Compounds 2 (including but not limited to)",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Benzene",
+      "cas_no": "71-43-2",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Benzidine",
+      "cas_no": "92-87-5",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Benzilonium bromide",
+      "cas_no": "1050-48-2",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Benzimidazol-2(3H)-one",
+      "cas_no": "615-16-7",
+      "restriction": "2H-Benzimidazol-2-one, 1,3-dihydro-; N,N'-(1,2-Phenyleneurea)",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Benzodiazepines",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Benzyl chloride",
+      "cas_no": "100-44-7",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Benzyl cyanide",
+      "cas_no": "140-29-4",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Benzylidene acetone",
+      "cas_no": "122-57-6",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Beryllium and its compounds",
+      "cas_no": "7440-41-7",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Betoxycaine and its salts",
+      "cas_no": "3818-62-0",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Bietamiverine",
+      "cas_no": "479-81-2",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Biphenamine and its salts",
+      "cas_no": "3572-52-9",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Bispyrithione",
+      "cas_no": "3696-28-4",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Bithionol",
+      "cas_no": "97-18-7",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient",
+      "cas_no": "CAS (including but 1 not limited to)",
+      "restriction": "Synonyms and Related Compounds 2 (including but not limited to)",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Bovine tissues and ingredients derived from the skull, brain, trigeminal ganglia, eyes, spinal cord, and dorsal root ganglia of cattle aged 30 months or older and the small intestine and tonsils of cattle of all ages. This prohibition does not apply to tallow derivatives, or to gelatin, collagen and hydrolyzed proteins prepared from bovine hides and skins",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Bretylium tosilate",
+      "cas_no": "61-75-6",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Bromates",
+      "cas_no": "7789-38-0; 7758-01-2",
+      "restriction": "Sodium bromate; Potassium bromate",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Bromine, elemental",
+      "cas_no": "7726-95-6",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Bromisoval",
+      "cas_no": "496-67-3",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Brompheniramine and its salts",
+      "cas_no": "86-22-6",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Butanilicaine and its salts",
+      "cas_no": "3785-21-5",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Butopiprine and its salts",
+      "cas_no": "55837-15-5",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Cadmium and its compounds",
+      "cas_no": "7440-43-9",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Cannabis, as defined in subsection 2(1) of the Cannabis Act (see the Cannabis Exemption (Food and Drugs Act) Regulations for details)",
+      "cas_no": "13956-29-1; 521-35-7; 1972-08-3",
+      "restriction": "Tetrahydrocannabinol; delta-9-tetrahydrocannabinol; Cannabidiol; Cannabinol; Cannabis Sativa Flower Extract; Cannabis Sativa Flower/Leaf/Stem Extract",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Cantharides, Cantharidin and Cantharis vesicatoria",
+      "cas_no": "92457-17-5; 56-25-7; 80558-50-5",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Captan",
+      "cas_no": "133-06-2",
+      "restriction": "N-(trichloromethylthio)-4-cyclohexene-1,2-dicarboximide)",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient",
+      "cas_no": "CAS (including but 1 not limited to)",
+      "restriction": "Synonyms and Related Compounds 2 (including but not limited to)",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Captodiame",
+      "cas_no": "486-17-9",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Caramiphen and its salts",
+      "cas_no": "77-22-5; 125-85-9",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Carbazole, nitroderivatives of",
+      "cas_no": "86-74-8",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Carbon disulfide",
+      "cas_no": "75-15-0",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Carbon tetrachloride",
+      "cas_no": "56-23-5",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Carbromal",
+      "cas_no": "77-65-6",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Carbutamide",
+      "cas_no": "339-43-5",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Carisoprodol",
+      "cas_no": "78-44-4",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Cephaeline and its salts",
+      "cas_no": "483-17-0",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Cephaelis ipecacuanha Brot. and related species, roots, powder, and galenical preparations",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Chenopodium ambrosioides essential oil",
+      "cas_no": "8006-99-3",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Chloral hydrate",
+      "cas_no": "302-17-0",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Chloramine T and related compounds",
+      "cas_no": "127-65-1; 7080-50-4; 144-86-5",
+      "restriction": "Chloramine T trihydrate; N-Chloro-p-toluenesulfonamide",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Chlorine",
+      "cas_no": "7782-50-5",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Chlormethine and its salts",
+      "cas_no": "51-75-2",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient",
+      "cas_no": "CAS (including but 1 not limited to)",
+      "restriction": "Synonyms and Related Compounds 2 (including but not limited to)",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Chlormezanone",
+      "cas_no": "80-77-3",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Chloroacetamide",
+      "cas_no": "79-07-2",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Chloroethane",
+      "cas_no": "75-00-3",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Chloroform",
+      "cas_no": "67-66-3",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Chlorophacinone",
+      "cas_no": "3691-35-8",
+      "restriction": "2-[2-(4-chlorophenyl)-2-phenylacetyl]indan-1,3-dione",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Chlorphenoxamine",
+      "cas_no": "77-38-3",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Chlorpropamide",
+      "cas_no": "94-20-2",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Chlorprothixene and its salts",
+      "cas_no": "113-59-7",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Chlortalidone",
+      "cas_no": "77-36-1",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Chlorzoxazone",
+      "cas_no": "95-25-0",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Choline salts and their esters",
+      "cas_no": "62-49-7",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Chromic acid and its salts",
+      "cas_no": "7738-94-5; 13530-68-2",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Chromium",
+      "cas_no": "7440-47-3",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Chrysoidine citrate hydrochloride",
+      "cas_no": "5909-04-6",
+      "restriction": "2,4-Diaminoazobenzene hydrochloride citrate",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "CI 12120",
+      "cas_no": "2425-85-6",
+      "restriction": "Pigment red 3",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "CI 12140",
+      "cas_no": "3118-97-6",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "CI 13065",
+      "cas_no": "587-98-4",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "CI 42640",
+      "cas_no": "1694-09-3",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient",
+      "cas_no": "CAS (including but 1 not limited to)",
+      "restriction": "Synonyms and Related Compounds 2 (including but not limited to)",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Cinchocaine and its salts",
+      "cas_no": "85-79-0",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Cinchophen, its salts, derivatives and salts of these derivatives",
+      "cas_no": "132-60-5",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Claviceps purpurea Tul., its alkaloids and galenical preparations",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Clobetasone",
+      "cas_no": "54063-32-0",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Clofenamide",
+      "cas_no": "671-95-4",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Clofenotane",
+      "cas_no": "50-29-3",
+      "restriction": "DDT",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Clostridium botulinum",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Coal tars crude and refined",
+      "cas_no": "8007-45-2",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Cobalt benzenesulfonate",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Colchicine, its salts and derivatives",
+      "cas_no": "64-86-8",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Colchicoside and its derivatives",
+      "cas_no": "477-29-2",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Colchicum autumnale L. and its galenical preparations",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Coniferyl alcohol except for naturally occurring in plant extracts",
+      "cas_no": "458-35-5",
+      "restriction": "4-hydroxy-3-methoxycinnamyl alcohol; Gamma- hydroxyisoeugenol",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Coniine",
+      "cas_no": "458-88-8",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Conium maculatum L. fruit, powder and galenical preparations",
+      "cas_no": "85116-75-2",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Convallatoxin",
+      "cas_no": "508-75-8",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Coumetarol",
+      "cas_no": "4366-18-1",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient",
+      "cas_no": "CAS (including but 1 not limited to)",
+      "restriction": "Synonyms and Related Compounds 2 (including but not limited to)",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Creosote",
+      "cas_no": "8021-39-4; 8001-58-9",
+      "restriction": "Coal tar creosote; wood creosote",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Crimidine",
+      "cas_no": "535-89-7",
+      "restriction": "2-chloro-6-methylpyrimidin-4-yldimethylamine",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Croton tiglium oil",
+      "cas_no": "8001-28-3",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Curare",
+      "cas_no": "8063-06-7",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Curarine",
+      "cas_no": "22260-42-0",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Curarizants, synthetic",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Cyclarbamate",
+      "cas_no": "5779-54-4",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Cyclizine and its salts",
+      "cas_no": "82-92-8",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Cyclocoumarol",
+      "cas_no": "518-20-7",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Cyclomenol and its salts",
+      "cas_no": "5591-47-9",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Cyclophosphamide and its salts",
+      "cas_no": "50-18-0",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Datura stramonium L. and its galenical preparations",
+      "cas_no": "84696-08-2; 8063-18-1; 89998-22-1",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Deanol aceglumate",
+      "cas_no": "3342-61-8",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Decamethylenebis (trimethylammonium) salts",
+      "cas_no": "541-22-0; 3198-38-7; 1420-40-2",
+      "restriction": "Decamethonium bromide; Decamethonium dichloride; Decamethonium iodide",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient",
+      "cas_no": "CAS (including but 1 not limited to)",
+      "restriction": "Synonyms and Related Compounds 2 (including but not limited to)",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Dextromethorphan and its salts",
+      "cas_no": "125-71-3",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Dextropropoxyphene",
+      "cas_no": "469-62-5",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Dibromosalicylanilides",
+      "cas_no": "24556-64-7; 87-12-7; 2577-72-2",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Dichloroethanes",
+      "cas_no": "1300-21-6; 107-06-2",
+      "restriction": "Ethylene chlorides",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Dichloroethylenes",
+      "cas_no": "25323-30-2; 540-59-0; 75-35-4; 156-59-2; 156-60-5",
+      "restriction": "Acetylene chlorides",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Dichlorosalicylanilides",
+      "cas_no": "1147-98-4; 4214-48-6",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Dicoumarol",
+      "cas_no": "66-76-2",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Diethyl 4-nitrophenyl phosphate",
+      "cas_no": "311-45-5",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Diethyl maleate",
+      "cas_no": "141-05-9",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Diethyl sulfate",
+      "cas_no": "64-67-5",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Diethyl toluamide",
+      "cas_no": "134-62-3",
+      "restriction": "DEET",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Diethylhexyl phthalate",
+      "cas_no": "117-81-7",
+      "restriction": "DEHP",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient",
+      "cas_no": "CAS (including but 1 not limited to)",
+      "restriction": "Synonyms and Related Compounds 2 (including but not limited to)",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Difencloxazine",
+      "cas_no": "5617-26-5",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Digitaline",
+      "cas_no": "71-63-6",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Digitalis purpurea L., all heterosides of",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Dihydrotachysterol",
+      "cas_no": "67-96-9",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Dimethoxane",
+      "cas_no": "828-00-2",
+      "restriction": "2,6-dimethyl-1,3-dioxan-4-yl acetate",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Dimethyl citraconate",
+      "cas_no": "617-54-9",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Dimethyl sulfate",
+      "cas_no": "77-78-1",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Dimethyl sulfoxide",
+      "cas_no": "67-68-5",
+      "restriction": "DMSO",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Dimethylamine",
+      "cas_no": "124-40-3",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Dimethylformamide",
+      "cas_no": "68-12-2",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Dimevamide and its salts",
+      "cas_no": "60-46-8",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Dinitrophenol isomers",
+      "cas_no": "25550-58-7",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Dioxane",
+      "cas_no": "123-91-1",
+      "restriction": "1,4-dioxane",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Dioxethedrin and its salts",
+      "cas_no": "497-75-6",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Diphenhydramine and its salts",
+      "cas_no": "58-73-1",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Diphenoxylate hydrochloride",
+      "cas_no": "3810-80-8",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Diphenylamine",
+      "cas_no": "122-39-4",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Diphenylpyraline and its salts",
+      "cas_no": "147-20-6",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Doxylamine and its salts",
+      "cas_no": "469-21-6",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient",
+      "cas_no": "CAS (including but 1 not limited to)",
+      "restriction": "Synonyms and Related Compounds 2 (including but not limited to)",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Emetine, its salts and derivatives",
+      "cas_no": "483-18-1",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Endrin",
+      "cas_no": "72-20-8",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ephedrine and its salts",
+      "cas_no": "299-42-3",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Epichlorohydrin",
+      "cas_no": "106-89-8",
+      "restriction": "Oxirane, chloromethyl",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Epinephrine",
+      "cas_no": "51-43-4",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Eserine and its salts",
+      "cas_no": "57-47-6",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Estradiol",
+      "cas_no": "50-28-2",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Estrogens",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Estrone",
+      "cas_no": "53-16-7",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ethinylestradiol",
+      "cas_no": "57-63-6",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ethionamide",
+      "cas_no": "536-33-4",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ethoheptazine and its salts",
+      "cas_no": "77-15-6",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ethoxyethanol",
+      "cas_no": "110-80-5",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ethoxyethanol acetate",
+      "cas_no": "111-15-9",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ethyl biscoumacetate and salts of the acid",
+      "cas_no": "548-00-5",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ethyl PABA",
+      "cas_no": "94-09-7",
+      "restriction": "Benzocaine; 4-Aminobenzoic Acid, Ethyl Ester",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ethylene oxide",
+      "cas_no": "75-21-8",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ethylenediamine",
+      "cas_no": "107-15-3",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient",
+      "cas_no": "CAS (including but 1 not limited to)",
+      "restriction": "Synonyms and Related Compounds 2 (including but not limited to)",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ethylphenacemide",
+      "cas_no": "90-49-3",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Fenadiazole",
+      "cas_no": "1008-65-7",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Fenozolone",
+      "cas_no": "15302-16-6",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Fenyramidol",
+      "cas_no": "553-69-5",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ficus carica leaf absolute",
+      "cas_no": "68916-52-9",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Fluanisone",
+      "cas_no": "1480-19-9",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Fluoresone",
+      "cas_no": "2924-67-6",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Fluorouracil",
+      "cas_no": "51-21-8",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Furazolidone",
+      "cas_no": "67-45-8",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Furfuryltrimethyl ammonium salts",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Galantamine",
+      "cas_no": "357-70-0",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Gallamine triethiodide",
+      "cas_no": "65-29-2",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Glucocorticoids",
+      "cas_no": "1524-88-5",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Glutarimide and its salts",
+      "cas_no": "1121-89-7",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Glutethimide and its salts",
+      "cas_no": "77-21-4",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Glycyclamide",
+      "cas_no": "664-95-9",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Gold salts",
+      "cas_no": "16903-35-8; 105883-47-4",
+      "restriction": "Gold chloride HCl; Gold acetylmethionate; Gold aspartate/glutamate",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient",
+      "cas_no": "CAS (including but 1 not limited to)",
+      "restriction": "Synonyms and Related Compounds 2 (including but not limited to)",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Guaifenesin",
+      "cas_no": "93-14-1",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Guanethidine and its salts",
+      "cas_no": "55-65-2",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Haloperidol",
+      "cas_no": "52-86-8",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "HC Blue No. 4",
+      "cas_no": "158571-57-4",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "HC Blue No. 5",
+      "cas_no": "68478-64-8; 158571- 58-5",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Hexachloroethane",
+      "cas_no": "67-72-1",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Hexachlorophene",
+      "cas_no": "70-30-4",
+      "restriction": "2,2'-dihydroxy-3,3',5,5',6,6'-hexachlorodiphenylmethane",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Hexaethyl tetraphosphate",
+      "cas_no": "757-58-4",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Hexamethonium salts",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Hexapropymate",
+      "cas_no": "358-52-1",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Hydrastine and its salts",
+      "cas_no": "118-08-1",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Hydrastinine and its salts",
+      "cas_no": "6592-85-4",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Hydrazides and their salts",
+      "cas_no": "54-85-3; 1071-93-8; 123-33-1",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Hydrazine, its derivatives and their salts",
+      "cas_no": "302-01-2",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Hydroabietyl alcohol",
+      "cas_no": "13393-93-6; 26266-77-3",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient",
+      "cas_no": "CAS (including but 1 not limited to)",
+      "restriction": "Synonyms and Related Compounds 2 (including but not limited to)",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Hydrofluoric acid, its normal salts, its complexes and hydrofluorides",
+      "cas_no": "7664-39-3",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Hydrogen cyanide and its salts",
+      "cas_no": "74-90-8",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Hydroxyzine",
+      "cas_no": "68-88-2",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Hyoscine, its salts and derivatives",
+      "cas_no": "51-34-3",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Hyoscyamine its salts and derivatives",
+      "cas_no": "101-31-5",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Hyoscyamus niger L. leaves, seeds, powder, and galenical preparations",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Imperatorin",
+      "cas_no": "482-44-0",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Inproquone",
+      "cas_no": "436-40-8",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Inula helenium oil",
+      "cas_no": "97676-35-2",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Iodine",
+      "cas_no": "7553-56-2",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Isocarboxazide",
+      "cas_no": "59-63-2",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Isodrin",
+      "cas_no": "465-73-6",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Isometheptene and its salts",
+      "cas_no": "503-01-5",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Isophorone",
+      "cas_no": "78-59-1",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Isoprenaline",
+      "cas_no": "7683-59-2",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Isoprene monomer",
+      "cas_no": "78-79-5",
+      "restriction": "1,3-butadiene, 2-methyl",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Isopropamide salts",
+      "cas_no": "",
+      "restriction": "N-(3-carbamoyl-3,3-diphenylpropyl)-N,N- diisopropylmethylammonium)",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient",
+      "cas_no": "CAS (including but 1 not limited to)",
+      "restriction": "Synonyms and Related Compounds 2 (including but not limited to)",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Isosorbide dinitrate",
+      "cas_no": "87-33-2",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Juniperus sabina L. leaves, essential oil and galenical preparations",
+      "cas_no": "68916-94-9",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Laurus nobilis L., oil from the seeds of",
+      "cas_no": "8007-48-5",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Lead acetate",
+      "cas_no": "301-04-2",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Lead and its compounds",
+      "cas_no": "7439-92-1",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Levophacetoperane and its salts",
+      "cas_no": "24558-01-8",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Lidocaine",
+      "cas_no": "137-58-6",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Lindane",
+      "cas_no": "58-89-9",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Lobelia inflata L. and its galenical preparations",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Lobeline and its salts",
+      "cas_no": "90-69-7",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Lysergide and its salts",
+      "cas_no": "50-37-3",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Malononitrile",
+      "cas_no": "109-77-3",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Mannomustine and its salts",
+      "cas_no": "576-68-1",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Mecamylamine",
+      "cas_no": "60-40-2",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Mefeclorazine and its salts",
+      "cas_no": "1243-33-0",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Mephenesin and its esters",
+      "cas_no": "59-47-2",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Meprobamate",
+      "cas_no": "57-53-4",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Mercury and its compounds",
+      "cas_no": "7439-97-6; 21908-53-2;",
+      "restriction": "Mercuric oxide; Phenyl mercuric acetate;",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient",
+      "cas_no": "CAS (including but 1 not limited to)",
+      "restriction": "Synonyms and Related Compounds 2 (including but not limited to)",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Mescaline and its salts",
+      "cas_no": "54-04-6",
+      "restriction": "3,4,5-trimethoxyphenethylamine",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Metaldehyde",
+      "cas_no": "9002-91-9",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Metamfepramone and its salts",
+      "cas_no": "15351-09-4",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Metethoheptazine and its salts",
+      "cas_no": "509-84-2",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Metformin and its salts",
+      "cas_no": "657-24-9",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Methapyrilene and its salts",
+      "cas_no": "91-80-5",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Metheptazine and its salts",
+      "cas_no": "469-78-3",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Methocarbamol",
+      "cas_no": "532-03-6",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Methotrexate",
+      "cas_no": "59-05-2",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Methoxydiglycol",
+      "cas_no": "111-77-3",
+      "restriction": "Diethylene glycol monomethyl ether; DEGME",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Methoxyethanol",
+      "cas_no": "109-86-4",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Methoxyethanol acetate",
+      "cas_no": "110-49-6",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Methyl methacrylate monomer",
+      "cas_no": "80-62-6",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Methyloxirane monomer",
+      "cas_no": "75-56-9",
+      "restriction": "Propylene oxide",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient",
+      "cas_no": "CAS (including but 1 not limited to)",
+      "restriction": "Synonyms and Related Compounds 2 (including but not limited to)",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Methylphenidate and its salts",
+      "cas_no": "113-45-1",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Methyl-trans-2-butenoate",
+      "cas_no": "623-43-8",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Methyprylon and its salts",
+      "cas_no": "125-64-4",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Metyrapone",
+      "cas_no": "54-36-4",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Minoxidil, its salts and derivatives",
+      "cas_no": "38304-91-5",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Mofebutazone",
+      "cas_no": "2210-63-1",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Morpholine and its salts",
+      "cas_no": "110-91-8",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Musk ambrette",
+      "cas_no": "83-66-9",
+      "restriction": "4-tert-butyl-3-methoxy-2,6-dinitrotoluene",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Musk tibetene",
+      "cas_no": "145-39-1",
+      "restriction": "1-tert-butyl-3,4,5-trimethyl-2,6-dinitrobenzene",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "N,N-bis(2-Chloroethyl)methylamine N-oxide and its salts",
+      "cas_no": "126-85-2",
+      "restriction": "Nitrogen mustard N-oxide",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "N-5-Chlorobenzoxazol-2-ylacetamide and its salts",
+      "cas_no": "35783-57-4",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Nalorphine, its salts and ethers",
+      "cas_no": "62-67-9",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Naphazoline and its salts",
+      "cas_no": "835-31-4",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Naphthalene",
+      "cas_no": "91-20-3",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Narcotics, natural and synthetic",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Neodymium and its salts",
+      "cas_no": "7440-00-8",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Neostigmine and its salts",
+      "cas_no": "59-99-4",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Nerium oleander, its extracts and its glycosides",
+      "cas_no": "465-16-7; 84929-39-5",
+      "restriction": "Oleandrin; Digitoxigenin; Neriin; Folinerin; Rosagenin",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient",
+      "cas_no": "CAS (including but 1 not limited to)",
+      "restriction": "Synonyms and Related Compounds 2 (including but not limited to)",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Nicotine and its salts",
+      "cas_no": "54-11-5",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Nitrites, amyl",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Nitrites, inorganic, except sodium nitrite",
+      "cas_no": "14797-65-0",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Nitrobenzene",
+      "cas_no": "98-95-3",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Nitrocresols and their alkali metal salts",
+      "cas_no": "12167-20-3; 119-33-5; 4920-77-8; 2042-14-0; 2581-34-2; 5428-54-6; 700-38-9; 2666-76-4",
+      "restriction": "2-Nitro-4-cresol; 2-Nitro-m-cresol; 3-Nitro-p-cresol; 4-Nitro-m-cresol; 4-Nitro-o-cresol; 5-Nitro-o-cresol; 6-Nitro-m-cresol; Sodium 4-nitro-m-cresolate",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Nitrofurantoin",
+      "cas_no": "67-20-9",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Nitroglycerin",
+      "cas_no": "55-63-0",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Nitrosamines",
+      "cas_no": "64091-91-4; 35576-91-1; 930-55-2; 100-75-4; 10595-95-6; 59-89-2; 621-64-7; 924-16-3; 55-18-5; 1116-54-7;",
+      "restriction": "N-nitrosodiethanolamine",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient",
+      "cas_no": "CAS (including but 1 not limited to)",
+      "restriction": "Synonyms and Related Compounds 2 (including but not limited to)",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Nitrostilbenes, their homologues and their derivatives",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Nitroxoline and its salts",
+      "cas_no": "4008-48-4",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Noradrenaline and its salts",
+      "cas_no": "51-41-2",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Noscapine and its salts",
+      "cas_no": "128-62-1",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "O,O'-Diacetyl-N-allyl-N-normorphine",
+      "cas_no": "2748-74-5",
+      "restriction": "Diacetylnalorphine",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "O-Alkyldithiocarbonic acids, salts of",
+      "cas_no": "140-93-2; 140-92-1; 1000-90-4",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Octamoxin and its salts",
+      "cas_no": "4684-87-1",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Octamylamine and its salts",
+      "cas_no": "502-59-0",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Octodrine and its salts",
+      "cas_no": "543-82-8",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "o-Phenylenediamine and its salts",
+      "cas_no": "95-54-5",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Oxanamide and its derivatives",
+      "cas_no": "126-93-2",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Oxpheneridine and its salts",
+      "cas_no": "546-32-7",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "p-Cresol and mixtures thereof",
+      "cas_no": "106-44-5; 1319-77-3",
+      "restriction": "Mixed cresols",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "PABA, esters of; with a free amino group",
+      "cas_no": "",
+      "restriction": "4-aminobenzoic acid",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Paramethasone",
+      "cas_no": "53-33-8",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient",
+      "cas_no": "CAS (including but 1 not limited to)",
+      "restriction": "Synonyms and Related Compounds 2 (including but not limited to)",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Parathion",
+      "cas_no": "56-38-2",
+      "restriction": "O,O'-diethyl O-4-nitrophenyl phosphorothioate",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Parethoxycaine and its salts",
+      "cas_no": "94-23-5",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Pelletierine and its salts",
+      "cas_no": "2858-66-4",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Pemoline and its salts",
+      "cas_no": "2152-34-3",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Pentachloroethane",
+      "cas_no": "76-01-7",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Pentaerythrityl tetranitrate",
+      "cas_no": "78-11-5",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Pentamethonium salts",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Pentyl dimethyl PABA, mixed isomers",
+      "cas_no": "14779-78-3",
+      "restriction": "Amyl 4-dimethylaminobenzoate",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Petrichloral",
+      "cas_no": "78-12-6",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Phenacemide",
+      "cas_no": "63-98-9",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Phenaglycodol",
+      "cas_no": "79-93-6",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Phenetamine",
+      "cas_no": "3590-16-7",
+      "restriction": "Feclemine",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Phenindione",
+      "cas_no": "83-12-5",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Phenmetrazine, its derivatives and salts",
+      "cas_no": "134-49-6",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Phenol",
+      "cas_no": "108-95-2",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Phenolphthalein",
+      "cas_no": "77-09-8",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Phenothiazine and its compounds",
+      "cas_no": "92-84-2",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Phenprobamate",
+      "cas_no": "673-31-4",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Phenprocoumon",
+      "cas_no": "435-97-2",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient",
+      "cas_no": "CAS (including but 1 not limited to)",
+      "restriction": "Synonyms and Related Compounds 2 (including but not limited to)",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Phenylbutazone",
+      "cas_no": "50-33-9",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Pheromones",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Phosphorus and metal phosphides",
+      "cas_no": "7723-14-0",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Physostigma venenosum Balf.",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Phytolacca spp. and their preparations",
+      "cas_no": "84961-56-8",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Picric acid",
+      "cas_no": "88-89-1",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Picrotoxin",
+      "cas_no": "124-87-8",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Pigment Orange 5 and its lakes, pigments and salts",
+      "cas_no": "3468-63-1",
+      "restriction": "CI 12075",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Pigment Red 53",
+      "cas_no": "2092-56-0",
+      "restriction": "CI 15585",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Pilocarpine and its salts",
+      "cas_no": "92-13-7",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Pilocarpus jaborandi Holmes and its galenical preparations",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Pipazetate and its salts",
+      "cas_no": "2167-85-3",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Piper methysticum extract",
+      "cas_no": "9000-38-8",
+      "restriction": "kava kava",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Pipradrol and its salts",
+      "cas_no": "467-60-7",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Piprocurarium salts",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Poldine methyl sulfate",
+      "cas_no": "545-80-2",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Pramocaine",
+      "cas_no": "140-65-8",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Probenecid",
+      "cas_no": "57-66-9",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Procainamide, its salts and derivatives",
+      "cas_no": "51-06-9",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient",
+      "cas_no": "CAS (including but 1 not limited to)",
+      "restriction": "Synonyms and Related Compounds 2 (including but not limited to)",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Progestogens",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Propatylnitrate",
+      "cas_no": "2921-92-8",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Propyphenazone",
+      "cas_no": "479-92-5",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Prostaglandins, their salts and derivatives and their analogs",
+      "cas_no": "745-65-3; 155206-00-1; 40665-92-7; 363-24-6; 35121-78-9; 40666-16-8; 130209-82-4; 59122-46-2; 209860-87-7; 157283-68-6; 81846-19-7; 120373-36-6; 130209-76-6; 1005193-64-5; 157283-66-4",
+      "restriction": "Alprostadil; Bimatoprost; Cloprostenol; Dinoprostone; Epoprostenol; Fluprostenol; Latanoprost; Misoprostol; Tafluprost; Travoprost; Treprostinil; Unoprostone; Dehydrolatanoprost; Ethyl Travoprostamide; Trifluoromethyl Dechloro Ethylprostenolamide; Isopropyl Phenylhydroxypentene Dihydroxycyclopentylheptenate; Isopropyl Cloprostenate",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Prunus laurocerasus L.",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Psilocybine",
+      "cas_no": "520-52-5",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Pueraria mirifica",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient",
+      "cas_no": "CAS (including but 1 not limited to)",
+      "restriction": "Synonyms and Related Compounds 2 (including but not limited to)",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Pyrethrum album L. and its galenical preparations",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Pyrocatechol",
+      "cas_no": "120-80-9",
+      "restriction": "Catechol",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Pyrogallol",
+      "cas_no": "87-66-1",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Radioactive substances",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Rauwolfia serpentina alkaloids and their salts",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Retinoic Acid and its salts",
+      "cas_no": "302-79-4; 4759-48-2",
+      "restriction": "Tretinoin; cis-Retinoic Acid; all-trans-retinoic acid",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Safrole, except when naturally occurring in plant extracts",
+      "cas_no": "94-59-7",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Schoenocaulon officinale Lind. seeds and galenical preparations",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Secondary alkyl- and alkanolamines and their salts",
+      "cas_no": "111-42-2; 110-97-4; 69331-39-1; 61693-41- 2; 58855-63-3; 124-20- 9; 334-50-9; 108-18-9",
+      "restriction": "Diethanolamine (DEA); Diisopropanolamine (DIPA); DEA- Cetyl Phosphate; DEA-Oleth-3 Phosphate; DEA-Oleth-10 Phosphate; Spermidine; Spermidine HCl; Diisopropylamine",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Selenium and its compounds",
+      "cas_no": "7782-49-2",
+      "restriction": "Excluding selenium sulfide (7488-56-4)",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Sodium hexacyclonate",
+      "cas_no": "7009-49-6",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Sodium pyrithione",
+      "cas_no": "3811-73-2",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Solanum nigrum L. and its galenical preparations",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Solvent Blue 35",
+      "cas_no": "17354-14-2",
+      "restriction": "CI 61554",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Solvent Red 24",
+      "cas_no": "85-83-6",
+      "restriction": "CI 26105",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Solvent Red 49:1",
+      "cas_no": "6373-07-5",
+      "restriction": "CI 45170:1;",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient",
+      "cas_no": "CAS (including but 1 not limited to)",
+      "restriction": "Synonyms and Related Compounds 2 (including but not limited to)",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Sparteine and its salts",
+      "cas_no": "90-39-1",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Spironolactone",
+      "cas_no": "52-01-7",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Steroids",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Strontium nitrite",
+      "cas_no": "13470-06-9",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Strontium polycarboxylate",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Strophantines, their aglucones and derivatives",
+      "cas_no": "11005-63-3",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Strophantus spp. and their galenical preparations",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Strychnine and its salts",
+      "cas_no": "57-24-9",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Strychnos spp. and their galenical preparations",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Succinonitrile",
+      "cas_no": "110-61-2",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Sulfinpyrazone",
+      "cas_no": "57-96-5",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Sulfonamides and their salts obtained by substitution of one or more H-atoms of the -NH2 groups",
+      "cas_no": "63-74-1; 10103-15-8; 6101-31-1; 723-46-6",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Sultiame",
+      "cas_no": "61-56-3",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Sympathicomimetic amines",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Symphytum spp., with the exception of Symphytum officinale",
+      "cas_no": "",
+      "restriction": "Comfrey",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient",
+      "cas_no": "CAS (including but 1 not limited to)",
+      "restriction": "Synonyms and Related Compounds 2 (including but not limited to)",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Tefazoline and its salts",
+      "cas_no": "1082-56-0",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Tellurium and its compounds",
+      "cas_no": "13494-80-9",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Tetrabenazine and its salts",
+      "cas_no": "58-46-8",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Tetrabromosalicylanilides",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Tetracain and its salts",
+      "cas_no": "94-24-6",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Tetrachloroethylene",
+      "cas_no": "127-18-4",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Tetrachlorosalicylanilides",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Tetraethyl pyrophosphate",
+      "cas_no": "107-49-3",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Tetrahydrozoline and its salts",
+      "cas_no": "84-22-0",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Tetrylammonium bromide",
+      "cas_no": "71-91-0",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Thalidomide and its salts",
+      "cas_no": "50-35-1",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Thallium and its compounds",
+      "cas_no": "7440-28-0",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Theophylline",
+      "cas_no": "58-55-9",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Thevetia neriifolia",
+      "cas_no": "90147-54-9",
+      "restriction": "Yellow oleander; Thevetia peruviana; Thevetia nereifolia; Cascabela thevetia; Cerbera thevetia; Neriifolin; Thevetin A; Thevetin B; Thevetoxin; Peruvoside; Ruvoside",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Thiamazole",
+      "cas_no": "60-56-0",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Thimerosal",
+      "cas_no": "54-64-8",
+      "restriction": "See \"Mercury and its compounds\"",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient",
+      "cas_no": "CAS (including but 1 not limited to)",
+      "restriction": "Synonyms and Related Compounds 2 (including but not limited to)",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Thioglycolic acid esters",
+      "cas_no": "30618-84-9; 25103-09-7",
+      "restriction": "Glyceryl thioglycolate; Isoocytl thioglycolate",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Thiotepa",
+      "cas_no": "52-24-4",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Thiourea and its derivatives",
+      "cas_no": "62-56-6",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Thyropropic acid and its salts",
+      "cas_no": "51-26-3",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Thyrothricine",
+      "cas_no": "1404-88-2",
+      "restriction": "Tryothricin",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Tiratricol",
+      "cas_no": "51-24-1; 1477-04-9",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Tolboxane",
+      "cas_no": "2430-48-8",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Tolbutamide",
+      "cas_no": "64-77-7",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Tolnaftate",
+      "cas_no": "2398-96-1",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Toluene Diisocyanates",
+      "cas_no": "584-84-9; 91-08-7; 26471-62-5",
+      "restriction": "TDIs; 2,4-diisocyanato-1-methyl-benzene (2,4-toluene diisocyanate); 2,6-diisocyanato-1-methyl-benzene (2,6 toluene diisocyanate); 1,3-diisocyanatomethyl-benzene (mixed isomers of toluene diisocyanate)",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Toluidines, their isomers, salts and halogenated and sulfonated derivatives except 4-hydroxy-2-nitro-toluidine and hydroxyethyl-2- nitro-p-toluidine",
+      "cas_no": "26915-12-8; 95-53-4",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient",
+      "cas_no": "CAS (including but 1 not limited to)",
+      "restriction": "Synonyms and Related Compounds 2 (including but not limited to)",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Toxins",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "trans-2-Heptenal",
+      "cas_no": "18829-55-5",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Tranylcypromine and its salts",
+      "cas_no": "155-09-9",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Tretamine",
+      "cas_no": "51-18-3",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Triamterene and its salts",
+      "cas_no": "396-01-0",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Tribromoethanol",
+      "cas_no": "75-80-9",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Tribromosalicylanilide",
+      "cas_no": "1322-38-9",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Trichlormethine and its salts",
+      "cas_no": "817-09-4",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Trichloroacetic acid",
+      "cas_no": "76-03-9",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Trichloronitromethane",
+      "cas_no": "76-06-2",
+      "restriction": "Chloropicrine",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Tricresyl phosphate",
+      "cas_no": "1330-78-5",
+      "restriction": "Tritolyl phosphate",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Trifluperidol",
+      "cas_no": "749-13-3",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Triparanol",
+      "cas_no": "78-41-1",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Tripelennamine",
+      "cas_no": "91-81-6",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Tuaminoheptane, its isomers and salts",
+      "cas_no": "123-82-0",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Urginea scilla Stern. and its galenical preparations",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Vaccines",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Valnoctamide",
+      "cas_no": "4171-13-5",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Veratrine, its salts and galenical preparations",
+      "cas_no": "62-59-9",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient",
+      "cas_no": "CAS (including but 1 not limited to)",
+      "restriction": "Synonyms and Related Compounds 2 (including but not limited to)",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Veratrum spp. and their preparations",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Versalide",
+      "cas_no": "88-29-9",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Vinyl chloride monomer",
+      "cas_no": "75-01-4",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Warfarin and its salts",
+      "cas_no": "81-81-2",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Xanthinol",
+      "cas_no": "2530-97-4",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Xylidines, their isomers, salts, halogenated and sulfonated derivatives",
+      "cas_no": "1300-73-8",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Xylometazoline and its salts",
+      "cas_no": "526-36-3",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Yohimbine and its salts",
+      "cas_no": "146-48-5",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Zoxazolamine",
+      "cas_no": "61-80-3",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "α-Methylanisalacetone",
+      "cas_no": "104-27-8",
+      "restriction": "1-(4-methoxyphenyl)-1-pentene-3-one",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "α-Santonin",
+      "cas_no": "481-06-1",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "β-Eucaine",
+      "cas_no": "500-34-5",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "# A B C D E F G H I K L M P R S T U Z",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient Information",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "C Chemical",
+      "cas_no": "AS (including but not limited to) 1",
+      "restriction": "Synonyms and Related Compounds (including but not limited to) 2",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "1-Naphthol, and its salts 9",
+      "cas_no": "0-15-3",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "2-Bromo-2-nitropropane-1,3- 5 diol",
+      "cas_no": "2-51-7",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "5-Bromo-5-nitro-1,3-dioxane 3",
+      "cas_no": "0007-47-7",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "7,11-Dimethyl-4,6,10- 2 dodecatrien-3-one",
+      "cas_no": "6651-96-7",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "8-Hydroxyquinoline and its 1 sulfate 1",
+      "cas_no": "48-24-3; 34-31-6",
+      "restriction": "8-Hydroxyquinoline sulfate; Oxyquinoline; Oxyquinoline Sulfate",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient Information",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "C Chemical",
+      "cas_no": "AS (including but not limited to) 1",
+      "restriction": "Synonyms and Related Compounds (including but not limited to) 2",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Alkali earth metal sulfides 2 2 1 1",
+      "cas_no": "1109-95-5; 0548-54-3; 2032-36-9; 314-96-1",
+      "restriction": "Barium sulfide; Calcium sulfide; Magnesium sulfide; Strontium sulfide",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Alkali sulfides 1 1 1",
+      "cas_no": "2136-58-2; 312-73-8; 313-82-2",
+      "restriction": "Lithium sulfide; Potassium sulfide; Sodium sulfide",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Alpha-hydroxy acids, 7 including polyhydroxy acids 7 and bionic acids with alpha 5 hydroxyl groups, and their 1 salts 6 7 5 6 9 3",
+      "cas_no": "7-92-9; 9-14-1; 0-21-5; 33-37-9; 915-15-7; 9-33-4; 949-29-1; 17-73-2; 0-64-2; 5249-89-9",
+      "restriction": "Citric acid; Glycolic acid; Lactic acid; Malic acid; Mandelic acid; Tartaric acid; Ammonium glycolate; Sodium citrate; Hydroxycaprylic acid; Mixed fruit acids; Gluconolactone; Ammonium gluconate; Lactobionic acid; Calcium lactobionate",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient Information",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "C Chemical",
+      "cas_no": "AS (including but not limited to) 1",
+      "restriction": "Synonyms and Related Compounds (including but not limited to) 2",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Aluminum chloride 7446-70-0; a) Deodorants and 7784-13-6 antiperspirants containing aluminum chloride are not permitted in aerosol dispensers.",
+      "cas_no": "7446-70-0",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient Information",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "C Chemical",
+      "cas_no": "AS (including but not limited to) 1",
+      "restriction": "Synonyms and Related Compounds (including but not limited to) 2",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Aluminum 1 chlorohydrate and its 1 associated complexes 1 1 1 1 1 1 1 2 1 2",
+      "cas_no": "2042-91-0; 327-41-9; 73762-81-7; 73762-82-8; 0284-64-7; 73720-80-4; 80324-83-8; 1097-68-0; 73763-15-0; 42812-86-8; 73763-16-1; 45090-60-2",
+      "restriction": "Aluminum chlorohydrate; Aluminum chlorohydrex PEG; Aluminum chlorohydrex PG; Aluminum dichlorohydrate; Aluminum dichlorohydrex PEG; Aluminum dichlorohydrex PG; Aluminum sesquichlorohydrate; Aluminum sesquichlorohydrex PEG; Aluminum sesquichlorohydrex PG",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient Information",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "C b Chemical",
+      "cas_no": "AS (including ut not limited to) 1",
+      "restriction": "Synonyms and Related Compounds (including but not limited to) 2",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient Information",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "C Chemical",
+      "cas_no": "AS (including but not limited to) 1",
+      "restriction": "Synonyms and Related Compounds (including but not limited to) 2",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Aluminum 9 zirconium complexes 1 1 9 1 5 9 9 1 2 2 9 1",
+      "cas_no": "8106-55-9; 74514-58-0; 73762-83-9; 8106-54-8; 25913-22-6; 7158-29-9; 8106-52-6; 0604-80-1; 34910-86-4; 46867-10-7; 35433-35-9; 8106-53-7; 34375-99-8",
+      "restriction": "Aluminum zirconium octachlorohydrate; Aluminum zirconium octachlorohydrex GLY; Aluminum zirconium pentachlorohydrate; Aluminum zirconium pentachlorohydrex GLY; Aluminum zirconium tetrachlorohydrate; Aluminum zirconium tetrachlorohydrex GLY; Aluminum zirconium tetrachlorohydrex PEG; Aluminum zirconium tetrachlorohydrex PG; Aluminum zirconium trichlorohydrate; Aluminum zirconium trichlorohydrex GLY",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Azelaic acid and its salts 1 5 1 1 2",
+      "cas_no": "23-99-9; 2457-54-2; 32499-85-5; 7265-13-3; 7825-99-6",
+      "restriction": "Nonanedioic acid; Disodium Azelate; Dipotassium Azelate",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient Information",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Chemical",
+      "cas_no": "CAS (including but not limited to) 1",
+      "restriction": "Synonyms and Related Compounds (including but not limited to) 2",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Barium salts 2 7",
+      "cas_no": "1109-95-5; 727-43-7",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Benzalkonium chloride 8 6 6 6",
+      "cas_no": "001-54-5; 1789-71-7; 8391-01-5; 8424-85-1",
+      "restriction": "Alkyl(C12- C18)benzyldimethylammonium chloride; Alkyl(C12- 16)dimethylbenzylammonium chloride",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Benzethonium chloride 1",
+      "cas_no": "21-54-0",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Benzophenone 1",
+      "cas_no": "19-61-9",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Benzoyl peroxide 9",
+      "cas_no": "4-36-0",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient Information",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "C Chemical",
+      "cas_no": "AS (including but not limited to) 1",
+      "restriction": "Synonyms and Related Compounds (including but not limited to) 2",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Boric acid and its salts 1 1 1 6 2 6 1 1 2 2 1 1 1 1 7 1 1",
+      "cas_no": "0043-35-3; 1113-50-1; 0377-81-8; 8130-12-1; 6038-90-4; 8003-13-4; 0192-46-8; 332-07-6; 2694-75-3; 7522-09-4; 3703-82-7; 2007-62-4; 333-73-9; 3840-56-7; 775-19-1; 330-43-4; 303-96-4",
+      "restriction": "MEA borate; MIPA borate; Potassium borate; Zinc Borate; Ammonium borate; Magnesium borate; Borax; Sodium borate; Sodium tetraborate; Sodium tetraborate decahydrate",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Brucine 3",
+      "cas_no": "57-57-3",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Butane 1",
+      "cas_no": "06-97-8",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient Information",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Chemical",
+      "cas_no": "CAS (including but not limited to) 1",
+      "restriction": "Synonyms and Related Compounds (including but not limited to) 2",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Butoxyethanol 1",
+      "cas_no": "11-76-2",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Calcium peroxide 1",
+      "cas_no": "305-79-9",
+      "restriction": "Calcium dioxide",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Camphor 7",
+      "cas_no": "6-22-2",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Cannabis spp. (hemp) 8 derivatives or a product 8 made from those derivatives that are exempt from the application of the Cannabis Act under the Industrial Hemp Regulations",
+      "cas_no": "016-24-8; 9958-21-4",
+      "restriction": "Cannabis sativa seed oil; Hemp seed oil; Hydrolyzed Hemp seed protein",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Catalase 9",
+      "cas_no": "001-05-2",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Chlorhexidine and its salts 55-56-1; a) 0.14% calculated 56-95-1; as chlorhexidine free 18472-51-0; base 3697-42-5 b) 0.19% calculated as chlorhexidine diacetate",
+      "cas_no": "55-56-1",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient Information",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Chemical",
+      "cas_no": "CAS (including but not limited to) 1",
+      "restriction": "Synonyms and Related Compounds (including but not limited to) 2",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Cholecalciferol 6",
+      "cas_no": "7-97-0",
+      "restriction": "Vitamin D3",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Citric acid 7",
+      "cas_no": "7-92-9",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Citrus reticulata leaf oil 8",
+      "cas_no": "014-17-3",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Coal tar dye 9 6",
+      "cas_no": "5-70-5; 15-50-9",
+      "restriction": "Toluene-2,5-diamine; Toluene-2,5-diamine sulfate; See also “p-Phenylenediamine and its salts”",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient Information",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "C b Chemical",
+      "cas_no": "AS (including ut not limited to) 1",
+      "restriction": "Synonyms and Related Compounds (including but not limited to) 2",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient Information",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "C b Chemical",
+      "cas_no": "AS (including ut not limited to) 1",
+      "restriction": "Synonyms and Related Compounds (including but not limited to) 2",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient Information",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "C b Chemical",
+      "cas_no": "AS (including ut not limited to) 1",
+      "restriction": "Synonyms and Related Compounds (including but not limited to) 2",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Cyanoacrylate-based 7 adhesives 1 1",
+      "cas_no": "085-85-0; 37-05-3; 0586-17-1",
+      "restriction": "Ethyl cyanoacrylate; Methyl cyanoacrylate; Isopropyl cyanoacrylate",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient Information",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "C Chemical",
+      "cas_no": "AS (including but not limited to) 1",
+      "restriction": "Synonyms and Related Compounds (including but not limited to) 2",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Diethylene glycol 1",
+      "cas_no": "11-46-6",
+      "restriction": "DEG",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Diethylhexyl Adipate 103-23-1 DEHA; a) Leave-on body a) 6.0% Dioctyl Adipate; moisturizers",
+      "cas_no": "103-23-1",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient Information",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Chemical",
+      "cas_no": "CAS (including but not limited to) 1",
+      "restriction": "Synonyms and Related Compounds (including but not limited to) 2",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Dihydrocoumarin",
+      "cas_no": "119-84-6",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ergocalciferol",
+      "cas_no": "50-14-6",
+      "restriction": "Vitamin D2",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ethylhexyl Ethylhexanoate",
+      "cas_no": "7425-14-1",
+      "restriction": "2-Ethylhexyl-2-ethylhexanoate",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ethyl methacrylate",
+      "cas_no": "97-63-2",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Eucalyptus oil",
+      "cas_no": "8000-48-4; 85203-56-1; 1627700-32-6; 91771-69-6; 90028-48-1",
+      "restriction": "Eucalyptus Globulus Leaf Oil; Eucalyptus Citriodora Oil; Eucalyptus Radiata Leaf/Stem Oil; Eucalyptus Staigeriana Branch/Leaf Oil; Eucalyptus Dives Leaf/Twig Oil",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient Information",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Chemical",
+      "cas_no": "CAS (including but not limited to) 1",
+      "restriction": "Synonyms and Related Compounds (including but not limited to) 2",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Fluoride containing 1 substances 1 7 7 7 1",
+      "cas_no": "6984-48-8; 333-83-1; 681-49-4; 789-75-5; 783-47-3; 0163-15-2",
+      "restriction": "Sodium fluoride; Calcium fluoride; Stannous fluoride; Sodium monofluorophosphate",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Formaldehyde 5",
+      "cas_no": "0-00-0",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Furocoumarins, except for 6 naturally occurring in plant extracts",
+      "cas_no": "6-97-7",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient Information",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "C Chemical",
+      "cas_no": "AS (including but not limited to) 1",
+      "restriction": "Synonyms and Related Compounds (including but not limited to) 2",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Glycerin 5",
+      "cas_no": "6-81-5",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Glycolic acid 7",
+      "cas_no": "9-14-1",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Human origin, substance of 7",
+      "cas_no": "3049-73-7",
+      "restriction": "Human placental extracts; Human placental enzymes; Human placental lipids; Human placental protein; Human umbilical extract; Hydrolyzed human placental protein; Hydrolyzed keratin from human hair; Lyophilized human placental extract",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient Information",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "C b Chemical",
+      "cas_no": "AS (including ut not limited to) 1",
+      "restriction": "Synonyms and Related Compounds (including but not limited to) 2",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Hydrogen peroxide 7",
+      "cas_no": "722-84-1",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Hydroquinone 1",
+      "cas_no": "23-31-9",
+      "restriction": "1,4-Dihydroxybenzene",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient Information",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Chemical",
+      "cas_no": "CAS (including but not limited to) 1",
+      "restriction": "Synonyms and Related Compounds (including but not limited to) 2",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Isobutane",
+      "cas_no": "75-28-5",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Keratin",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Lactic acid",
+      "cas_no": "50-21-5",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Magnesium peroxide",
+      "cas_no": "1335-26-8",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "m-Cresol",
+      "cas_no": "95-48-7; 108-39-4",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient Information",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "C Chemical",
+      "cas_no": "AS (including but not limited to) 1",
+      "restriction": "Synonyms and Related Compounds (including but not limited to) 2",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Methacrylic acid 7",
+      "cas_no": "9-41-4",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Methoxyisopropanol 1",
+      "cas_no": "07-98-2",
+      "restriction": "Propylene glycol monomethyl ether",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Methoxyisopropyl acetate 1 8",
+      "cas_no": "08-65-6; 4540-57-8",
+      "restriction": "Propylene glycol monomethyl ether acetate.",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Methyl alcohol 6",
+      "cas_no": "7-56-1",
+      "restriction": "Methanol",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient Information",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Chemical",
+      "cas_no": "CAS (including but not limited to) 1",
+      "restriction": "Synonyms and Related Compounds (including but not limited to) 2",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Methyl eugenol",
+      "cas_no": "93-15-2",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Methyl N-methyl anthranilate",
+      "cas_no": "85-91-6",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Methyl salicylate",
+      "cas_no": "119-36-8",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Methylene chloride",
+      "cas_no": "75-09-2",
+      "restriction": "Dichloromethane",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Methylene Glycol",
+      "cas_no": "463-57-0",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient Information",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "C b Chemical",
+      "cas_no": "AS (including ut not limited to) 1",
+      "restriction": "Synonyms and Related Compounds (including but not limited to) 2",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Methylisothiazolinone (MI) 2",
+      "cas_no": "682-20-4",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Methylisothiazolinone / 2 Methylchloroisothiazolinone, 2 in combination",
+      "cas_no": "6172-55-4; 682-20-4",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient Information",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "C Chemical",
+      "cas_no": "AS (including but not limited to) 1",
+      "restriction": "Synonyms and Related Compounds (including but not limited to) 2",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "o-Cresol 9 1",
+      "cas_no": "5-48-7; 08-39-4",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "p-Chloro-m-cresol 5",
+      "cas_no": "9-50-7",
+      "restriction": "Chlorocresol",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient Information",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "C b Chemical",
+      "cas_no": "AS (including ut not limited to) 1",
+      "restriction": "Synonyms and Related Compounds (including but not limited to) 2",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Peroxide and peroxide- 1 generating compounds 1 7 1 7 1",
+      "cas_no": "24-43-6; 305-79-9; 722-84-1; 335-26-8; 632-04-4; 314-22-3",
+      "restriction": "Urea peroxide; calcium peroxide; calcium dioxide; hydrogen peroxide; magnesium peroxide; sodium perborate; zinc peroxide",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient Information",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "C b Chemical",
+      "cas_no": "AS (including ut not limited to) 1",
+      "restriction": "Synonyms and Related Compounds (including but not limited to) 2",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient Information",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "C Chemical",
+      "cas_no": "AS (including but not limited to) 1",
+      "restriction": "Synonyms and Related Compounds (including but not limited to) 2",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "p-Hydroxyanisole 1",
+      "cas_no": "50-76-5",
+      "restriction": "4-Methoxyphenol",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Pigment Red 4 2",
+      "cas_no": "814-77-9",
+      "restriction": "Red 36; CI 12085",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Placental extracts",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient Information",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "C b Chemical",
+      "cas_no": "AS (including ut not limited to) 1",
+      "restriction": "Synonyms and Related Compounds (including but not limited to) 2",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "p-Phenylenediamine and its 1 salts 6 1",
+      "cas_no": "06-50-3; 24-18-0; 6245-77-5",
+      "restriction": "p-Phenylenediamine HCL; p-Phenylenediamine sulfate",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient Information",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "C b Chemical",
+      "cas_no": "AS (including ut not limited to) 1",
+      "restriction": "Synonyms and Related Compounds (including but not limited to) 2",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient Information",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "C b Chemical",
+      "cas_no": "AS (including ut not limited to) 1",
+      "restriction": "Synonyms and Related Compounds (including but not limited to) 2",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient Information",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Chemical",
+      "cas_no": "CAS (including but not limited to) 1",
+      "restriction": "Synonyms and Related Compounds (including but not limited to) 2",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Resorcinol",
+      "cas_no": "108-46-3",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Retinal",
+      "cas_no": "116-31-4",
+      "restriction": "Retinaldehyde",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Retinol and its esters",
+      "cas_no": "68-26-8; 127-47-9; 79-81-2; 631-89-0; 7069-42-3",
+      "restriction": "Vitamin A; Retinyl acetate; Retinyl palmitate; Retinyl linoleate; Retinyl propionate",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Salicylic acid",
+      "cas_no": "69-72-7",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Silver and its salts",
+      "cas_no": "7440-22-4",
+      "restriction": "Colloidal Silver",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient Information",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Chemical",
+      "cas_no": "CAS (including but not limited to) 1",
+      "restriction": "Synonyms and Related Compounds (including but not limited to) 2",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Sodium borate 1",
+      "cas_no": "303-96-4",
+      "restriction": "Borax; Sodium tetraborate",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Sodium perborate 7",
+      "cas_no": "632-04-4",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Sodium picramate 8",
+      "cas_no": "31-52-7",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Solvent Red 23 8",
+      "cas_no": "5-86-9",
+      "restriction": "CI 26100; Red No. 225; Tetrazobenzene-beta- Naphthol; Sudan Red BK; 2-Naphthalenol, 1-[[4- (Phenylazo)Phenyl]Azo]-; D&C Red no. 17; Red 17; Toney Red; Sudan III",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient Information",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Chemical",
+      "cas_no": "CAS (including but not limited to) 1",
+      "restriction": "Synonyms and Related Compounds (including but not limited to) 2",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Solvent Violet 13",
+      "cas_no": "81-48-1",
+      "restriction": "CI 60725; Violet 2",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Strontium and its salts, other than nitrite",
+      "cas_no": "7440-24-6",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Tagetes oil and absolute",
+      "cas_no": "8016-84-0",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Talc",
+      "cas_no": "14807-96-6",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient Information",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "C Chemical",
+      "cas_no": "AS (including but not limited to) 1",
+      "restriction": "Synonyms and Related Compounds (including but not limited to) 2",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "have multiple applicable conditions Read entire entry to determine all applicable conditions a) Not permitted in products intended solely for use in the genital area of those who have ovaries b) Products that could b) \"Do not use in the come in contact with the genital area of those genital area (for example, who have ovaries\" diapering products, body powder, bath products) c) Products in loose c) 51% c), d) and e) \"Keep powder form that may be out of reach of used for diapering children\", \"Keep powder away d) Other products in loose d) 77% from child's face to powder form intended for avoid inhalation, use on the face or body which can cause breathing problems\"",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient Information",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "C Chemical",
+      "cas_no": "AS (including but not limited to) 1",
+      "restriction": "Synonyms and Related Compounds (including but not limited to) 2",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "TBHQ 1",
+      "cas_no": "948-33-0",
+      "restriction": "t-butylhydroquinone",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Thioglycolic acid and its 6 salts",
+      "cas_no": "8-11-1",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient Information",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "C Chemical",
+      "cas_no": "AS (including but not limited to) 1",
+      "restriction": "Synonyms and Related Compounds (including but not limited to) 2",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Thiurams 9 2",
+      "cas_no": "7-77-8; 137- 6-8",
+      "restriction": "Disulfiram; Thiram",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Triclosan 3",
+      "cas_no": "380-34-5",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient Information",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "C b Chemical",
+      "cas_no": "AS (including ut not limited to) 1",
+      "restriction": "Synonyms and Related Compounds (including but not limited to) 2",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient Information",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Chemical",
+      "cas_no": "CAS (including but not limited to) 1",
+      "restriction": "Synonyms and Related Compounds (including but not limited to) 2",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Urea 5",
+      "cas_no": "7-13-6",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Urea (carbamide) peroxide 1",
+      "cas_no": "24-43-6",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Zinc peroxide 1",
+      "cas_no": "314-22-3",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Zirconium and its 7 compounds",
+      "cas_no": "440-67-7",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Ingredient Information",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "C b Chemical",
+      "cas_no": "AS (including ut not limited to) 1",
+      "restriction": "Synonyms and Related Compounds (including but not limited to) 2",
+      "status": "restricted"
+    },
+    {
+      "ingredient_name": "Date modified: 2025-02-28",
+      "cas_no": "",
+      "restriction": "",
+      "status": "restricted"
     }
   ]
 }
