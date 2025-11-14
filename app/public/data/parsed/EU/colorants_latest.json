@@ -1,24 +1,1724 @@
 {
   "jurisdiction": "EU",
   "table_type": "colorants",
-  "version": "20240424",
-  "generated_at": "2025-11-12T10:59:40.195236",
-  "total_records": 1,
+  "version": "20251113",
+  "generated_at": "2025-11-13T10:07:58.119753Z",
+  "total_records": 143,
   "records": [
     {
-      "INCI_Name": "CI 77491 (Iron Oxides)",
-      "Jurisdiction": "EU",
-      "Status": "Allowed",
-      "CAS_No": "1309-37-1",
-      "Product_Type": "未规定",
-      "Max_Conc_Percent": null,
-      "Conditions": "Allowed for all cosmetic uses",
-      "Legal_Basis": "Annex IV",
-      "Update_Date": null,
-      "Notes": null,
-      "Synonyms": [],
-      "Colour_Index": null,
-      "Body_Area": null
+      "INCI_Name": "Sodium tris(1,2-naphthoquinone 1-oximato-O,O')ferrate(1-)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "240-299-7",
+      "_original": {
+        "reference_number": "1",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Trisodium tris[5,6-dihydro-5- (hydroxyimino)-6- oxonaphthalene-2-sulphonato(2-)- N5,O6]ferrate(3-)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "243-010-2",
+      "_original": {
+        "reference_number": "2",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Disodium 5,7-dinitro-8- oxidonaphthalene-2-sulphonate and its insoluble barium, strontium and zirconium lakes, salts and pigments",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "212-690-2",
+      "_original": {
+        "reference_number": "3",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "2-[(4-Methyl-2-nitrophenyl)azo]-3- oxo-N-phenylbutyramide",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "219-730-8",
+      "_original": {
+        "reference_number": "4",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "2-[(4-Chloro-2-nitrophenyl)azo]-N- (2-chlorophenyl)-3- oxobutyramide",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "229-355-1",
+      "_original": {
+        "reference_number": "5",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "2-[(4-Methoxy-2-nitrophenyl)azo]- 3-oxo-N-(o-tolyl)butyramide",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "228-907-9",
+      "_original": {
+        "reference_number": "6",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "4-(Phenylazo)resorcinol",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "218-131-9",
+      "_original": {
+        "reference_number": "7",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "4-[(4-Ethoxyphenyl)azo]naphthol",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "229-439-8",
+      "_original": {
+        "reference_number": "8",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "1-[(2-Chloro-4-nitrophenyl)azo]-2- naphthol and its insoluble barium, strontium and zirconium lakes, salts and pigments",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "220-562-2",
+      "_original": {
+        "reference_number": "9",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "1-[(4-Methyl-2-nitrophenyl)azo]-2- naphthol",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "219-372-2",
+      "_original": {
+        "reference_number": "10",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "3-Hydroxy-N-(o-tolyl)-4-[(2,4,5- trichlorophenyl)azo]naphthalene- 2-carboxamide",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "229-440-3",
+      "_original": {
+        "reference_number": "11",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "N-(4-Chloro-2-methylphenyl)-4- [(4-chloro-2-methylphenyl)azo]-3- hydroxynaphthalene-2- carboxamide",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "229-315-3",
+      "_original": {
+        "reference_number": "12",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "N-(5-Chloro-2,4- dimethoxyphenyl)-4-[[5- [(diethylamino)sulphonyl]-2- methoxyphenyl]azo]-3- hydroxynaphthalene-2- carboxamide",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "229-107-2",
+      "_original": {
+        "reference_number": "14",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "2,4-Dihydro-5-methyl-2-phenyl-4- (phenylazo)-3H-pyrazol-3-one",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "224-330-1",
+      "_original": {
+        "reference_number": "15",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Disodium 2-amino-5-[(4- sulphonatophenyl)azo]benzenesu lphonate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "220-293-0",
+      "_original": {
+        "reference_number": "16",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Sodium 4-(2,4- dihydroxyphenylazo)benzenesulp honate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "208-924-8",
+      "_original": {
+        "reference_number": "17",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Disodium 3-[(2,4-dimethyl-5- sulphonatophenyl)azo]-4- hydroxynaphthalene-1- sulphonate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "224-909-9",
+      "_original": {
+        "reference_number": "18",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Disodium 4-hydroxy-3-[(4- sulphonatonaphthyl)azo]naphtha lenesulphonate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "222-657-4",
+      "_original": {
+        "reference_number": "19",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Disodium 6-[(2,4-dimethyl-6- sulphonatophenyl)azo]-5- hydroxynaphthalene-1- sulphonate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "221-856-3",
+      "_original": {
+        "reference_number": "20",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Sodium 4-[(2-hydroxy-1- naphthyl)azo]benzenesulphonate and its unsoluble barium, strontium and zirconium lakes, salts and pigments",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "211-199-0",
+      "_original": {
+        "reference_number": "21",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Calcium disodium bis[2-chloro-5- [(2-hydroxy-1-naphthyl)azo]-4- sulphonatobenzoate]",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "227-456-5",
+      "_original": {
+        "reference_number": "22",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Barium bis[4-[(2-hydroxy-1- naphthyl)azo]-2- methylbenzenesulphonate]",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "227-459-1",
+      "_original": {
+        "reference_number": "23",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Sodium 4-[(2-Hydroxy-1- naphthyl)azo]naphthalenesulpho nate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "216-760-3",
+      "_original": {
+        "reference_number": "24",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Sodium 2-[(2- hydroxynaphthyl)azo]naphthalen esulphonate and its insoluble barium, strontium and zirconium lakes, salts and pigments",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "214-998-2",
+      "_original": {
+        "reference_number": "25",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Calcium bis[3-hydroxy-4- (phenylazo)-2-naphthoate]",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "228-899-7",
+      "_original": {
+        "reference_number": "26",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Disodium 4-[(5-chloro-4-methyl-2- sulphonatophenyl)azo]-3-hydroxy- 2-naphthoate and its insoluble barium, strontium and zirconium lakes, salts and pigments",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "222-642-2",
+      "_original": {
+        "reference_number": "28",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Calcium 3-hydroxy-4-[(1- sulphonato-2-naphthyl)azo]-2- naphthoate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "229-142-3",
+      "_original": {
+        "reference_number": "29",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Disodium 6-hydroxy-5-[(3- sulphonatophenyl)azo]naphthale ne-2-sulphonate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "219-073-7",
+      "_original": {
+        "reference_number": "30",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Disodium 6-hydroxy-5-[(4- sulphonatophenyl)azo]naphthale ne-2-sulphonate and its insoluble barium, strontium and zirconium lakes, salts and pigments",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "220-491-7",
+      "_original": {
+        "reference_number": "31",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Disodium 6-hydroxy-5-[(2- methoxy-4-sulphonato-m- tolyl)azo]naphthalene-2- sulphonate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "247-368-0",
+      "_original": {
+        "reference_number": "32",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Trisodium 3-hydroxy-4-(4'- sulphonatonaphthylazo)naphthal ene-2,7-disulphonate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "211-385-1; 213-022-2",
+      "_original": {
+        "reference_number": "33",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Disodium 7-hydroxy-8- (phenylazo)naphthalene-1,3- disulphonate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "217-705-6",
+      "_original": {
+        "reference_number": "34",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Trisodium 1-(1-naphthylazo)-2- hydroxynaphthalene-4',6,8- trisulphonate and its insoluble barium, strontium and zirconium lakes, salts and pigments",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "220-036-2",
+      "_original": {
+        "reference_number": "35",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Tetrasodium 7-hydroxy-8-[(4- sulphonato-1- naphthyl)azo]naphthalene-1,3,6- trisulphonate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "227-454-4",
+      "_original": {
+        "reference_number": "36",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Disodium 5-amino-4-hydroxy-3- (phenylazo)naphthalene-2,7- disulphonate and its unsoluble barium, strontium and zirconium lakes, salts and pigments",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "222-656-9",
+      "_original": {
+        "reference_number": "37",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Disodium 5-acetylamino-4- hydroxy-3- (phenylazo)naphthalene-2,7- disulphonate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "223-098-9",
+      "_original": {
+        "reference_number": "38",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "2,7-Naphthalenedisulfonic acid, 3- ((4-cyclohexyl-2- methylphenyl)azo)-4-hydroxy-5- (((4- methylphenyl)sulfonyl)amino)-, disodium salt",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "10236-37-0",
+      "_original": {
+        "reference_number": "39",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Disodium hydrogen bis[5-chloro- 3-[(4,5-dihydro-3-methyl-5-oxo-1- phenyl-1H-pyrazol-4-yl)azo]-2- hydroxybenzenesulphonato(3- )]chromate(3-)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "229-051-9",
+      "_original": {
+        "reference_number": "41",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Sodium 4-(3-hydroxy-5-methyl-4- phenylazopyrazol-2- yl)benzenesulphonate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "228-808-0",
+      "_original": {
+        "reference_number": "42",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Disodium 2,5-dichloro-4-(5- hydroxy-3-methyl-4- ((sulphophenyl)azo)pyrazol-1- yl)benzenesulphonate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "228-819-0",
+      "_original": {
+        "reference_number": "43",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Trisodium 5-hydroxy-1-(4- sulphophenyl)-4-((4- sulphophenyl)azo)pyrazole-3- carboxylate and its insoluble barium, strontium and zirconium lakes, salts and pigments",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "235-428-9; 217-699-5",
+      "_original": {
+        "reference_number": "44",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "N,N'-(3,3'-Dimethyl[1,1'-biphenyl]- 4,4'-diyl)bis[2-[(2,4- dichlorophenyl)azo]-3- oxobutyramide]",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "227-783-3",
+      "_original": {
+        "reference_number": "45",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Sodium 4-amino-5-hydroxy-3-[(4- nitrophenyl)azo]-6- (phenylazo)naphthalene-2,7- disulphonate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "213-903-1",
+      "_original": {
+        "reference_number": "46",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "2,2'-[(3,3'-Dichloro[1,1'-biphenyl]- 4,4'-diyl)bis(azo)]bis[N-(2,4- dimethylphenyl)-3- oxobutyramide]",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "225-822-9",
+      "_original": {
+        "reference_number": "47",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "2,2'-[(3,3'-Dichloro[1,1'-biphenyl]- 4,4'-diyl)bis(azo)]bis[N-(4-chloro- 2,5-dimethoxyphenyl)-3- oxobutyramide]",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "226-939-8",
+      "_original": {
+        "reference_number": "48",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "2,2'-[Cyclohexylidenebis[(2- methyl-4,1-phenylene)azo]]bis[4- cyclohexylphenol]",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "229-754-0",
+      "_original": {
+        "reference_number": "49",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Disodium 4,6-dihydroxy-3-[[4-[1- [4-[[1-hydroxy-7- [(phenylsulphonyl)oxy]-3- sulphonato-2- naphthyl]azo]phenyl]cyclohexyl]p henyl]azo]naphthalene-2- sulphonate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "236-531-1",
+      "_original": {
+        "reference_number": "50",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "1-(4-(Phenylazo)phenylazo)-2- naphthol",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "201-638-4",
+      "_original": {
+        "reference_number": "51",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Tetrasodium 1-acetamido-2- hydroxy-3-(4-((4- sulphonatophenylazo)-7- sulphonato-1- naphthylazo))naphthalene-4,6- disulphonate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "219-746-5",
+      "_original": {
+        "reference_number": "53",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Benzenesulfonic acid, 2,2'-(1,2- ethenediyl)bis-5-nitro-, disodium salt, reaction products with 4-[(4- aminophenyl)azo]benzenesulfoni c acid, sodium salts",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "215-397-8",
+      "_original": {
+        "reference_number": "54",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "beta Carotene",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "230-636-6",
+      "_original": {
+        "reference_number": "55",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "8'-apo-.beta.-Caroten-8'-al",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "214-171-6",
+      "_original": {
+        "reference_number": "56",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Ethyl 8'-apo-.beta.-caroten-8'- oate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "214-173-7",
+      "_original": {
+        "reference_number": "57",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Canthaxanthin",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "208-187-2",
+      "_original": {
+        "reference_number": "58",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Ammonium, (4-(alpha-(p- (diethylamino)phenyl)-2,4- disulfobenzylidene)-2,5- cyclohexadien-1-ylidene)diethyl-, hydroxide, monosodium salt",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "204-934-1",
+      "_original": {
+        "reference_number": "59",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Ethanaminium, N-(4-((4- (diethylamino)phenyl)(5-hydroxy- 2,4-disulfophenyl)methylene)-2,5- cyclohexadien-1-ylidene)-N- ethylhydroxide, inner salt, calcium salt (2:1) and its insoluble barium, strontium and zirconium lakes, salts and pigments",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "222-573-8",
+      "_original": {
+        "reference_number": "60",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Benzene-methanaminium, N- ethyl-N-(4-((4-(ethyl((3- sulfophenyl)methyl)amino)pheny l)(4-hydroxy-2- sulfophenyl)methylene)-2,5- cyclohexadien-1-ylidene)-3-sulfo-, hydroxide, inner salt, disodium",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "219-091-5",
+      "_original": {
+        "reference_number": "61",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Benzenemethanaminium, N-ethyl- N-(4-((4-(ethyl((3- sulfophenyl)methyl)amino)pheny l)(2-sulfophenyl)methylene)-2,5- cyclohexadien-1-ylidene)-3-sulfo-, hydroxide, inner salt, disodium salt",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "223-339-8",
+      "_original": {
+        "reference_number": "63",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Hydrogen [4-[(2-chlorophenyl)[4- [ethyl(3- sulphonatobenzyl)amino]phenyl] methylene]cyclohexa-2,5-dien-1- ylidene](ethyl)(3- sulphonatobenzyl)ammonium, sodium salt",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "225-458-0",
+      "_original": {
+        "reference_number": "64",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Hydrogen [4-[(2-chlorophenyl)[4- [ethyl(3- sulphonatobenzyl)amino]-o- tolyl]methylene]-3- methylcyclohexa-2,5-dien-1- ylidene](ethyl)(3- sulphonatobenzyl)ammonium,",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "227-513-4",
+      "_original": {
+        "reference_number": "65",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "sodium salt (4-(4-Aminophenyl)(4- iminocyclohexa-2,5- dienylidene)methyl)-2- methylaniline hydrochloride",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "211-189-6",
+      "_original": {
+        "reference_number": "66",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "4-[(4-Amino-m-tolyl)(4-imino-3- methylcyclohexa-2,5-dien-1- ylidene)methyl]-o-toluidine monohydrochloride",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "221-831-7",
+      "_original": {
+        "reference_number": "67",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Hydrogen [4-[[4- (diethylamino)phenyl][4-[ethyl[(3- sulphonatobenzyl)amino]-o- tolyl]methylene]-3- methylcyclohexa-2,5-dien-1- ylidene](ethyl)(3- sulphonatobenzyl)ammonium, sodium salt",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "229-390-2",
+      "_original": {
+        "reference_number": "68",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "[4-[[4-Anilino-1-naphthyl][4- (dimethylamino)phenyl]methylen e]cyclohexa-2,5-dien-1- ylidene]dimethylammonium chloride",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "219-943-6",
+      "_original": {
+        "reference_number": "69",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Hydrogen [4-[4-(dimethylamino)- .alpha.-(2-hydroxy-3,6- disulphonato-1- naphthyl)benzylidene]cyclohexa- 2,5-dien-1- ylidene]dimethylammonium, monosodium salt",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "221-409-2",
+      "_original": {
+        "reference_number": "70",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Hydrogen 9-(2- carboxylatophenyl)-3-(2- methylanilino)-6-(2-methyl-4- sulphoanilino)xanthylium, monosodium salt",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "228-377-9",
+      "_original": {
+        "reference_number": "72",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Hydrogen 9-(2,4- disulphonatophenyl)-3,6- bis(ethylamino)-2,7- dimethylxanthylium, monosodium salt",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "227-528-6",
+      "_original": {
+        "reference_number": "73",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Disodium 2-(3-oxo-6- oxidoxanthen-9-yl)benzoate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "-; 208-253-0",
+      "_original": {
+        "reference_number": "74",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "4',5'-Dibromo-3',6'- dihydroxyspiro[isobenzofuran- 1(3H),9'-[9H]xanthene]-3-one and its insoluble barium, strontium and zirconium lakes, salts and pigments",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "209-876-0; 224-468-2",
+      "_original": {
+        "reference_number": "75",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Disodium 2-(2,4,5,7-tetrabromo-6- oxido-3-oxoxanthen-9- yl)benzoate and its insoluble barium, strontium and zirconium lakes, salts and pigments",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "241-409-6 / - / 240-005-7 / 239-138-3 / 301-481-2",
+      "_original": {
+        "reference_number": "76",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "3',6'-Dihydroxy-4',5'- dinitrospiro[isobenzofuran- 1(3H),9'-[9H]xanthene]-3-one",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "246-308-0",
+      "_original": {
+        "reference_number": "77",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Dipotassium 3,6-dichloro-2- (2,4,5,7-tetrabromo-6-oxido-3- oxoxanthen-9-yl)benzoate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "229-225-4",
+      "_original": {
+        "reference_number": "78",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "3,4,5,6-Tetrachloro-2-(1,4,5,8- tetrabromo-6-hydroxy-3- oxoxanthen-9-yl)benzoic acid and its insoluble barium, strontium and zirconium lakes, salts and pigments",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "242-355-6",
+      "_original": {
+        "reference_number": "79",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Disodium 2-(2,4,5,7-tetraiodo-6- oxido-3-oxoxanthen-9- yl)benzoate and its insoluble barium, strontium and zirconium lakes, salts and pigments",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "240-474-8",
+      "_original": {
+        "reference_number": "80",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "1,3-Isobenzofurandione, reaction products with methylquinoline and quinoline",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "232-318-2",
+      "_original": {
+        "reference_number": "81",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "1H-Indene-1,3(2H)-dione, 2-(2- quinolinyl)-, sulfonated, sodium salts",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "-; -; 305-897- 5",
+      "_original": {
+        "reference_number": "82",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Sulfonated nigrosine color",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "-",
+      "_original": {
+        "reference_number": "84",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "8,18-Dichloro-5,15-diethyl-5,15- dihydrodiindolo[3,2-b:3',2'- m]triphenodioxazine",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "28-767-9",
+      "_original": {
+        "reference_number": "85",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "1,2-Dihydroxyanthraquinone",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "200-782-5",
+      "_original": {
+        "reference_number": "86",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Trisodium 8-hydroxypyrene-1,3,6- trisulphonate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "228-783-6",
+      "_original": {
+        "reference_number": "87",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "1-Anilino-4- hydroxyanthraquinone",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "242-939-0",
+      "_original": {
+        "reference_number": "88",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "1-Hydroxy-4-(p- toluidino)anthraquinone",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "201-353-5",
+      "_original": {
+        "reference_number": "89",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Sodium 4-[(9,10-dihydro-4- hydroxy-9,10-dioxo-1- anthryl)amino]toluene-3- sulphonate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "224-618-7",
+      "_original": {
+        "reference_number": "90",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "1,4-bis(p- Tolylamino)anthraquinone",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "204-909-5",
+      "_original": {
+        "reference_number": "91",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Disodium 2,2'-(9,10- dioxoanthracene-1,4- diyldiimino)bis(5- methylsulphonate)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "224-546-6",
+      "_original": {
+        "reference_number": "92",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Sodium 3,3'-(9,10- dioxoanthracene-1,4- diyldiimino)bis(2,4,6- trimethylbenzenesulphonate)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "224-748-4",
+      "_original": {
+        "reference_number": "93",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Sodium 1-amino-4- (cyclohexylamino)-9,10-dihydro- 9,10-dioxoanthracene-2- sulphonate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "224-460-9",
+      "_original": {
+        "reference_number": "94",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "6,15-Dihydroanthrazine-5,9,14,18- tetrone",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "201-375-5",
+      "_original": {
+        "reference_number": "95",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "7,16-Dichloro-6,15- dihydroanthrazine-5,9,14,18- tetrone",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "240-980-2",
+      "_original": {
+        "reference_number": "96",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Bisbenzimidazo[2,1-b:2',1'- i]benzo[lmn][3,8]phenanthroline- 8,17-dione",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "224-597-4",
+      "_original": {
+        "reference_number": "97",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "2-(1,3-Dihydro-3-oxo-2H-indazol- 2-ylidene)-1,2-dihydro-3H-indol-3- one",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "207-586-9",
+      "_original": {
+        "reference_number": "98",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Disodium 5,5'-(2-(1,3-dihydro-3- oxo-2H-indazol-2-ylidene)-1,2- dihydro-3H-indol-3- one)disulphonate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "212-728-8",
+      "_original": {
+        "reference_number": "99",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "5-Chloro-2-(5-chloro-7-methyl-3- oxobenzo[b]thien-2(3H)-ylidene)- 7-methylbenzo[b]thiophene- 3(2H)-one",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "226-750-0",
+      "_original": {
+        "reference_number": "101",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "5,12-Dihydroquino[2,3-b]acridine- 7,14-dione",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "213-879-2",
+      "_original": {
+        "reference_number": "102",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "5,12-Dihydro-2,9- dimethylquino[2,3-b]acridine- 7,14-dione",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "-; 213-561-3",
+      "_original": {
+        "reference_number": "103",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "29H,31H-Phthalocyanine",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "209-378-3",
+      "_original": {
+        "reference_number": "104",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "(29H,31H-Phthalocyaninato(2-)- N29,N30,N31,N32)copper",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "205-685-1",
+      "_original": {
+        "reference_number": "105",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Disodium [29H,31H- phthalocyaninedisulphonato(4-)- N29,N30,N31,N32]cuprate(2-)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "215-537-8",
+      "_original": {
+        "reference_number": "106",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Polychloro copper phthalocyanine",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "215-524-7",
+      "_original": {
+        "reference_number": "107",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "8,8'-diapo-.psi.,.psi.- Carotenedioic acid",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "248-708-0;",
+      "_original": {
+        "reference_number": "108",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Annatto",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "215-735-4; 208-810-8; 230-248-7",
+      "_original": {
+        "reference_number": "109",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Lycopene",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "-",
+      "_original": {
+        "reference_number": "110",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "CI Food Orange 5",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "-; -; 230-636- 6; 214-171-6",
+      "_original": {
+        "reference_number": "111",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "(3R)-beta-4-Caroten-3-ol",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "-",
+      "_original": {
+        "reference_number": "112",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "2-Amino-1,7-dihydro-6H-purin-6- one",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "200-799-8",
+      "_original": {
+        "reference_number": "113",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Curcumins",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "207-280-5; -",
+      "_original": {
+        "reference_number": "114",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Carmines",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "215-724-4; 215-680-6; 215-023-3",
+      "_original": {
+        "reference_number": "115",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Trisodium (2S-trans)-[18-carboxy- 20-(carboxymethyl)-13-ethyl-2,3- dihydro-3,7,12,17-tetramethyl-8- vinyl-21H,23H-porphine-2- propionato(5-)- N21,N22,N23,N24]cuprate(3-) (Chlorophylls)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "234-242-5; 232-471-5 ; 215-800-7 / 207-536-6 / 208-272-4 / 287-483-3 / 239-830-5 / 246-020-5",
+      "_original": {
+        "reference_number": "116",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Aluminium hydroxide sulphate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "215-573-4; 244-492-7; -",
+      "_original": {
+        "reference_number": "118",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Natural hydrated aluminium silicate, Al2O3.2SiO2.2H2O, containing calcium, magnesium or iron carbonates, ferric hydroxide, quartz-sand, mica, etc. as impurities",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "215-108-5",
+      "_original": {
+        "reference_number": "119",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Lazurite",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "235-811-0; -; -;",
+      "_original": {
+        "reference_number": "120",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Aluminum silicate coloured with ferric oxide",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "- / 310-127-6",
+      "_original": {
+        "reference_number": "121",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Barium sulfate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "231-784-4",
+      "_original": {
+        "reference_number": "122",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Bismuth chloride oxide",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "232-122-7",
+      "_original": {
+        "reference_number": "123",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Calcium carbonate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "207-439-9 / 215-279-6",
+      "_original": {
+        "reference_number": "124",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Calcium sulfate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "_original": {
+        "reference_number": "125",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "carbon black (nano)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "215-609-9",
+      "_original": {
+        "reference_number": "126a",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Charcoal, bone. A fine black powder obtained by burning animal bones in a closed container. It consists primarily of calcium phosphate and carbon",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "232-421-2",
+      "_original": {
+        "reference_number": "127",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Coke black",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "231-153-3; 215-669-6",
+      "_original": {
+        "reference_number": "128",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Chromium (III) oxide",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "215-160-9",
+      "_original": {
+        "reference_number": "129",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Chromium (III) hydroxide",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "-",
+      "_original": {
+        "reference_number": "130",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Cobalt Aluminum Oxide",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "-",
+      "_original": {
+        "reference_number": "131",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Copper",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "231-159-6",
+      "_original": {
+        "reference_number": "132",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Gold",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "231-165-9",
+      "_original": {
+        "reference_number": "133",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Iron oxide",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "215-721-8",
+      "_original": {
+        "reference_number": "134",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Iron Oxide red",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "-; 215-722-3; 215-168-2; -; 257-870-1",
+      "_original": {
+        "reference_number": "135",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Iron Oxide Yellow",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "257-098-5",
+      "_original": {
+        "reference_number": "136",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Iron Oxide Black",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "235-442-9; 215-168-2; 215-277-5; 215-721-8; 215-722-3; 257-870-1",
+      "_original": {
+        "reference_number": "137",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Ferric Ammonium Ferrocyanide",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "237-875-5",
+      "_original": {
+        "reference_number": "138",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Magnesium carbonate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "208-915-9; 231-817-2",
+      "_original": {
+        "reference_number": "139",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Ammonium manganese(3+) diphosphate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "233-257-4",
+      "_original": {
+        "reference_number": "140",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Trimanganese bis(orthophosphate)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "233-341-0",
+      "_original": {
+        "reference_number": "141",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Titanium Dioxide/CI 77891",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "236-675-5",
+      "_original": {
+        "reference_number": "143",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Zinc oxide",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "215-222-5",
+      "_original": {
+        "reference_number": "144",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Riboflavin",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "201-507-1 / 204-988-6",
+      "_original": {
+        "reference_number": "145",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Caramel",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "232-435-9",
+      "_original": {
+        "reference_number": "146",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Paprika extract, Capsanthin, capsorubin",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "207-364-1 / 207-425-2",
+      "_original": {
+        "reference_number": "147",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Beetroot red",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "231-628-5; 289-609-2; 289-610-8",
+      "_original": {
+        "reference_number": "148",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Anthocyanins (Cyanidin, Peonidin, Malvidin, Delphinidin, Petunidin, Pelargonidin)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "208-438-6 / 205-125-6 / 211-403-8 / 208-437-0 / - / 205-127-7",
+      "_original": {
+        "reference_number": "149",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Aluminium, zinc, magnesium and calcium stearates",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "230-325-5 / 209-151-9 / 209-150-3 / 216-472-8",
+      "_original": {
+        "reference_number": "150",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Phenol, 4,4'-(3H-2,1-benzoxathiol- 3-ylidene)bis[2-bromo-3-methyl-6 (1-methylethyl)-, S,S-dioxide",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "200-971-2",
+      "_original": {
+        "reference_number": "151",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Phenol, 4,4'-(3H-2,1-benzoxathiol- 3-ylidene)bis[2,6-dibromo-3- methyl-,S,S-dioxide",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "200-972-8",
+      "_original": {
+        "reference_number": "152",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Sodium 4-[(4,5-dihydro-3-methyl- 5-oxo-1-phenyl-1H-pyrazol-4- yl)azo]-3-hydroxynaphthalene-1- sulphonate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Conditions": "-",
+      "_original": {
+        "reference_number": "153",
+        "jurisdiction": "EU"
+      }
     }
   ]
 }

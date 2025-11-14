@@ -1,35 +1,2408 @@
 {
   "jurisdiction": "EU",
   "table_type": "restricted",
-  "version": "20240424",
-  "generated_at": "2025-11-12T10:59:40.195236",
-  "total_records": 2,
+  "version": "20251113",
+  "generated_at": "2025-11-13T10:07:58.119753Z",
+  "total_records": 200,
   "records": [
     {
-      "INCI_Name": "Hydrogen Peroxide",
-      "Jurisdiction": "EU",
-      "Status": "Restricted",
-      "CAS_No": "7722-84-1",
-      "Product_Type": "未规定",
-      "Max_Conc_Percent": 12.0,
-      "Conditions": "Hair products ≤12%, tooth whitening ≤6%, nail products ≤2%",
-      "Legal_Basis": "Annex III",
-      "Update_Date": null,
-      "Notes": null,
-      "Synonyms": []
+      "INCI_Name": "3-Carene; 3,7,7-Trimethylbicyclo[4.1.0]hept- 3-ene (isodiprene)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "236-719-3",
+      "_original": {
+        "reference_number": "121",
+        "jurisdiction": "EU"
+      }
     },
     {
-      "INCI_Name": "Salicylic Acid",
-      "Jurisdiction": "EU",
-      "Status": "Restricted",
-      "CAS_No": "69-72-7",
-      "Product_Type": "未规定",
-      "Max_Conc_Percent": 3.0,
-      "Conditions": "Rinse-off ≤3%, leave-on ≤2%. Not for children <3 years",
-      "Legal_Basis": "Annex III",
-      "Update_Date": null,
-      "Notes": null,
-      "Synonyms": []
+      "INCI_Name": "Cedrus atlantica oil and extract",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "295-985-9/ -",
+      "_original": {
+        "reference_number": "122",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Cupressus sempervirens oil and extract",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "283-626-9",
+      "_original": {
+        "reference_number": "123",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Turpentine gum (Pinus spp.); Turpentine oil and rectified oil; Turpentine, steam distilled (Pinus spp.)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "232-688-5; 232-350-7; -",
+      "_original": {
+        "reference_number": "124",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Terpene alcohols acetates",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "273-868-3",
+      "_original": {
+        "reference_number": "127",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Terpene hydrocarbons",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "273-309-3",
+      "_original": {
+        "reference_number": "128",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Terpenes and terpenoids with the exception of limonene (d-, l-, and dl-isomers) listed under reference numbers 88, 167 and 168 of this Annex III",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "266-034-5",
+      "_original": {
+        "reference_number": "129",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "p-Mentha-1,3-diene",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "202-795-1",
+      "_original": {
+        "reference_number": "131",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "gamma-Terpinene; p-Mentha-1,4-diene",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "202-794-6",
+      "_original": {
+        "reference_number": "132",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "p-Mentha-1,4(8)- diene",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "209-578-0",
+      "_original": {
+        "reference_number": "133",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Acetyl hexamethyl indan; 1,1,2,3,3,6-Hexamethylindan-5-yl methyl ketone",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "239-360-0",
+      "_original": {
+        "reference_number": "134",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Allyl butyrate; 2-Propenyl Butanoate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "218-129-8",
+      "_original": {
+        "reference_number": "135",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Allyl cinnamate; 2-Propenyl 3-Phenyl-2- propenoate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "217-477-8",
+      "_original": {
+        "reference_number": "136",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Allyl cyclohexylacetate; 2-Propenyl Cyclohexaneacetate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "225-230-0",
+      "_original": {
+        "reference_number": "137",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Allyl cyclohexylpropionate; 2-Propenyl 3- Cyclohexanepropanoate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "220-292-5",
+      "_original": {
+        "reference_number": "138",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Allyl heptanoate; 2-Propenyl heptanoate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "205-527-1",
+      "_original": {
+        "reference_number": "139",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Allyl caproate; Allyl hexanoate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "204-642-4",
+      "_original": {
+        "reference_number": "140",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Allyl isovalerate; 2-Propenyl 3-Methylbutanoate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "220-609-7",
+      "_original": {
+        "reference_number": "141",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Allyl octanoate; 2-Allyl caprylate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "224-184-9",
+      "_original": {
+        "reference_number": "142",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Allyl phenoxyacetate; 2-Propenyl Phenoxyacetate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "231-335-2",
+      "_original": {
+        "reference_number": "143",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Allyl 3,5,5-trimethylhexanoate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "275-536-3",
+      "_original": {
+        "reference_number": "145",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Allyl cyclohexyloxyacetate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "272-657-3",
+      "_original": {
+        "reference_number": "146",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Allyl isoamyloxyacetate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "266-803-5",
+      "_original": {
+        "reference_number": "147",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Allyl 2-methylbutoxyacetate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "266-804-0",
+      "_original": {
+        "reference_number": "148",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Allyl nonanoate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "231-334-7",
+      "_original": {
+        "reference_number": "149",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Allyl propionate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "219-307-8",
+      "_original": {
+        "reference_number": "150",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Allyl phenethyl ether",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "238-212-2",
+      "_original": {
+        "reference_number": "151a",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Allyl trimethylhexanoate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "268-648-9",
+      "_original": {
+        "reference_number": "151",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Allyl heptine carbonate (allyl oct-2-ynoate)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "277-303-1",
+      "_original": {
+        "reference_number": "152",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Amylcyclopentenone; 2-Pentylcyclopent-2-en-1-one",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "247-104-4",
+      "_original": {
+        "reference_number": "153",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Myroxylon balsamum var. pereirae; extracts and distillates; Balsam Peru oil, absolute and anhydrol (Balsam Oil Peru)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "232-352-8",
+      "_original": {
+        "reference_number": "154",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "4-tert.- Butyldihydrocinnamaldehyde; 3-(4-tert- Butylphenyl)propionaldehyde",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "242-016-2",
+      "_original": {
+        "reference_number": "155",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Cuminum cyminum oil and extract",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "283-881-6",
+      "_original": {
+        "reference_number": "156",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "trans-Rose ketone-5 (see note 16) (E)-1-(2,4,4-Trimethyl-2- cyclohexen-1-yl)-2-buten-1-one (Isodamascone)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "254-663-8",
+      "_original": {
+        "reference_number": "159",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Rose ketone-5 (see note 16) 1-(2,4,4-Trimethyl-2-cycloehexen- 1-yl)-2-buten-1-one",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "251-632-0",
+      "_original": {
+        "reference_number": "164",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "trans-2-hexenal",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "229-778-1",
+      "_original": {
+        "reference_number": "166",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "p-Mentha-1,8-dien-7-al",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "218-302-8",
+      "_original": {
+        "reference_number": "169",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Isobergamate; Menthadiene-7- methyl formate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "272-066-0",
+      "_original": {
+        "reference_number": "170",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Methoxy dicyclopentadiene carboxaldehyde; Octahydro-5- methoxy-4,7-Methano-1H-indene- 2-carboxaldehyde",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "-",
+      "_original": {
+        "reference_number": "171",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "3-Methylnon-2-enenitrile",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "258-398-9",
+      "_original": {
+        "reference_number": "172",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Methyl octine carbonate; Methyl non-2-ynoate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "203-909-2",
+      "_original": {
+        "reference_number": "173",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Amylvinylcarbinyl acetate; 1- Octen-3-yl acetate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "219-474-7",
+      "_original": {
+        "reference_number": "174",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "3-Propylidene-1(3H)- isobenzofuranone; 3- Propylidenephthalide",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "241-402-8",
+      "_original": {
+        "reference_number": "175",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Isocyclogeraniol; 2,4,6-Trimethyl- 3-cyclohexene-1-methanol",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "271-282-2",
+      "_original": {
+        "reference_number": "176",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "2-Hexylidene cyclopentanone",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "241-411-7",
+      "_original": {
+        "reference_number": "177",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Methyl heptadienone; 6-Methyl- 3,5-heptadien-2-one",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "216-507-7",
+      "_original": {
+        "reference_number": "178",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "p-methylhydrocinnamic aldehyde; Cresylpropionaldehyde; p- Methyldihydrocinnamaldehyde",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "226-460-4",
+      "_original": {
+        "reference_number": "179",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Liquidambar orientalis oil and extract (styrax)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "305-627-6",
+      "_original": {
+        "reference_number": "180",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "1-(5,6,7,8-Tetrahydro-3,5,5,6,8,8,- hexamethyl-2-naphthyl)ethan-1- one (AHTN)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "244-240-6 - 216-133-4",
+      "_original": {
+        "reference_number": "182",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Commiphora erythrea engler var. glabrescens engler gum extract and oil",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "297-649-7",
+      "_original": {
+        "reference_number": "183",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Opopanax chironium resin",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "93384-32-8",
+      "_original": {
+        "reference_number": "184",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Toluene",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "203-625-9",
+      "_original": {
+        "reference_number": "185",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "2,2'-oxydiethanol Diethylene glycol (DEG)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "203-872-2",
+      "_original": {
+        "reference_number": "186",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Diethylene glycol monobutyl ether (DEGBE)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "203-961-6",
+      "_original": {
+        "reference_number": "187",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Ethylene glycol monobutyl ether (EGBE)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "203-905-0",
+      "_original": {
+        "reference_number": "188",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Trisodium 5-hydroxy-1-(4- sulphophenyl)-4-(4- sulphophenylazo)pyrazole-3- carboxylate and aluminium lake (see note 17). CI 19140",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "217-699-5 - 235-428-9",
+      "_original": {
+        "reference_number": "189",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Benzenemethanaminium, N-ethyl- N-[4-[[4-[ethyl-[(3-sulfophenyl)- methyl]-amino]-phenyl](2- sulfophenyl)methylene]-2,5- cyclohexadien-1-ylidene]-3-sulfo, inner salts, disodium salt and its ammonium and aluminium salts (15); Acid Blue Acid Blue 9 Ammonium salt; CI 42090. (see note 17)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "223-339-8 - 220-168-0 - 272-939-6",
+      "_original": {
+        "reference_number": "190",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Disodium 6-hydroxy-5-[(2- methoxy-4-sulphonato-m- tolyl)azo]naphthalene-2- sulphonate (15); CI 16035. (see note 17)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "247-368-0",
+      "_original": {
+        "reference_number": "191",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Hydrogen 3,6-bis(diethylamino)-9- (2,4- disulphonatophenyl)xanthylium, sodium salt; CI 45100 (see note 17)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "222-529-8",
+      "_original": {
+        "reference_number": "193",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Glyoxal",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "203-474-9",
+      "_original": {
+        "reference_number": "194",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Sodium 1-amino-4- (cyclohexylamino)-9,10-dihydro- 9,10-dioxoanthracene-2- sulphonate; CI 62045 (see note 17)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "224-460-9",
+      "_original": {
+        "reference_number": "195",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "1-[(2'-Methoxyethyl)amino]-2- nitro-4-[di-(2'- hydroxyethyl)amino]benzene (see note 17)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "459-980-7",
+      "_original": {
+        "reference_number": "196",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Verbena absolute",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "-/ 285-515-0",
+      "_original": {
+        "reference_number": "196",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Ethyl Lauroyl Arginate HCl",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "434-630-6",
+      "_original": {
+        "reference_number": "197",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "1,3-Benzenediol, 4- Chlororesorcinol",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "202-462-0",
+      "_original": {
+        "reference_number": "199",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "1-Propanol, 3-[[4-[bis(2- hydroxyethyl)amino]-2- nitrophenyl]amino] (see note 17)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "410-910-3",
+      "_original": {
+        "reference_number": "200",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "2,4,5,6-Tetraaminopyrimidine sulphate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "226-393-0",
+      "_original": {
+        "reference_number": "200",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Phenol, 2-Chloro-6-(ethylamino)- 4-nitro- (see note 17)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "411-440-1",
+      "_original": {
+        "reference_number": "201",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "6-Methoxy-N2-methyl-2,3- pyridinediamine hydrochloride and dihydrochloride salt",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "- / 280-622-9",
+      "_original": {
+        "reference_number": "203",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "2,3-Dihydro-1H-indole-5,6-diol and its hydrobromide salt (see note 17).",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "- - 421-170-6",
+      "_original": {
+        "reference_number": "204",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "3-(2-Hydroxyethyl)-p- phenylenediammonium sulphate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "298-995-1",
+      "_original": {
+        "reference_number": "206",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "1H-Indole-5,6-diol",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "412-130-9",
+      "_original": {
+        "reference_number": "207",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "1-(beta-Aminoethyl)amino-4- (beta-hydroxyethyl)oxy-2- nitrobenzene and its salts",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "416-410-1",
+      "_original": {
+        "reference_number": "208",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "5-Amino-4-chloro-2- methylphenol hydrochloride",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "110102-85-7",
+      "_original": {
+        "reference_number": "208",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "1H-Indole-2,3-Dione",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "202-077-8",
+      "_original": {
+        "reference_number": "210",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "2-Methyl-1-naphthyl acetate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "454-690-7",
+      "_original": {
+        "reference_number": "212",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "1-Hydroxy-2-methylnaphthalene",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "231-265-2",
+      "_original": {
+        "reference_number": "213",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Disodium 5,7-dinitro-8-oxido-2- naphthalenesulfonate CI 1036",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "212-690-2",
+      "_original": {
+        "reference_number": "214",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Naphthalene-2,7-diol",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "209-478-7",
+      "_original": {
+        "reference_number": "216",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "6-Hydroxy-3,4- dimethyl-2- pyridone",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "283-141-2",
+      "_original": {
+        "reference_number": "218",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "1-Hydroxy-3-nitro- 4-(3- hydroxypropy lamino)benzene",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "406-305-9",
+      "_original": {
+        "reference_number": "219",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "1-[(2′-Methoxye thyl)amino]-2- nitro- 4-[di-(2′-hydroxye thyl)amino]ben zene",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "459-980-7",
+      "_original": {
+        "reference_number": "220",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "1-Hydroxy-2-beta- hydroxyethylamino-4,6- dinitrobenzene",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "412-520-9",
+      "_original": {
+        "reference_number": "222",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "4-Methylaminophenol and its salts",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "205-768-2 - 200-237-1 - 217-706-1",
+      "_original": {
+        "reference_number": "223",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "1-Propanol, 3-[[4-[bis(2- hydroxyethyl)amino]-2- nitrophenyl]amino]",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "410-910-3",
+      "_original": {
+        "reference_number": "224",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "4,4′-[1,3- Propanediylbis(oxy)]bisbenzene- 1,3-diamine and its tetrahydrochloride salt",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "279-845-4 / 278-022-7",
+      "_original": {
+        "reference_number": "226",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "3-Methyl-1-phenyl-5-pyrazolone",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "201-891-0",
+      "_original": {
+        "reference_number": "228",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "2,3-Dihydro-2H-1,4-benzoxazin-6- ol",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "247-415-5",
+      "_original": {
+        "reference_number": "230",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "1,5-Di-(beta-hydroxyethylamino)- 2-nitro-4-chlorobenzene (see note 17)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "416-940-3",
+      "_original": {
+        "reference_number": "231",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "3,5-Diamino-2,6- dimethoxypyridine and its salts",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "260-062-1",
+      "_original": {
+        "reference_number": "232",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Ethanol, 2-[(4-amino-2-methyl-5- nitrophenyl)amino]- and its salts",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "417-600-7",
+      "_original": {
+        "reference_number": "234",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "2-[3-(Methylamino)-4- nitrophenoxy]ethanol (see note 17)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "261-940-7",
+      "_original": {
+        "reference_number": "235",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "2-[(2-methoxy-4- nitrophenyl)amino]ethanol and its salts",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "266-138-0",
+      "_original": {
+        "reference_number": "236",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Naphthalene-1,5-diol and its salts",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "201-487-4",
+      "_original": {
+        "reference_number": "238",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Hydroxypropyl bis(N- hydroxyethyl-p- phenylenediamine) and its tetrahydro-chloride",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "416-320-2",
+      "_original": {
+        "reference_number": "239",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "4-Nitro-1,2-phenylenediamine",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "202-766-3",
+      "_original": {
+        "reference_number": "240",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "2-[(3-Amino-4- methoxyphenyl)amino]ethanol and its sulphate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "280-733-2 / 280-734-8",
+      "_original": {
+        "reference_number": "245",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Hydroxyethyl-3,4- methylenedioxyaniline and its hydrochloride",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "303-085-5",
+      "_original": {
+        "reference_number": "246",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "2,2'-[[4-[(2-Hydroxyethyl)amino]- 3-nitrophenyl]imino]bisethanol (see note 17)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "251-410-3",
+      "_original": {
+        "reference_number": "247",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "1-(.beta.-Ureidoethyl)amino-4- nitrobenzene",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "410-700-1",
+      "_original": {
+        "reference_number": "249",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "1-amino-2-nitro-4-(2',3'- dihydroxypropyl)amino-5- chlorobenzene and 1,4-bis-(2',3'- dihydroxypropyl)amino-2-nitro-5- chlorobenzene and its salts",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "- -",
+      "_original": {
+        "reference_number": "250",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "1-Amino-2-nitro-4-(2', 3'- dihydroxypropyl)amino-5-chloro- benzene + 1,4-bis-(2',3'- dihydroxypropyl)amino-2-nitro-5- chlorobenzene",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "9556-89-9 - 95576-92-4",
+      "_original": {
+        "reference_number": "250",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Phenol, 2-Chloro-6-(ethylamino)- 4-nitro- and its salts",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "411-440-1",
+      "_original": {
+        "reference_number": "251",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "2-Amino-6-chloro-4-nitrophenol",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "228-762-1",
+      "_original": {
+        "reference_number": "252",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "2-[bis(2-Hydroxye thyl)amino]-5- nitro phenol",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "428-840-7",
+      "_original": {
+        "reference_number": "253",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "2-[bis(2-Hydroxyethyl)amino]-5- nitrophenol",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "428-840-7",
+      "_original": {
+        "reference_number": "253",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Disodium 5-amino-4-hydroxy-3- (phenylazo)naphathlene-2,7- disulphonate (see note 17); (CI 17200)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "222-656-9",
+      "_original": {
+        "reference_number": "254",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "2-[(2-Nitrophenyl)amino] ethanol",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "225-555-8",
+      "_original": {
+        "reference_number": "255",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Laureth-9",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "221-284-4",
+      "_original": {
+        "reference_number": "257",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "2-Nitro-N1-phenyl-benzene-1,4- diamine",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "220-494-3",
+      "_original": {
+        "reference_number": "258",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "1-Methoxy-3-(β-aminoethyl) amino-4-nitrobenzene, hydrochloride",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "415-480-1",
+      "_original": {
+        "reference_number": "259",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "1-(4’-Aminophenylazo)-2-methyl- 4-(bis-2-hydroxyethyl) aminobenzene",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "146-420-6",
+      "_original": {
+        "reference_number": "260",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "N-(2-Hydroxyethyl)-2-nitro-4- trifluormethyl-aniline",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "443-760-2",
+      "_original": {
+        "reference_number": "261",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Benzenaminium, 3-[(4,5-dihydro- 3-methyl-5-oxo-1-phenyl-1H- pyrazol-4-yl)azo]-N,N,Ntrimethyl- , chloride",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "269-943-5",
+      "_original": {
+        "reference_number": "262",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Ethanol, 2,2′-[[4-[(4- aminophenyl) azo]phenyl]imino]bis-",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "243-98-5",
+      "_original": {
+        "reference_number": "263",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "9,10-Anthracenedione, 1,4-bis [(2,3-dihydroxypropyl)amino]-",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "421-470-7",
+      "_original": {
+        "reference_number": "264",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "1,4-Diaminoanthraquinone",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "204-922-6",
+      "_original": {
+        "reference_number": "265",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Ethanol, 2-((4- amino-2- nitrophenyl)amino)-",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "220-701-7",
+      "_original": {
+        "reference_number": "266",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Phenol, 2-Amino- 5-Ethyl-, Hydrochloride",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "_original": {
+        "reference_number": "269",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Fluorescein, 2',4',5',7'-tetrabromo 4,5,6,7- tetrachloro-, disodium salt (CI 45410)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "242-355-6",
+      "_original": {
+        "reference_number": "270",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "4-Aminophenol",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "204-616-2",
+      "_original": {
+        "reference_number": "272",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Quinolinium, 4- formyl-1-methyl-, salt with 4- methylbenzenesulfonic acid (1:1)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "453-790-8",
+      "_original": {
+        "reference_number": "274",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Pyridinium, 1- methyl-4-[( methylphenylhydrazono)methyl]- , methyl sulfate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "269-503-2",
+      "_original": {
+        "reference_number": "275",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "2,6-Pyridinediamine, 3-(3- pyridinylazo)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "421-430-9",
+      "_original": {
+        "reference_number": "277",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "4-((4-Amino-3- methylphenyl)(4- imino-3-methyl- 2,5- cyclohexadien-1- ylidene)methyl)- 2- methylphenylamine monohydrochloride (CI 42520)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "221-831-7",
+      "_original": {
+        "reference_number": "278",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "2-Amino-4,6-dinitrophenol and 2- amino-4,6-dinitrophenol, sodium salt",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "202-544-6 / 212-603-8",
+      "_original": {
+        "reference_number": "280",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "1-Methylamino-2- nitro-5-(2,3- dihydroxy-propyloxy)- benzene",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "279-383-3",
+      "_original": {
+        "reference_number": "281",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "3-amino-2-chlor- 6-methylphenol 3-amino-4-chloro- 6- methylphenol HCl",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "283-144-9",
+      "_original": {
+        "reference_number": "283",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Pyridine-2,6- diyldiamine",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "205-507-2",
+      "_original": {
+        "reference_number": "285",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "C22-alkyltrimethylammonium chloride",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "241-327-0",
+      "_original": {
+        "reference_number": "287",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Phosphoric acid compound with 4-[(2,6-dichlorophenyl) (4-imino- 3,5-dimethyl-2,5- cyclohexadien- 1- ylidene) methyl]- 2,6- dimethylaniline (1:1)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "277-929-5",
+      "_original": {
+        "reference_number": "289",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Disodium 2,2′- (9,10- dioxoanthracene-1,4- diyldiimino)bis(5- methylsulphonate)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "224-546-6",
+      "_original": {
+        "reference_number": "290",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "1,4-Benzenediamine, 2- (methoxymethyl) 1,4-Benzenediamine, 2- (methoxymethyl)-, sulfate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "679-526-3; 638-749-6",
+      "_original": {
+        "reference_number": "292",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Ethanol, 2,2′-[[3- methyl-4-[(E)-(4- nitrophenyl)azo] phenyl]imino]bis-",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "221-665-5",
+      "_original": {
+        "reference_number": "294",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "4-Amino-5-hydroxy-3-(4- nitrophenylazo)-6- (phenylazo)- 2,7- naphthalenedisulfonic acid, disodium salt",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "213-903-1",
+      "_original": {
+        "reference_number": "295",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Disodium 3-hydroxy-4-[(E)-(4- methyl-2- sulfonatophenyl)diazenyl]-2- naphthoate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "227-497-9",
+      "_original": {
+        "reference_number": "296",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "2-(2-ethoxyethoxy)ethanol Diethylene Glycol Monoethyl Ether (DEGEE), Ethoxydiglycol",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "203-919-7",
+      "_original": {
+        "reference_number": "297",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Di[2-[4-[(E)-2- [2,4,5- trimethoxyphenyl]vinyl]pyridinin- 1- ium]butanoyl]aminoethyl]disulfa nyl dichloride",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "1450801-55- 4",
+      "_original": {
+        "reference_number": "299",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "4-Hydroxy-2,5,6- triaminopyrimidine sulfate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "216-500-9",
+      "_original": {
+        "reference_number": "301",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Phenol, 3-amino-2,6- dimethyl",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "230-268-6",
+      "_original": {
+        "reference_number": "303",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "2-Naphthalenaminium, 8-[(4- amino-3-nitrophenyl)azo]-7- hydroxy- N,N,N-trimethyl-, chloride",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "269-944-0",
+      "_original": {
+        "reference_number": "304",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Peanut oil, extracts and derivatives",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "232-296-4; 270-350-9; 293-087-1; 294-643-6; -; 297-433-2; 263-069-8; 263-070-3; 277-298-6",
+      "_original": {
+        "reference_number": "306",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Hydrolyzed wheat protein",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "305-225-0/ - / 309-358-5",
+      "_original": {
+        "reference_number": "307",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Tagetes minuta flower extract; Tagetes minuta flower oil",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "294-862-7; 294-862-7",
+      "_original": {
+        "reference_number": "308",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "1-(4-Chlorophenoxy)-1-(imidazol- 1-yl)-3,3-dimethylbutan-2-one",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "253-775-4;",
+      "_original": {
+        "reference_number": "310",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Diphenyl(2,4,6- trimethylbenzoyl)phosphine oxide",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "278-355-8",
+      "_original": {
+        "reference_number": "311",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "2-Furaldehyde",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "202-627-7",
+      "_original": {
+        "reference_number": "312",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "2-Hydroxyethyl Methacrylate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "212-782-2",
+      "_original": {
+        "reference_number": "313",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "11,14-Dioxa-2,9-diazaheptadec- 16-enoic Acid, 4,4,6,16- tetramethyl-10,15-dioxo, 2-[(2- methyl-1-oxo-2- propenyl)oxy]ethyl ester",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "255-239-5 / 276-957-5 (cid:9)",
+      "_original": {
+        "reference_number": "314",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "1-(3-((4- Aminophenyl)amino)propyl)-3- methyl-1H-imidazol-3-ium chloride hydrochloride",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "220158-86-1",
+      "_original": {
+        "reference_number": "316",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Di-[2-[(E)-2-[4-[bis(2- hydroxyethyl)aminophenyl]vinyl] pyridin-1-ium]-ethyl]disulphide dimethanesulfonate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "1449653-83- 1",
+      "_original": {
+        "reference_number": "317",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Phenol, 4,4'-(4,5,6,7-tetrabromo- 1,1-dioxido-3H-2,1-benzoxathiol- 3-ylidene)bis[2,6-dibromo-",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "224-622-9",
+      "_original": {
+        "reference_number": "319",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Indigofera tinctoria, dried and pulverised leaves of Indigofera tinctoria L",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "283-892-6",
+      "_original": {
+        "reference_number": "320",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Titanium dioxide in powder form containing 1 % or more of particles with aerodynamic diameter ≤ 10 μm",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "236-675-5/ 215-280-1/ 215-282-2",
+      "_original": {
+        "reference_number": "321",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "1,3-Dihydroxy-2-propanone",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "202-494-5",
+      "_original": {
+        "reference_number": "322",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Methyl 2-hydroxybenzoate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "204-317-7",
+      "_original": {
+        "reference_number": "324",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "2,6-Di-Tert-Butyl-4-Methylphenol",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "204-881-4",
+      "_original": {
+        "reference_number": "325",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "[3R-(3α,3aβ,7β,8aα)]- 1- (2,3,4,7,8,8a- hexahydro-3,6,8,8- tetramethyl- 1H-3a,7- methanoazulen-5-yl)ethan- 1-one",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "251-020-3",
+      "_original": {
+        "reference_number": "327",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Pentyl-2-hydroxy- benzoate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "218-080-2",
+      "_original": {
+        "reference_number": "328",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "1-Methoxy-4-(1E)- 1-propen-1-yl- benzene (trans- Anethole)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "203-205-5/ 224-052-0",
+      "_original": {
+        "reference_number": "329",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Benzaldehyde",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "202-860-4",
+      "_original": {
+        "reference_number": "330",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Bornan-2-one; 1,7,7-Trimethylbi- cyclo[2.2.1]- 2-heptanone",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "200-945-0/ 244-350-4/ 207-355-2/ 207-354-7",
+      "_original": {
+        "reference_number": "331",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "(1R,4E,9S)-4,11,11-- Trimethyl- 8- methylenebicyclo [7.2.0]undec- 4- ene",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "201-746-1",
+      "_original": {
+        "reference_number": "332",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "2-Methyl-1-phenyl- 2-propyl acetate; Dimethylbenzyl Carbinyl Acetate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "205-781-3",
+      "_original": {
+        "reference_number": "334",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Oxacyclohepta- decan-2-one",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "203-662-0",
+      "_original": {
+        "reference_number": "335",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "1,3,4,6,7,8-Hexahydro-4,6,6,7,8,8- hexamethylcyclopenta-γ-2- benzopyran",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "214-946-9",
+      "_original": {
+        "reference_number": "336",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "3,7-Dimethyl octa-1,6-diene-3-yl acetate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "204-116-4",
+      "_original": {
+        "reference_number": "337",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Menthol; dl-menthol; l-menthol; d-menthol",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "201-939-0/ 216-074-4/ 218-690-9/ 239-387-8",
+      "_original": {
+        "reference_number": "338",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "3-Methyl- 5-(2,2,3-Trimethyl- 3- Cyclopentenyl) pent-4-en-2-ol",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "267-140-4",
+      "_original": {
+        "reference_number": "339",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "5-(2,3-Dimethyl- tricyclo[2.2.1.02,6]- hept-3-yl)- 2- methylpent-2-en- 1-ol (alpha- Santalol); (1S-(1a,2a(Z),4a))- 2- Methyl- 5-(2-methyl- 3- methylenebicyclo [2.2.1]hept-2- yl)- 2-penten-1-ol (beta-Santalol)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "234-262-4/ 204-102-8/ 201-027-2",
+      "_original": {
+        "reference_number": "341",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "[1R-(1alpha)]-alpha- Ethenyldecahydro- 2-hydroxy- a,2,5,5,8a- pentamethyl- 1- naphthalenepropanol",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "208-194-0",
+      "_original": {
+        "reference_number": "342",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "2-(4-methylcyclohex- 3-en-1- yl)propan- 2-ol; p-Menth-1-en- 8- ol (alpha- Terpineol); 1-methyl- 4- (1-methylvinyl) cyclohexan-1-ol (beta-Terpineol); 1-methyl- 4-(1- methylethylidene)cyclohexan-1- ol (gamma-Terpineol)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "232-268-1/ 202-680-6/ 205-342-6/ 209-584-3",
+      "_original": {
+        "reference_number": "343",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "1-(1,2,3,4,5,6,7,8-octahydro- 2,3,8,8-tetramethyl- 2- naphthyl)ethan- 1-one; 1- (1,2,3,4,5,6,7,8-octahydro-2,3,5,5- tetramethyl- 2-naphthyl)ethan- 1- one; 1-(1,2,3,5,6,7,8,8a- octahydro-2,3,8,8-tetramethyl- 2- naphthyl)ethan- 1-one; 1- (1,2,3,4,6,7,8,8a- octahydro- 2,3,8,8-tetramethyl- 2- naphthyl)ethan- 1-one",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "259-174-3/ 259-175-9/ 268-978-3/ 268-979-9/",
+      "_original": {
+        "reference_number": "344",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "3-(2,2-Dimethyl- 3- hydroxypropyl) toluene",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "403-140-4",
+      "_original": {
+        "reference_number": "345",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Cananga odorata flower oil and extract; Ylang Ylang flower oil and extract",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "281-092-1/ - /-/ 297-681- 1",
+      "_original": {
+        "reference_number": "347",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Cinnamomum cassia leaf Oil",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "-/ 284-635-0",
+      "_original": {
+        "reference_number": "348",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Cinnamomum zeylanicum bark oil",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "-/ 283-479-0",
+      "_original": {
+        "reference_number": "349",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Citrus aurantium amara and dulcis flower oil",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "277-143-2/ 232-433-8/-",
+      "_original": {
+        "reference_number": "350",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Citrus aurantium amara and dulcis peel oil",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "-/ 277-143-2; 307-891-8/ 232-433-8/",
+      "_original": {
+        "reference_number": "351",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Citrus limon oil",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "84929-31-7/ 8008-56-8",
+      "_original": {
+        "reference_number": "353",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Cymbopogon citratus / schoenanthus/ flexuosus oils",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "-/ 289-754-1; 295-161-9; 295-161-9/ 295-161-9",
+      "_original": {
+        "reference_number": "354",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Eucalyptus globulus oil",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "308-257-3/ 616-775-9; 616-775-9",
+      "_original": {
+        "reference_number": "355",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Eugenia caryophyllus oil",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "616-772-2/ - / 284-638-7; 284-638-7; 284-638-7; 284-638-7",
+      "_original": {
+        "reference_number": "356",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Juniperus virginiana oil",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "-/ 285-370-3",
+      "_original": {
+        "reference_number": "358",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Laurus nobilis oil",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "-/-/ 283-272- 5",
+      "_original": {
+        "reference_number": "359",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Lavandula hybrida oil/extract; Lavandula intermedia oil/extract; Lavandula angustifolia oil/extract",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "294-470-6/-/- /-/ 296-408- 3; 283-994- 0/-/ 289-995- 2; 283-994- 0/-/ 289-995- 2",
+      "_original": {
+        "reference_number": "360",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Mentha piperita oil",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "-/ 282-015-4",
+      "_original": {
+        "reference_number": "361",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Mentha spicata oil (spearmint oil)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "616-927-4/ 283-656-2",
+      "_original": {
+        "reference_number": "362",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Pelargonium graveolens oil",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "290-140-0/ -",
+      "_original": {
+        "reference_number": "364",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Pogostemon cablin oil",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "-/ 282-493-4",
+      "_original": {
+        "reference_number": "365",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Rosa damascena flower oil/extract; Rosa alba flower oil/extract; Rosa canina flower oil; Rosa centifolia oil/extract; Rosa gallica flower oil; Rosa moschata flower oil; Rosa rugosa flower oil",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "-/ 290-260-3; 297-122-1; 297-122-1; 283-652-0; 283-652-0; 283-290-3; -; 283-290-3",
+      "_original": {
+        "reference_number": "366",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Santalum album oil",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "8006-87-9/ 84787-70-2",
+      "_original": {
+        "reference_number": "367",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Phenol, 2-methoxy- 4-(2- propenyl)-, acetate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "202-235-6",
+      "_original": {
+        "reference_number": "368",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "2,6-Octadien-1-ol, 3,7-dimethyl- ,1-acetate, (2E)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "203-341-5",
+      "_original": {
+        "reference_number": "369",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "2,6,6-Trimethylbi- cyclo[3.1.1]hept- 2-ene (alpha- Pinene); 6,6-Dimethyl- 2- methylenebicyclo [3.1.1]heptane (beta- Pinene)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "201-291-9/ 232-087-8/ 204-872-5/ 242-060-2",
+      "_original": {
+        "reference_number": "371",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Hydroxyapatite",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "215-145-7",
+      "_original": {
+        "reference_number": "372",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Genisteol; 4',5,7- Trihydroxyisoflavone; 5,7- dihydroxy-3-(4-hydroxyphenyl)-4- benzopyrone",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "207-174-9",
+      "_original": {
+        "reference_number": "373",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "5-Hydroxy-2-(hydroxymethyl)-4H- pyrane-4-one",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "207-922-4",
+      "_original": {
+        "reference_number": "375",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "(2E,4E,6E,8E)-3,7-dimethyl-9- (2,6,6-trimethylcyclohexen-1- yl)nona-2,4,6,8-tetraen-1-ol; [(2E,4E,6E,8E)-3,7-dimethyl-9- (2,6,6-trimethylcyclohexen-1- yl)nona-2,4,6,8-tetraenyl] acetate; [(2E,4E,6E,8E)-3,7-dimethyl-9- (2,6,6-trimethylcyclohexen-1- yl)nona-2,4,6,8-tetraenyl] hexadecanoate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "234-328-2/ 200-683-7; 204-844-2; 201-228-5",
+      "_original": {
+        "reference_number": "376",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "4-Hydroxyphenyl-beta-D- glucopyranoside",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Conditions": "207-850-3",
+      "_original": {
+        "reference_number": "378",
+        "jurisdiction": "EU"
+      }
     }
   ]
 }

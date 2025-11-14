@@ -1,23 +1,356 @@
 {
   "jurisdiction": "EU",
   "table_type": "uv_filters",
-  "version": "20240424",
-  "generated_at": "2025-11-12T10:59:40.195236",
-  "total_records": 1,
+  "version": "20251113",
+  "generated_at": "2025-11-13T10:07:58.119753Z",
+  "total_records": 29,
   "records": [
     {
-      "INCI_Name": "Homosalate",
-      "Jurisdiction": "EU",
-      "Status": "Allowed",
-      "CAS_No": "118-56-9",
-      "Product_Type": "未规定",
-      "Max_Conc_Percent": 10.0,
-      "Conditions": "Maximum 10%",
-      "Legal_Basis": "Annex VI",
-      "Update_Date": null,
-      "Notes": null,
-      "Synonyms": [],
-      "Label_Warnings": null
+      "INCI_Name": "N,N,N-Trimethyl-4-(2-oxoborn-3- ylidenemethyl) anilinium methyl sulphate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Conditions": "258-190-8",
+      "_original": {
+        "reference_number": "2",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Benzoic acid, 2-hydroxy-, 3,3,5- trimethylcyclohexyl ester / Homosalate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Conditions": "204-260-8",
+      "_original": {
+        "reference_number": "3",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "2-Hydroxy-4- methoxybenzophenone / Oxybenzone",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Conditions": "205-031-5",
+      "_original": {
+        "reference_number": "4",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Moved or deleted",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "_original": {
+        "reference_number": "5",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "2-Phenylbenzimidazole-5- sulphonic acid and its potassium, sodium and triethanolamine salts / Ensulizole",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Conditions": "248-502-0",
+      "_original": {
+        "reference_number": "6",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "3,3'-(1,4-Phenylenedimethylene) bis (7,7-dimethyl-2-oxobicyclo- [2.2.1] hept-1-ylmethanesulfonic acid) and its salts / Ecamsule",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Conditions": "410-960-6 / -",
+      "_original": {
+        "reference_number": "7",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "1-(4-tert-Butylphenyl)-3-(4- methoxyphenyl) propane-1,3- dione / Avobenzone",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Conditions": "274-581-6",
+      "_original": {
+        "reference_number": "8",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "2-Cyano-3,3-diphenyl acrylic acid 2-ethylhexyl ester / Octocrilene",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Conditions": "228-250-8",
+      "_original": {
+        "reference_number": "10",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Polymer of N-{(2 and 4)-[(2- oxoborn-3- ylidene)methyl]benzyl}acrylamid e",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Conditions": "-",
+      "_original": {
+        "reference_number": "11",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "2-Ethylhexyl 4- methoxycinnamate / Octinoxate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Conditions": "226-775-7",
+      "_original": {
+        "reference_number": "12",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Ethoxylated Ethyl-4- Aminobenzoate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Conditions": "-",
+      "_original": {
+        "reference_number": "13",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Isopentyl-4-methoxycinnamate / Amiloxate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Conditions": "275-702-5",
+      "_original": {
+        "reference_number": "14",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "2,4,6-Trianilino-(p-carbo-2'- ethylhexyl-1'-oxy)-1,3,5-triazine",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Conditions": "402-070-1",
+      "_original": {
+        "reference_number": "15",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Phenol, 2-(2H-Benzotriazol-2-yl)-4- Methyl-6-(2-Methyl-3-(1,3,3,3- Tetramethyl-1- (Trimethylsilyl)Oxy)- Disiloxanyl)Propyl",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Conditions": "-",
+      "_original": {
+        "reference_number": "16",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Benzoic acid, 4,4-{[6-[[[(1,1- dimethylethyl)amino]carbonyl]ph enyl]amino]-1,3-5-triazine-2,4- diyl]diimino}bis-, bis(2- ethylhexyl)ester / Iscotrizinol",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Conditions": "-",
+      "_original": {
+        "reference_number": "17",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "2-Ethylhexyl salicylate / Octisalate)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Conditions": "204-263-4",
+      "_original": {
+        "reference_number": "20",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "2-Ethylhexyl 4- (dimethylamino)benzoate / Padimate O (USAN:BAN)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Conditions": "244-289-3",
+      "_original": {
+        "reference_number": "21",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Methylene Bis-Benzotriazolyl Tetramethylbutylphenol (nano)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Conditions": "403-800-1",
+      "_original": {
+        "reference_number": "23a",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "2,2'-Methylene bis(6-(2H- benzotriazol-2-yl)-4-(1,1,3,3- tetramethylbutyl)phenol) / Bisoctrizole",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Conditions": "403-800-1",
+      "_original": {
+        "reference_number": "23",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Sodium salt of 2,2'-bis(1,4- phenylene)-1H-benzimidazole-4,6- disulfonic acid / Bisdisulizole disodium (USAN)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Conditions": "429-750-0",
+      "_original": {
+        "reference_number": "24",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "2,2'-(6-(4-Methoxyphenyl)-1,3,5- triazine-2,4-diyl)bis(5-((2- ethylhexyl)oxy)phenol) / Bemotrizinol",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Conditions": "187393-00-6",
+      "_original": {
+        "reference_number": "25",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Titanium dioxide (nano)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Conditions": "236-675-5[1] /215-280- 1[2]/ 215- 282-2[3]",
+      "_original": {
+        "reference_number": "27a",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Titanium Dioxide",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Conditions": "236-675-5[1] /215-280- 1[2]/215- 282-2 [ 3]",
+      "_original": {
+        "reference_number": "27",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Benzoic acid, 2-[4-(diethylamino)- 2-hydroxybenzoyl]-, hexylester",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Conditions": "443-860-6",
+      "_original": {
+        "reference_number": "28",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Zinc oxide (nano)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Conditions": "215-222-5",
+      "_original": {
+        "reference_number": "30a",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "Zinc oxide",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Conditions": "215-222-5",
+      "_original": {
+        "reference_number": "30",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "3,3′-(1,4-Phenylene)bis(5,6- diphenyl-1,2,4-triazine)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Conditions": "700-823-1;",
+      "_original": {
+        "reference_number": "31",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "1,1'-(1,4-piperazinediyl)bis[1-[2- [4-(diethylamino)-2- hydroxybenzoyl]phenyl]- methanone",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Conditions": "485-100-6",
+      "_original": {
+        "reference_number": "33",
+        "jurisdiction": "EU"
+      }
+    },
+    {
+      "INCI_Name": "1,1'-(1,4-piperazinediyl)bis[1-[2- [4-(diethylamino)-2- hydroxybenzoyl]phenyl]- methanone",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Conditions": "485-100-6",
+      "_original": {
+        "reference_number": "34",
+        "jurisdiction": "EU"
+      }
     }
   ]
 }

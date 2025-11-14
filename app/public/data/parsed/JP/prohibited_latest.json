@@ -1,48 +1,1164 @@
 {
   "jurisdiction": "JP",
   "table_type": "prohibited",
-  "version": "20251112105940",
-  "generated_at": "2025-11-12T10:59:40.387178",
-  "total_records": 3,
+  "version": "20251113",
+  "generated_at": "2025-11-13T10:07:58.146487Z",
+  "total_records": 105,
   "records": [
     {
-      "INCI_Name": "Formaldehyde",
-      "Jurisdiction": "JP",
-      "Status": "Prohibited",
-      "CAS_No": "50-00-0",
-      "Product_Type": "未规定",
-      "Max_Conc_Percent": null,
-      "Conditions": "防腐剤として配合する場合を除き、配合禁止 / Prohibited except as preservative within specified limits",
-      "Legal_Basis": "Appendix 1",
-      "Update_Date": null,
-      "Notes": "MHLW ネガティブリストに記載 / Listed in MHLW Negative List",
-      "Synonyms": []
+      "INCI_Name": "Maximum amount of ingredient per 100 g",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Ingredient name",
+        "jurisdiction": "JP"
+      }
     },
     {
-      "INCI_Name": "Methanol",
-      "Jurisdiction": "JP",
-      "Status": "Prohibited",
-      "CAS_No": "67-56-1",
-      "Product_Type": "未规定",
-      "Max_Conc_Percent": null,
-      "Conditions": "変性剤として使用する場合を除き、配合禁止 / Prohibited except when used as denaturant",
-      "Legal_Basis": "Appendix 1",
-      "Update_Date": null,
-      "Notes": "MHLW ネガティブリストに記載 / Listed in MHLW Negative List",
-      "Synonyms": []
+      "INCI_Name": "1.0 g 1.0 g as total 1.0 g 2.0 g",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Aluminum chlorhydroxy allantoinate Cantharides tincture, ginger tincture or capsicum tincture Phenyl salicylate Polyoxyethylene laurylether (8-10E.O.)",
+        "jurisdiction": "JP"
+      }
     },
     {
-      "INCI_Name": "Mercury",
-      "Jurisdiction": "JP",
-      "Status": "Prohibited",
-      "CAS_No": "7439-97-6",
-      "Product_Type": "未规定",
-      "Max_Conc_Percent": null,
-      "Conditions": "全面禁止（微量不純物を除く）/ Completely prohibited (except trace impurities)",
-      "Legal_Basis": "Appendix 1",
-      "Update_Date": null,
-      "Notes": "重金属、高毒性 / Heavy metal, highly toxic",
-      "Synonyms": []
+      "INCI_Name": "Maximum amount of ingredient per 100 g",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Ingredient name",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Prohibited",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Aerosol agents Zirconium",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "0.50 g",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Cosmetics to be washed away immediately after use such as soap or shampoo Thiram",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Prohibited 0.30g 2.0 g 7.0 g Prohibited",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Cosmetics other than those washed away immediately after use such as soap or shampoo Undecylenic acid monoethanolamide Thiram Zinc p-phenolsulfonate 2-(2-Hydroxy-5-methylphenyl) benzotriazole Sodium lauroyl sarcosinate",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "8.63ｇ",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Hair setting agent to be washed away used in only hair. Cysteamine Hydrochloride",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Prohibited",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Cosmetics other than hair setting agent to be washed away used in only hair. Cysteamine Hydrochloride",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "20000 IU as total",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Cosmetics used in cephalic, mucosa part or the oral cavity, and cosmetics used in other parts, containing lower aliphatic monoalcohols (exclude those containing the said alcohols added to dissolve ingredients in the said cosmetics) Estradiol, estrone and ethinylestradiol",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "50000 IU as total",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Cosmetics other than those used in cephalic, mucosa part or the oral cavity, containing no lower aliphatic monoalcohols (include those containing the said alcohols added to dissolve ingredients in the said cosmetics ) Estradiol, estrone and ethinylestradiol",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "0.010 g",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Cosmetics used in only cephalic part Aminoether type antihistamines",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Prohibited",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Cosmetics other than those used only in cephalic part Aminoether type antihistamines",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Prohibited 0.50 g",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Toothpaste Diethylene glycol",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "0.76 g ( limited not to greater than 1/2 amount of beewax and white beewax)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Compounds to be used with the purpose of emulsifying beewax or white beewax Sodium pyroborate",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Prohibited",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Compounds to be used for purposes other than emulsifying beewax or white beewax Sodium pyroborate",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Maximum amount (g) of ingredient per 100 g",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Ingredient name",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "○",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Jujube Extract (*2)",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "0.01",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Thioctic acid",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "0.03",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Ubidecarenone",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Maximum amount (g) of ingredient per 100 g",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Ingredient name",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "0.2",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Benzoic acid",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "1.0 as total",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Benzoate",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "0.20",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Alkyldiaminoethylglycine hydrochloride",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "0.0020 as total",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Photosensitizing dyes",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "0.50",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Chlorcresol",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "0.10",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Chlorobutanol",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "0.20",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Salicylic acid",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "1.0 as total",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Salicylate",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "0.50 as total",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Sorbic acid and sorbate",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "0.50 as total",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Dehydroacetic acid and dehydroacetate",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "0.10",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Trichlorohydroxydiphenylether (Triclosan)",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "1.0 as total",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "p-Oxybenzoic acid esters and their sodium salts",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "1.0",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Phenoxyethanol",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "0.10",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Phenol",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "0.030",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Sodium lauryldiaminoethylglycine",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "0.10",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Resorcin",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Maximum amount (g) of ingredient per 100g",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Ingredient name",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "1.0",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Zinc, ammonia and silver substituted zeolite(*4)",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "○",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Pantothenyl ethylether benzoate",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "○",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Isopropylmethylphenol",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "5.0",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Cetylpyridinium chloride",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "○",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Benzalkonium chloride",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "0.50",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Benzethonium chloride",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "0.10",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Chlorhexidine hydrochloride",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "○",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "o-Phenyl phenol",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "0.15",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Sodium o-phenylphenate",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "0.5",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Silver-Copper Zeolite(*5)",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "○",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Chlorhexidine gluconate",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "0.010",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Cresol",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "0.30",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Chloramine T",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "0.30",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Chlorxylenol",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "0.30",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Chlorphenesin",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "0.10",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Chlorhexidine",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "0.30",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "1,3-Dimethylol-5, 5-dimethylhydantoin",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "○",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Alkylisoquinolinium bromide",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "0.80",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Thianthol",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "0.050",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Thymol",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "○",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Trichlorocarbanilide",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "0.25",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "p-Chlorphenol",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "○",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Halocarban",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "○",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Hinokitiol",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "0.10",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Zinc pyrithione",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "0.05",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Piroctone olamine",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "0.02",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Iodopropynyl butylcarbamate(*6)",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "0.1",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Polyaminopropyl biguanide",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "0.01",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Methyl isothiazolinone",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "0.10",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Methylchloro isothiazolinone and methyl isothiazolinone solution(*3)",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "0.30",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "N,N”-Methylenebis[N’-(3-hydroxymethyl-2,5-dioxo-4-imidazolidinyl)urea]",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "0.0015",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "p-Dimethylaminostyryl heptyl methyl thiazolium iodide",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Maximum amount (g) of ingredient per 100g",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Ingredient name",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "10",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Homomenthyl salicylate",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "10",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "2-Cyano-3,3-diphenyl prop-2-enoic acid 2-ethylhexyl ester (octocrylene)",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "10",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Glyceryl mono-2-ethylhexanoate di-p-methoxycinnamate",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "10.0",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Tris-Biphenyl Triazine",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "4.0 as total",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "p-Aminobenzoic acid and its esters",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "10",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "4-tert-Butyl-4’-methoxy dibenzoylmethane",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Maximum amount (g) of ingredient per 100g",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Ingredient name",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "5.0",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "4- (2--glucopyranosiloxy) propoxy-2-hydroxybenzophenone",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "10",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Octyl salicylate",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "10",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Methyl-2, 5-diisopropylcinnamate",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "10.0",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "2-[4-(diethylamino)-2-hydroxybenzyl] benzoic acid hexylester",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "○",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Cinoxate",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "10",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Dihydroxydimethoxybenzophenone",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "10",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Sodium dihydroxydimethoxybenzophenone disulfonate",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "10",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Dihydroxybenzophenone",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "10.0",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Dimethicodiethyl-benzal malonate",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "7.0",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "1- (3, 4-dimethoxyphenyl)-4, 4-dimethyl-1, 3-pentanedione",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "3.0",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Dimethoxybenzylidenedioxo-imidazolidine 2-ethylhexyl propionate",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "10",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Tetrahydroxybenzophenone",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "10",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Terephthalylidene dicamphor sulfonic acid",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "5.0",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "2,4,6-Tris [4-(2-ethylhexyloxycarbonyl) anilino] -1,3,5-triazine",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "7.5",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Methylbis(trimethylsiloxy)silyl isopentyl trimethoxycinnamonate",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "15.0",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Drometrizole trisiloxane",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "10",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Amyl p-dimethylaminobenzoate",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "10",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "2-Ethylhexyl p-dimethylaminobenzoate",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "10",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Isopropyl p-methoxycinnamate and diisopropyl cinnamate ester mixture(*2)",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "20",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "2-Ethylhexyl p-methoxycinnamate",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "3.0",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "2,4-Bis-[{4-(2-ethylhexyloxy)-2-hydroxy}-phenyl]-6-(4-methoxyphenyl)- 1,3,5-triazine",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "○",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "2-Hydroxy-4-methoxybenzophenone",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "10(*3)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Hydroxymethoxybenzophenone sulfonate and its trihydrate",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "10",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Sodium hydroxymethoxybenzophenone sulfonate",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "3.0",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Phenylbenzimidazole sulfonic acid",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "10",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "Ferulic acid",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "10.0",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "2,2’-methylenebis(6-(2H-benzotriazole-2-yl)-4-(1,1,3,3-tetramethylbutyl)phenol",
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "10.0",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "PROHIBITED",
+      "Table_Type": "prohibited",
+      "_original": {
+        "reference_number": "2-Methylphenyl 4-methoxycinnamate",
+        "jurisdiction": "JP"
+      }
     }
   ]
 }

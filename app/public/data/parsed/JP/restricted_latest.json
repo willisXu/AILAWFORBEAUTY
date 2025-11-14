@@ -1,48 +1,317 @@
 {
   "jurisdiction": "JP",
   "table_type": "restricted",
-  "version": "20251112105940",
-  "generated_at": "2025-11-12T10:59:40.387178",
-  "total_records": 3,
+  "version": "20251113",
+  "generated_at": "2025-11-13T10:07:58.146487Z",
+  "total_records": 26,
   "records": [
     {
-      "INCI_Name": "Hydrogen Peroxide",
-      "Jurisdiction": "JP",
-      "Status": "Restricted",
-      "CAS_No": "7722-84-1",
-      "Product_Type": "未规定",
-      "Max_Conc_Percent": 6.0,
-      "Conditions": "染毛剤に配合する場合、6% 以下 / ≤6% in hair dye products",
-      "Legal_Basis": "Appendix 2",
-      "Update_Date": null,
-      "Notes": null,
-      "Synonyms": []
+      "INCI_Name": "Aluminum chlorhydroxy allantoinate Cantharides tincture, ginger tincture or capsicum tincture Phenyl salicylate Polyoxyethylene laurylether (8-10E.O.)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Max_Conc_Percent": 1.0,
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
     },
     {
-      "INCI_Name": "Salicylic Acid",
-      "Jurisdiction": "JP",
-      "Status": "Restricted",
-      "CAS_No": "69-72-7",
-      "Product_Type": "未规定",
-      "Max_Conc_Percent": 2.0,
-      "Conditions": "洗い流さない製品では 2% 以下 / ≤2% in leave-on products",
-      "Legal_Basis": "Appendix 2",
-      "Update_Date": null,
-      "Notes": null,
-      "Synonyms": []
+      "INCI_Name": "Aerosol agents Zirconium",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
     },
     {
-      "INCI_Name": "Resorcinol",
-      "Jurisdiction": "JP",
-      "Status": "Restricted",
-      "CAS_No": "108-46-3",
-      "Product_Type": "未规定",
+      "INCI_Name": "Hair setting agent to be washed away used in only hair. Cysteamine Hydrochloride",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Max_Conc_Percent": 8.63,
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Toothpaste Diethylene glycol",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
       "Max_Conc_Percent": 0.5,
-      "Conditions": "ヘアローションおよびシャンプーでは 0.5% 以下 / ≤0.5% in hair lotions and shampoos",
-      "Legal_Basis": "Appendix 2",
-      "Update_Date": null,
-      "Notes": null,
-      "Synonyms": []
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Sodium lauroyl sarcosinate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Compounds to be used with the purpose of emulsifying beewax or white beewax Sodium pyroborate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Max_Conc_Percent": 0.76,
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Compounds to be used for purposes other than emulsifying beewax or white beewax Sodium pyroborate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Jujube Extract (*2)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Thioctic acid",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Max_Conc_Percent": 0.01,
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Ubidecarenone",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Max_Conc_Percent": 0.03,
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Benzoic acid",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Max_Conc_Percent": 0.2,
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Benzoate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Max_Conc_Percent": 1.0,
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Alkyldiaminoethylglycine hydrochloride",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Max_Conc_Percent": 0.2,
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Photosensitizing dyes",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Max_Conc_Percent": 0.002,
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Chlorcresol",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Max_Conc_Percent": 0.5,
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Chlorobutanol",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Max_Conc_Percent": 0.1,
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Salicylic acid",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Max_Conc_Percent": 0.2,
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Salicylate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Max_Conc_Percent": 1.0,
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Sorbic acid and sorbate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Max_Conc_Percent": 0.5,
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Dehydroacetic acid and dehydroacetate",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Max_Conc_Percent": 0.5,
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Trichlorohydroxydiphenylether (Triclosan)",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Max_Conc_Percent": 0.1,
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "p-Oxybenzoic acid esters and their sodium salts",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Max_Conc_Percent": 1.0,
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Phenoxyethanol",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Max_Conc_Percent": 1.0,
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Phenol",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Max_Conc_Percent": 0.1,
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Sodium lauryldiaminoethylglycine",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Max_Conc_Percent": 0.03,
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
+    },
+    {
+      "INCI_Name": "Resorcin",
+      "CAS_No": "",
+      "CN_Name": "",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Max_Conc_Percent": 0.1,
+      "_original": {
+        "reference_number": null,
+        "jurisdiction": "JP"
+      }
     }
   ]
 }
