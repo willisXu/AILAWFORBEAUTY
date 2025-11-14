@@ -273,10 +273,29 @@ export default function CrossMarketComparison() {
 
         {/* Statistics */}
         <div className="mt-4 p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
-          <p className="text-sm text-gray-600 dark:text-gray-400">
-            顯示 <span className="font-bold text-primary-600 dark:text-primary-400">{filteredData.length}</span> 個成分
-            （共 <span className="font-semibold">{comparisonData.length}</span> 個）
-          </p>
+          <div className="flex items-center justify-between">
+            <p className="text-sm text-gray-600 dark:text-gray-400">
+              {selectedTableType !== 'all' && (
+                <span className="mr-2 px-2 py-1 bg-primary-100 dark:bg-primary-900 text-primary-800 dark:text-primary-200 rounded text-xs font-medium">
+                  {TABLE_TYPES.find(t => t.key === selectedTableType)?.name}
+                </span>
+              )}
+              顯示 <span className="font-bold text-primary-600 dark:text-primary-400">{filteredData.length}</span> 個成分
+              {selectedTableType !== 'all' && (
+                <span className="ml-1 text-xs">
+                  （總共 <span className="font-semibold">{comparisonData.length}</span> 個）
+                </span>
+              )}
+            </p>
+            {selectedTableType !== 'all' && (
+              <button
+                onClick={() => setSelectedTableType('all')}
+                className="text-xs text-primary-600 dark:text-primary-400 hover:underline"
+              >
+                清除篩選
+              </button>
+            )}
+          </div>
         </div>
       </div>
 
@@ -355,10 +374,17 @@ export default function CrossMarketComparison() {
                           <div className={`px-2 py-1 rounded text-xs border ${statusClass}`}>
                             <div className="font-medium">{statusText}</div>
                             {market.Max_Conc_Percent !== undefined && market.Max_Conc_Percent !== null && (
-                              <div className="text-xs mt-1">≤ {market.Max_Conc_Percent}%</div>
+                              <div className="text-xs mt-1 font-semibold text-orange-700 dark:text-orange-300">
+                                ≤ {market.Max_Conc_Percent}%
+                              </div>
+                            )}
+                            {market.Conditions && market.Conditions.trim() !== '' && market.Conditions !== '-' && (
+                              <div className="text-xs mt-1 text-gray-700 dark:text-gray-300 border-t border-dashed pt-1 mt-1">
+                                <span className="font-medium">限制:</span> {market.Conditions.length > 50 ? market.Conditions.substring(0, 50) + '...' : market.Conditions}
+                              </div>
                             )}
                             {market.Product_Type && market.Product_Type !== 'ALL' && (
-                              <div className="text-xs mt-1">{market.Product_Type}</div>
+                              <div className="text-xs mt-1 italic">{market.Product_Type}</div>
                             )}
                           </div>
                         </td>
