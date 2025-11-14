@@ -15,11 +15,28 @@ interface DiffSummary {
   modified: number
 }
 
+interface RegulationData {
+  jurisdiction: string
+  version: string
+  published_at: string
+  fetched_at: string
+  source: string
+  regulation: string
+  statistics: {
+    total_ingredients: number
+    total_clauses: number
+    banned: number
+    restricted: number
+    allowed: number
+  }
+}
+
 export default function RegulationUpdates() {
   const [diffs, setDiffs] = useState<DiffSummary[]>([])
+  const [regulations, setRegulations] = useState<RegulationData[]>([])
   const [loading, setLoading] = useState(true)
   const [selectedJurisdiction, setSelectedJurisdiction] = useState<string | null>(null)
-  const [activeView, setActiveView] = useState<'updates' | 'comparison' | 'upload'>('updates')
+  const [activeView, setActiveView] = useState<'regulations-list' | 'comparison' | 'upload'>('regulations-list')
   const [triggering, setTriggering] = useState(false)
   const [triggerStatus, setTriggerStatus] = useState<'idle' | 'success' | 'error'>('idle')
   const [lastUpdate, setLastUpdate] = useState<string | null>(null)
@@ -27,7 +44,49 @@ export default function RegulationUpdates() {
 
   useEffect(() => {
     loadDiffs()
+    loadRegulations()
   }, [])
+
+  const loadRegulations = async () => {
+    try {
+      const basePath = process.env.NODE_ENV === 'production' ? '/AILAWFORBEAUTY' : ''
+      const jurisdictions = ['EU', 'JP', 'CN', 'CA', 'ASEAN']
+      const allRegulations: RegulationData[] = []
+
+      for (const jurisdiction of jurisdictions) {
+        try {
+          const response = await fetch(`${basePath}/data/rules/${jurisdiction}/latest.json`, {
+            cache: 'no-cache',
+          })
+
+          if (response.ok) {
+            const data = await response.json()
+            allRegulations.push({
+              jurisdiction: data.jurisdiction || jurisdiction,
+              version: data.version || 'N/A',
+              published_at: data.published_at || 'N/A',
+              fetched_at: data.fetched_at || 'N/A',
+              source: data.source || 'N/A',
+              regulation: data.regulation || 'N/A',
+              statistics: data.statistics || {
+                total_ingredients: 0,
+                total_clauses: 0,
+                banned: 0,
+                restricted: 0,
+                allowed: 0
+              }
+            })
+          }
+        } catch (error) {
+          console.debug(`Failed to load regulations for ${jurisdiction}:`, error)
+        }
+      }
+
+      setRegulations(allRegulations)
+    } catch (error) {
+      console.error('Error loading regulations:', error)
+    }
+  }
 
   const loadDiffs = async () => {
     try {
@@ -283,14 +342,14 @@ export default function RegulationUpdates() {
         {/* Tab Navigation */}
         <div className="flex space-x-4 border-b border-gray-200 dark:border-gray-700">
           <button
-            onClick={() => setActiveView('updates')}
+            onClick={() => setActiveView('regulations-list')}
             className={`px-4 py-2 font-medium transition-colors ${
-              activeView === 'updates'
+              activeView === 'regulations-list'
                 ? 'border-b-2 border-primary-600 text-primary-600'
                 : 'text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100'
             }`}
           >
-            法規變更 Updates
+            各國法規清單 Regulations List
           </button>
           <button
             onClick={() => setActiveView('upload')}
@@ -322,162 +381,95 @@ export default function RegulationUpdates() {
         <RegulationFileUpload
           onUploadComplete={(result) => {
             console.log('Upload complete:', result)
-            // Optionally reload diffs after upload
-            setTimeout(() => loadDiffs(), 3000)
+            // Optionally reload regulations after upload
+            setTimeout(() => {
+              loadDiffs()
+              loadRegulations()
+            }, 3000)
           }}
         />
       ) : (
         <>
-
-      {/* Quick Action Guide */}
-      <div className="bg-gradient-to-r from-primary-50 to-blue-50 dark:from-primary-900/20 dark:to-blue-900/20 rounded-lg p-6 border-2 border-primary-200 dark:border-primary-800">
-        <div className="flex items-start space-x-4">
-          <div className="flex-shrink-0">
-            <div className="w-12 h-12 bg-primary-600 rounded-full flex items-center justify-center">
-              <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-              </svg>
-            </div>
-          </div>
-          <div className="flex-1">
-            <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-2">
-              ⚡ 快速更新指南 Quick Update Guide
-            </h3>
-            <div className="space-y-2 text-sm text-gray-700 dark:text-gray-300">
-              <div className="flex items-center space-x-2">
-                <span className="flex-shrink-0 w-6 h-6 bg-white dark:bg-gray-800 rounded-full flex items-center justify-center text-primary-600 font-bold">1</span>
-                <span>點擊 <strong>「🚀 立即更新」</strong> 按鈕，系統將嘗試自動觸發 | Click <strong>"🚀 Update Now"</strong> button for automatic trigger</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <span className="flex-shrink-0 w-6 h-6 bg-white dark:bg-gray-800 rounded-full flex items-center justify-center text-primary-600 font-bold">2</span>
-                <span>看到 <strong className="text-green-600">「✅ 已觸發」</strong> 表示成功！| <strong className="text-green-600">"✅ Triggered!"</strong> means success!</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <span className="flex-shrink-0 w-6 h-6 bg-white dark:bg-gray-800 rounded-full flex items-center justify-center text-primary-600 font-bold">3</span>
-                <span>等待 2-3 分鐘後刷新頁面查看新數據 | Refresh page after 2-3 minutes for new data</span>
-              </div>
-            </div>
-            <div className="mt-3 p-3 bg-white dark:bg-gray-800 rounded-lg border border-blue-200 dark:border-blue-800">
-              <div className="text-xs text-gray-600 dark:text-gray-400 space-y-1">
-                <p>💡 <strong>智能模式</strong> Smart Mode:</p>
-                <p className="ml-4">• 首先嘗試直接觸發（無需跳轉）</p>
-                <p className="ml-4">• 如果直接觸發不可用，會自動跳轉到 GitHub</p>
-                <p className="ml-4">• First try direct trigger (no redirect)</p>
-                <p className="ml-4">• Auto fallback to GitHub if needed</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Update Schedule */}
+      {/* Regulations List */}
       <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6">
-        <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-4">
-          更新排程 Update Schedule
+        <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
+          各國法規清單 Regulations by Jurisdiction
         </h3>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div className="p-4 bg-blue-50 dark:bg-blue-900/20 rounded-lg">
-            <div className="flex items-center space-x-3">
-              <svg
-                className="w-6 h-6 text-blue-600"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-                />
-              </svg>
-              <div>
-                <div className="font-semibold text-gray-900 dark:text-white">自動更新 Automatic</div>
-                <div className="text-sm text-gray-600 dark:text-gray-400">
-                  每週一 03:00 (台北時間) Every Monday 03:00 (Taipei Time)
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="p-4 bg-green-50 dark:bg-green-900/20 rounded-lg">
-            <div className="flex items-center space-x-3">
-              <svg
-                className="w-6 h-6 text-green-600"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                />
-              </svg>
-              <div>
-                <div className="font-semibold text-gray-900 dark:text-white">涵蓋市場 Markets Covered</div>
-                <div className="text-sm text-gray-600 dark:text-gray-400">
-                  EU, JP, CN, CA, ASEAN
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Recent Changes */}
-      <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6">
-        <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-4">
-          近期變更 Recent Changes
-        </h3>
-
-        {diffs.length === 0 ? (
-          <div className="text-center py-8 text-gray-500 dark:text-gray-400">
-            <p>暫無法規變更記錄 No regulation changes recorded yet</p>
+        {regulations.length === 0 ? (
+          <div className="text-center py-12 text-gray-500 dark:text-gray-400">
+            <svg className="mx-auto h-12 w-12 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+            </svg>
+            <p className="mt-4 text-lg">暫無法規數據 No regulation data available</p>
             <p className="text-sm mt-2">
-              首次抓取後將在此顯示變更歷史 Change history will appear here after first fetch
+              請點擊上方「🚀 立即更新」按鈕來抓取最新法規數據
+              <br />
+              Please click "🚀 Update Now" button above to fetch latest regulation data
             </p>
           </div>
         ) : (
-          <div className="space-y-4">
-            {diffs.map((diff) => (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {regulations.map((reg) => (
               <div
-                key={diff.jurisdiction}
-                className="p-4 border border-gray-200 dark:border-gray-700 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-750 transition-colors"
+                key={reg.jurisdiction}
+                className="border border-gray-200 dark:border-gray-700 rounded-lg p-6 hover:shadow-lg transition-shadow bg-gradient-to-br from-white to-gray-50 dark:from-gray-800 dark:to-gray-900"
               >
-                <div className="flex items-center justify-between">
-                  <div>
-                    <div className="font-semibold text-lg text-gray-900 dark:text-white">
-                      {diff.jurisdiction}
-                    </div>
-                    <div className="text-sm text-gray-600 dark:text-gray-400 mt-1">
-                      版本 Version: {diff.from_version} → {diff.to_version}
-                    </div>
-                  </div>
-
-                  <div className="text-right">
-                    <div className="text-2xl font-bold text-primary-600">
-                      {diff.total_changes}
-                    </div>
-                    <div className="text-xs text-gray-500">變更 changes</div>
+                {/* Jurisdiction Header */}
+                <div className="flex items-center justify-between mb-4">
+                  <h4 className="text-2xl font-bold text-primary-600 dark:text-primary-400">
+                    {reg.jurisdiction}
+                  </h4>
+                  <div className="text-xs text-gray-500 dark:text-gray-400">
+                    v{reg.version}
                   </div>
                 </div>
 
-                {diff.total_changes > 0 && (
-                  <div className="mt-3 flex space-x-4 text-sm">
-                    <span className="text-green-600">
-                      ➕ {diff.added} 新增 added
-                    </span>
-                    <span className="text-red-600">
-                      ➖ {diff.removed} 移除 removed
-                    </span>
-                    <span className="text-yellow-600">
-                      ✏️ {diff.modified} 修改 modified
-                    </span>
+                {/* Regulation Name */}
+                <div className="mb-4">
+                  <p className="text-sm font-medium text-gray-900 dark:text-white line-clamp-2">
+                    {reg.regulation}
+                  </p>
+                  <p className="text-xs text-gray-600 dark:text-gray-400 mt-1">
+                    {reg.source}
+                  </p>
+                </div>
+
+                {/* Statistics */}
+                <div className="space-y-2 mb-4">
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm text-gray-600 dark:text-gray-400">總條款 Total Clauses:</span>
+                    <span className="font-semibold text-gray-900 dark:text-white">{reg.statistics.total_clauses}</span>
                   </div>
-                )}
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm text-red-600 dark:text-red-400">禁用 Banned:</span>
+                    <span className="font-semibold text-red-600 dark:text-red-400">{reg.statistics.banned}</span>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm text-yellow-600 dark:text-yellow-400">限用 Restricted:</span>
+                    <span className="font-semibold text-yellow-600 dark:text-yellow-400">{reg.statistics.restricted}</span>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm text-green-600 dark:text-green-400">允許 Allowed:</span>
+                    <span className="font-semibold text-green-600 dark:text-green-400">{reg.statistics.allowed}</span>
+                  </div>
+                </div>
+
+                {/* Dates */}
+                <div className="pt-4 border-t border-gray-200 dark:border-gray-700 space-y-1">
+                  <div className="flex items-center text-xs text-gray-500 dark:text-gray-400">
+                    <svg className="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                    </svg>
+                    <span>發布 Published: {reg.published_at}</span>
+                  </div>
+                  <div className="flex items-center text-xs text-gray-500 dark:text-gray-400">
+                    <svg className="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+                    </svg>
+                    <span>更新 Fetched: {new Date(reg.fetched_at).toLocaleDateString('zh-TW')}</span>
+                  </div>
+                </div>
               </div>
             ))}
           </div>
@@ -485,10 +477,10 @@ export default function RegulationUpdates() {
       </div>
 
       {/* Info Box */}
-      <div className="bg-yellow-50 dark:bg-yellow-900/20 rounded-lg p-4">
+      <div className="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-4">
         <div className="flex items-start space-x-3">
           <svg
-            className="w-5 h-5 text-yellow-600 mt-0.5"
+            className="w-5 h-5 text-blue-600 mt-0.5"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -500,12 +492,12 @@ export default function RegulationUpdates() {
               d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
             />
           </svg>
-          <div className="text-sm text-yellow-800 dark:text-yellow-200">
-            <p className="font-medium">注意 Note</p>
+          <div className="text-sm text-blue-800 dark:text-blue-200">
+            <p className="font-medium">提示 Tips</p>
             <p className="mt-1">
-              法規資料來源於各國官方公開資訊，僅供參考。實際應用請諮詢專業法規顧問。
-              Regulation data is sourced from official public information for reference only.
-              Please consult professional regulatory advisors for actual applications.
+              點擊上方「🚀 立即更新」可手動觸發法規數據更新。系統每週一 03:00 (台北時間) 自動更新。
+              <br />
+              Click "🚀 Update Now" button above to manually trigger regulation data update. System auto-updates every Monday at 03:00 (Taipei Time).
             </p>
           </div>
         </div>
