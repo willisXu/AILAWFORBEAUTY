@@ -29,6 +29,7 @@ interface RegulationData {
     restricted: number
     allowed: number
   }
+  clauses?: any[]
 }
 
 export default function RegulationUpdates() {
@@ -36,6 +37,7 @@ export default function RegulationUpdates() {
   const [regulations, setRegulations] = useState<RegulationData[]>([])
   const [loading, setLoading] = useState(true)
   const [selectedJurisdiction, setSelectedJurisdiction] = useState<string | null>(null)
+  const [expandedJurisdiction, setExpandedJurisdiction] = useState<string | null>(null)
   const [activeView, setActiveView] = useState<'regulations-list' | 'comparison' | 'upload'>('regulations-list')
   const [triggering, setTriggering] = useState(false)
   const [triggerStatus, setTriggerStatus] = useState<'idle' | 'success' | 'error'>('idle')
@@ -46,6 +48,73 @@ export default function RegulationUpdates() {
     loadDiffs()
     loadRegulations()
   }, [])
+
+  // Helper function to get category label
+  const getCategoryLabel = (category: string) => {
+    const labels: { [key: string]: string } = {
+      'banned': '禁用 Banned',
+      'prohibited': '禁用 Prohibited',
+      'restricted': '限用 Restricted',
+      'colorant': '著色劑 Colorant',
+      'preservative': '防腐劑 Preservative',
+      'uv_filter': '防曬劑 UV Filter',
+      'allowed': '允許 Allowed'
+    }
+    return labels[category] || category
+  }
+
+  // Helper function to get category color
+  const getCategoryColor = (category: string) => {
+    const colors: { [key: string]: string } = {
+      'banned': 'bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-400',
+      'prohibited': 'bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-400',
+      'restricted': 'bg-yellow-100 text-yellow-800 dark:bg-yellow-900/30 dark:text-yellow-400',
+      'colorant': 'bg-purple-100 text-purple-800 dark:bg-purple-900/30 dark:text-purple-400',
+      'preservative': 'bg-cyan-100 text-cyan-800 dark:bg-cyan-900/30 dark:text-cyan-400',
+      'uv_filter': 'bg-orange-100 text-orange-800 dark:bg-orange-900/30 dark:text-orange-400',
+      'allowed': 'bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-400'
+    }
+    return colors[category] || 'bg-gray-100 text-gray-800 dark:bg-gray-900/30 dark:text-gray-400'
+  }
+
+  // Helper function to format max percentage
+  const formatMaxPct = (conditions: any) => {
+    if (!conditions) return '未規定 Not specified'
+    if (typeof conditions === 'string') return conditions || '未規定 Not specified'
+    if (typeof conditions === 'object' && conditions.max_pct !== null && conditions.max_pct !== undefined) {
+      return `≤ ${conditions.max_pct}%`
+    }
+    return '未規定 Not specified'
+  }
+
+  // Helper function to get additional conditions
+  const getAdditionalConditions = (clause: any) => {
+    const conditions = clause.conditions
+    if (!conditions) return '未規定 Not specified'
+
+    if (typeof conditions === 'string') {
+      return conditions || '未規定 Not specified'
+    }
+
+    if (typeof conditions === 'object') {
+      const parts = []
+      if (conditions.specific_conditions) {
+        parts.push(conditions.specific_conditions)
+      }
+      if (conditions.product_type && Array.isArray(conditions.product_type) && conditions.product_type.length > 0) {
+        parts.push(`產品類型 Product type: ${conditions.product_type.join(', ')}`)
+      }
+      if (clause.warnings) {
+        parts.push(`⚠️ ${clause.warnings}`)
+      }
+      if (clause.notes) {
+        parts.push(clause.notes)
+      }
+      return parts.length > 0 ? parts.join(' | ') : '未規定 Not specified'
+    }
+
+    return '未規定 Not specified'
+  }
 
   const loadRegulations = async () => {
     try {
@@ -74,7 +143,8 @@ export default function RegulationUpdates() {
                 banned: 0,
                 restricted: 0,
                 allowed: 0
-              }
+              },
+              clauses: data.clauses || []
             })
           }
         } catch (error) {
@@ -409,67 +479,168 @@ export default function RegulationUpdates() {
             </p>
           </div>
         ) : (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="space-y-6">
             {regulations.map((reg) => (
-              <div
-                key={reg.jurisdiction}
-                className="border border-gray-200 dark:border-gray-700 rounded-lg p-6 hover:shadow-lg transition-shadow bg-gradient-to-br from-white to-gray-50 dark:from-gray-800 dark:to-gray-900"
-              >
-                {/* Jurisdiction Header */}
-                <div className="flex items-center justify-between mb-4">
-                  <h4 className="text-2xl font-bold text-primary-600 dark:text-primary-400">
-                    {reg.jurisdiction}
-                  </h4>
-                  <div className="text-xs text-gray-500 dark:text-gray-400">
-                    v{reg.version}
+              <div key={reg.jurisdiction} className="border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden bg-white dark:bg-gray-800">
+                {/* Regulation Card Header */}
+                <div className="p-6 bg-gradient-to-br from-white to-gray-50 dark:from-gray-800 dark:to-gray-900">
+                  <div className="flex items-start justify-between">
+                    <div className="flex-1">
+                      {/* Jurisdiction Header */}
+                      <div className="flex items-center space-x-3 mb-3">
+                        <h4 className="text-2xl font-bold text-primary-600 dark:text-primary-400">
+                          {reg.jurisdiction}
+                        </h4>
+                        <div className="text-xs px-2 py-1 bg-gray-200 dark:bg-gray-700 rounded">
+                          v{reg.version}
+                        </div>
+                      </div>
+
+                      {/* Regulation Name */}
+                      <div className="mb-4">
+                        <p className="text-sm font-medium text-gray-900 dark:text-white">
+                          {reg.regulation}
+                        </p>
+                        <p className="text-xs text-gray-600 dark:text-gray-400 mt-1">
+                          {reg.source}
+                        </p>
+                      </div>
+
+                      {/* Statistics */}
+                      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                        <div className="text-center p-3 bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700">
+                          <div className="text-2xl font-bold text-gray-900 dark:text-white">{reg.statistics.total_clauses}</div>
+                          <div className="text-xs text-gray-600 dark:text-gray-400 mt-1">總條款 Total</div>
+                        </div>
+                        <div className="text-center p-3 bg-red-50 dark:bg-red-900/20 rounded-lg border border-red-200 dark:border-red-800">
+                          <div className="text-2xl font-bold text-red-600 dark:text-red-400">{reg.statistics.banned}</div>
+                          <div className="text-xs text-red-600 dark:text-red-400 mt-1">禁用 Banned</div>
+                        </div>
+                        <div className="text-center p-3 bg-yellow-50 dark:bg-yellow-900/20 rounded-lg border border-yellow-200 dark:border-yellow-800">
+                          <div className="text-2xl font-bold text-yellow-600 dark:text-yellow-400">{reg.statistics.restricted}</div>
+                          <div className="text-xs text-yellow-600 dark:text-yellow-400 mt-1">限用 Restricted</div>
+                        </div>
+                        <div className="text-center p-3 bg-green-50 dark:bg-green-900/20 rounded-lg border border-green-200 dark:border-green-800">
+                          <div className="text-2xl font-bold text-green-600 dark:text-green-400">{reg.statistics.allowed}</div>
+                          <div className="text-xs text-green-600 dark:text-green-400 mt-1">允許 Allowed</div>
+                        </div>
+                      </div>
+
+                      {/* Dates */}
+                      <div className="mt-4 flex flex-wrap gap-4 text-xs text-gray-500 dark:text-gray-400">
+                        <div className="flex items-center">
+                          <svg className="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                          </svg>
+                          <span>發布 Published: {reg.published_at}</span>
+                        </div>
+                        <div className="flex items-center">
+                          <svg className="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+                          </svg>
+                          <span>更新 Fetched: {new Date(reg.fetched_at).toLocaleDateString('zh-TW')}</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Expand Button */}
+                    <button
+                      onClick={() => setExpandedJurisdiction(expandedJurisdiction === reg.jurisdiction ? null : reg.jurisdiction)}
+                      className="ml-4 px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white rounded-lg transition-colors flex items-center space-x-2"
+                    >
+                      <span>{expandedJurisdiction === reg.jurisdiction ? '收起' : '查看詳情'}</span>
+                      <svg
+                        className={`w-5 h-5 transition-transform ${expandedJurisdiction === reg.jurisdiction ? 'rotate-180' : ''}`}
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                      </svg>
+                    </button>
                   </div>
                 </div>
 
-                {/* Regulation Name */}
-                <div className="mb-4">
-                  <p className="text-sm font-medium text-gray-900 dark:text-white line-clamp-2">
-                    {reg.regulation}
-                  </p>
-                  <p className="text-xs text-gray-600 dark:text-gray-400 mt-1">
-                    {reg.source}
-                  </p>
-                </div>
+                {/* Detailed Table - Expandable */}
+                {expandedJurisdiction === reg.jurisdiction && reg.clauses && reg.clauses.length > 0 && (
+                  <div className="p-6 bg-gray-50 dark:bg-gray-900/50">
+                    <h5 className="text-lg font-bold text-gray-900 dark:text-white mb-4">
+                      法規條款詳情 Regulation Details
+                    </h5>
+                    <div className="overflow-x-auto">
+                      <table className="w-full border-collapse">
+                        <thead>
+                          <tr className="bg-gray-100 dark:bg-gray-800">
+                            <th className="px-4 py-3 text-left text-xs font-semibold text-gray-700 dark:text-gray-300 border-b border-gray-300 dark:border-gray-600">
+                              成分名稱<br/>Ingredient Name
+                            </th>
+                            <th className="px-4 py-3 text-left text-xs font-semibold text-gray-700 dark:text-gray-300 border-b border-gray-300 dark:border-gray-600">
+                              CAS號<br/>CAS No.
+                            </th>
+                            <th className="px-4 py-3 text-left text-xs font-semibold text-gray-700 dark:text-gray-300 border-b border-gray-300 dark:border-gray-600">
+                              類別<br/>Category
+                            </th>
+                            <th className="px-4 py-3 text-left text-xs font-semibold text-gray-700 dark:text-gray-300 border-b border-gray-300 dark:border-gray-600">
+                              限用百分比<br/>Max %
+                            </th>
+                            <th className="px-4 py-3 text-left text-xs font-semibold text-gray-700 dark:text-gray-300 border-b border-gray-300 dark:border-gray-600">
+                              額外說明<br/>Additional Info
+                            </th>
+                            <th className="px-4 py-3 text-left text-xs font-semibold text-gray-700 dark:text-gray-300 border-b border-gray-300 dark:border-gray-600">
+                              來源<br/>Source
+                            </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {reg.clauses.map((clause, index) => (
+                            <tr
+                              key={clause.id || index}
+                              className="border-b border-gray-200 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-gray-800/50"
+                            >
+                              <td className="px-4 py-3 text-sm text-gray-900 dark:text-gray-100">
+                                <div className="font-medium">{clause.ingredient_ref || clause.inci || clause.chemical_name || '未知'}</div>
+                                {clause.inci && clause.ingredient_ref !== clause.inci && (
+                                  <div className="text-xs text-gray-500 dark:text-gray-400">INCI: {clause.inci}</div>
+                                )}
+                              </td>
+                              <td className="px-4 py-3 text-sm text-gray-600 dark:text-gray-400">
+                                {clause.cas || '未規定'}
+                              </td>
+                              <td className="px-4 py-3">
+                                <span className={`px-2 py-1 rounded-full text-xs font-medium ${getCategoryColor(clause.category)}`}>
+                                  {getCategoryLabel(clause.category)}
+                                </span>
+                              </td>
+                              <td className="px-4 py-3 text-sm text-gray-900 dark:text-gray-100 font-medium">
+                                {formatMaxPct(clause.conditions)}
+                              </td>
+                              <td className="px-4 py-3 text-sm text-gray-600 dark:text-gray-400 max-w-md">
+                                <div className="line-clamp-2" title={getAdditionalConditions(clause)}>
+                                  {getAdditionalConditions(clause)}
+                                </div>
+                              </td>
+                              <td className="px-4 py-3 text-xs text-gray-500 dark:text-gray-400">
+                                {clause.source_ref || '未規定'}
+                              </td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
+                    <div className="mt-4 text-sm text-gray-600 dark:text-gray-400">
+                      共 {reg.clauses.length} 條法規條款 | Total {reg.clauses.length} regulation clauses
+                    </div>
+                  </div>
+                )}
 
-                {/* Statistics */}
-                <div className="space-y-2 mb-4">
-                  <div className="flex justify-between items-center">
-                    <span className="text-sm text-gray-600 dark:text-gray-400">總條款 Total Clauses:</span>
-                    <span className="font-semibold text-gray-900 dark:text-white">{reg.statistics.total_clauses}</span>
+                {/* Empty State for Clauses */}
+                {expandedJurisdiction === reg.jurisdiction && (!reg.clauses || reg.clauses.length === 0) && (
+                  <div className="p-6 bg-gray-50 dark:bg-gray-900/50 text-center">
+                    <p className="text-gray-500 dark:text-gray-400">
+                      暫無詳細法規條款數據 No detailed regulation clauses available
+                    </p>
                   </div>
-                  <div className="flex justify-between items-center">
-                    <span className="text-sm text-red-600 dark:text-red-400">禁用 Banned:</span>
-                    <span className="font-semibold text-red-600 dark:text-red-400">{reg.statistics.banned}</span>
-                  </div>
-                  <div className="flex justify-between items-center">
-                    <span className="text-sm text-yellow-600 dark:text-yellow-400">限用 Restricted:</span>
-                    <span className="font-semibold text-yellow-600 dark:text-yellow-400">{reg.statistics.restricted}</span>
-                  </div>
-                  <div className="flex justify-between items-center">
-                    <span className="text-sm text-green-600 dark:text-green-400">允許 Allowed:</span>
-                    <span className="font-semibold text-green-600 dark:text-green-400">{reg.statistics.allowed}</span>
-                  </div>
-                </div>
-
-                {/* Dates */}
-                <div className="pt-4 border-t border-gray-200 dark:border-gray-700 space-y-1">
-                  <div className="flex items-center text-xs text-gray-500 dark:text-gray-400">
-                    <svg className="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                    </svg>
-                    <span>發布 Published: {reg.published_at}</span>
-                  </div>
-                  <div className="flex items-center text-xs text-gray-500 dark:text-gray-400">
-                    <svg className="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
-                    </svg>
-                    <span>更新 Fetched: {new Date(reg.fetched_at).toLocaleDateString('zh-TW')}</span>
-                  </div>
-                </div>
+                )}
               </div>
             ))}
           </div>
