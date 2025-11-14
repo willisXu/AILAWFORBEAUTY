@@ -1,0 +1,156 @@
+{
+  "jurisdiction": "JP",
+  "version": null,
+  "published_at": "2000-09-29",
+  "effective_date": "2001-04-01",
+  "fetched_at": "2025-11-12T01:26:22.485321Z",
+  "source": "MHLW - Ministry of Health, Labour and Welfare",
+  "regulation": "化粧品基準 / Standards for Cosmetics",
+  "data_hash": "c4bdd7e03896919ecc7363e7010efa40cf3cb4bc604691716c52f4ea4b58f995",
+  "statistics": {
+    "total_ingredients": 6,
+    "total_clauses": 6,
+    "banned": 3,
+    "restricted": 3,
+    "allowed": 0
+  },
+  "ingredients": [
+    {
+      "id": "Formaldehyde",
+      "inci": "Formaldehyde",
+      "cas": null,
+      "synonyms": [],
+      "family": {}
+    },
+    {
+      "id": "Methanol",
+      "inci": "Methanol",
+      "cas": null,
+      "synonyms": [],
+      "family": {}
+    },
+    {
+      "id": "Mercury",
+      "inci": "Mercury",
+      "cas": null,
+      "synonyms": [],
+      "family": {}
+    },
+    {
+      "id": "Hydrogen Peroxide",
+      "inci": "Hydrogen Peroxide",
+      "cas": null,
+      "synonyms": [],
+      "family": {}
+    },
+    {
+      "id": "Salicylic Acid",
+      "inci": "Salicylic Acid",
+      "cas": null,
+      "synonyms": [],
+      "family": {}
+    },
+    {
+      "id": "Resorcinol",
+      "inci": "Resorcinol",
+      "cas": null,
+      "synonyms": [],
+      "family": {}
+    }
+  ],
+  "clauses": [
+    {
+      "id": "JP-PROHIBITED-1",
+      "jurisdiction": "JP",
+      "category": "banned",
+      "ingredient_ref": "Formaldehyde",
+      "inci": "Formaldehyde",
+      "cas": null,
+      "name_japanese": "ホルムアルデヒド",
+      "name_english": "Formaldehyde",
+      "conditions": {},
+      "notes": "",
+      "source_ref": "MHLW Standards for Cosmetics - Prohibited List"
+    },
+    {
+      "id": "JP-PROHIBITED-2",
+      "jurisdiction": "JP",
+      "category": "banned",
+      "ingredient_ref": "Methanol",
+      "inci": "Methanol",
+      "cas": null,
+      "name_japanese": "メタノール",
+      "name_english": "Methanol",
+      "conditions": {},
+      "notes": "",
+      "source_ref": "MHLW Standards for Cosmetics - Prohibited List"
+    },
+    {
+      "id": "JP-PROHIBITED-3",
+      "jurisdiction": "JP",
+      "category": "banned",
+      "ingredient_ref": "Mercury",
+      "inci": "Mercury",
+      "cas": null,
+      "name_japanese": "水銀及びその化合物",
+      "name_english": "Mercury and its compounds",
+      "conditions": {},
+      "notes": "",
+      "source_ref": "MHLW Standards for Cosmetics - Prohibited List"
+    },
+    {
+      "id": "JP-RESTRICTED-1",
+      "jurisdiction": "JP",
+      "category": "restricted",
+      "ingredient_ref": "Hydrogen Peroxide",
+      "inci": "Hydrogen Peroxide",
+      "cas": null,
+      "name_japanese": "過酸化水素",
+      "name_english": "Hydrogen Peroxide",
+      "conditions": {
+        "max_pct": 6.0,
+        "product_type": [],
+        "specific_conditions": "染毛剤に配合する場合、6% 以下 / ≤6% in hair dye products"
+      },
+      "warnings": null,
+      "notes": "",
+      "source_ref": "MHLW Standards for Cosmetics - Restricted List"
+    },
+    {
+      "id": "JP-RESTRICTED-2",
+      "jurisdiction": "JP",
+      "category": "restricted",
+      "ingredient_ref": "Salicylic Acid",
+      "inci": "Salicylic Acid",
+      "cas": null,
+      "name_japanese": "サリチル酸",
+      "name_english": "Salicylic Acid",
+      "conditions": {
+        "max_pct": 2.0,
+        "product_type": [],
+        "specific_conditions": "洗い流さない製品では 2% 以下 / ≤2% in leave-on products"
+      },
+      "warnings": null,
+      "notes": "",
+      "source_ref": "MHLW Standards for Cosmetics - Restricted List"
+    },
+    {
+      "id": "JP-RESTRICTED-3",
+      "jurisdiction": "JP",
+      "category": "restricted",
+      "ingredient_ref": "Resorcinol",
+      "inci": "Resorcinol",
+      "cas": null,
+      "name_japanese": "レゾルシン",
+      "name_english": "Resorcinol",
+      "conditions": {
+        "max_pct": 0.5,
+        "product_type": [],
+        "specific_conditions": "ヘアローションおよびシャンプーでは 0.5% 以下 / ≤0.5% in hair lotions and shampoos"
+      },
+      "warnings": null,
+      "notes": "",
+      "source_ref": "MHLW Standards for Cosmetics - Restricted List"
+    }
+  ]
+}
