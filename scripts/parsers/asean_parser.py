@@ -43,6 +43,8 @@ class ASEANParser(BaseParser):
         entries = annex.get("ingredients", [])
 
         for entry in entries:
+            # Standardize conditions to always be an object
+            conditions_text = entry.get("conditions", "")
             clause = {
                 "id": f"ASEAN-AII-{entry.get('entry_number', 'unknown')}",
                 "jurisdiction": "ASEAN",
@@ -52,7 +54,9 @@ class ASEANParser(BaseParser):
                 "inci": entry.get("inci_name"),
                 "cas": entry.get("cas_no") or entry.get("cas"),
                 "substance_name": entry.get("ingredient_name"),
-                "conditions": entry.get("conditions", ""),
+                "conditions": {
+                    "specific_conditions": conditions_text
+                } if conditions_text else {},
                 "notes": entry.get("rationale", ""),
                 "source_ref": f"ASEAN CD Annex II, Entry {entry.get('entry_number', 'unknown')}",
             }
@@ -98,6 +102,8 @@ class ASEANParser(BaseParser):
         entries = annex.get("ingredients", [])
 
         for entry in entries:
+            # Standardize conditions to always be an object
+            conditions_text = entry.get("conditions", "")
             clause = {
                 "id": f"ASEAN-AIV-{entry.get('entry_number', 'unknown')}",
                 "jurisdiction": "ASEAN",
@@ -108,7 +114,9 @@ class ASEANParser(BaseParser):
                 "cas": entry.get("cas_no") or entry.get("cas"),
                 "colour_index": entry.get("colour_index"),
                 "substance_name": entry.get("ingredient_name"),
-                "conditions": entry.get("conditions", ""),
+                "conditions": {
+                    "specific_conditions": conditions_text
+                } if conditions_text else {},
                 "notes": entry.get("rationale", ""),
                 "source_ref": f"ASEAN CD Annex IV, Entry {entry.get('entry_number', 'unknown')}",
             }

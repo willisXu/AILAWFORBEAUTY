@@ -148,7 +148,8 @@ function evaluateRestrictions(
   const warnings: string[] = []
 
   for (const clause of clauses) {
-    const conditions = clause.conditions || {}
+    // Handle both object and string conditions for backwards compatibility
+    const conditions = typeof clause.conditions === 'object' ? clause.conditions : {}
     const maxPct = conditions.max_pct
 
     // Check concentration
@@ -224,7 +225,8 @@ function evaluateAllowed(
   const warnings: string[] = []
 
   for (const clause of clauses) {
-    const conditions = clause.conditions || {}
+    // Handle both object and string conditions for backwards compatibility
+    const conditions = typeof clause.conditions === 'object' ? clause.conditions : {}
     const maxPct = conditions.max_pct
 
     if (maxPct !== null && maxPct !== undefined) {

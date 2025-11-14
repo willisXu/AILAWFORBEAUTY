@@ -43,6 +43,8 @@ class EUParser(BaseParser):
         entries = annex.get("ingredients", [])
 
         for idx, entry in enumerate(entries, 1):
+            # Standardize conditions to always be an object
+            conditions_text = entry.get("conditions", "")
             clause = {
                 "id": f"EU-AII-{idx}",
                 "jurisdiction": "EU",
@@ -52,7 +54,9 @@ class EUParser(BaseParser):
                 "inci": entry.get("inci_name"),
                 "cas": entry.get("cas_no") or entry.get("cas"),
                 "chemical_name": entry.get("ingredient_name"),
-                "conditions": entry.get("conditions", ""),
+                "conditions": {
+                    "specific_conditions": conditions_text
+                } if conditions_text else {},
                 "notes": entry.get("rationale", ""),
                 "source_ref": f"Annex II",
             }
@@ -97,6 +101,8 @@ class EUParser(BaseParser):
         entries = annex.get("ingredients", [])
 
         for idx, entry in enumerate(entries, 1):
+            # Standardize conditions to always be an object
+            conditions_text = entry.get("conditions", "")
             clause = {
                 "id": f"EU-AIV-{idx}",
                 "jurisdiction": "EU",
@@ -107,7 +113,9 @@ class EUParser(BaseParser):
                 "cas": entry.get("cas_no") or entry.get("cas"),
                 "colour_index": entry.get("colour_index"),
                 "chemical_name": entry.get("ingredient_name"),
-                "conditions": entry.get("conditions", ""),
+                "conditions": {
+                    "specific_conditions": conditions_text
+                } if conditions_text else {},
                 "notes": entry.get("rationale", ""),
                 "source_ref": f"Annex IV",
             }

@@ -19,7 +19,11 @@ const statusTranslations: { [key: string]: string } = {
   'monitored': '監測',
   'allowed': '允許',
   'compliant': '合規',
-  'non_compliant': '不合規'
+  'non_compliant': '不合規',
+  'colorant': '著色劑',
+  'preservative': '防腐劑',
+  'uv_filter': '防曬劑',
+  'unknown': '未知'
 }
 
 const statusColors: { [key: string]: string } = {
@@ -29,7 +33,11 @@ const statusColors: { [key: string]: string } = {
   'monitored': 'bg-blue-100 text-blue-900 border-blue-300',
   'allowed': 'bg-green-100 text-green-900 border-green-300',
   'compliant': 'bg-green-100 text-green-900 border-green-300',
-  'non_compliant': 'bg-red-100 text-red-900 border-red-300'
+  'non_compliant': 'bg-red-100 text-red-900 border-red-300',
+  'colorant': 'bg-purple-100 text-purple-900 border-purple-300',
+  'preservative': 'bg-cyan-100 text-cyan-900 border-cyan-300',
+  'uv_filter': 'bg-orange-100 text-orange-900 border-orange-300',
+  'unknown': 'bg-gray-100 text-gray-900 border-gray-300'
 }
 
 export default function CrossMarketComparison() {
@@ -56,30 +64,25 @@ export default function CrossMarketComparison() {
           if (response.ok) {
             const data = await response.json()
 
-            // 處理不同類別的成分
-            const categories = ['banned', 'prohibited', 'restricted', 'monitored']
+            // 處理所有法規條款
+            const clauses = data.clauses || []
 
-            categories.forEach(category => {
-              const ingredients = data[category] || data.clauses?.filter((c: any) =>
-                c.restriction_type === category || c.type === category || c.category === category
-              ) || []
+            clauses.forEach((clause: any) => {
+              const name = clause.ingredient_ref || clause.inci || clause.ingredient_name || clause.name
+              if (!name) return
 
-              ingredients.forEach((ingredient: any) => {
-                const name = ingredient.ingredient_name || ingredient.name || ingredient.inci_name || ingredient.ingredient_ref
-                if (!name) return
-
-                if (!allIngredients[name]) {
-                  allIngredients[name] = {
-                    ingredient_name: name,
-                    markets: {}
-                  }
+              if (!allIngredients[name]) {
+                allIngredients[name] = {
+                  ingredient_name: name,
+                  markets: {}
                 }
+              }
 
-                allIngredients[name].markets[market] = {
-                  status: ingredient.category || category,
-                  category: ingredient.category || ingredient.product_type || 'all'
-                }
-              })
+              // 使用 clause.category 作為狀態
+              allIngredients[name].markets[market] = {
+                status: clause.category || 'unknown',
+                category: clause.category || 'all'
+              }
             })
           }
         } catch (error) {
@@ -179,7 +182,9 @@ export default function CrossMarketComparison() {
             <option value="all">所有類別 All Categories</option>
             <option value="banned">禁止 Banned</option>
             <option value="restricted">限用 Restricted</option>
-            <option value="monitored">監測 Monitored</option>
+            <option value="colorant">著色劑 Colorants</option>
+            <option value="preservative">防腐劑 Preservatives</option>
+            <option value="uv_filter">防曬劑 UV Filters</option>
             <option value="allowed">允許 Allowed</option>
           </select>
         </div>
