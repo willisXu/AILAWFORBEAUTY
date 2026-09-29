@@ -121,6 +121,15 @@ JSON 文件應遵循以下結構：
 
 上傳法規文件
 
+> **部署注意 Deployment note:** 此端點為 Vercel Serverless Function（`api/upload-regulation.js`）。
+> GitHub Pages 為純靜態站點，**無法**提供此 API；若前端部署於 GitHub Pages，請在
+> `app/src/config/api.ts` 的 `API_CONFIG.UPLOAD_ENDPOINT` 填入 Vercel 部署的完整 URL
+> （例如 `https://your-project.vercel.app/api/upload-regulation`）。留空時前端會呼叫同源 `/api/upload-regulation`。
+>
+> This endpoint is a Vercel Serverless Function. GitHub Pages is static and cannot serve it; when the
+> frontend is hosted on GitHub Pages, set `API_CONFIG.UPLOAD_ENDPOINT` in `app/src/config/api.ts` to the
+> full URL of your Vercel deployment. When left empty, the frontend calls the same-origin `/api/upload-regulation`.
+
 **請求參數 Request Parameters:**
 
 - `file` (File, required): 要上傳的文件
@@ -216,13 +225,17 @@ data/
 # GitHub Personal Access Token (需要 repo 和 workflow 權限)
 GITHUB_TOKEN=your_github_token
 
-# GitHub 分支 (可選，默認為 main)
-GITHUB_BRANCH=main
+# GitHub 分支 (可選；未設定時自動使用倉庫的預設分支 default branch)
+GITHUB_BRANCH=
 ```
+
+> `GITHUB_BRANCH` 未設定時，API 會透過 GitHub API 查詢倉庫的預設分支，避免將檔案提交到過時的 `main`。
+> When `GITHUB_BRANCH` is unset, the API looks up the repository's default branch instead of assuming `main`.
 
 ## 注意事項 Notes
 
-1. **文件大小限制**: 最大 50MB
+1. **文件大小限制**: 應用層限制為 50MB（前端與 API 皆會驗證）。**但 Vercel Serverless Function 的請求主體上限為 4.5MB**，超過時 API 會回傳 HTTP 413；更大的檔案請直接提交到 `data/raw/<jurisdiction>/uploads/` 後手動觸發工作流。
+   Application-level limit is 50MB, but Vercel Serverless Functions cap the request body at 4.5MB (HTTP 413 above that). For larger files, commit them to `data/raw/<jurisdiction>/uploads/` and trigger the workflow manually.
 2. **處理時間**: 通常需要 1-3 分鐘
 3. **並發限制**: GitHub Actions 有並發限制
 4. **版本控制**: 系統自動為每次上傳創建版本

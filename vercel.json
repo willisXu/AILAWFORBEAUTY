@@ -8,6 +8,10 @@
     "api/trigger-update.js": {
       "memory": 1024,
       "maxDuration": 10
+    },
+    "api/upload-regulation.js": {
+      "memory": 1024,
+      "maxDuration": 60
     }
   },
   "env": {

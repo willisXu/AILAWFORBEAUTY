@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useCallback } from 'react'
+import { getUploadEndpoint } from '../config/api'
 
 interface RegulationFileUploadProps {
   onUploadComplete?: (result: any) => void
@@ -73,24 +74,44 @@ export default function RegulationFileUpload({ onUploadComplete }: RegulationFil
       if (annex) formData.append('annex', annex)
       if (version) formData.append('version', version)
 
-      // Simulate upload progress (since fetch doesn't support progress events)
-      setUploadProgress(10)
+      const result = await new Promise<any>((resolve, reject) => {
+        const xhr = new XMLHttpRequest()
+        xhr.open('POST', getUploadEndpoint())
 
-      // Upload to API
-      const response = await fetch('/api/upload-regulation', {
-        method: 'POST',
-        body: formData,
+        xhr.upload.onprogress = (e) => {
+          if (e.lengthComputable) {
+            setUploadProgress(Math.round((e.loaded / e.total) * 100))
+          }
+        }
+
+        xhr.onload = () => {
+          const isJson = (xhr.getResponseHeader('content-type') || '').includes('application/json')
+
+          if (xhr.status === 404 && !isJson) {
+            reject(new Error(
+              '此站點未提供上傳 API（GitHub Pages 為靜態站點）。請在 config/api.ts 設定 UPLOAD_ENDPOINT，或使用 Vercel 部署。 ' +
+              'Upload API is not available on this host (static site). Set UPLOAD_ENDPOINT in config/api.ts or deploy on Vercel.'
+            ))
+            return
+          }
+
+          if (xhr.status === 413) {
+            reject(new Error('文件超過伺服器上傳限制 File exceeds the server upload limit'))
+            return
+          }
+
+          const body = isJson ? JSON.parse(xhr.responseText) : null
+
+          if (xhr.status >= 200 && xhr.status < 300 && body) {
+            resolve(body)
+          } else {
+            reject(new Error(body?.error || body?.message || `Upload failed (HTTP ${xhr.status})`))
+          }
+        }
+
+        xhr.onerror = () => reject(new Error('網路錯誤，無法連接上傳服務 Network error: could not reach upload service'))
+        xhr.send(formData)
       })
-
-      setUploadProgress(50)
-
-      const result = await response.json()
-
-      setUploadProgress(80)
-
-      if (!response.ok) {
-        throw new Error(result.error || result.message || 'Upload failed')
-      }
 
       setUploadProgress(100)
       setUploadResult(result)
@@ -265,7 +286,11 @@ export default function RegulationFileUpload({ onUploadComplete }: RegulationFil
         disabled={loading || !file}
         className="w-full px-6 py-3 bg-primary-600 hover:bg-primary-700 disabled:bg-gray-400 text-white font-medium rounded-lg transition-colors disabled:cursor-not-allowed"
       >
-        {loading ? `上傳處理中 ${uploadProgress}%... Uploading ${uploadProgress}%...` : '上傳並處理 Upload & Process'}
+        {loading
+          ? uploadProgress >= 100
+            ? '伺服器處理中... Processing on server...'
+            : `上傳中 ${uploadProgress}%... Uploading ${uploadProgress}%...`
+          : '上傳並處理 Upload & Process'}
       </button>
 
       {/* Error Display */}

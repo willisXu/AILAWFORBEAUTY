@@ -29,6 +29,9 @@ jobs:
   process:
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    permissions:
+      contents: write
+      issues: write
 
     steps:
       - name: Checkout repository
@@ -49,28 +52,30 @@ jobs:
 
       - name: Process uploaded file
         id: process
+        working-directory: scripts
+        env:
+          FILE_PATH: ${{ github.workspace }}/${{ inputs.file_path }}
+          JURISDICTION: ${{ inputs.jurisdiction }}
+          FILE_TYPE: ${{ inputs.file_type }}
+          ANNEX: ${{ inputs.annex }}
+          VERSION: ${{ inputs.version }}
         run: |
-          cd scripts
+          ARGS=("$FILE_PATH" "$JURISDICTION" --output ../processing_result.json)
 
-          # Build command
-          CMD="python process_uploaded_file.py '${{ github.workspace }}/${{ inputs.file_path }}' ${{ inputs.jurisdiction }}"
-
-          if [ -n "${{ inputs.file_type }}" ]; then
-            CMD="$CMD --type ${{ inputs.file_type }}"
+          if [ -n "$FILE_TYPE" ]; then
+            ARGS+=(--type "$FILE_TYPE")
           fi
 
-          if [ -n "${{ inputs.annex }}" ]; then
-            CMD="$CMD --annex ${{ inputs.annex }}"
+          if [ -n "$ANNEX" ]; then
+            ARGS+=(--annex "$ANNEX")
           fi
 
-          if [ -n "${{ inputs.version }}" ]; then
-            CMD="$CMD --version ${{ inputs.version }}"
+          if [ -n "$VERSION" ]; then
+            ARGS+=(--version "$VERSION")
           fi
 
-          CMD="$CMD --output ../processing_result.json"
-
-          echo "Running: $CMD"
-          eval $CMD
+          echo "Running: python process_uploaded_file.py ${ARGS[*]}"
+          python process_uploaded_file.py "${ARGS[@]}"
         continue-on-error: true
 
       - name: Read processing result
@@ -92,30 +97,33 @@ jobs:
 
       - name: Commit processed data
         if: steps.result.outputs.success == 'true'
+        env:
+          JURISDICTION: ${{ inputs.jurisdiction }}
+          ANNEX: ${{ inputs.annex }}
+          FILE_PATH: ${{ inputs.file_path }}
+          STATISTICS: ${{ steps.result.outputs.statistics }}
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
 
           # Add both raw data and rules
-          git add data/raw/${{ inputs.jurisdiction }}/uploads/
-          git add data/rules/${{ inputs.jurisdiction }}/
+          git add "data/raw/$JURISDICTION/uploads/"
+          git add "data/rules/$JURISDICTION/"
 
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            COMMIT_MSG="feat: Process uploaded regulation file for ${{ inputs.jurisdiction }}"
+            COMMIT_MSG="feat: Process uploaded regulation file for $JURISDICTION"
 
-            if [ -n "${{ inputs.annex }}" ]; then
-              COMMIT_MSG="$COMMIT_MSG (Annex ${{ inputs.annex }})"
+            if [ -n "$ANNEX" ]; then
+              COMMIT_MSG="$COMMIT_MSG (Annex $ANNEX)"
             fi
 
-            COMMIT_MSG="$COMMIT_MSG
-
-Uploaded file: ${{ inputs.file_path }}
-Processed at: $(date -u +'%Y-%m-%d %H:%M:%S UTC')
-Statistics: ${{ steps.result.outputs.statistics }}"
-
-            git commit -m "$COMMIT_MSG"
+            git commit \
+              -m "$COMMIT_MSG" \
+              -m "Uploaded file: $FILE_PATH" \
+              -m "Processed at: $(date -u +'%Y-%m-%d %H:%M:%S UTC')" \
+              -m "Statistics: $STATISTICS"
             git push
           fi
 

@@ -11,10 +11,18 @@ export const API_CONFIG = {
   // 部署到 Vercel 後會自動使用 /api/trigger-update
 
   // 回退選項: GitHub 手動觸發頁面
-  GITHUB_WORKFLOW_URL: 'https://github.com/willisXu/AILAWFORBEAUTY/actions/workflows/fetch-regulations.yml'
+  GITHUB_WORKFLOW_URL: 'https://github.com/willisXu/AILAWFORBEAUTY/actions/workflows/fetch-regulations.yml',
+
+  // 法規文件上傳端點。留空時使用同源 /api/upload-regulation（僅在 Vercel 部署可用；
+  // GitHub Pages 為純靜態站點，無法提供此 API）
+  UPLOAD_ENDPOINT: '',
 }
 
 // 檢查是否配置了直接觸發端點
 export const hasDirectTrigger = () => {
   return !!API_CONFIG.TRIGGER_ENDPOINT && API_CONFIG.TRIGGER_ENDPOINT !== ''
+}
+
+export const getUploadEndpoint = () => {
+  return API_CONFIG.UPLOAD_ENDPOINT || '/api/upload-regulation'
 }

@@ -67,13 +67,29 @@ export default async function handler(req, res) {
       });
     }
 
+    const ext = path.extname(uploadedFile.originalFilename || uploadedFile.newFilename).toLowerCase();
+    const allowedExtensions = {
+      pdf: ['.pdf'],
+      json: ['.json'],
+      html: ['.html', '.htm'],
+    };
+    if (!allowedExtensions[fileType]) {
+      return res.status(400).json({
+        error: `Invalid fileType. Must be one of: ${Object.keys(allowedExtensions).join(', ')}`
+      });
+    }
+    if (!allowedExtensions[fileType].includes(ext)) {
+      return res.status(400).json({
+        error: `File extension ${ext || '(none)'} does not match fileType ${fileType}`
+      });
+    }
+
     // Read file content
     const fileContent = fs.readFileSync(uploadedFile.filepath);
     const base64Content = fileContent.toString('base64');
 
     // Generate filename
     const timestamp = new Date().toISOString().replace(/[-:]/g, '').split('.')[0];
-    const ext = path.extname(uploadedFile.originalFilename || uploadedFile.newFilename);
     const filename = annex
       ? `${timestamp}_${annex}${ext}`
       : `${timestamp}_regulation${ext}`;
@@ -85,7 +101,9 @@ export default async function handler(req, res) {
 
     const owner = 'willisXu';
     const repo = 'AILAWFORBEAUTY';
-    const branch = process.env.GITHUB_BRANCH || 'main';
+    // Fall back to the repository's actual default branch rather than assuming 'main'
+    const branch = process.env.GITHUB_BRANCH
+      || (await octokit.repos.get({ owner, repo })).data.default_branch;
     const filePath = `data/raw/${jurisdiction}/uploads/${filename}`;
 
     // Check if file exists
@@ -144,9 +162,11 @@ export default async function handler(req, res) {
 
   } catch (error) {
     console.error('Error uploading file:', error);
-    return res.status(500).json({
+    // formidable sets httpCode (e.g. 413 when maxFileSize is exceeded)
+    const status = error.httpCode || 500;
+    return res.status(status).json({
       success: false,
-      error: 'Failed to upload file',
+      error: status === 413 ? 'File exceeds the 50MB upload limit' : 'Failed to upload file',
       message: error.message,
     });
   }

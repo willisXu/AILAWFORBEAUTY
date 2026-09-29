@@ -135,6 +135,30 @@ perf.get_summary()  # 獲取統計
 perf.log_summary()  # 記錄到日誌
 ```
 
+### 5. 部署修復 Deployment Fixes (Phase 2)
+
+在部署驗證過程中發現並修復了以下問題：
+
+The following issues were found and fixed during deployment verification:
+
+| 問題 Issue | 影響 Impact | 修復 Fix |
+|-----------|------------|---------|
+| `process-uploaded-regulation.yml` 為無效 YAML（`run:` 區塊內的多行字串縮排至第 0 欄） | 自 2025-11 起每次推送都失敗，上傳處理從未真正執行 | 改用多個 `git commit -m` 參數；輸入改由 `env:` 傳入並移除 `eval` |
+| 工作流缺少 `permissions` | `git push` 與建立 Issue 會因權限不足失敗 | 新增 `contents: write`、`issues: write` |
+| 前端硬編碼相對路徑 `/api/upload-regulation` | 在 GitHub Pages（靜態站點）回傳 404 HTML，`response.json()` 拋出難以理解的錯誤 | 新增 `API_CONFIG.UPLOAD_ENDPOINT`；偵測非 JSON 404 並顯示明確指引 |
+| 上傳進度為模擬值 (10/50/80%) | 使用者無法得知真實進度 | 改用 `XMLHttpRequest` 的 `upload.onprogress` 取得真實進度 |
+| API 預設分支為 `main`（落後預設分支 46 個提交） | 上傳檔案被提交到過時分支，並以舊程式碼處理 | 未設定 `GITHUB_BRANCH` 時透過 GitHub API 查詢實際預設分支 |
+| API 未驗證副檔名與 `fileType` 是否一致 | 錯誤要等到 GitHub Actions 執行才被發現 | 在 API 邊界即回傳 400 |
+| formidable 超過大小限制時回傳 500 | 使用者看到「Failed to upload file」而非明確原因 | 依 `error.httpCode` 回傳 413 與明確訊息 |
+| `vercel.json` 未設定上傳函數資源 | 大檔案處理可能超時（預設 10s） | 為 `api/upload-regulation.js` 設定 1024MB / 60s |
+
+## 部署驗證 Deployment Verification
+
+- GitHub Pages 站點：<https://willisxu.github.io/AILAWFORBEAUTY/>
+- `deploy.yml` 會在任何 `claude/**` 或 `main` 分支推送時自動建置並部署至 `gh-pages`
+- 已確認上線的 bundle 包含並行化的 `checkFormulation` / `preloadRules` 與新的上傳進度 UI
+- 已確認 `data/rules/<jurisdiction>/latest.json` 可從站點正常載入（HTTP 200）
+
 ## 代碼質量改進 Code Quality Improvements
 
 ### 錯誤處理 Error Handling
@@ -227,7 +251,7 @@ except Exception as e:
 ### 短期 Short Term (1-2週)
 1. 添加單元測試覆蓋新增的驗證邏輯
 2. 為性能監控添加可視化儀表板
-3. 實現真實的文件上傳進度追蹤（使用 XMLHttpRequest）
+3. 將 `main` 分支與預設分支同步，或將預設分支改回 `main`，簡化部署與 API 設定
 
 ### 中期 Medium Term (1-2月)
 1. 實現成分匹配結果緩存
@@ -250,9 +274,10 @@ except Exception as e:
 - ✅ 增強可維護性 (Enhanced maintainability)
 
 **影響範圍 Impact Scope:**
-- 前端: `complianceChecker.ts`, `RegulationFileUpload.tsx`
-- 後端: `process_uploaded_file.py`
+- 前端: `complianceChecker.ts`, `RegulationFileUpload.tsx`, `config/api.ts`
+- 後端: `process_uploaded_file.py`, `api/upload-regulation.js`
 - 工具: `utils/performance.py`
+- 部署: `.github/workflows/process-uploaded-regulation.yml`, `vercel.json`
 
 ---
 
