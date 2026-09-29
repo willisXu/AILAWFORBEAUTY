@@ -27,6 +27,7 @@ export default function RegulationFileUpload({ onUploadComplete }: RegulationFil
   const [annex, setAnnex] = useState<string>('')
   const [version, setVersion] = useState<string>('')
   const [loading, setLoading] = useState(false)
+  const [uploadProgress, setUploadProgress] = useState<number>(0)
   const [uploadResult, setUploadResult] = useState<any>(null)
   const [error, setError] = useState<string>('')
 
@@ -55,8 +56,15 @@ export default function RegulationFileUpload({ onUploadComplete }: RegulationFil
     setLoading(true)
     setError('')
     setUploadResult(null)
+    setUploadProgress(0)
 
     try {
+      // Validate file size (50MB limit)
+      const maxSize = 50 * 1024 * 1024 // 50MB
+      if (file.size > maxSize) {
+        throw new Error(`文件過大 File too large: ${(file.size / 1024 / 1024).toFixed(2)}MB (max: 50MB)`)
+      }
+
       // Create form data
       const formData = new FormData()
       formData.append('file', file)
@@ -65,18 +73,26 @@ export default function RegulationFileUpload({ onUploadComplete }: RegulationFil
       if (annex) formData.append('annex', annex)
       if (version) formData.append('version', version)
 
+      // Simulate upload progress (since fetch doesn't support progress events)
+      setUploadProgress(10)
+
       // Upload to API
       const response = await fetch('/api/upload-regulation', {
         method: 'POST',
         body: formData,
       })
 
+      setUploadProgress(50)
+
       const result = await response.json()
+
+      setUploadProgress(80)
 
       if (!response.ok) {
         throw new Error(result.error || result.message || 'Upload failed')
       }
 
+      setUploadProgress(100)
       setUploadResult(result)
       onUploadComplete?.(result)
 
@@ -94,6 +110,7 @@ export default function RegulationFileUpload({ onUploadComplete }: RegulationFil
       setError(err instanceof Error ? err.message : 'Upload failed')
     } finally {
       setLoading(false)
+      setUploadProgress(0)
     }
   }, [file, jurisdiction, fileType, annex, version, onUploadComplete])
 
@@ -222,13 +239,33 @@ export default function RegulationFileUpload({ onUploadComplete }: RegulationFil
         </label>
       </div>
 
+      {/* Upload Progress */}
+      {loading && uploadProgress > 0 && (
+        <div className="mb-4">
+          <div className="flex justify-between mb-1">
+            <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
+              上傳進度 Upload Progress
+            </span>
+            <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
+              {uploadProgress}%
+            </span>
+          </div>
+          <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+            <div
+              className="bg-primary-600 h-2.5 rounded-full transition-all duration-300"
+              style={{ width: `${uploadProgress}%` }}
+            ></div>
+          </div>
+        </div>
+      )}
+
       {/* Upload Button */}
       <button
         onClick={handleUpload}
         disabled={loading || !file}
         className="w-full px-6 py-3 bg-primary-600 hover:bg-primary-700 disabled:bg-gray-400 text-white font-medium rounded-lg transition-colors disabled:cursor-not-allowed"
       >
-        {loading ? '上傳處理中... Uploading...' : '上傳並處理 Upload & Process'}
+        {loading ? `上傳處理中 ${uploadProgress}%... Uploading ${uploadProgress}%...` : '上傳並處理 Upload & Process'}
       </button>
 
       {/* Error Display */}

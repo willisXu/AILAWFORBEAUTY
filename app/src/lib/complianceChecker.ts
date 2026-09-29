@@ -271,22 +271,31 @@ function evaluateAllowed(
 }
 
 /**
- * Check entire formulation
+ * Preload rules for multiple jurisdictions in parallel
+ */
+export async function preloadRules(jurisdictions: string[]): Promise<void> {
+  await Promise.all(jurisdictions.map(j => loadRules(j)))
+}
+
+/**
+ * Check entire formulation (optimized with parallel processing)
  */
 export async function checkFormulation(
   ingredients: Ingredient[],
   jurisdictions: string[],
   productInfo: any = {}
 ): Promise<Record<string, any>> {
-  const results: Record<string, any> = {}
+  // Preload all rules in parallel
+  await preloadRules(jurisdictions)
 
-  for (const jurisdiction of jurisdictions) {
-    const ingredientResults: ComplianceResult[] = []
-
-    for (const ingredient of ingredients) {
-      const result = await checkIngredient(ingredient, jurisdiction, productInfo)
-      ingredientResults.push(result)
-    }
+  // Process all jurisdictions in parallel
+  const jurisdictionPromises = jurisdictions.map(async (jurisdiction) => {
+    // Process all ingredients in parallel for this jurisdiction
+    const ingredientResults = await Promise.all(
+      ingredients.map(ingredient =>
+        checkIngredient(ingredient, jurisdiction, productInfo)
+      )
+    )
 
     // Summary
     const statuses = ingredientResults.map(r => r.status)
@@ -300,12 +309,23 @@ export async function checkFormulation(
       overallStatus = 'insufficient_info'
     }
 
-    results[jurisdiction] = {
-      overall_status: overallStatus,
-      total_ingredients: ingredients.length,
-      ingredient_results: ingredientResults
+    return {
+      jurisdiction,
+      data: {
+        overall_status: overallStatus,
+        total_ingredients: ingredients.length,
+        ingredient_results: ingredientResults
+      }
     }
-  }
+  })
+
+  const jurisdictionResults = await Promise.all(jurisdictionPromises)
+
+  // Convert array back to object
+  const results: Record<string, any> = {}
+  jurisdictionResults.forEach(({ jurisdiction, data }) => {
+    results[jurisdiction] = data
+  })
 
   return results
 }

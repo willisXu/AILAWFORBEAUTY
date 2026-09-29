@@ -5,6 +5,7 @@ from .http import fetch_url, download_file
 from .file_utils import save_json, load_json, compute_hash, compute_data_hash
 from .text_utils import normalize_text, extract_percentage, parse_date, clean_ingredient_name, extract_cas_number
 from .fuzzy_match import fuzzy_match_ingredient, normalize_inci_name
+from .performance import timer, timed, PerformanceMonitor
 
 __all__ = [
     "setup_logger",
@@ -21,4 +22,7 @@ __all__ = [
     "extract_cas_number",
     "fuzzy_match_ingredient",
     "normalize_inci_name",
+    "timer",
+    "timed",
+    "PerformanceMonitor",
 ]
