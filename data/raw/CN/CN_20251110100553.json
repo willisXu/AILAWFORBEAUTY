@@ -1,0 +1,203 @@
+{
+  "jurisdiction": "CN",
+  "fetched_at": "2025-11-10T10:05:53.267374Z",
+  "version": "20251110100553",
+  "metadata": {
+    "source": "NMPA - National Medical Products Administration (Sample Data)",
+    "regulation": "已使用化妆品原料目录（2021年版）/ Catalog of Used Cosmetic Ingredients (2021 Edition)",
+    "published_at": "2021-04-30",
+    "effective_date": "2021-05-01",
+    "last_update": "2021-05-01",
+    "total_ingredients": 15,
+    "fetch_timestamp": "2025-11-10 10:05:53",
+    "is_sample_data": true
+  },
+  "data_hash": null,
+  "raw_data": {
+    "source": "NMPA - National Medical Products Administration (Sample Data)",
+    "regulation": "已使用化妆品原料目录（2021年版）/ Catalog of Used Cosmetic Ingredients (2021 Edition)",
+    "url": "https://www.nmpa.gov.cn/datasearch/search-result.html?searchCtg=cosmetics",
+    "last_update": "2021-05-01",
+    "published_date": "2021-04-30",
+    "effective_date": "2021-05-01",
+    "fetch_timestamp": "2025-11-10 10:05:53",
+    "is_sample_data": true,
+    "catalogs": {
+      "prohibited": [
+        {
+          "serial_number": "1",
+          "name_chinese": "甲醛",
+          "name_english": "Formaldehyde",
+          "cas_no": "50-00-0",
+          "inci": "Formaldehyde",
+          "category": "prohibited",
+          "conditions": "禁止作为化妆品原料使用，防腐剂除外（需符合附录限量）/ Prohibited except as preservative within specified limits",
+          "rationale": "列于 NMPA 禁用组分目录 / Listed in NMPA Prohibited Ingredients Catalog"
+        },
+        {
+          "serial_number": "15",
+          "name_chinese": "氢醌",
+          "name_english": "Hydroquinone",
+          "cas_no": "123-31-9",
+          "inci": "Hydroquinone",
+          "category": "prohibited",
+          "conditions": "禁止在化妆品中使用（特殊用途化妆品经批准除外）/ Prohibited in cosmetics (allowed in special use cosmetics with approval)",
+          "rationale": "列于 NMPA 禁用组分目录 / Listed in NMPA Prohibited Ingredients Catalog"
+        },
+        {
+          "serial_number": "89",
+          "name_chinese": "汞及其化合物",
+          "name_english": "Mercury and its compounds",
+          "cas_no": "7439-97-6",
+          "inci": "Mercury",
+          "category": "prohibited",
+          "conditions": "禁止使用，痕量杂质（≤1ppm）除外 / Prohibited, trace amounts (≤1ppm) from unavoidable contamination acceptable",
+          "rationale": "重金属，剧毒 / Heavy metal, highly toxic"
+        },
+        {
+          "serial_number": "120",
+          "name_chinese": "铅及其化合物",
+          "name_english": "Lead and its compounds",
+          "cas_no": "7439-92-1",
+          "inci": "Lead",
+          "category": "prohibited",
+          "conditions": "禁止作为化妆品原料，痕量杂质可接受 / Prohibited as ingredient, trace amounts from impurities acceptable",
+          "rationale": "重金属，累积毒性 / Heavy metal, cumulative toxicity"
+        }
+      ],
+      "restricted": [
+        {
+          "serial_number": "5",
+          "name_chinese": "过氧化氢",
+          "name_english": "Hydrogen Peroxide",
+          "cas_no": "7722-84-1",
+          "inci": "Hydrogen Peroxide",
+          "maximum_concentration": "6%",
+          "category": "restricted",
+          "conditions": "染发产品中最高浓度 6%（混合后）/ ≤6% in hair products after mixing",
+          "restrictions": "浓度 >3% 仅限专业使用 / Professional use only for concentrations >3%",
+          "rationale": "氧化剂，需限制浓度 / Oxidizing agent with concentration limits"
+        },
+        {
+          "serial_number": "6",
+          "name_chinese": "水杨酸",
+          "name_english": "Salicylic Acid",
+          "cas_no": "69-72-7",
+          "inci": "Salicylic Acid",
+          "maximum_concentration": "3%",
+          "category": "restricted",
+          "conditions": "冲洗类 ≤3%，驻留类 ≤2%，洗发水 ≤3% / Rinse-off ≤3%, leave-on ≤2%, shampoo ≤3%",
+          "restrictions": "3 岁以下儿童禁用 / Not for use on children under 3 years",
+          "rationale": "角质溶解剂，需年龄和浓度限制 / Keratolytic agent with age and concentration restrictions"
+        },
+        {
+          "serial_number": "9",
+          "name_chinese": "硼酸",
+          "name_english": "Boric Acid",
+          "cas_no": "10043-35-3",
+          "inci": "Boric Acid",
+          "maximum_concentration": "3%",
+          "category": "restricted",
+          "conditions": "最高浓度 3%（以酸计）/ ≤3% (as acid)",
+          "restrictions": "不得用于破损皮肤或 3 岁以下儿童 / Not for use on damaged skin or children under 3 years",
+          "rationale": "抗菌剂，需浓度和使用限制 / Antimicrobial agent with concentration and usage restrictions"
+        }
+      ],
+      "preservatives": [
+        {
+          "serial_number": "1",
+          "name_chinese": "苯甲酸及其盐类",
+          "name_english": "Benzoic Acid and its salts",
+          "cas_no": "65-85-0",
+          "inci": "Benzoic Acid",
+          "maximum_concentration": "0.5%",
+          "category": "preservative",
+          "conditions": "以酸计 / As acid",
+          "rationale": "准用防腐剂 / Permitted preservative"
+        },
+        {
+          "serial_number": "3",
+          "name_chinese": "水杨酸及其盐类",
+          "name_english": "Salicylic Acid and its salts",
+          "cas_no": "69-72-7",
+          "inci": "Salicylic Acid",
+          "maximum_concentration": "0.5%",
+          "category": "preservative",
+          "conditions": "以酸计，3 岁以下儿童产品中禁用 / As acid. Not in products for children under 3",
+          "restrictions": "洗发水除外 / Except in shampoos",
+          "rationale": "准用防腐剂 / Permitted preservative"
+        },
+        {
+          "serial_number": "10",
+          "name_chinese": "苯氧乙醇",
+          "name_english": "Phenoxyethanol",
+          "cas_no": "122-99-6",
+          "inci": "Phenoxyethanol",
+          "maximum_concentration": "1.0%",
+          "category": "preservative",
+          "conditions": "最高浓度 1.0% / Maximum concentration 1.0%",
+          "rationale": "准用防腐剂 / Permitted preservative"
+        }
+      ],
+      "colorants": [
+        {
+          "serial_number": "1",
+          "name_chinese": "氧化铁",
+          "name_english": "Iron Oxides",
+          "cas_no": "1309-37-1",
+          "inci": "CI 77491, CI 77492, CI 77499",
+          "category": "colorant",
+          "conditions": "无限制 / No restrictions",
+          "restrictions": "准用于所有化妆品 / Approved for all cosmetic uses",
+          "rationale": "准用着色剂 / Permitted colorant"
+        },
+        {
+          "serial_number": "5",
+          "name_chinese": "二氧化钛",
+          "name_english": "Titanium Dioxide",
+          "cas_no": "13463-67-7",
+          "inci": "CI 77891",
+          "category": "colorant",
+          "conditions": "无限制 / No restrictions",
+          "restrictions": "准用于所有化妆品 / Approved for all cosmetic uses",
+          "rationale": "准用着色剂和防晒剂 / Permitted colorant and UV filter"
+        },
+        {
+          "serial_number": "20",
+          "name_chinese": "焦糖",
+          "name_english": "Caramel",
+          "cas_no": "8028-89-5",
+          "inci": "Caramel",
+          "category": "colorant",
+          "conditions": "无限制 / No restrictions",
+          "restrictions": "准用于所有化妆品 / Approved for all cosmetic uses",
+          "rationale": "准用着色剂 / Permitted colorant"
+        }
+      ],
+      "uv_filters": [
+        {
+          "serial_number": "2",
+          "name_chinese": "水杨酸乙基己酯",
+          "name_english": "Ethylhexyl Salicylate",
+          "cas_no": "118-60-5",
+          "inci": "Ethylhexyl Salicylate",
+          "maximum_concentration": "5%",
+          "category": "uv_filter",
+          "conditions": "最高浓度 5% / Maximum concentration 5%",
+          "rationale": "准用防晒剂 / Permitted UV filter"
+        },
+        {
+          "serial_number": "5",
+          "name_chinese": "甲氧基肉桂酸乙基己酯",
+          "name_english": "Ethylhexyl Methoxycinnamate",
+          "cas_no": "5466-77-3",
+          "inci": "Ethylhexyl Methoxycinnamate",
+          "maximum_concentration": "10%",
+          "category": "uv_filter",
+          "conditions": "最高浓度 10% / Maximum concentration 10%",
+          "rationale": "准用防晒剂 / Permitted UV filter"
+        }
+      ]
+    }
+  }
+}

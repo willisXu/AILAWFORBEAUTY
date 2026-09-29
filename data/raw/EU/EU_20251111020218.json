@@ -1,0 +1,134 @@
+{
+  "jurisdiction": "EU",
+  "fetched_at": "2025-11-11T02:02:18.897632Z",
+  "version": "20251111020218",
+  "metadata": {
+    "source": "European Commission - CosIng Database",
+    "regulation": "Regulation (EC) No 1223/2009",
+    "published_at": "2024-04-04",
+    "effective_date": "2024-04-24",
+    "version": "20240424",
+    "total_ingredients": 8,
+    "fetch_timestamp": "2025-11-11 02:02:18",
+    "is_sample_data": false
+  },
+  "data_hash": "8749ff94802eb4f8dca078e795485fd00693e521753e4fe0dd67c6c3fa2d9288",
+  "raw_data": {
+    "source": "European Commission - CosIng Database",
+    "regulation": "Regulation (EC) No 1223/2009",
+    "url": "https://ec.europa.eu/growth/tools-databases/cosing/reference/annexes",
+    "eur_lex_url": "https://eur-lex.europa.eu/eli/reg/2024/996/oj",
+    "published_date": "2024-04-04",
+    "effective_date": "2024-04-24",
+    "last_update": "2024-04-24",
+    "fetch_timestamp": "2025-11-11 02:02:18",
+    "annexes": {
+      "annex_ii": {
+        "name": "Prohibited substances",
+        "description": "List of substances prohibited in cosmetic products",
+        "ingredients": [
+          {
+            "ingredient_name": "Formaldehyde",
+            "cas_no": "50-00-0",
+            "ec_no": "200-001-8",
+            "category": "prohibited",
+            "restriction_type": "prohibited",
+            "conditions": "Prohibited except as preservative in Annex V",
+            "status": "prohibited"
+          },
+          {
+            "ingredient_name": "Hydroquinone",
+            "cas_no": "123-31-9",
+            "ec_no": "204-617-8",
+            "category": "prohibited",
+            "restriction_type": "prohibited",
+            "conditions": "Prohibited except as oxidizing agent in hair dye (≤0.3%)",
+            "status": "prohibited"
+          },
+          {
+            "ingredient_name": "Mercury and its compounds",
+            "cas_no": "7439-97-6",
+            "ec_no": "231-106-7",
+            "category": "prohibited",
+            "restriction_type": "prohibited",
+            "conditions": "Prohibited (trace amounts from impurities ≤1ppm acceptable)",
+            "status": "prohibited"
+          }
+        ]
+      },
+      "annex_iii": {
+        "name": "Restricted substances",
+        "description": "List of substances subject to restrictions",
+        "ingredients": [
+          {
+            "ingredient_name": "Hydrogen Peroxide",
+            "cas_no": "7722-84-1",
+            "ec_no": "231-765-0",
+            "category": "restricted",
+            "restriction_type": "restricted",
+            "maximum_concentration": "12%",
+            "conditions": "Hair products ≤12%, tooth whitening ≤6%, nail products ≤2%",
+            "status": "restricted"
+          },
+          {
+            "ingredient_name": "Salicylic Acid",
+            "cas_no": "69-72-7",
+            "ec_no": "200-712-3",
+            "category": "restricted",
+            "restriction_type": "restricted",
+            "maximum_concentration": "3%",
+            "conditions": "Rinse-off ≤3%, leave-on ≤2%. Not for children <3 years",
+            "status": "restricted"
+          }
+        ]
+      },
+      "annex_iv": {
+        "name": "Allowed colorants",
+        "description": "List of colorants allowed in cosmetic products",
+        "ingredients": [
+          {
+            "ingredient_name": "CI 77491 (Iron Oxides)",
+            "cas_no": "1309-37-1",
+            "ec_no": "215-168-2",
+            "category": "colorant",
+            "restriction_type": "allowed",
+            "conditions": "Allowed for all cosmetic uses",
+            "status": "colorant"
+          }
+        ]
+      },
+      "annex_v": {
+        "name": "Allowed preservatives",
+        "description": "List of preservatives allowed in cosmetic products",
+        "ingredients": [
+          {
+            "ingredient_name": "Benzoic Acid",
+            "cas_no": "65-85-0",
+            "ec_no": "200-618-2",
+            "category": "preservative",
+            "restriction_type": "allowed",
+            "maximum_concentration": "0.5%",
+            "conditions": "Maximum 0.5% (as acid)",
+            "status": "preservative"
+          }
+        ]
+      },
+      "annex_vi": {
+        "name": "Allowed UV filters",
+        "description": "List of UV filters allowed in cosmetic products",
+        "ingredients": [
+          {
+            "ingredient_name": "Homosalate",
+            "cas_no": "118-56-9",
+            "ec_no": "204-260-8",
+            "category": "uv_filter",
+            "restriction_type": "allowed",
+            "maximum_concentration": "10%",
+            "conditions": "Maximum 10%",
+            "status": "uv_filter"
+          }
+        ]
+      }
+    }
+  }
+}

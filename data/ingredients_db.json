@@ -1,0 +1,182 @@
+{
+  "database_version": "1.0.0",
+  "last_updated": "2024-02-14",
+  "ingredients": {
+    "formaldehyde": {
+      "id": "formaldehyde",
+      "inci": "Formaldehyde",
+      "cas": "50-00-0",
+      "synonyms": [
+        "Formaldehyde",
+        "Formalin",
+        "Methanal",
+        "Methylene oxide",
+        "Oxomethane"
+      ],
+      "family": {
+        "formaldehyde_releasers": ["Diazolidinyl Urea", "Imidazolidinyl Urea", "DMDM Hydantoin", "Quaternium-15"]
+      }
+    },
+    "hydroquinone": {
+      "id": "hydroquinone",
+      "inci": "Hydroquinone",
+      "cas": "123-31-9",
+      "synonyms": [
+        "Hydroquinone",
+        "1,4-Benzenediol",
+        "Quinol",
+        "Benzene-1,4-diol"
+      ],
+      "family": {}
+    },
+    "salicylic_acid": {
+      "id": "salicylic_acid",
+      "inci": "Salicylic Acid",
+      "cas": "69-72-7",
+      "synonyms": [
+        "Salicylic Acid",
+        "2-Hydroxybenzoic acid",
+        "o-Hydroxybenzoic acid"
+      ],
+      "family": {
+        "salts_of": "Salicylic Acid",
+        "esters_of": ["Methyl Salicylate", "Ethyl Salicylate"]
+      }
+    },
+    "benzoic_acid": {
+      "id": "benzoic_acid",
+      "inci": "Benzoic Acid",
+      "cas": "65-85-0",
+      "synonyms": [
+        "Benzoic Acid",
+        "Benzenecarboxylic acid",
+        "Phenylformic acid"
+      ],
+      "family": {
+        "salts_of": "Benzoic Acid",
+        "esters_of": ["Methyl Benzoate", "Ethyl Benzoate", "Propyl Benzoate", "Butyl Benzoate"]
+      }
+    },
+    "hydrogen_peroxide": {
+      "id": "hydrogen_peroxide",
+      "inci": "Hydrogen Peroxide",
+      "cas": "7722-84-1",
+      "synonyms": [
+        "Hydrogen Peroxide",
+        "Hydrogen dioxide",
+        "Dihydrogen dioxide",
+        "Peroxide"
+      ],
+      "family": {}
+    },
+    "mercury": {
+      "id": "mercury",
+      "inci": "Mercury",
+      "cas": "7439-97-6",
+      "synonyms": [
+        "Mercury",
+        "Hg",
+        "Quicksilver"
+      ],
+      "family": {
+        "compounds_of": ["Mercury chloride", "Mercuric oxide", "Thiomersal"]
+      }
+    },
+    "methanol": {
+      "id": "methanol",
+      "inci": "Methanol",
+      "cas": "67-56-1",
+      "synonyms": [
+        "Methanol",
+        "Methyl alcohol",
+        "Wood alcohol",
+        "Carbinol"
+      ],
+      "family": {}
+    },
+    "homosalate": {
+      "id": "homosalate",
+      "inci": "Homosalate",
+      "cas": "118-56-9",
+      "synonyms": [
+        "Homosalate",
+        "Homomenthyl salicylate",
+        "HMS"
+      ],
+      "family": {}
+    },
+    "ethylhexyl_methoxycinnamate": {
+      "id": "ethylhexyl_methoxycinnamate",
+      "inci": "Ethylhexyl Methoxycinnamate",
+      "cas": "5466-77-3",
+      "synonyms": [
+        "Ethylhexyl Methoxycinnamate",
+        "Octyl methoxycinnamate",
+        "Octinoxate",
+        "OMC"
+      ],
+      "family": {}
+    },
+    "thioglycolic_acid": {
+      "id": "thioglycolic_acid",
+      "inci": "Thioglycolic Acid",
+      "cas": "68-11-1",
+      "synonyms": [
+        "Thioglycolic Acid",
+        "Mercaptoacetic acid",
+        "TGA"
+      ],
+      "family": {
+        "salts_of": "Thioglycolic Acid"
+      }
+    },
+    "resorcinol": {
+      "id": "resorcinol",
+      "inci": "Resorcinol",
+      "cas": "108-46-3",
+      "synonyms": [
+        "Resorcinol",
+        "1,3-Benzenediol",
+        "Resorcin",
+        "m-Dihydroxybenzene"
+      ],
+      "family": {}
+    },
+    "boric_acid": {
+      "id": "boric_acid",
+      "inci": "Boric Acid",
+      "cas": "10043-35-3",
+      "synonyms": [
+        "Boric Acid",
+        "Boracic acid",
+        "Orthoboric acid"
+      ],
+      "family": {}
+    },
+    "iron_oxides": {
+      "id": "iron_oxides",
+      "inci": "CI 77491",
+      "cas": "1309-37-1",
+      "synonyms": [
+        "Iron Oxides",
+        "CI 77491",
+        "CI 77492",
+        "CI 77499",
+        "Ferric oxide"
+      ],
+      "family": {}
+    },
+    "titanium_dioxide": {
+      "id": "titanium_dioxide",
+      "inci": "CI 77891",
+      "cas": "13463-67-7",
+      "synonyms": [
+        "Titanium Dioxide",
+        "CI 77891",
+        "Titania",
+        "TiO2"
+      ],
+      "family": {}
+    }
+  }
+}
