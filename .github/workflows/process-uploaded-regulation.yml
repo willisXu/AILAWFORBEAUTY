@@ -106,8 +106,9 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
 
-          # Add both raw data and rules
+          # Raw upload, V2 parsed tables (data/parsed/<J>/v2) and any rules output
           git add "data/raw/$JURISDICTION/uploads/"
+          git add "data/parsed/$JURISDICTION/"
           git add "data/rules/$JURISDICTION/"
 
           if git diff --staged --quiet; then

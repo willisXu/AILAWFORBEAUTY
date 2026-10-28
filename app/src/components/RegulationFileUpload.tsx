@@ -332,6 +332,9 @@ export default function RegulationFileUpload({ onUploadComplete }: RegulationFil
           <li>上傳 PDF、JSON 或 HTML 格式的法規文件</li>
           <li>系統將自動解析並更新法規數據庫</li>
           <li>處理完成後，結果將自動提交到 GitHub</li>
+          <li className="font-medium text-primary-600 dark:text-primary-400">
+            📊 上傳完成後，可前往「法規瀏覽」頁面查看解析結果
+          </li>
         </ul>
       </div>
     </div>

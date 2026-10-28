@@ -1,0 +1,106 @@
+name: Extract PDF Regulations
+
+on:
+  # 手動觸發
+  workflow_dispatch:
+    inputs:
+      jurisdictions:
+        description: '要提取的轄區（空格分隔，例如: CN EU JP，留空則提取全部）'
+        required: false
+        default: ''
+
+  # 定期執行（每月1號）
+  schedule:
+    - cron: '0 0 1 * *'
+
+  # Push到main時執行（僅當PDF文件變更）
+  push:
+    branches:
+      - main
+    paths:
+      - 'data/raw/**/**.pdf'
+      - 'scripts/extractors/**'
+      - 'scripts/extract_regulations_from_pdfs.py'
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          pip install pdfplumber PyPDF2 pandas openpyxl
+          echo "✓ PDF處理庫安裝完成"
+
+      - name: List PDF files
+        run: |
+          python scripts/extract_regulations_from_pdfs.py --list-only
+
+      - name: Extract regulations
+        run: |
+          if [ -n "${{ github.event.inputs.jurisdictions }}" ]; then
+            python scripts/extract_regulations_from_pdfs.py --jurisdictions ${{ github.event.inputs.jurisdictions }}
+          else
+            python scripts/extract_regulations_from_pdfs.py
+          fi
+
+      - name: Check extracted data
+        run: |
+          echo "檢查提取結果..."
+          ls -lh data/extracted/*/extracted_latest.json || echo "未生成提取文件"
+
+      - name: Commit and push extracted data
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+          # 添加提取的數據
+          git add data/extracted/
+
+          # 檢查是否有變更
+          if git diff --staged --quiet; then
+            echo "沒有新的數據變更"
+          else
+            git commit -m "chore: 更新PDF提取數據 [skip ci]
+
+提取時間: $(date -u '+%Y-%m-%d %H:%M:%S UTC')
+觸發方式: ${{ github.event_name }}
+轄區: ${{ github.event.inputs.jurisdictions || '全部' }}"
+
+            git push
+            echo "✓ 數據已推送"
+          fi
+
+      - name: Upload extraction results
+        uses: actions/upload-artifact@v4
+        with:
+          name: extracted-regulations
+          path: data/extracted/
+          retention-days: 30
+
+      - name: Summary
+        run: |
+          echo "## PDF提取摘要" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          for jur in data/extracted/*/; do
+            if [ -d "$jur" ]; then
+              jurisdiction=$(basename "$jur")
+              if [ -f "$jur/extracted_latest.json" ]; then
+                count=$(python -c "import json; data=json.load(open('$jur/extracted_latest.json')); print(data.get('metadata', {}).get('total_ingredients', 0))")
+                echo "- **${jurisdiction}**: ${count} 條記錄" >> $GITHUB_STEP_SUMMARY
+              fi
+            fi
+          done
+
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "提取時間: $(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
