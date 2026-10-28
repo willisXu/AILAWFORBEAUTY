@@ -63,6 +63,8 @@ def timed(operation_name: str = None):
 class PerformanceMonitor:
     """Track performance metrics"""
 
+    TOTAL = "total"
+
     def __init__(self):
         self.metrics = {}
 
@@ -90,16 +92,19 @@ class PerformanceMonitor:
     def get_summary(self) -> dict:
         """Get summary of all metrics"""
         summary = {}
-        total_duration = 0.0
+        stage_total = 0.0
 
         for operation, data in self.metrics.items():
-            if data["duration"] is not None:
-                summary[operation] = {
-                    "duration": f"{data['duration']:.2f}s"
-                }
-                total_duration += data["duration"]
+            if data["duration"] is None or operation == self.TOTAL:
+                continue
+            summary[operation] = {
+                "duration": f"{data['duration']:.2f}s"
+            }
+            stage_total += data["duration"]
 
-        summary["total"] = f"{total_duration:.2f}s"
+        # Prefer an explicitly timed "total" stage; fall back to the sum of stages
+        total = self.metrics.get(self.TOTAL, {}).get("duration")
+        summary[self.TOTAL] = f"{(total if total is not None else stage_total):.2f}s"
         return summary
 
     def log_summary(self) -> None:
@@ -107,6 +112,6 @@ class PerformanceMonitor:
         summary = self.get_summary()
         logger.info("Performance Summary:")
         for operation, metrics in summary.items():
-            if operation != "total":
+            if operation != self.TOTAL:
                 logger.info(f"  {operation}: {metrics['duration']}")
-        logger.info(f"  Total: {summary['total']}")
+        logger.info(f"  Total: {summary[self.TOTAL]}")
