@@ -1,0 +1,345 @@
+{
+  "jurisdiction": "CN",
+  "table_type": "uv_filters",
+  "version": "20261028",
+  "generated_at": "2026-10-28T07:55:40.958094+00:00",
+  "total_records": 28,
+  "records": [
+    {
+      "INCI_Name": "3-Benzylidene camphor",
+      "CAS_No": "",
+      "CN_Name": "3-亚苄基樟脑",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Legal_Basis": "表5 化妝品準用防曬劑",
+      "_original": {
+        "reference_number": "1",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "3-(4’-Methylbenzylidene)-dl- camphor",
+      "CAS_No": "",
+      "CN_Name": "4-甲基苄亚基樟脑",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Legal_Basis": "表5 化妝品準用防曬劑",
+      "_original": {
+        "reference_number": "2",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Oxybenzone (INN)",
+      "CAS_No": "",
+      "CN_Name": "二苯酮-3",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Legal_Basis": "表5 化妝品準用防曬劑",
+      "_original": {
+        "reference_number": "3",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "2-Hydroxy-4-methoxybenzophenone-5-sulfonic acid and its sodium salt",
+      "CAS_No": "",
+      "CN_Name": "二苯酮-4 二苯酮-5",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Legal_Basis": "表5 化妝品準用防曬劑",
+      "_original": {
+        "reference_number": "4",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Alpha-(2-oxoborn-3-ylidene)-toluene-4-sulfonic acid and its salts",
+      "CAS_No": "",
+      "CN_Name": "亚苄基樟脑磺酸及其盐类",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Legal_Basis": "表5 化妝品準用防曬劑",
+      "_original": {
+        "reference_number": "5",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "2,2’-(6-(4-Methoxyphenyl)-1,3,5-triazine-2,4-di yl)bis(5-((2-ethylhexyl)oxy)phenol)",
+      "CAS_No": "",
+      "CN_Name": "双-乙基己氧苯酚甲氧苯基 三嗪",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Legal_Basis": "表5 化妝品準用防曬劑",
+      "_original": {
+        "reference_number": "6",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "1-(4-Tert-butylphenyl)-3-(4-methoxyphenyl) propane-1,3-dione",
+      "CAS_No": "",
+      "CN_Name": "丁基甲氧基二苯甲酰基甲烷",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Legal_Basis": "表5 化妝品準用防曬劑",
+      "_original": {
+        "reference_number": "7",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "N,N,N-trimethyl-4-(2-oxoborn-3-ylidenemethyl) anilinium methyl sulfate",
+      "CAS_No": "",
+      "CN_Name": "樟脑苯扎铵甲基硫酸盐",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Legal_Basis": "表5 化妝品準用防曬劑",
+      "_original": {
+        "reference_number": "8",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Benzoic acid, 2-(4-(diethylamino) -2-hydroxybenzoyl) -,hexyl ester",
+      "CAS_No": "",
+      "CN_Name": "二乙氨羟苯甲酰基苯甲酸己 酯",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Legal_Basis": "表5 化妝品準用防曬劑",
+      "_original": {
+        "reference_number": "9",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Benzoic acid, 4,4’-((6-(((((1,1-dimethylethyl) amino) carbonyl)phenyl)amino) 1,3,5-triazine- 2,4-diyl)diimino)bis-, bis-(2-ethylhexyl) ester",
+      "CAS_No": "",
+      "CN_Name": "二乙基己基丁酰胺基三嗪酮",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Legal_Basis": "表5 化妝品準用防曬劑",
+      "_original": {
+        "reference_number": "10",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Disodium salt of 2,2’-bis-(1,4-phenylene)1H- benzimidazole-4,6-disulfonic acid",
+      "CAS_No": "",
+      "CN_Name": "苯基二苯并咪唑四磺酸酯二 钠",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Legal_Basis": "表5 化妝品準用防曬劑",
+      "_original": {
+        "reference_number": "11",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Phenol, 2-(2H-benzotriazol-2-yl)-4-methyl-6- (2-methyl-3-(1,3,3,3-tetramethyl-1-(trimethylsily l)oxy)-disiloxanyl)propyl",
+      "CAS_No": "",
+      "CN_Name": "甲酚曲唑三硅氧烷",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Legal_Basis": "表5 化妝品準用防曬劑",
+      "_original": {
+        "reference_number": "12",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "4-Dimethyl amino benzoate of ethyl-2-hexyl",
+      "CAS_No": "",
+      "CN_Name": "二甲基PABA乙基己酯",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Legal_Basis": "表5 化妝品準用防曬劑",
+      "_original": {
+        "reference_number": "13",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "2-Ethylhexyl 4-methoxycinnamate",
+      "CAS_No": "",
+      "CN_Name": "甲氧基肉桂酸乙基己酯",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Legal_Basis": "表5 化妝品準用防曬劑",
+      "_original": {
+        "reference_number": "14",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "2-Ethylhexyl salicylate",
+      "CAS_No": "",
+      "CN_Name": "水杨酸乙基己酯",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Legal_Basis": "表5 化妝品準用防曬劑",
+      "_original": {
+        "reference_number": "15",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "2,4,6-Trianilino-(p-carbo-2’-ethylhexyl-l’-oxy)- 1,3,5-triazine",
+      "CAS_No": "",
+      "CN_Name": "乙基己基三嗪酮",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Legal_Basis": "表5 化妝品準用防曬劑",
+      "_original": {
+        "reference_number": "16",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Homosalate (INN)",
+      "CAS_No": "",
+      "CN_Name": "胡莫柳酯",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Legal_Basis": "表5 化妝品準用防曬劑",
+      "_original": {
+        "reference_number": "17",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Isopentyl-4-methoxycinnamate",
+      "CAS_No": "",
+      "CN_Name": "对甲氧基肉桂酸异戊酯",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Legal_Basis": "表5 化妝品準用防曬劑",
+      "_original": {
+        "reference_number": "18",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "2,2’-Methylene-bis(6-(2H-benzotriazol-2-yl)-4-( 1,1,3,3-tetramethyl-butyl)phenol)",
+      "CAS_No": "",
+      "CN_Name": "亚甲基双-苯并三唑基四甲 基丁基酚",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Legal_Basis": "表5 化妝品準用防曬劑",
+      "_original": {
+        "reference_number": "19",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "2-Cyano-3,3-diphenyl acrylic acid, 2-ethylhexyl ester",
+      "CAS_No": "",
+      "CN_Name": "奥克立林",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Legal_Basis": "表5 化妝品準用防曬劑",
+      "_original": {
+        "reference_number": "20",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Ethoxylated ethyl-4-aminobenzoate",
+      "CAS_No": "",
+      "CN_Name": "PEG-25对氨基苯甲酸",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Legal_Basis": "表5 化妝品準用防曬劑",
+      "_original": {
+        "reference_number": "21",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "2-Phenylbenzimidazole-5-sulfonic acid and its potassium, sodium, and triethanolamine salts",
+      "CAS_No": "",
+      "CN_Name": "苯基苯并咪唑磺酸及其钾、 钠和三乙醇胺盐",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Legal_Basis": "表5 化妝品準用防曬劑",
+      "_original": {
+        "reference_number": "22",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Polymer of N-{(2 and 4)-[(2-oxoborn-3-ylidene) methyl]benzyl} acrylamide",
+      "CAS_No": "",
+      "CN_Name": "聚丙烯酰胺甲基亚苄基樟脑",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Legal_Basis": "表5 化妝品準用防曬劑",
+      "_original": {
+        "reference_number": "23",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Dimethicodiethylbenzalmalonate",
+      "CAS_No": "",
+      "CN_Name": "聚硅氧烷-15",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Legal_Basis": "表5 化妝品準用防曬劑",
+      "_original": {
+        "reference_number": "24",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "3,3’-(1,4-Phenylenedimethylene)bis(7,7-dimethy",
+      "CAS_No": "",
+      "CN_Name": "对苯二亚甲基二樟脑磺酸及",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Legal_Basis": "表5 化妝品準用防曬劑",
+      "_original": {
+        "reference_number": "25",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "l-2-oxobicyclo-[2.2.1]hept-1-yl-methanesulfonic acid) and its salts",
+      "CAS_No": "",
+      "CN_Name": "其盐类",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Legal_Basis": "表5 化妝品準用防曬劑",
+      "_original": {
+        "reference_number": "",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Titanium dioxide",
+      "CAS_No": "",
+      "CN_Name": "二氧化钛(2)",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Legal_Basis": "表5 化妝品準用防曬劑",
+      "_original": {
+        "reference_number": "26",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Zinc oxide",
+      "CAS_No": "",
+      "CN_Name": "氧化锌(2)",
+      "Status": "ALLOWED",
+      "Table_Type": "uv_filters",
+      "Legal_Basis": "表5 化妝品準用防曬劑",
+      "_original": {
+        "reference_number": "27",
+        "jurisdiction": "CN"
+      }
+    }
+  ]
+}

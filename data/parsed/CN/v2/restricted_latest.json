@@ -1,0 +1,1509 @@
+{
+  "jurisdiction": "CN",
+  "table_type": "restricted",
+  "version": "20261028",
+  "generated_at": "2026-10-28T07:55:40.958094+00:00",
+  "total_records": 125,
+  "records": [
+    {
+      "INCI_Name": "Alkyl(C -C ) 12 22 trimethyl ammonium chloride",
+      "CAS_No": "",
+      "CN_Name": "烷基(C -C )三甲基 12 22 铵氯化物(1)",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表3 化妝品限用組分",
+      "_original": {
+        "reference_number": "1",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Benzalkonium chloride, bromide and saccharinate",
+      "CAS_No": "",
+      "CN_Name": "苯扎氯铵, 苯扎溴 铵, 苯扎糖精铵(1)",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表3 化妝品限用組分",
+      "_original": {
+        "reference_number": "2",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "(1) Boric acid, borates and tetraborates with the exception of substances in table of prohibited substances",
+      "CAS_No": "",
+      "CN_Name": "(1) 硼酸, 硼酸盐和 四硼酸盐(禁用物质 表所列成分除外)",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表3 化妝品限用組分",
+      "_original": {
+        "reference_number": "3",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "(2) Tetraborates",
+      "CAS_No": "",
+      "CN_Name": "(2) 四硼酸盐",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表3 化妝品限用組分",
+      "_original": {
+        "reference_number": "",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Benzoic acid Sodium benzoate",
+      "CAS_No": "",
+      "CN_Name": "苯甲酸及其钠盐(1)",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表3 化妝品限用組分",
+      "_original": {
+        "reference_number": "4",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Quinolin-8-ol and bis(8-hydroxyquinoli nium) sulfate",
+      "CAS_No": "",
+      "CN_Name": "8-羟基喹啉, 羟基喹 啉硫酸盐",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表3 化妝品限用組分",
+      "_original": {
+        "reference_number": "5",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "l-Phenoxy-propan-2-ol",
+      "CAS_No": "",
+      "CN_Name": "苯氧异丙醇(1)",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表3 化妝品限用組分",
+      "_original": {
+        "reference_number": "6",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Polyacrylamides",
+      "CAS_No": "",
+      "CN_Name": "聚丙烯酰胺类",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表3 化妝品限用組分",
+      "_original": {
+        "reference_number": "7",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Salicylic acid",
+      "CAS_No": "",
+      "CN_Name": "水杨酸(1)",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表3 化妝品限用組分",
+      "_original": {
+        "reference_number": "8",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Strontium peroxide",
+      "CAS_No": "",
+      "CN_Name": "过氧化锶(3)",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表3 化妝品限用組分",
+      "_original": {
+        "reference_number": "9",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Polidocanol",
+      "CAS_No": "",
+      "CN_Name": "月桂醇聚醚-9",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表3 化妝品限用組分",
+      "_original": {
+        "reference_number": "10",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Trialkylamines, trialkanolamines and their salts",
+      "CAS_No": "",
+      "CN_Name": "三链烷胺, 三链烷醇 胺及它们的盐类",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表3 化妝品限用組分",
+      "_original": {
+        "reference_number": "11",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Quinine and its salts",
+      "CAS_No": "",
+      "CN_Name": "奎宁及其盐类",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表3 化妝品限用組分",
+      "_original": {
+        "reference_number": "12",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Resorcinol",
+      "CAS_No": "",
+      "CN_Name": "间苯二酚",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表3 化妝品限用組分",
+      "_original": {
+        "reference_number": "13",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Selenium disulphide",
+      "CAS_No": "",
+      "CN_Name": "二硫化硒",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表3 化妝品限用組分",
+      "_original": {
+        "reference_number": "14",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Strontium chloride",
+      "CAS_No": "",
+      "CN_Name": "氯化锶 (3)",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表3 化妝品限用組分",
+      "_original": {
+        "reference_number": "15",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "2,4-Diamino-pyrimid ine-3-oxide",
+      "CAS_No": "",
+      "CN_Name": "二氨基嘧啶氧化物",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表3 化妝品限用組分",
+      "_original": {
+        "reference_number": "16",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "1,3-Bis(hydroxymeth yl)imidazolidine-2-th ione",
+      "CAS_No": "",
+      "CN_Name": "二(羟甲基)亚乙基硫 脲",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表3 化妝品限用組分",
+      "_original": {
+        "reference_number": "17",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Etidronic acid and its salts(1-hydroxyethyli dene-di-phosphonic acid and its salts)",
+      "CAS_No": "",
+      "CN_Name": "羟乙二磷酸及其盐 类",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表3 化妝品限用組分",
+      "_original": {
+        "reference_number": "18",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Hydrogen peroxide, and other compounds or mixtures that release hydrogen peroxide, including carbamide peroxide and zinc peroxide",
+      "CAS_No": "",
+      "CN_Name": "过氧化氢和其他释 放过氧化氢的化合 物或混合物, 如过氧 化脲和过氧化锌",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表3 化妝品限用組分",
+      "_original": {
+        "reference_number": "19",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Oxalic acid, its esters and alkaline salts",
+      "CAS_No": "",
+      "CN_Name": "草酸及其酯类和碱 金属盐类",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表3 化妝品限用組分",
+      "_original": {
+        "reference_number": "20",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Pyrithione zinc (INN)",
+      "CAS_No": "",
+      "CN_Name": "吡硫鎓锌(1)",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表3 化妝品限用組分",
+      "_original": {
+        "reference_number": "21",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Calcium hydroxide",
+      "CAS_No": "",
+      "CN_Name": "氢氧化钙",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表3 化妝品限用組分",
+      "_original": {
+        "reference_number": "22",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Inorganic sulfites and hydrogen sulfites",
+      "CAS_No": "",
+      "CN_Name": "无机亚硫酸盐类和 亚硫酸氢盐类(1)",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表3 化妝品限用組分",
+      "_original": {
+        "reference_number": "23",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Lithium hydroxide",
+      "CAS_No": "",
+      "CN_Name": "氢氧化锂",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表3 化妝品限用組分",
+      "_original": {
+        "reference_number": "24",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "(1) Thioglycollic acid and its salts",
+      "CAS_No": "",
+      "CN_Name": "(1) 巯基乙酸及其盐 类",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表3 化妝品限用組分",
+      "_original": {
+        "reference_number": "25",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "(2) Thioglycollic acid esters",
+      "CAS_No": "",
+      "CN_Name": "(2) 巯基乙酸酯类",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表3 化妝品限用組分",
+      "_original": {
+        "reference_number": "",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Silver nitrate",
+      "CAS_No": "",
+      "CN_Name": "硝酸银",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表3 化妝品限用組分",
+      "_original": {
+        "reference_number": "26",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "(1) Alkali sulfides",
+      "CAS_No": "",
+      "CN_Name": "(1) 碱金属的硫化物 类",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表3 化妝品限用組分",
+      "_original": {
+        "reference_number": "27",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "(2) Alkaline earth sulfides",
+      "CAS_No": "",
+      "CN_Name": "(2) 碱土金属的硫化 物类",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表3 化妝品限用組分",
+      "_original": {
+        "reference_number": "",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Strontium hydroxide",
+      "CAS_No": "",
+      "CN_Name": "氢氧化锶(3)",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表3 化妝品限用組分",
+      "_original": {
+        "reference_number": "28",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Aluminium zirconium chloride hydroxide complexes;Al Zr(OH) x y Cland the aluminium z zirconium chloride hydroxide glycine complexes",
+      "CAS_No": "",
+      "CN_Name": "氯化羟锆铝配合物 (Al Zr(OH) Cl)和氯 x y z 化羟锆铝甘氨酸配 合物",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表3 化妝品限用組分",
+      "_original": {
+        "reference_number": "29",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Zinc 4-hydroxybenzene sulfonate",
+      "CAS_No": "",
+      "CN_Name": "苯酚磺酸锌",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表3 化妝品限用組分",
+      "_original": {
+        "reference_number": "30",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Formaldehyde",
+      "CAS_No": "",
+      "CN_Name": "甲醛(1)",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表3 化妝品限用組分",
+      "_original": {
+        "reference_number": "31",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Potassium or sodium hydroxide",
+      "CAS_No": "",
+      "CN_Name": "氢氧化钾（或氢氧化 钠）",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表3 化妝品限用組分",
+      "_original": {
+        "reference_number": "32",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Nitromethane",
+      "CAS_No": "",
+      "CN_Name": "硝基甲烷",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表3 化妝品限用組分",
+      "_original": {
+        "reference_number": "33",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Sodium nitrite",
+      "CAS_No": "",
+      "CN_Name": "亚硝酸钠",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表3 化妝品限用組分",
+      "_original": {
+        "reference_number": "34",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Talc: hydrated magnesium silicate",
+      "CAS_No": "",
+      "CN_Name": "滑石: 水合硅酸镁",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表3 化妝品限用組分",
+      "_original": {
+        "reference_number": "35",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Benzyl alcohol",
+      "CAS_No": "",
+      "CN_Name": "苯甲醇(1)",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表3 化妝品限用組分",
+      "_original": {
+        "reference_number": "36",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "-Hydroxy acids and their salts, esters",
+      "CAS_No": "",
+      "CN_Name": "-羟基酸及其盐类 和酯类(6)",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表3 化妝品限用組分",
+      "_original": {
+        "reference_number": "37",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Ammonia",
+      "CAS_No": "",
+      "CN_Name": "氨",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表3 化妝品限用組分",
+      "_original": {
+        "reference_number": "38",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Tosylchloramide sodium",
+      "CAS_No": "",
+      "CN_Name": "氯胺T",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表3 化妝品限用組分",
+      "_original": {
+        "reference_number": "39",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Chlorates of alkali metals",
+      "CAS_No": "",
+      "CN_Name": "碱金属的氯酸盐类",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表3 化妝品限用組分",
+      "_original": {
+        "reference_number": "40",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Dichloromethane",
+      "CAS_No": "",
+      "CN_Name": "二氯甲烷",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表3 化妝品限用組分",
+      "_original": {
+        "reference_number": "41",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Dichlorophen",
+      "CAS_No": "",
+      "CN_Name": "双氯酚",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表3 化妝品限用組分",
+      "_original": {
+        "reference_number": "42",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Fatty acid dialkylamides and dialkanolamides",
+      "CAS_No": "",
+      "CN_Name": "脂肪酸双链烷酰胺 及脂肪酸双链烷醇 酰胺",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表3 化妝品限用組分",
+      "_original": {
+        "reference_number": "43",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Monoalkylamines, monoalkanolamines and their salts",
+      "CAS_No": "",
+      "CN_Name": "单链烷胺, 单链烷醇 胺及它们的盐类",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表3 化妝品限用組分",
+      "_original": {
+        "reference_number": "44",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Musk ketone",
+      "CAS_No": "",
+      "CN_Name": "酮麝香",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表3 化妝品限用組分",
+      "_original": {
+        "reference_number": "45",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Musk xylene",
+      "CAS_No": "",
+      "CN_Name": "麝香二甲苯",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表3 化妝品限用組分",
+      "_original": {
+        "reference_number": "46",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Water-soluble zinc salts with the exception of zinc 4-hydroxybenzenesul phonate and zinc pyrithione",
+      "CAS_No": "",
+      "CN_Name": "水溶性锌盐（苯酚磺 酸锌和吡硫鎓锌除 外）",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表3 化妝品限用組分",
+      "_original": {
+        "reference_number": "47",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "1,3-Bis-(2,4-diaminophenoxy) propane HCl",
+      "CAS_No": "",
+      "CN_Name": "1,3-双-(2,4-二氨基苯氧基)丙烷 盐酸盐",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "1",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "1,3-Bis-(2,4-diaminophenoxy) propane",
+      "CAS_No": "",
+      "CN_Name": "1,3-双-(2,4-二氨基苯氧基)丙烷",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "2",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "1,5-Naphthalenediol",
+      "CAS_No": "",
+      "CN_Name": "1,5-萘二酚(CI 76625)",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "3",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "1-Hydroxyethyl 4,5-diaminopyrazole sulfate",
+      "CAS_No": "",
+      "CN_Name": "1-羟乙基- 4,5-二氨基吡唑硫酸 盐",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "4",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "1-Naphthol",
+      "CAS_No": "",
+      "CN_Name": "1-萘酚(CI 76605)",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "5",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "2,4-Diaminophenoxyethanol HCl",
+      "CAS_No": "",
+      "CN_Name": "2,4-二氨基苯氧基乙醇盐酸盐",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "6",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "2,4-Diaminophenoxyethanol sulfate",
+      "CAS_No": "",
+      "CN_Name": "2,4-二氨基苯氧基乙醇硫酸盐",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "7",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "2,6-Diaminopyridine",
+      "CAS_No": "",
+      "CN_Name": "2,6-二氨基吡啶",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "8",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "2,6-Diaminopyridine sulfate",
+      "CAS_No": "",
+      "CN_Name": "2,6-二氨基吡啶硫酸盐",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "9",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "2,6-Dihydroxyethylaminotoluene",
+      "CAS_No": "",
+      "CN_Name": "2,6-二羟乙基氨甲苯",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "10",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "2,6-Dimethoxy-3,5-pyridinediamine HCl",
+      "CAS_No": "",
+      "CN_Name": "2,6-二甲氧基-3,5-吡啶二胺盐酸 盐",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "11",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "2,7-Naphthale nediol",
+      "CAS_No": "",
+      "CN_Name": "2,7-萘二酚(CI 76645)",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "12",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "2-Amino-3-hydroxypyridine",
+      "CAS_No": "",
+      "CN_Name": "2-氨基-3-羟基吡啶",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "13",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "2-Amino-4-hydroxyethylaminoanisole",
+      "CAS_No": "",
+      "CN_Name": "2-氨基-4-羟乙氨基茴香醚",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "14",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "2-Amino-4-hydroxyethylaminoanisole sulfate",
+      "CAS_No": "",
+      "CN_Name": "2-氨基-4-羟乙氨基茴香醚硫酸 盐",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "15",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "2-Amino-6-chloro-4-nitrophenol",
+      "CAS_No": "",
+      "CN_Name": "2-氨基-6-氯-4-硝基苯酚",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "16",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "2-Amino-6-chloro-4-nitrophenol HCl",
+      "CAS_No": "",
+      "CN_Name": "2-氨基-6-氯-4-硝基苯酚盐酸盐",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "17",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "2-Chloro-p-phenylenediamine",
+      "CAS_No": "",
+      "CN_Name": "2-氯对苯二胺",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "18",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "2-Chloro-p-phenylenediamine sulfate",
+      "CAS_No": "",
+      "CN_Name": "2-氯对苯二胺硫酸盐",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "19",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "2-Hydroxyethyl picramic acid",
+      "CAS_No": "",
+      "CN_Name": "2-羟乙基苦氨酸",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "20",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "2-Methyl-5-hydroxyethylaminophenol",
+      "CAS_No": "",
+      "CN_Name": "2-甲基-5-羟乙氨基苯酚",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "21",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "2-Methylresorcinol",
+      "CAS_No": "",
+      "CN_Name": "2-甲基间苯二酚",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "22",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "3-Nitro-p-hydroxyethylaminophenol",
+      "CAS_No": "",
+      "CN_Name": "3-硝基对羟乙氨基酚",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "23",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "4-Amino-2-hydroxytoluene",
+      "CAS_No": "",
+      "CN_Name": "4-氨基-2-羟基甲苯",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "24",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "4-Amino-3-nitrophenol",
+      "CAS_No": "",
+      "CN_Name": "4-氨基-3-硝基苯酚",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "25",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "4-Amino-m-cresol",
+      "CAS_No": "",
+      "CN_Name": "4-氨基间甲酚",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "26",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "4-Chlororesorcinol",
+      "CAS_No": "",
+      "CN_Name": "4-氯间苯二酚",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "27",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "4-Hydroxypropylamino-3-nitrophenol",
+      "CAS_No": "",
+      "CN_Name": "4-羟丙氨基-3-硝基苯酚",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "28",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "4-Nitro-o-phenylenediamine",
+      "CAS_No": "",
+      "CN_Name": "4-硝基邻苯二胺",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "29",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "4-Nitro-o-phenylenediamine sulfate",
+      "CAS_No": "",
+      "CN_Name": "4-硝基邻苯二胺硫酸盐",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "30",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "5-Amino-4-chloro-o-cresol",
+      "CAS_No": "",
+      "CN_Name": "5-氨基-4-氯邻甲酚",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "31",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "5-Amino-4-Chloro-o-Cresol HCl",
+      "CAS_No": "",
+      "CN_Name": "5-氨基-4-氯邻甲酚盐酸盐",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "32",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "5-Amino-6-chloro-o-cresol",
+      "CAS_No": "",
+      "CN_Name": "5-氨基-6-氯-邻甲酚",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "33",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "6-Amino-m-cresol",
+      "CAS_No": "",
+      "CN_Name": "6-氨基间甲酚",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "34",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "6-Hydroxyindole",
+      "CAS_No": "",
+      "CN_Name": "6-羟基吲哚",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "35",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "6-Methoxy-2-methylamino-3-aminopyri dine HCl",
+      "CAS_No": "",
+      "CN_Name": "6-甲氧基-2-甲氨基-3-氨基吡啶 盐酸盐 (HC蓝7号)",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "36",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Acid Violet 43",
+      "CAS_No": "",
+      "CN_Name": "酸性紫43号(CI 60730)",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "37",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Basic orange 31",
+      "CAS_No": "",
+      "CN_Name": "碱性橙31号",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "38",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Basic red 51",
+      "CAS_No": "",
+      "CN_Name": "碱性红51号",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "39",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Basic red 76",
+      "CAS_No": "",
+      "CN_Name": "碱性红76号(CI 12245)",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "40",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Basic yellow 87",
+      "CAS_No": "",
+      "CN_Name": "碱性黄87号",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "41",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Disperse Black 9",
+      "CAS_No": "",
+      "CN_Name": "分散黑9号",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "42",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Disperse Violet 1",
+      "CAS_No": "",
+      "CN_Name": "分散紫1号",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "43",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "HC Orange No.1",
+      "CAS_No": "",
+      "CN_Name": "HC橙1号",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "44",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "HC Red No.1",
+      "CAS_No": "",
+      "CN_Name": "HC红1号",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "45",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "HC Red No.3",
+      "CAS_No": "",
+      "CN_Name": "HC红3号",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "46",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "HC Yellow No.2",
+      "CAS_No": "",
+      "CN_Name": "HC黄2号",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "47",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "HC Yellow No.4",
+      "CAS_No": "",
+      "CN_Name": "HC黄4号",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "48",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Hydroxybenzomorpholine",
+      "CAS_No": "",
+      "CN_Name": "羟苯并吗啉",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "49",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Hydroxyethyl-2-nitro-p-toluidine",
+      "CAS_No": "",
+      "CN_Name": "羟乙基-2-硝基对甲苯胺",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "50",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Hydroxyethyl-3,4-methylenedioxyaniline HCl",
+      "CAS_No": "",
+      "CN_Name": "羟乙基-3,4-亚甲二氧基苯胺盐 酸盐",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "51",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Hydroxyethyl-p-phenylenediamine sulfate",
+      "CAS_No": "",
+      "CN_Name": "羟乙基对苯二胺硫酸盐",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "52",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Hydroxypropyl bis(N-hydroxyethyl-p- phenylenediamine) HCl",
+      "CAS_No": "",
+      "CN_Name": "羟丙基双(N-羟乙基对苯二胺)盐 酸盐",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "53",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "m-Aminophenol",
+      "CAS_No": "",
+      "CN_Name": "间氨基苯酚",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "54",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "m-Aminophenol HCl",
+      "CAS_No": "",
+      "CN_Name": "间氨基苯酚盐酸盐",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "55",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "m-Aminophenol sulfate",
+      "CAS_No": "",
+      "CN_Name": "间氨基苯酚硫酸盐",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "56",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "N,N-bis(2-hydroxyethyl)-p-phenylenedi amine sulfate",
+      "CAS_No": "",
+      "CN_Name": "N,N-双(2-羟乙基)对苯二胺硫酸 盐(3)",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "57",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "N-phenyl-p-phenylenediamine",
+      "CAS_No": "",
+      "CN_Name": "N-苯基对苯二胺(CI 76085) (3)",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "58",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "N-phenyl-p-phenylenediamine HCl",
+      "CAS_No": "",
+      "CN_Name": "N-苯基对苯二胺盐酸盐(CI 76086) (3)",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "59",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "N-phenyl-p-phenylenediamine sulfate",
+      "CAS_No": "",
+      "CN_Name": "N-苯基对苯二胺硫酸盐(3)",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "60",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "p-Aminophenol",
+      "CAS_No": "",
+      "CN_Name": "对氨基苯酚",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "61",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "p-Aminophenol HCl",
+      "CAS_No": "",
+      "CN_Name": "对氨基苯酚盐酸盐",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "62",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "p-Aminophenol sulfate",
+      "CAS_No": "",
+      "CN_Name": "对氨基苯酚硫酸盐",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "63",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Phenyl methyl pyrazolone",
+      "CAS_No": "",
+      "CN_Name": "苯基甲基吡唑啉酮",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "64",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "p-Methylaminophenol",
+      "CAS_No": "",
+      "CN_Name": "对甲基氨基苯酚",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "65",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "p-Methylaminophenol sulfate",
+      "CAS_No": "",
+      "CN_Name": "对甲基氨基苯酚硫酸盐",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "66",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "p-Phenylenediamine",
+      "CAS_No": "",
+      "CN_Name": "对苯二胺(3)",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "67",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "p-Phenylenediamine HCl",
+      "CAS_No": "",
+      "CN_Name": "对苯二胺盐酸盐(3)",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "68",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "p-Phenylenediamine sulfate",
+      "CAS_No": "",
+      "CN_Name": "对苯二胺硫酸盐(3)",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "69",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Resorcinol",
+      "CAS_No": "",
+      "CN_Name": "间苯二酚",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "70",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Sodium picramate",
+      "CAS_No": "",
+      "CN_Name": "苦氨酸钠",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "71",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Tetraaminopyrimidine sulfate",
+      "CAS_No": "",
+      "CN_Name": "四氨基嘧啶硫酸盐",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "72",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Toluene-2,5-diamine",
+      "CAS_No": "",
+      "CN_Name": "甲苯-2,5-二胺(3)",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "73",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Toluene-2,5-diamine sulfate",
+      "CAS_No": "",
+      "CN_Name": "甲苯-2,5-二胺硫酸盐(3)",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "74",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "",
+      "CAS_No": "",
+      "CN_Name": "其他允许用于染发产品的着色 剂",
+      "Status": "RESTRICTED",
+      "Table_Type": "restricted",
+      "Legal_Basis": "表7 化妝品準用染髮劑",
+      "_original": {
+        "reference_number": "75",
+        "jurisdiction": "CN"
+      }
+    }
+  ]
+}

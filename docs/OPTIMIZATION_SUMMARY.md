@@ -152,12 +152,43 @@ The following issues were found and fixed during deployment verification:
 | formidable 超過大小限制時回傳 500 | 使用者看到「Failed to upload file」而非明確原因 | 依 `error.httpCode` 回傳 413 與明確訊息 |
 | `vercel.json` 未設定上傳函數資源 | 大檔案處理可能超時（預設 10s） | 為 `api/upload-regulation.js` 設定 1024MB / 60s |
 
+### 6. 架構整合與合規檢查升級 Architecture Merge & Checker Upgrade (Phase 3)
+
+**分支整合 Branch integration**
+
+`claude/optimize-regulations-parsing-…` 擁有 V2 多表架構（官方 PDF 擷取器、六表解析器、法規瀏覽頁），
+且在本分支第一次推送前一直是 GitHub Pages 的部署來源，但倉庫的預設分支從未指向它。
+本分支已合併該分支，部署站點恢復完整功能，並保留本分支的並行檢查器與上傳管線修復。
+
+That branch (V2 extractors, six-table parsers, Regulations Browser) had been the Pages deployment
+source until this branch's first push; it is now merged here so the site has both.
+
+**中國 STSC 表格拆分 CN table split**
+
+`cn_extractor.py` 只實作了禁用表的擷取，且掃描範圍涵蓋整份 PDF，因此 `data/parsed/CN/prohibited`
+實際上包含 STSC 表2-1 至表7 全部 1,745 筆（限用、准用防腐劑、防曬劑、著色劑、染髮劑都被標成「禁用」）。
+現在依序號重置切分（`split_merged_tables()`），結果：禁用 1,395、限用 125（含 75 筆准用染髮劑）、
+防腐劑 51、防曬劑 28、著色劑 146。`convert_extracted_to_parsed.py` 新增 `--jurisdictions` 與 `--sync`
+（同步到 `data/parsed/<J>/` 與 `app/public/data/parsed/<J>/`），不再需要手動複製。
+
+**合規檢查器 Compliance checker (`complianceChecker.ts`)**
+
+| 改進 | 說明 |
+|------|------|
+| 資料來源 | 合併 `data/rules` 與 V2 五張表；EU 由 8 筆條款擴充至 2,000+，CN 由 0 擴充至 1,745 |
+| CAS 比對 | 成分表的 `CAS.No.` 欄位現在參與比對；官方清單中多數條目名稱為描述語句（如 "Mercury and its compounds, except…"），僅靠名稱無法命中 |
+| 索引 | 載入時建立名稱／CAS 索引，查詢 O(1)；1,000 成分 × 5 市場 10 ms（載入後） |
+| 並發載入 | 快取 Promise，避免重複抓取同一市場的規則 |
+| 限用但無上限 | 資料庫無濃度上限的限用成分回報「資訊不足，請核對原始法規」而非「合規」 |
+| 資料清理 | 過濾擷取時混入的表頭列（"Ingredient"、"CAS Number" 等） |
+
 ## 部署驗證 Deployment Verification
 
 - GitHub Pages 站點：<https://willisxu.github.io/AILAWFORBEAUTY/>
 - `deploy.yml` 會在任何 `claude/**` 或 `main` 分支推送時自動建置並部署至 `gh-pages`
+  （注意：最後推送的分支即為上線版本，建議改為只部署單一正式分支）
 - 已確認上線的 bundle 包含並行化的 `checkFormulation` / `preloadRules` 與新的上傳進度 UI
-- 已確認 `data/rules/<jurisdiction>/latest.json` 可從站點正常載入（HTTP 200）
+- 已確認 `data/rules/<jurisdiction>/latest.json` 與 `data/parsed/<jurisdiction>/*_latest.json` 可從站點正常載入（HTTP 200）
 
 ## 代碼質量改進 Code Quality Improvements
 

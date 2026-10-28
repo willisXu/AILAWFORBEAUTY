@@ -1,8 +1,1761 @@
 {
   "jurisdiction": "CN",
   "table_type": "colorants",
-  "version": "20251112105940",
-  "generated_at": "2025-11-12T10:59:40.419269",
-  "total_records": 0,
-  "records": []
+  "version": "20261028",
+  "generated_at": "2026-10-28T07:55:40.958094+00:00",
+  "total_records": 146,
+  "records": [
+    {
+      "INCI_Name": "PIGMENT GREEN 8",
+      "CAS_No": "",
+      "CN_Name": "CI 10006",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "1",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "ACID GREEN 1",
+      "CAS_No": "",
+      "CN_Name": "CI 10020",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "2",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "ACID YELLOW 1",
+      "CAS_No": "",
+      "CN_Name": "CI 10316 (2)",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "3",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "FOOD YELLOW 1",
+      "CAS_No": "",
+      "CN_Name": "CI 11680",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "4",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "PIGMENT YELLOW 3",
+      "CAS_No": "",
+      "CN_Name": "CI 11710",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "5",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "PIGMENT ORANGE 1",
+      "CAS_No": "",
+      "CN_Name": "CI 11725",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "6",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "FOOD ORANGE 3",
+      "CAS_No": "",
+      "CN_Name": "CI 11920",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "7",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "SOLVENT RED 3",
+      "CAS_No": "",
+      "CN_Name": "CI 12010",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "8",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "PIGMENT RED 4",
+      "CAS_No": "",
+      "CN_Name": "CI 12085 (2)",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "9",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "PIGMENT RED 3",
+      "CAS_No": "",
+      "CN_Name": "CI 12120",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "10",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "PIGMENT RED 112",
+      "CAS_No": "",
+      "CN_Name": "CI 12370",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "11",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "PIGMENT RED 7",
+      "CAS_No": "",
+      "CN_Name": "CI 12420",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "12",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "PIGMENT BROWN 1",
+      "CAS_No": "",
+      "CN_Name": "CI 12480",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "13",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "PIGMENT RED 5",
+      "CAS_No": "",
+      "CN_Name": "CI 12490",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "14",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "DISPERSE YELLOW 16",
+      "CAS_No": "",
+      "CN_Name": "CI 12700",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "15",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "FOOD YELLOW 2",
+      "CAS_No": "",
+      "CN_Name": "CI 13015",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "16",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "ACID ORANGE 6",
+      "CAS_No": "",
+      "CN_Name": "CI 14270",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "17",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "FOOD RED 1",
+      "CAS_No": "",
+      "CN_Name": "CI 14700",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "18",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "FOOD RED 3",
+      "CAS_No": "",
+      "CN_Name": "CI 14720",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "19",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "FOOD RED 2",
+      "CAS_No": "",
+      "CN_Name": "CI 14815",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "20",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "ACID ORANGE 7",
+      "CAS_No": "",
+      "CN_Name": "CI 15510 (2)",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "21",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "PIGMENT RED 68",
+      "CAS_No": "",
+      "CN_Name": "CI 15525",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "22",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "PIGMENT RED 51",
+      "CAS_No": "",
+      "CN_Name": "CI 15580",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "23",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "ACID RED 88",
+      "CAS_No": "",
+      "CN_Name": "CI 15620",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "24",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "PIGMENT RED 49",
+      "CAS_No": "",
+      "CN_Name": "CI 15630 (2)",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "25",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "PIGMENT RED 64",
+      "CAS_No": "",
+      "CN_Name": "CI 15800",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "26",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "PIGMENT RED 57",
+      "CAS_No": "",
+      "CN_Name": "CI 15850 (2)",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "27",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "PIGMENT RED 48",
+      "CAS_No": "",
+      "CN_Name": "CI 15865 (2)",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "28",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "PIGMENT RED 63",
+      "CAS_No": "",
+      "CN_Name": "CI 15880",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "29",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "FOOD ORANGE 2",
+      "CAS_No": "",
+      "CN_Name": "CI 15980",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "30",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "FOOD YELLOW 3",
+      "CAS_No": "",
+      "CN_Name": "CI 15985 (2)",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "31",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "FOOD RED 17",
+      "CAS_No": "",
+      "CN_Name": "CI 16035",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "32",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "FOOD RED 9",
+      "CAS_No": "",
+      "CN_Name": "CI 16185",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "33",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "ACID ORANGE 10",
+      "CAS_No": "",
+      "CN_Name": "CI 16230",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "34",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "FOOD RED 7",
+      "CAS_No": "",
+      "CN_Name": "CI 16255 (2)",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "35",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "FOOD RED 8",
+      "CAS_No": "",
+      "CN_Name": "CI 16290",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "36",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "FOOD RED 12",
+      "CAS_No": "",
+      "CN_Name": "CI 17200 (2)",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "37",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "FOOD RED 10",
+      "CAS_No": "",
+      "CN_Name": "CI 18050",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "38",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "ACID RED 155",
+      "CAS_No": "",
+      "CN_Name": "CI 18130",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "39",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "ACID YELLOW 121",
+      "CAS_No": "",
+      "CN_Name": "CI 18690",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "40",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "ACID RED 180",
+      "CAS_No": "",
+      "CN_Name": "CI 18736",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "41",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "ACID YELLOW 11",
+      "CAS_No": "",
+      "CN_Name": "CI 18820",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "42",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "FOOD YELLOW 5",
+      "CAS_No": "",
+      "CN_Name": "CI 18965",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "43",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "FOOD YELLOW 4",
+      "CAS_No": "",
+      "CN_Name": "CI 19140 (2)",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "44",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "PIGMENT YELLOW 16",
+      "CAS_No": "",
+      "CN_Name": "CI 20040",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "45",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "ACID BLACK 1",
+      "CAS_No": "",
+      "CN_Name": "CI 20470",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "46",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "PIGMENT YELLOW 13",
+      "CAS_No": "",
+      "CN_Name": "CI 21100",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "47",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "PIGMENT YELLOW 83",
+      "CAS_No": "",
+      "CN_Name": "CI 21108",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "48",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "SOLVENT YELLOW 29",
+      "CAS_No": "",
+      "CN_Name": "CI 21230",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "49",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "ACID RED 163",
+      "CAS_No": "",
+      "CN_Name": "CI 24790",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "50",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "FOOD BLACK 2",
+      "CAS_No": "",
+      "CN_Name": "CI 27755",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "51",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "FOOD BLACK 1",
+      "CAS_No": "",
+      "CN_Name": "CI 28440",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "52",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "DIRECT ORANGE 39",
+      "CAS_No": "",
+      "CN_Name": "CI 40215",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "53",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "FOOD ORANGE 5",
+      "CAS_No": "",
+      "CN_Name": "CI 40800",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "54",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "FOOD ORANGE 6",
+      "CAS_No": "",
+      "CN_Name": "CI 40820",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "55",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "FOOD ORANGE 7",
+      "CAS_No": "",
+      "CN_Name": "CI 40825",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "56",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "FOOD ORANGE 8",
+      "CAS_No": "",
+      "CN_Name": "CI 40850",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "57",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "ACID BLUE 1",
+      "CAS_No": "",
+      "CN_Name": "CI 42045",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "58",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "FOOD BLUE 5",
+      "CAS_No": "",
+      "CN_Name": "CI 42051 (2)",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "59",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "FOOD GREEN 3",
+      "CAS_No": "",
+      "CN_Name": "CI 42053",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "60",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "ACID BLUE 7",
+      "CAS_No": "",
+      "CN_Name": "CI 42080",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "61",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "FOOD BLUE 2",
+      "CAS_No": "",
+      "CN_Name": "CI 42090",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "62",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "ACID GREEN 9",
+      "CAS_No": "",
+      "CN_Name": "CI 42100",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "63",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "ACID GREEN 22",
+      "CAS_No": "",
+      "CN_Name": "CI 42170",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "64",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "BASIC VIOLET 14",
+      "CAS_No": "",
+      "CN_Name": "CI 42510",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "65",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "BASIC VIOLET 2",
+      "CAS_No": "",
+      "CN_Name": "CI 42520",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "66",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "ACID BLUE 104",
+      "CAS_No": "",
+      "CN_Name": "CI 42735",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "67",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "BASIC BLUE 26",
+      "CAS_No": "",
+      "CN_Name": "CI 44045",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "68",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "FOOD GREEN 4",
+      "CAS_No": "",
+      "CN_Name": "CI 44090",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "69",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "ACID RED 52",
+      "CAS_No": "",
+      "CN_Name": "CI 45100",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "70",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "ACID VIOLET 9",
+      "CAS_No": "",
+      "CN_Name": "CI 45190",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "71",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "ACID RED 50",
+      "CAS_No": "",
+      "CN_Name": "CI 45220",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "72",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "ACID YELLOW 73",
+      "CAS_No": "",
+      "CN_Name": "CI 45350",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "73",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "ACID ORANGE 11",
+      "CAS_No": "",
+      "CN_Name": "CI 45370 (2)",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "74",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "ACID RED 87",
+      "CAS_No": "",
+      "CN_Name": "CI 45380 (2)",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "75",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "SOLVENT ORANGE 16",
+      "CAS_No": "",
+      "CN_Name": "CI 45396",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "76",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "ACID RED 98",
+      "CAS_No": "",
+      "CN_Name": "CI 45405",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "77",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "ACID RED 92",
+      "CAS_No": "",
+      "CN_Name": "CI 45410 (2)",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "78",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "ACID RED 95",
+      "CAS_No": "",
+      "CN_Name": "CI 45425",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "79",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "FOOD RED 14",
+      "CAS_No": "",
+      "CN_Name": "CI 45430 (2)",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "80",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "SOLVENT YELLOW 33",
+      "CAS_No": "",
+      "CN_Name": "CI 47000",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "81",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "FOOD YELLOW 13",
+      "CAS_No": "",
+      "CN_Name": "CI 47005",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "82",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "ACID VIOLET 50",
+      "CAS_No": "",
+      "CN_Name": "CI 50325",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "83",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "ACID BLACK 2",
+      "CAS_No": "",
+      "CN_Name": "CI 50420",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "84",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "PIGMENT VIOLET 23",
+      "CAS_No": "",
+      "CN_Name": "CI 51319",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "85",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "PIGMENT RED 83",
+      "CAS_No": "",
+      "CN_Name": "CI 58000",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "86",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "SOLVENT GREEN 7",
+      "CAS_No": "",
+      "CN_Name": "CI 59040",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "87",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "DISPERSE VIOLET 27",
+      "CAS_No": "",
+      "CN_Name": "CI 60724",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "88",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "SOLVENT VIOLET 13",
+      "CAS_No": "",
+      "CN_Name": "CI 60725",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "89",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "ACID VIOLET 43",
+      "CAS_No": "",
+      "CN_Name": "CI 60730",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "90",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "SOLVENT GREEN 3",
+      "CAS_No": "",
+      "CN_Name": "CI 61565",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "91",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "ACID GREEN 25",
+      "CAS_No": "",
+      "CN_Name": "CI 61570",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "92",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "ACID BLUE 80",
+      "CAS_No": "",
+      "CN_Name": "CI 61585",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "93",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "ACID BLUE 62",
+      "CAS_No": "",
+      "CN_Name": "CI 62045",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "94",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "FOOD BLUE 4",
+      "CAS_No": "",
+      "CN_Name": "CI 69800",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "95",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "VAT BLUE 6",
+      "CAS_No": "",
+      "CN_Name": "CI 69825",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "96",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "VAT ORANGE 7",
+      "CAS_No": "",
+      "CN_Name": "CI 71105",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "97",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "VAT BLUE 1",
+      "CAS_No": "",
+      "CN_Name": "CI 73000",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "98",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "FOOD BLUE 1",
+      "CAS_No": "",
+      "CN_Name": "CI 73015",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "99",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "VAT RED 1",
+      "CAS_No": "",
+      "CN_Name": "CI 73360",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "100",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "VAT VIOLET 2",
+      "CAS_No": "",
+      "CN_Name": "CI 73385",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "101",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "PIGMENT VIOLET 19",
+      "CAS_No": "",
+      "CN_Name": "CI 73900",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "102",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "PIGMENT RED 122",
+      "CAS_No": "",
+      "CN_Name": "CI 73915",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "103",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "PIGMENT BLUE 16",
+      "CAS_No": "",
+      "CN_Name": "CI 74100",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "104",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "PIGMENT BLUE 15",
+      "CAS_No": "",
+      "CN_Name": "CI 74160",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "105",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "DIRECT BLUE 86",
+      "CAS_No": "",
+      "CN_Name": "CI 74180",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "106",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "PIGMENT GREEN 7",
+      "CAS_No": "",
+      "CN_Name": "CI 74260",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "107",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "NATURAL YELLOW 6",
+      "CAS_No": "",
+      "CN_Name": "CI 75100",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "108",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "NATURAL ORANGE 4",
+      "CAS_No": "",
+      "CN_Name": "CI 75120",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "109",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "NATURAL YELLOW 27",
+      "CAS_No": "",
+      "CN_Name": "CI 75125",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "110",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "NATURAL YELLOW 26",
+      "CAS_No": "",
+      "CN_Name": "CI 75130",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "111",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "RUBIXANTHIN",
+      "CAS_No": "",
+      "CN_Name": "CI 75135",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "112",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "NATURAL WHITE 1",
+      "CAS_No": "",
+      "CN_Name": "CI 75170",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "113",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "NATURAL YELLOW 3",
+      "CAS_No": "",
+      "CN_Name": "CI 75300",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "114",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "NATURAL RED 4",
+      "CAS_No": "",
+      "CN_Name": "CI 75470",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "115",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "NATURAL GREEN 3",
+      "CAS_No": "",
+      "CN_Name": "CI 75810",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "116",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "PIGMENT METAL 1",
+      "CAS_No": "",
+      "CN_Name": "CI 77000",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "117",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "PIGMENT WHITE 24",
+      "CAS_No": "",
+      "CN_Name": "CI 77002",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "118",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "PIGMENT WHITE 19",
+      "CAS_No": "",
+      "CN_Name": "CI 77004",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "119",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "PIGMENT BLUE 29",
+      "CAS_No": "",
+      "CN_Name": "CI 77007",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "120",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "PIGMENT RED 101, 102",
+      "CAS_No": "",
+      "CN_Name": "CI 77015",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "121",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "PIGMENT WHITE 20",
+      "CAS_No": "",
+      "CN_Name": "CI 77019",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "122",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "PIGMENT WHITE 21, 22",
+      "CAS_No": "",
+      "CN_Name": "CI 77120",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "123",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "PIGMENT WHITE 14",
+      "CAS_No": "",
+      "CN_Name": "CI 77163",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "124",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "PIGMENT WHITE 18",
+      "CAS_No": "",
+      "CN_Name": "CI 77220",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "125",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "PIGMENT WHITE 25",
+      "CAS_No": "",
+      "CN_Name": "CI 77231",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "126",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "PIGMENT BLACK 6,7",
+      "CAS_No": "",
+      "CN_Name": "CI 77266",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "127",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "PIGMENT BLACK 9",
+      "CAS_No": "",
+      "CN_Name": "CI 77267",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "128",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "FOOD BLACK 3",
+      "CAS_No": "",
+      "CN_Name": "CI 77268:1",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "129",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "PIGMENT GREEN 17",
+      "CAS_No": "",
+      "CN_Name": "CI 77288",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "130",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "PIGMENT GREEN 18",
+      "CAS_No": "",
+      "CN_Name": "CI 77289",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "131",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "PIGMENT BLUE 28",
+      "CAS_No": "",
+      "CN_Name": "CI 77346",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "132",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "PIGMENT METAL 2",
+      "CAS_No": "",
+      "CN_Name": "CI 77400",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "133",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "PIGMENT METAL 3",
+      "CAS_No": "",
+      "CN_Name": "CI 77480",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "134",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "FERROUS OXIDE",
+      "CAS_No": "",
+      "CN_Name": "CI 77489",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "135",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "PIGMENT RED 101, 102",
+      "CAS_No": "",
+      "CN_Name": "CI 77491",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "136",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "PIGMRNT YELLOW 42, 43",
+      "CAS_No": "",
+      "CN_Name": "CI 77492",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "137",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "PIGMENT BLACK 11",
+      "CAS_No": "",
+      "CN_Name": "CI 77499",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "138",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "PIGMENT BLUE 27",
+      "CAS_No": "",
+      "CN_Name": "CI 77510",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "139",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "PIGMENT WHITE 18",
+      "CAS_No": "",
+      "CN_Name": "CI 77713",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "140",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "PIGMENT WHITE 26",
+      "CAS_No": "",
+      "CN_Name": "CI 77718",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "141",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "PIGMENT VIOLET 16",
+      "CAS_No": "",
+      "CN_Name": "CI 77742",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "142",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "MANGANESE PHOSPHATE",
+      "CAS_No": "",
+      "CN_Name": "CI 77745",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "143",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "SILVER",
+      "CAS_No": "",
+      "CN_Name": "CI 77820",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "144",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "PIGMENT WHITE 6",
+      "CAS_No": "",
+      "CN_Name": "CI 77891(3)",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "145",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "PIGMENT WHITE 4",
+      "CAS_No": "",
+      "CN_Name": "CI 77947(3)",
+      "Status": "ALLOWED",
+      "Table_Type": "colorants",
+      "Legal_Basis": "表6 化妝品準用著色劑",
+      "_original": {
+        "reference_number": "146",
+        "jurisdiction": "CN"
+      }
+    }
+  ]
 }

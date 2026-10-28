@@ -22,6 +22,86 @@ from typing import Dict, List, Any, Optional
 from .base_extractor import BasePDFExtractor
 
 
+# The STSC tables appear in the PDF in this order; each restarts its 序號 at 1.
+# The prohibited-table sweep in extract_prohibited_table() captures all of them,
+# so the merged list is split back apart at the serial-number resets.
+MERGED_TABLE_ORDER = [
+    ("prohibited", "表2-1 化妝品禁用組分", 1388),
+    ("prohibited", "表2-2 化妝品禁用植（動）物組分", 98),
+    ("restricted", "表3 化妝品限用組分", 47),
+    ("preservatives", "表4 化妝品準用防腐劑", 51),
+    ("uv_filters", "表5 化妝品準用防曬劑", 27),
+    ("colorants", "表6 化妝品準用著色劑", 157),
+    ("hair_dyes", "表7 化妝品準用染髮劑", 75),
+]
+
+
+def _serial_number(ingredient: Dict[str, Any]) -> Optional[int]:
+    try:
+        return int(str(ingredient.get("serial_number", "")).strip())
+    except ValueError:
+        return None
+
+
+def split_merged_tables(tables: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Split a merged CN "prohibited" ingredient list into the STSC tables.
+
+    Only acts when the prohibited table is populated and every other table is
+    empty. Returns the tables dict unchanged (with a status marker) if the
+    serial-number resets do not line up with the seven expected tables.
+    """
+    prohibited = tables.get("prohibited") or {}
+    ingredients = prohibited.get("ingredients") or []
+    others_empty = all(
+        not (tables.get(key) or {}).get("ingredients")
+        for key, _, _ in MERGED_TABLE_ORDER if key != "prohibited"
+    )
+    if not ingredients or not others_empty:
+        return tables
+
+    segments: List[List[Dict[str, Any]]] = [[]]
+    previous = None
+    for ingredient in ingredients:
+        number = _serial_number(ingredient)
+        if number is not None and previous is not None and number < previous:
+            segments.append([])
+        segments[-1].append(ingredient)
+        if number is not None:
+            previous = number
+
+    if len(segments) != len(MERGED_TABLE_ORDER):
+        print(f"   ⚠️  序號重置 {len(segments)} 段，與預期的 {len(MERGED_TABLE_ORDER)} 張表不符，保持合併狀態")
+        prohibited["extraction_status"] = "merged_tables_unsplit"
+        return tables
+
+    for segment, (_, label, expected) in zip(segments, MERGED_TABLE_ORDER):
+        # Row loss during extraction is tolerated; gaining rows is not
+        if not (0.8 * expected <= len(segment) <= expected + 5):
+            print(f"   ⚠️  {label}: 找到 {len(segment)} 條，預期約 {expected} 條，保持合併狀態")
+            prohibited["extraction_status"] = "merged_tables_unsplit"
+            return tables
+
+    split: Dict[str, List[Dict[str, Any]]] = {}
+    for segment, (key, label, _) in zip(segments, MERGED_TABLE_ORDER):
+        for ingredient in segment:
+            ingredient["table"] = key
+            ingredient["source_table"] = label
+        split.setdefault(key, []).extend(segment)
+
+    for key, _, _ in MERGED_TABLE_ORDER:
+        table = dict(tables.get(key) or {})
+        table.pop("note", None)
+        table["ingredients"] = split.get(key, [])
+        table["ingredients_count"] = len(table["ingredients"])
+        table["extraction_status"] = "completed"
+        tables[key] = table
+
+    print("   ✓ 已依序號重置將合併表格拆分為 " + ", ".join(
+        f"{key}={len(split.get(key, []))}" for key in dict.fromkeys(k for k, _, _ in MERGED_TABLE_ORDER)))
+    return tables
+
+
 class CNExtractor(BasePDFExtractor):
     """中國法規PDF提取器"""
 
@@ -105,6 +185,16 @@ class CNExtractor(BasePDFExtractor):
             all_data["preservatives"] = self.extract_preservatives_table(texts)
             all_data["uv_filters"] = self.extract_uv_filters_table(texts)
             all_data["colorants"] = self.extract_colorants_table(texts)
+            all_data["hair_dyes"] = {
+                "table_name": self.table_configs["hair_dyes"]["name"],
+                "table_number": self.table_configs["hair_dyes"]["table_number"],
+                "expected_count": self.table_configs["hair_dyes"]["expected_count"],
+                "ingredients_count": 0,
+                "ingredients": [],
+                "extraction_status": "pending",
+            }
+
+            all_data = split_merged_tables(all_data)
 
             # 計算總數
             total_count = sum(
