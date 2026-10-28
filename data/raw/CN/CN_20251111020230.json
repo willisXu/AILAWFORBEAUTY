@@ -1,0 +1,33 @@
+{
+  "jurisdiction": "CN",
+  "fetched_at": "2025-11-11T02:02:30.375510Z",
+  "version": "20251111020230",
+  "metadata": {
+    "source": "NMPA - 化妆品安全技术规范（2015年版）",
+    "regulation": "Safety and Technical Standards for Cosmetics (2015 Edition)",
+    "published_at": "2015-12-23",
+    "effective_date": "2016-12-01",
+    "last_update": "2016-12-01",
+    "total_ingredients": 0,
+    "fetch_timestamp": "2025-11-11 02:02:30",
+    "is_sample_data": false
+  },
+  "data_hash": "4bb7d968a9aa170a0614cddab32c2e9806610b39a71827df16dba84c361d9b55",
+  "raw_data": {
+    "source": "NMPA - 化妆品安全技术规范（2015年版）",
+    "regulation": "Safety and Technical Standards for Cosmetics (2015 Edition)",
+    "url": "https://www.nmpa.gov.cn/directory/web/nmpa/images/MjAxNcTqtdoyNji6xbmruOa4vbz+LnBkZg==.pdf",
+    "published_date": "2015-12-23",
+    "effective_date": "2016-12-01",
+    "last_update": "2016-12-01",
+    "fetch_timestamp": "2025-11-11 02:02:30",
+    "pdf_path": "/home/runner/work/AILAWFORBEAUTY/AILAWFORBEAUTY/data/raw/CN/cosmetics_safety_technical_standards_2015.pdf",
+    "pdf_size_mb": 10.935583114624023,
+    "type": "pdf",
+    "tables": {
+      "table_1": "禁用原料目录 (Prohibited Ingredients)",
+      "table_2": "禁用植（动）物原料目录 (Prohibited Plant/Animal Ingredients)",
+      "table_3": "限用组分 (Restricted Ingredients)"
+    }
+  }
+}

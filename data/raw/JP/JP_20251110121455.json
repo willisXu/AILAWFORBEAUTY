@@ -1,0 +1,206 @@
+{
+  "jurisdiction": "JP",
+  "fetched_at": "2025-11-10T12:14:55.257886Z",
+  "version": "20251110121455",
+  "metadata": {
+    "source": "MHLW - Ministry of Health, Labour and Welfare",
+    "regulation": "化粧品基準 / Standards for Cosmetics",
+    "published_at": "2000-09-29",
+    "effective_date": "2001-04-01",
+    "last_update": "2001-04-01",
+    "total_ingredients": 15,
+    "fetch_timestamp": "2025-11-10 12:14:55",
+    "is_sample_data": false
+  },
+  "data_hash": "4fff413ec52f1dccb7d7a8d13cb802a9b272e771bc6c0416967e2aa037071784",
+  "raw_data": {
+    "source": "MHLW - Ministry of Health, Labour and Welfare",
+    "regulation": "化粧品基準 / Standards for Cosmetics",
+    "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iyakuhin/keshouhin/index.html",
+    "published_date": "2000-09-29",
+    "effective_date": "2001-04-01",
+    "last_update": "2001-04-01",
+    "fetch_timestamp": "2025-11-10 12:14:55",
+    "raw_html_length": 72604,
+    "total_ingredients": 15,
+    "categories": {
+      "prohibited": [
+        {
+          "serial_number": "1",
+          "name_japanese": "ホルムアルデヒド",
+          "name_english": "Formaldehyde",
+          "cas_no": "50-00-0",
+          "inci": "Formaldehyde",
+          "category": "prohibited",
+          "conditions": "防腐剤として配合する場合を除き、配合禁止 / Prohibited except as preservative within specified limits",
+          "rationale": "MHLW ネガティブリストに記載 / Listed in MHLW Negative List"
+        },
+        {
+          "serial_number": "5",
+          "name_japanese": "メタノール",
+          "name_english": "Methanol",
+          "cas_no": "67-56-1",
+          "inci": "Methanol",
+          "category": "prohibited",
+          "conditions": "変性剤として使用する場合を除き、配合禁止 / Prohibited except when used as denaturant",
+          "rationale": "MHLW ネガティブリストに記載 / Listed in MHLW Negative List"
+        },
+        {
+          "serial_number": "20",
+          "name_japanese": "水銀及びその化合物",
+          "name_english": "Mercury and its compounds",
+          "cas_no": "7439-97-6",
+          "inci": "Mercury",
+          "category": "prohibited",
+          "conditions": "全面禁止（微量不純物を除く）/ Completely prohibited (except trace impurities)",
+          "rationale": "重金属、高毒性 / Heavy metal, highly toxic"
+        }
+      ],
+      "restricted": [
+        {
+          "serial_number": "3",
+          "name_japanese": "過酸化水素",
+          "name_english": "Hydrogen Peroxide",
+          "cas_no": "7722-84-1",
+          "inci": "Hydrogen Peroxide",
+          "maximum_concentration": "6%",
+          "category": "restricted",
+          "conditions": "染毛剤に配合する場合、6% 以下 / ≤6% in hair dye products",
+          "restrictions": "使用上の注意表示が必要 / Requires specific labeling",
+          "rationale": "酸化剤、濃度制限 / Oxidizing agent with concentration limits"
+        },
+        {
+          "serial_number": "7",
+          "name_japanese": "サリチル酸",
+          "name_english": "Salicylic Acid",
+          "cas_no": "69-72-7",
+          "inci": "Salicylic Acid",
+          "maximum_concentration": "2%",
+          "category": "restricted",
+          "conditions": "洗い流さない製品では 2% 以下 / ≤2% in leave-on products",
+          "restrictions": "損傷皮膚への使用禁止 / Not for use on damaged skin",
+          "rationale": "角質溶解剤、濃度制限 / Keratolytic agent with concentration limits"
+        },
+        {
+          "serial_number": "12",
+          "name_japanese": "レゾルシン",
+          "name_english": "Resorcinol",
+          "cas_no": "108-46-3",
+          "inci": "Resorcinol",
+          "maximum_concentration": "0.5%",
+          "category": "restricted",
+          "conditions": "ヘアローションおよびシャンプーでは 0.5% 以下 / ≤0.5% in hair lotions and shampoos",
+          "rationale": "染毛補助剤、濃度制限 / Hair coloring auxiliary with concentration limits"
+        }
+      ],
+      "preservatives": [
+        {
+          "serial_number": "1",
+          "name_japanese": "安息香酸及びその塩類",
+          "name_english": "Benzoic Acid and its salts",
+          "cas_no": "65-85-0",
+          "inci": "Benzoic Acid",
+          "maximum_concentration": "1.0%",
+          "category": "preservative",
+          "conditions": "酸として 1.0% 以下 / ≤1.0% as acid",
+          "rationale": "承認防腐剤 / Approved preservative"
+        },
+        {
+          "serial_number": "3",
+          "name_japanese": "サリチル酸及びその塩類",
+          "name_english": "Salicylic Acid and its salts",
+          "cas_no": "69-72-7",
+          "inci": "Salicylic Acid",
+          "maximum_concentration": "0.2%",
+          "category": "preservative",
+          "conditions": "防腐剤として使用する場合、酸として 0.2% 以下 / ≤0.2% as acid when used as preservative",
+          "rationale": "承認防腐剤 / Approved preservative"
+        },
+        {
+          "serial_number": "10",
+          "name_japanese": "フェノキシエタノール",
+          "name_english": "Phenoxyethanol",
+          "cas_no": "122-99-6",
+          "inci": "Phenoxyethanol",
+          "maximum_concentration": "1.0%",
+          "category": "preservative",
+          "conditions": "1.0% 以下 / ≤1.0%",
+          "rationale": "承認防腐剤 / Approved preservative"
+        }
+      ],
+      "tar_colors": [
+        {
+          "serial_number": "201",
+          "name_japanese": "赤色201号",
+          "name_english": "Red No. 201 (Lithol Rubine B)",
+          "cas_no": "5160-02-1",
+          "inci": "CI 15850",
+          "category": "colorant",
+          "conditions": "承認タール色素 / Approved tar color",
+          "restrictions": "粘膜への使用禁止 / Not for use on mucous membranes",
+          "rationale": "承認タール色素 / Approved tar color"
+        },
+        {
+          "serial_number": "202",
+          "name_japanese": "赤色202号",
+          "name_english": "Red No. 202 (Lithol Rubine BCA)",
+          "cas_no": "6371-76-2",
+          "inci": "CI 15865",
+          "category": "colorant",
+          "conditions": "承認タール色素 / Approved tar color",
+          "restrictions": "粘膜への使用禁止 / Not for use on mucous membranes",
+          "rationale": "承認タール色素 / Approved tar color"
+        },
+        {
+          "serial_number": "401",
+          "name_japanese": "青色1号",
+          "name_english": "Blue No. 1 (Brilliant Blue FCF)",
+          "cas_no": "3844-45-9",
+          "inci": "CI 42090",
+          "category": "colorant",
+          "conditions": "承認タール色素 / Approved tar color",
+          "restrictions": "なし / None",
+          "rationale": "承認タール色素 / Approved tar color"
+        }
+      ],
+      "quasi_drugs": [
+        {
+          "category": "medicated_skin_care",
+          "name_japanese": "薬用化粧品（美白）",
+          "name_english": "Medicated Cosmetics (Whitening)",
+          "active_ingredients": [
+            "トラネキサム酸 / Tranexamic acid",
+            "アルブチン / Arbutin",
+            "ビタミンC誘導体 / Vitamin C derivatives"
+          ],
+          "requirements": "医薬部外品としての承認が必要 / Requires approval as quasi-drug",
+          "rationale": "美白効果を標榜できる / Can claim whitening effects"
+        },
+        {
+          "category": "medicated_deodorant",
+          "name_japanese": "薬用デオドラント",
+          "name_english": "Medicated Deodorant",
+          "active_ingredients": [
+            "塩化アルミニウム / Aluminum chloride",
+            "酸化亜鉛 / Zinc oxide",
+            "イソプロピルメチルフェノール / Isopropyl methylphenol"
+          ],
+          "requirements": "医薬部外品としての承認が必要 / Requires approval as quasi-drug",
+          "rationale": "制汗・防臭効果を標榜できる / Can claim antiperspirant and deodorant effects"
+        },
+        {
+          "category": "medicated_hair_care",
+          "name_japanese": "薬用育毛剤",
+          "name_english": "Medicated Hair Growth Tonic",
+          "active_ingredients": [
+            "ミノキシジル / Minoxidil",
+            "センブリエキス / Swertia extract",
+            "グリチルリチン酸2K / Dipotassium glycyrrhizate"
+          ],
+          "requirements": "医薬部外品としての承認が必要 / Requires approval as quasi-drug",
+          "rationale": "育毛効果を標榜できる / Can claim hair growth effects"
+        }
+      ]
+    }
+  }
+}

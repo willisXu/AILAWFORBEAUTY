@@ -1,0 +1,621 @@
+{
+  "jurisdiction": "CN",
+  "table_type": "preservatives",
+  "version": "20261028",
+  "generated_at": "2026-10-28T07:55:40.958094+00:00",
+  "total_records": 51,
+  "records": [
+    {
+      "INCI_Name": "Bronopol (INN)",
+      "CAS_No": "",
+      "CN_Name": "2-溴-2-硝基丙烷-1,3二醇",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "Legal_Basis": "表4 化妝品準用防腐劑",
+      "_original": {
+        "reference_number": "1",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "5-Bromo-5-nitro-1,3-dioxane",
+      "CAS_No": "",
+      "CN_Name": "5-溴-5-硝基-1,3-二噁烷",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "Legal_Basis": "表4 化妝品準用防腐劑",
+      "_original": {
+        "reference_number": "2",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "5-Ethyl-3,7-dioxa-1-azabicyclo[3.3. 0]octane",
+      "CAS_No": "",
+      "CN_Name": "7-乙基双环噁唑烷",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "Legal_Basis": "表4 化妝品準用防腐劑",
+      "_original": {
+        "reference_number": "3",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Alkyl(C -C ) trimethyl 12 22 ammonium, bromide and chloride",
+      "CAS_No": "",
+      "CN_Name": "烷基(C -C )三甲基铵溴 12 22 化物或氯化物(2)",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "Legal_Basis": "表4 化妝品準用防腐劑",
+      "_original": {
+        "reference_number": "4",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Benzalkonium chloride, bromide and saccharinate",
+      "CAS_No": "",
+      "CN_Name": "苯扎氯铵, 苯扎溴铵, 苯扎 糖精铵(2)",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "Legal_Basis": "表4 化妝品準用防腐劑",
+      "_original": {
+        "reference_number": "5",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Benzethonium chloride",
+      "CAS_No": "",
+      "CN_Name": "苄索氯铵",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "Legal_Basis": "表4 化妝品準用防腐劑",
+      "_original": {
+        "reference_number": "6",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Benzoic acid, its salts and esters",
+      "CAS_No": "",
+      "CN_Name": "苯甲酸及其盐类和酯类(2)",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "Legal_Basis": "表4 化妝品準用防腐劑",
+      "_original": {
+        "reference_number": "7",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Benzyl alcohol",
+      "CAS_No": "",
+      "CN_Name": "苯甲醇(2)",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "Legal_Basis": "表4 化妝品準用防腐劑",
+      "_original": {
+        "reference_number": "8",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Benzylhemiformal",
+      "CAS_No": "",
+      "CN_Name": "甲醛苄醇半缩醛",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "Legal_Basis": "表4 化妝品準用防腐劑",
+      "_original": {
+        "reference_number": "9",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "6,6-Dibromo-4,4-dichloro-2,2’-meth ylene-diphenol",
+      "CAS_No": "",
+      "CN_Name": "溴氯芬",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "Legal_Basis": "表4 化妝品準用防腐劑",
+      "_original": {
+        "reference_number": "10",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Chlorhexidine (INN) and its digluconate,diacetate and dihydrochloride",
+      "CAS_No": "",
+      "CN_Name": "氯己定及其二葡萄糖酸盐, 二醋酸盐和二盐酸盐",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "Legal_Basis": "表4 化妝品準用防腐劑",
+      "_original": {
+        "reference_number": "11",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Chlorobutanol (INN)",
+      "CAS_No": "",
+      "CN_Name": "三氯叔丁醇",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "Legal_Basis": "表4 化妝品準用防腐劑",
+      "_original": {
+        "reference_number": "12",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "2-Benzyl-4-chlorophenol",
+      "CAS_No": "",
+      "CN_Name": "苄氯酚",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "Legal_Basis": "表4 化妝品準用防腐劑",
+      "_original": {
+        "reference_number": "13",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "4-Chloro-3,5-xylenol",
+      "CAS_No": "",
+      "CN_Name": "氯二甲酚",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "Legal_Basis": "表4 化妝品準用防腐劑",
+      "_original": {
+        "reference_number": "14",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "3-(p-chlorophenoxy)-propane-1,2-di ol",
+      "CAS_No": "",
+      "CN_Name": "氯苯甘醚",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "Legal_Basis": "表4 化妝品準用防腐劑",
+      "_original": {
+        "reference_number": "15",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "1-(4-chlorophenoxy)-1-(imidazol-1- yl)-3,3-dimethylbutan-2-one",
+      "CAS_No": "",
+      "CN_Name": "氯咪巴唑",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "Legal_Basis": "表4 化妝品準用防腐劑",
+      "_original": {
+        "reference_number": "16",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "3-Acetyl-6-methylpyran-2,4 (3H)-dione and its salts",
+      "CAS_No": "",
+      "CN_Name": "脱氢乙酸及其盐类",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "Legal_Basis": "表4 化妝品準用防腐劑",
+      "_original": {
+        "reference_number": "17",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "N-(Hydroxymethyl)-N-(dihydroxym ethyl-1,3-dioxo-2,5-imidazolinidyl- 4)-N’-(hydroxymethyl) urea",
+      "CAS_No": "",
+      "CN_Name": "双(羟甲基)咪唑烷基脲",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "Legal_Basis": "表4 化妝品準用防腐劑",
+      "_original": {
+        "reference_number": "18",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "3,3’-Dibromo-4,4’-hexamethylenedi oxydibenzamidine and its salts (including isethionate)",
+      "CAS_No": "",
+      "CN_Name": "二溴己脒及其盐类, 包括 二溴己脒羟乙磺酸盐",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "Legal_Basis": "表4 化妝品準用防腐劑",
+      "_original": {
+        "reference_number": "19",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "2,4-Dichlorobenzyl alcohol",
+      "CAS_No": "",
+      "CN_Name": "二氯苯甲醇",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "Legal_Basis": "表4 化妝品準用防腐劑",
+      "_original": {
+        "reference_number": "20",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "4,4-Dimethyl-1,3-oxazolidine",
+      "CAS_No": "",
+      "CN_Name": "二甲基噁唑烷",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "Legal_Basis": "表4 化妝品準用防腐劑",
+      "_original": {
+        "reference_number": "21",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "1,3-Bis(hydroxymethyl)-5,5-dimethyl imidazolidine-2,4-dione",
+      "CAS_No": "",
+      "CN_Name": "DMDM乙内酰脲",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "Legal_Basis": "表4 化妝品準用防腐劑",
+      "_original": {
+        "reference_number": "22",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Formaldehyde and paraformaldehyde",
+      "CAS_No": "",
+      "CN_Name": "甲醛和多聚甲醛(2)",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "Legal_Basis": "表4 化妝品準用防腐劑",
+      "_original": {
+        "reference_number": "23",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Formic acid and its sodium salt",
+      "CAS_No": "",
+      "CN_Name": "甲酸及其钠盐",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "Legal_Basis": "表4 化妝品準用防腐劑",
+      "_original": {
+        "reference_number": "24",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Glutaraldehyde (Pentane-1,5-dial)",
+      "CAS_No": "",
+      "CN_Name": "戊二醛",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "Legal_Basis": "表4 化妝品準用防腐劑",
+      "_original": {
+        "reference_number": "25",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "1,6-Di(4-amidinophenoxy)-n-hexan e and its salts (including isethionate and p-hydroxybenzoate)",
+      "CAS_No": "",
+      "CN_Name": "己脒定及其盐, 包括己脒 定二个羟乙基磺酸盐和己 脒定对羟基苯甲酸盐",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "Legal_Basis": "表4 化妝品準用防腐劑",
+      "_original": {
+        "reference_number": "26",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Hexetidine (INN)",
+      "CAS_No": "",
+      "CN_Name": "海克替啶",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "Legal_Basis": "表4 化妝品準用防腐劑",
+      "_original": {
+        "reference_number": "27",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "3,3’-Bis(1-hydroxymethyl-2,5-diox oimidazolidin-4-yl)-1,1’-methylene diurea",
+      "CAS_No": "",
+      "CN_Name": "咪唑烷基脲",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "Legal_Basis": "表4 化妝品準用防腐劑",
+      "_original": {
+        "reference_number": "28",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Inorganic sulfites and hydrogensulfites",
+      "CAS_No": "",
+      "CN_Name": "无机亚硫酸盐类和亚硫酸 氢盐类(2)",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "Legal_Basis": "表4 化妝品準用防腐劑",
+      "_original": {
+        "reference_number": "29",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "3-Iodo-2-propynylbutylcarbamate",
+      "CAS_No": "",
+      "CN_Name": "碘丙炔醇丁基氨甲酸酯",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "Legal_Basis": "表4 化妝品準用防腐劑",
+      "_original": {
+        "reference_number": "30",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "2-Methylisothiazol-3(2H)-one",
+      "CAS_No": "",
+      "CN_Name": "甲基异噻唑啉酮",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "Legal_Basis": "表4 化妝品準用防腐劑",
+      "_original": {
+        "reference_number": "31",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Mixture of 5-chloro-2-methylisothiazol-3(2H) -one and 2-methylisothiazol-3(2H)-one with magnesium chloride and magnesium nitrate(of a mixture in the ratio 3:1 of 5-chloro- 2-methylisothiazol 3(2H)-one and 2-methylisothiazol-3 (2H)-one )",
+      "CAS_No": "",
+      "CN_Name": "甲基氯异噻唑啉酮和甲基 异噻唑啉酮与氯化镁及硝 酸镁的混合物(甲基氯异噻 唑啉酮:甲基异噻唑啉酮为 3:1)",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "Legal_Basis": "表4 化妝品準用防腐劑",
+      "_original": {
+        "reference_number": "32",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "4-Isopropyl-m-cresol",
+      "CAS_No": "",
+      "CN_Name": "邻伞花烃-5-醇",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "Legal_Basis": "表4 化妝品準用防腐劑",
+      "_original": {
+        "reference_number": "33",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Biphenyl-2-ol and its salts",
+      "CAS_No": "",
+      "CN_Name": "邻苯基苯酚及其盐类",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "Legal_Basis": "表4 化妝品準用防腐劑",
+      "_original": {
+        "reference_number": "34",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "4-Hydroxybenzoic acid and its salts and esters",
+      "CAS_No": "",
+      "CN_Name": "4-羟基苯甲酸及其盐类和 酯类(3)",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "Legal_Basis": "表4 化妝品準用防腐劑",
+      "_original": {
+        "reference_number": "35",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "4-Chloro-m-cresol",
+      "CAS_No": "",
+      "CN_Name": "对氯间甲酚",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "Legal_Basis": "表4 化妝品準用防腐劑",
+      "_original": {
+        "reference_number": "36",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "2-Phenoxyethanol",
+      "CAS_No": "",
+      "CN_Name": "苯氧乙醇",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "Legal_Basis": "表4 化妝品準用防腐劑",
+      "_original": {
+        "reference_number": "37",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "1-Phenoxypropan-2-ol",
+      "CAS_No": "",
+      "CN_Name": "苯氧异丙醇(2)",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "Legal_Basis": "表4 化妝品準用防腐劑",
+      "_original": {
+        "reference_number": "38",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "1-Hydroxy-4-methyl-6(2,4,4-trimet hylpentyl)2-pyridon and its monoethanolamine salt",
+      "CAS_No": "",
+      "CN_Name": "吡罗克酮和吡罗克酮乙醇 胺盐",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "Legal_Basis": "表4 化妝品準用防腐劑",
+      "_original": {
+        "reference_number": "39",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Poly(methylene),.alpha.,.omega.-bis [[[(aminoiminomethyl)amino]imino methyl]amino]-, dihydrochloride",
+      "CAS_No": "",
+      "CN_Name": "聚氨丙基双胍",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "Legal_Basis": "表4 化妝品準用防腐劑",
+      "_original": {
+        "reference_number": "40",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Propionic acid and its salts",
+      "CAS_No": "",
+      "CN_Name": "丙酸及其盐类",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "Legal_Basis": "表4 化妝品準用防腐劑",
+      "_original": {
+        "reference_number": "41",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Salicylic acid and its salts",
+      "CAS_No": "",
+      "CN_Name": "水杨酸及其盐类(2)",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "Legal_Basis": "表4 化妝品準用防腐劑",
+      "_original": {
+        "reference_number": "42",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Phenylmercuric salts (including borate)",
+      "CAS_No": "",
+      "CN_Name": "苯汞的盐类，包括硼酸苯汞",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "Legal_Basis": "表4 化妝品準用防腐劑",
+      "_original": {
+        "reference_number": "43",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Silver chloride deposited on titanium dioxide",
+      "CAS_No": "",
+      "CN_Name": "沉积在二氧化钛上的氯化 银",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "Legal_Basis": "表4 化妝品準用防腐劑",
+      "_original": {
+        "reference_number": "44",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Sodium hydroxymethylamino acetate",
+      "CAS_No": "",
+      "CN_Name": "羟甲基甘氨酸钠",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "Legal_Basis": "表4 化妝品準用防腐劑",
+      "_original": {
+        "reference_number": "45",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Sorbic acid (hexa-2,4-dienoic acid) and its salts",
+      "CAS_No": "",
+      "CN_Name": "山梨酸及其盐类",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "Legal_Basis": "表4 化妝品準用防腐劑",
+      "_original": {
+        "reference_number": "46",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Thiomersal (INN)",
+      "CAS_No": "",
+      "CN_Name": "硫柳汞",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "Legal_Basis": "表4 化妝品準用防腐劑",
+      "_original": {
+        "reference_number": "47",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Triclocarban (INN)",
+      "CAS_No": "",
+      "CN_Name": "三氯卡班",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "Legal_Basis": "表4 化妝品準用防腐劑",
+      "_original": {
+        "reference_number": "48",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Triclosan (INN)",
+      "CAS_No": "",
+      "CN_Name": "三氯生",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "Legal_Basis": "表4 化妝品準用防腐劑",
+      "_original": {
+        "reference_number": "49",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Undec-10-enoic acid and its salts",
+      "CAS_No": "",
+      "CN_Name": "十一烯酸及其盐类",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "Legal_Basis": "表4 化妝品準用防腐劑",
+      "_original": {
+        "reference_number": "50",
+        "jurisdiction": "CN"
+      }
+    },
+    {
+      "INCI_Name": "Pyrithione zinc (INN)",
+      "CAS_No": "",
+      "CN_Name": "吡硫鎓锌(2)",
+      "Status": "ALLOWED",
+      "Table_Type": "preservatives",
+      "Legal_Basis": "表4 化妝品準用防腐劑",
+      "_original": {
+        "reference_number": "51",
+        "jurisdiction": "CN"
+      }
+    }
+  ]
+}

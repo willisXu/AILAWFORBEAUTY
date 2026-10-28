@@ -1,0 +1,85 @@
+{
+  "jurisdiction": "CA",
+  "fetched_at": "2025-11-11T02:28:17.270524Z",
+  "version": "20251111022817",
+  "metadata": {
+    "source": "Health Canada - Cosmetic Ingredient Hotlist",
+    "regulation": "Cosmetic Ingredient Hotlist",
+    "published_at": "2025-02",
+    "effective_date": "2025-02-28",
+    "version": "20250228",
+    "total_ingredients": 7,
+    "fetch_timestamp": "2025-11-11 02:28:17",
+    "is_sample_data": false
+  },
+  "data_hash": "f302bb39a48babe55482c8a5c42af9f73b908fbf15d36a9d503dd28a19c10191",
+  "raw_data": {
+    "source": "Health Canada - Cosmetic Ingredient Hotlist",
+    "regulation": "Cosmetic Ingredient Hotlist",
+    "url": "https://www.canada.ca/en/health-canada/services/consumer-product-safety/cosmetics/cosmetic-ingredient-hotlist-prohibited-restricted-ingredients.html",
+    "published_date": "2025-02",
+    "effective_date": "2025-02-28",
+    "last_update": "2025-02-28",
+    "fetch_timestamp": "2025-11-11 02:28:17",
+    "raw_html_length": 34877,
+    "ingredients_count": 7,
+    "ingredients": [
+      {
+        "ingredient_name": "Formaldehyde",
+        "cas_no": "50-00-0",
+        "restriction_type": "prohibited",
+        "conditions": "Prohibited except as a preservative at concentrations ≤0.2%",
+        "rationale": "Prohibited in cosmetics except as preservative within limits",
+        "status": "prohibited"
+      },
+      {
+        "ingredient_name": "Mercury and its compounds",
+        "cas_no": "7439-97-6",
+        "restriction_type": "prohibited",
+        "conditions": "Prohibited in all cosmetic products",
+        "rationale": "Highly toxic heavy metal, prohibited in all uses",
+        "status": "prohibited"
+      },
+      {
+        "ingredient_name": "Lead and its compounds",
+        "cas_no": "7439-92-1",
+        "restriction_type": "prohibited",
+        "conditions": "Prohibited as ingredients; trace amounts from impurities acceptable",
+        "rationale": "Toxic heavy metal, prohibited as ingredient",
+        "status": "prohibited"
+      },
+      {
+        "ingredient_name": "Hydroquinone",
+        "cas_no": "123-31-9",
+        "restriction_type": "restricted",
+        "conditions": "Restricted to ≤2% in hair dyes, nail products",
+        "rationale": "Allowed only in specific products with concentration limits",
+        "status": "restricted"
+      },
+      {
+        "ingredient_name": "Triclosan",
+        "cas_no": "3380-34-5",
+        "restriction_type": "restricted",
+        "conditions": "Restricted to ≤0.3% in mouthwash, toothpaste, deodorant",
+        "rationale": "Antimicrobial agent with usage restrictions",
+        "status": "restricted"
+      },
+      {
+        "ingredient_name": "Hydrogen Peroxide",
+        "cas_no": "7722-84-1",
+        "restriction_type": "restricted",
+        "conditions": "Maximum 12% in hair products, 3% in tooth whitening, 2% in nail products",
+        "rationale": "Oxidizing agent with concentration limits",
+        "status": "restricted"
+      },
+      {
+        "ingredient_name": "Salicylic Acid",
+        "cas_no": "69-72-7",
+        "restriction_type": "restricted",
+        "conditions": "Maximum 2% in leave-on products, 3% in rinse-off products. Not for children under 3 years",
+        "rationale": "Keratolytic agent with age and concentration restrictions",
+        "status": "restricted"
+      }
+    ]
+  }
+}

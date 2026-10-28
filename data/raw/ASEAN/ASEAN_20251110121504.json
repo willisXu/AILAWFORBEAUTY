@@ -1,0 +1,235 @@
+{
+  "jurisdiction": "ASEAN",
+  "fetched_at": "2025-11-10T12:15:04.026137Z",
+  "version": "20251110121504",
+  "metadata": {
+    "source": "HSA Singapore - ASEAN Cosmetic Directive",
+    "regulation": "ASEAN Cosmetic Directive (ACD)",
+    "version": "2024-2",
+    "published_at": "2024-12-06",
+    "effective_date": "2024-12-06",
+    "last_update": "2024-12-06",
+    "member_states": [
+      "Brunei",
+      "Cambodia",
+      "Indonesia",
+      "Laos",
+      "Malaysia",
+      "Myanmar",
+      "Philippines",
+      "Singapore",
+      "Thailand",
+      "Vietnam"
+    ],
+    "total_ingredients": 13,
+    "fetch_timestamp": "2025-11-10 12:15:04",
+    "is_sample_data": false
+  },
+  "data_hash": null,
+  "raw_data": {
+    "source": "HSA Singapore - ASEAN Cosmetic Directive",
+    "regulation": "ASEAN Cosmetic Directive (ACD)",
+    "version": "2024-2",
+    "url": "https://www.hsa.gov.sg/cosmetic-products/asean-cosmetic-directive",
+    "published_date": "2024-12-06",
+    "effective_date": "2024-12-06",
+    "last_update": "2024-12-06",
+    "fetch_timestamp": "2025-11-10 12:15:04",
+    "raw_html_length": 167348,
+    "member_states": [
+      "Brunei",
+      "Cambodia",
+      "Indonesia",
+      "Laos",
+      "Malaysia",
+      "Myanmar",
+      "Philippines",
+      "Singapore",
+      "Thailand",
+      "Vietnam"
+    ],
+    "annexes": {
+      "annex_ii": {
+        "name": "Prohibited substances",
+        "description": "List of substances prohibited in cosmetic products",
+        "ingredients": [
+          {
+            "entry_number": "1",
+            "ingredient_name": "Formaldehyde",
+            "cas_no": "50-00-0",
+            "inci_name": "Formaldehyde",
+            "restriction_type": "prohibited",
+            "status": "prohibited",
+            "category": "prohibited",
+            "conditions": "Except as preservative within the limits specified in Annex V",
+            "rationale": "Prohibited in cosmetics except as preservative within limits"
+          },
+          {
+            "entry_number": "15",
+            "ingredient_name": "Hydroquinone",
+            "cas_no": "123-31-9",
+            "inci_name": "Hydroquinone",
+            "restriction_type": "prohibited",
+            "status": "prohibited",
+            "category": "prohibited",
+            "conditions": "Except as oxidizing agent for hair colouring at ≤0.3%",
+            "rationale": "Generally prohibited except in specific hair products"
+          },
+          {
+            "entry_number": "89",
+            "ingredient_name": "Mercury and its compounds",
+            "cas_no": "7439-97-6",
+            "inci_name": "Mercury",
+            "restriction_type": "prohibited",
+            "status": "prohibited",
+            "category": "prohibited",
+            "conditions": "Except trace amounts from unavoidable contamination (≤1ppm)",
+            "rationale": "Highly toxic heavy metal, prohibited in all uses except trace contamination"
+          }
+        ]
+      },
+      "annex_iii": {
+        "name": "Restricted substances",
+        "description": "List of substances subject to restrictions",
+        "ingredients": [
+          {
+            "entry_number": "5",
+            "ingredient_name": "Hydrogen peroxide",
+            "cas_no": "7722-84-1",
+            "inci_name": "Hydrogen Peroxide",
+            "restriction_type": "restricted",
+            "status": "restricted",
+            "category": "restricted",
+            "max_concentration": "12% for hair products, 4% for skin, 2% for nails, 0.1% for tooth whitening",
+            "conditions": "≤12% (40 volumes) in hair products; ≤4% in skin products; ≤2% in nail hardening; ≤0.1% in tooth whitening",
+            "rationale": "Oxidizing agent with concentration limits based on product type"
+          },
+          {
+            "entry_number": "6",
+            "ingredient_name": "Salicylic acid and its salts",
+            "cas_no": "69-72-7",
+            "inci_name": "Salicylic Acid",
+            "restriction_type": "restricted",
+            "status": "restricted",
+            "category": "restricted",
+            "max_concentration": "3% in rinse-off, 2% in leave-on",
+            "conditions": "≤3% in rinse-off products; ≤2% in leave-on products; Not for children under 3 years except in shampoos",
+            "rationale": "Keratolytic agent with age and concentration restrictions"
+          },
+          {
+            "entry_number": "9",
+            "ingredient_name": "Thioglycolic acid and its salts",
+            "cas_no": "68-11-1",
+            "inci_name": "Thioglycolic Acid",
+            "restriction_type": "restricted",
+            "status": "restricted",
+            "category": "restricted",
+            "max_concentration": "8% general use, 11% professional use",
+            "conditions": "≤8% (as TG) for general use at pH ≥7.0; ≤11% (as TG) for professional use at pH ≥9.0",
+            "rationale": "Hair waving/straightening agent with concentration and pH restrictions"
+          }
+        ]
+      },
+      "annex_iv": {
+        "name": "Allowed colorants",
+        "description": "List of colorants allowed for use in cosmetic products",
+        "ingredients": [
+          {
+            "entry_number": "1",
+            "ingredient_name": "Naphthol Yellow S",
+            "cas_no": "846-70-8",
+            "inci_name": "CI 10006",
+            "restriction_type": "colorant",
+            "status": "allowed",
+            "category": "colorant",
+            "conditions": "Not for use in products applied near the eyes",
+            "rationale": "Permitted colorant with eye area restriction"
+          },
+          {
+            "entry_number": "25",
+            "ingredient_name": "Iron Oxides",
+            "cas_no": "1309-37-1",
+            "inci_name": "CI 77491",
+            "restriction_type": "colorant",
+            "status": "allowed",
+            "category": "colorant",
+            "conditions": "No restrictions",
+            "rationale": "Permitted colorant for all cosmetic uses"
+          },
+          {
+            "entry_number": "30",
+            "ingredient_name": "Titanium Dioxide",
+            "cas_no": "13463-67-7",
+            "inci_name": "CI 77891",
+            "restriction_type": "colorant",
+            "status": "allowed",
+            "category": "colorant",
+            "conditions": "No restrictions",
+            "rationale": "Permitted colorant and UV filter for all cosmetic uses"
+          }
+        ]
+      },
+      "annex_v": {
+        "name": "Allowed preservatives",
+        "description": "List of preservatives allowed for use in cosmetic products",
+        "ingredients": [
+          {
+            "entry_number": "3",
+            "ingredient_name": "Benzoic acid, its salts and esters",
+            "cas_no": "65-85-0",
+            "inci_name": "Benzoic Acid",
+            "restriction_type": "preservative",
+            "status": "allowed",
+            "category": "preservative",
+            "max_concentration": "0.5%",
+            "conditions": "0.5% as acid",
+            "rationale": "Permitted preservative at specified concentration"
+          },
+          {
+            "entry_number": "4",
+            "ingredient_name": "Salicylic acid and its salts",
+            "cas_no": "69-72-7",
+            "inci_name": "Salicylic Acid",
+            "restriction_type": "preservative",
+            "status": "allowed",
+            "category": "preservative",
+            "max_concentration": "0.5%",
+            "conditions": "0.5% as acid. Not in preparations for children under 3 years except in shampoos",
+            "rationale": "Permitted preservative with age restrictions"
+          }
+        ]
+      },
+      "annex_vi": {
+        "name": "Allowed UV filters",
+        "description": "List of UV filters allowed for use in cosmetic products",
+        "ingredients": [
+          {
+            "entry_number": "2",
+            "ingredient_name": "Homosalate",
+            "cas_no": "118-56-9",
+            "inci_name": "Homosalate",
+            "restriction_type": "uv_filter",
+            "status": "allowed",
+            "category": "uv_filter",
+            "max_concentration": "10%",
+            "conditions": "Maximum concentration 10%",
+            "rationale": "Permitted UV filter at specified concentration"
+          },
+          {
+            "entry_number": "5",
+            "ingredient_name": "Ethylhexyl Methoxycinnamate",
+            "cas_no": "5466-77-3",
+            "inci_name": "Ethylhexyl Methoxycinnamate",
+            "restriction_type": "uv_filter",
+            "status": "allowed",
+            "category": "uv_filter",
+            "max_concentration": "10%",
+            "conditions": "Maximum concentration 10%",
+            "rationale": "Permitted UV filter at specified concentration"
+          }
+        ]
+      }
+    },
+    "total_ingredients": 13
+  }
+}
